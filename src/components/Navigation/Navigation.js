@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -31,12 +31,14 @@ const useStyles = makeStyles(theme => ({
       color: "rgba(0,0,0,.6)"
     },
     textTransform: "none",
-    fontSize: "16px"
+    fontSize: "16px",
+    marginRight: "10px"
   }
 }));
 
 const Navigation = () => {
   const classes = useStyles();
+
   return (
     <React.Fragment>
       <AppBar boxShadow={0} position="static" className={classes.root}>
@@ -44,15 +46,15 @@ const Navigation = () => {
           <Typography variant="h6" className={classes.title}>
             conduit
           </Typography>
-          <Button className={classes.button} color="inherit">
+          <Link to="/" className={classes.button}>
             Home
-          </Button>
-          <Button className={classes.button} color="inherit">
+          </Link>
+          <Link to="/login" className={classes.button}>
             Sign In
-          </Button>
-          <Button className={classes.button} color="inherit">
+          </Link>
+          <Link to="/register" className={classes.button}>
             Sign Up
-          </Button>
+          </Link>
         </Toolbar>
       </AppBar>
     </React.Fragment>
