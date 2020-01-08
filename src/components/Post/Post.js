@@ -39,7 +39,7 @@ export default function PostCard() {
   const classes = useStyles();
 
   return (
-    <Container disableGutters maxWidth="100%">
+    <Container disableGutters maxWidth="xl">
       <Card className={classes.card}>
         <CardHeader
           avatar={

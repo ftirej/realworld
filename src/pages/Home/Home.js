@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
+import Box from "@material-ui/core/Box";
 import MainTitle from "../../components/MainTitle/MainTitle";
 import MainTabs from "../../components/MainTabs/MainTabs";
 
 const Layout = () => {
   return (
     <React.Fragment>
-      <Container disableGutters maxWidth="100%">
+      <Box disableGutters>
         <MainTitle />
-      </Container>
+      </Box>
       <Container fixed>
         <MainTabs />
       </Container>

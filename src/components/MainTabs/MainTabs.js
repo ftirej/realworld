@@ -53,19 +53,21 @@ export default function MainTabs() {
   };
 
   return (
-    <React.Fragment className={classes.root}>
-      <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-        <AntTab label="Your Feed" />
-        <AntTab label="Global Feed" />
-      </AntTabs>
-      <Typography className={classes.padding} />
+    <React.Fragment>
+      <div className={classes.root}>
+        <AntTabs value={value} onChange={handleChange} aria-label="ant example">
+          <AntTab label="Your Feed" />
+          <AntTab label="Global Feed" />
+        </AntTabs>
+        <Typography className={classes.padding} />
 
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </div>
     </React.Fragment>
   );
 }
