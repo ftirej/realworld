@@ -65,8 +65,8 @@ const Header = props => {
                 <Link to="/" className={classes.button}>
                   Home
                 </Link>
-                <Link to="/logout" className={classes.button}>
-                  Sign Out
+                <Link to="/settings" className={classes.button}>
+                  Settings
                 </Link>
               </React.Fragment>
             )}

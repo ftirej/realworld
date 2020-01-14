@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
 import Header from "./components/Header/Header";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -23,6 +24,7 @@ const App = props => {
           <CssBaseline />
           <Header logged={props.logged} />
           <Switch>
+            <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
             <Route path="/" component={Home} />
           </Switch>
