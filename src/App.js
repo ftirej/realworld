@@ -7,6 +7,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
+// import Impersonate from "./routes/component/Impersonate";
 
 import "./App.css";
 
@@ -24,9 +25,11 @@ const App = props => {
           <CssBaseline />
           <Header logged={props.logged} />
           <Switch>
+            <Route exact path="/" component={Home} />
+            {/* <Impersonate path="/" component={Home} /> */}
             <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
-            <Route path="/" component={Home} />
+            {/* <Route path="/" component={Home} /> */}
           </Switch>
         </BrowserRouter>
       </div>

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { usePrevious } from "../../hooks/prevState";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as auth from "../../store/auth/actions";
+import Alert from "@material-ui/lab/Alert";
+
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import Checkbox from "@material-ui/core/Checkbox";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
@@ -32,8 +36,65 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+const initialState = {};
+
 const SignUp = props => {
   const classes = useStyles();
+  const [change, setChange] = useState(initialState);
+
+  const prevProps = usePrevious(props.userCreated);
+
+  useEffect(() => {
+    if (props.userCreated && props.userCreated !== prevProps.userCreated) {
+      props.history.push("/");
+    }
+  });
+
+  const handleSubmit = event => {
+    event.preventDefault();
+    console.log(change);
+    props.actions.signup(change.username, change.email, change.password);
+  };
+
+  const handleFormChange = event => {
+    setChange({
+      ...change,
+      [event.target.name]: event.target.value
+    });
+  };
+
+  const displayErrors = errors => {
+    let errorList = [];
+
+    if (errors.email) {
+      errorList.push(
+        <Alert
+          severity="error"
+          key={Math.random()}
+        >{`email: ${props.errorDescription.email}`}</Alert>
+      );
+    }
+
+    if (errors.username) {
+      errorList.push(
+        <Alert
+          severity="error"
+          key={Math.random()}
+        >{`username: ${props.errorDescription.username}`}</Alert>
+      );
+    }
+
+    if (errors.password) {
+      errorList.push(
+        <Alert
+          severity="error"
+          key={Math.random()}
+        >{`password: ${props.errorDescription.password}`}</Alert>
+      );
+    }
+
+    return errorList;
+  };
 
   return (
     <Container component="main" maxWidth="xs">
@@ -45,29 +106,20 @@ const SignUp = props => {
         <Typography component="h1" variant="h5">
           Sign up
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} onSubmit={handleSubmit} noValidate>
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12}>
               <TextField
                 autoComplete="fname"
-                name="firstName"
+                name="username"
                 variant="outlined"
                 required
                 fullWidth
-                id="firstName"
-                label="First Name"
+                id="username"
+                label="User Name"
                 autoFocus
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                id="lastName"
-                label="Last Name"
-                name="lastName"
-                autoComplete="lname"
+                disabled={props.signingUp}
+                onChange={handleFormChange}
               />
             </Grid>
             <Grid item xs={12}>
@@ -79,6 +131,8 @@ const SignUp = props => {
                 label="Email Address"
                 name="email"
                 autoComplete="email"
+                disabled={props.signingUp}
+                onChange={handleFormChange}
               />
             </Grid>
             <Grid item xs={12}>
@@ -91,6 +145,8 @@ const SignUp = props => {
                 type="password"
                 id="password"
                 autoComplete="current-password"
+                disabled={props.signingUp}
+                onChange={handleFormChange}
               />
             </Grid>
           </Grid>
@@ -100,6 +156,7 @@ const SignUp = props => {
             variant="contained"
             color="primary"
             className={classes.submit}
+            disabled={props.signingUp}
           >
             Sign Up
           </Button>
@@ -110,10 +167,26 @@ const SignUp = props => {
               </Link>
             </Grid>
           </Grid>
+          {props.error ? displayErrors(props.errorDescription) : null}
         </form>
       </div>
     </Container>
   );
 };
 
-export default SignUp;
+const matStateToProps = state => {
+  return {
+    userCreated: state.auth.userCreated,
+    signingUp: state.auth.signingUp,
+    error: state.auth.error,
+    errorDescription: state.auth.errorDescription
+  };
+};
+
+const matDispatchToProps = dispatch => {
+  return {
+    actions: bindActionCreators({ ...auth }, dispatch)
+  };
+};
+
+export default connect(matStateToProps, matDispatchToProps)(SignUp);

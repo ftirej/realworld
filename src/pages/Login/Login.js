@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
+import { usePrevious } from "../../hooks/prevState";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
@@ -11,7 +12,7 @@ import Alert from "@material-ui/lab/Alert";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as auth from "../../store/reducers/auth/actions";
+import * as auth from "../../store/auth/actions";
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -34,21 +35,6 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const initialArray = {};
-
-// Hook
-function usePrevious(value) {
-  // The ref object is a generic container whose current property is mutable ...
-  // ... and can hold any value, similar to an instance property on a class
-  const ref = useRef();
-
-  // Store current value in ref
-  useEffect(() => {
-    ref.current = value;
-  }, [value]); // Only re-run if value changes
-
-  // Return previous value (happens before update in useEffect above)
-  return ref.current;
-}
 
 const SignIn = props => {
   const classes = useStyles();

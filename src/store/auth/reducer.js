@@ -57,6 +57,64 @@ const reducer = (state = initialState, action) => {
         urlAfterLogin: initialState.urlAfterLogin
       };
 
+    case types.SIGN_UP_REQUEST:
+      return {
+        ...state,
+        userCreated: false,
+        loggedIn: false,
+        signingUp: true,
+        error: false,
+        errorCode: null,
+        errorDescription: null
+      };
+
+    case types.SIGN_UP_SUCCESS:
+      return {
+        ...state,
+        userCreated: true,
+        loggedIn: true,
+        signingUp: false,
+        error: false,
+        emailSent: true
+      };
+
+    case types.SIGN_UP_ERROR:
+      return {
+        ...state,
+        // TODO: add signingUp, errorCode and errorDescription to the initialState
+        signingUp: false,
+        loggedIn: false,
+        error: true,
+        errorCode: action.errorCode,
+        errorDescription: action.errorDescription
+      };
+
+    case types.SIGN_UP_DONE:
+      return {
+        ...state,
+        // TODO: add emailSent to the initialState
+        emailSent: false
+      };
+
+    case types.TOKEN_REFRESH_SUCCESS: {
+      return {
+        ...state,
+        loggingIn: false,
+        loggedIn: true,
+        error: false,
+        session: {
+          // TODO: we should spread the current state.session object
+          token: action.jwt,
+          expiration: action.expiration,
+          user: {
+            // TODO: we should spread the current state.session.user object
+            id: action.id,
+            username: action.username
+          }
+        }
+      };
+    }
+
     default:
       break;
   }

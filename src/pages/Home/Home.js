@@ -7,7 +7,7 @@ import MainTabs from "../../components/MainTabs/MainTabs";
 const Layout = () => {
   return (
     <React.Fragment>
-      <Box disableGutters>
+      <Box disablegutters="true">
         <MainTitle />
       </Box>
       <Container fixed>
