@@ -2,7 +2,7 @@ import axios from "axios";
 import * as localStorageHelper from "./helpers/localStorageHelper";
 import { LOCAL_STORAGE_JWT } from "./helpers/constants";
 
-const BEARER = "Bearer";
+const BEARER = "Token";
 
 const instance = axios.create({
   baseURL: "https://conduit.productionready.io/api/"

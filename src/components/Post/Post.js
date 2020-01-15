@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function PostCard() {
+const PostCard = props => {
   const classes = useStyles();
 
   return (
@@ -44,7 +44,7 @@ export default function PostCard() {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              R
+              {props.article.author.username}
             </Avatar>
           }
           action={
@@ -53,7 +53,7 @@ export default function PostCard() {
               style={{ border: "1px solid grey", borderRadius: "0" }}
             >
               <FavoriteIcon />
-              {0}
+              {props.article.favoritesCount}
             </IconButton>
           }
           title="Shrimp and Chorizo Paella"
@@ -61,9 +61,11 @@ export default function PostCard() {
         />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+            {props.article.title}
+          </Typography>
+
+          <Typography variant="body2" color="textSecondary" component="p">
+            {props.article.description}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -74,4 +76,6 @@ export default function PostCard() {
       </Card>
     </Container>
   );
-}
+};
+
+export default PostCard;
