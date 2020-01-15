@@ -68,6 +68,9 @@ const Header = props => {
                 <Link to="/settings" className={classes.button}>
                   Settings
                 </Link>
+                <Link to="/:id" className={classes.button}>
+                  {props.username}
+                </Link>
               </React.Fragment>
             )}
           </Toolbar>

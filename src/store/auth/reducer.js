@@ -16,10 +16,14 @@ const reducer = (state = initialState, action) => {
         ...state,
         loggingIn: false,
         loggedIn: true,
+        loggingOut: false,
+        loggedOut: false,
         error: false,
         session: {
+          ...state.session,
           token: action.token,
           user: {
+            ...state.session.user,
             id: action.id,
             email: action.email,
             createdAt: action.createdAt,
@@ -36,6 +40,8 @@ const reducer = (state = initialState, action) => {
         ...state,
         loggingIn: false,
         loggedIn: false,
+        loggingOut: false,
+        loggedOut: false,
         error: true,
         errorMessage: action.message,
         attempts: action.attempts,
@@ -103,14 +109,58 @@ const reducer = (state = initialState, action) => {
         loggedIn: true,
         error: false,
         session: {
+          ...state.session,
           // TODO: we should spread the current state.session object
           token: action.jwt,
           expiration: action.expiration,
           user: {
+            ...state.session.user,
             // TODO: we should spread the current state.session.user object
             id: action.id,
             username: action.username
           }
+        }
+      };
+    }
+
+    case types.LOG_OUT_REQUEST:
+      return {
+        ...state,
+        logginOut: true
+      };
+
+    case types.LOG_OUT_SUCCESS:
+      return {
+        ...state,
+        logginOut: false,
+        loggedOut: true,
+        loggingIn: false,
+        loggedIn: false,
+        error: false,
+        session: {
+          token: null,
+          user: {
+            id: null,
+            email: null,
+            createdAt: null,
+            updatedAt: null,
+            username: null,
+            bio: null,
+            image: null
+          }
+        }
+      };
+
+    case types.LOG_OUT_ERROR: {
+      return {
+        loggingOut: false,
+        loggedOut: false,
+        loggedIn: false,
+        errorLogout: true,
+        errorLogoutMessage: action.message,
+        session: {
+          ...state.session,
+          token: null
         }
       };
     }

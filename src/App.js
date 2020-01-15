@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
+import Settings from "./pages/Settings/Settings";
 import Header from "./components/Header/Header";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -23,12 +24,13 @@ const App = props => {
       <div className="App">
         <BrowserRouter>
           <CssBaseline />
-          <Header logged={props.logged} />
+          <Header logged={props.logged} username={props.username} />
           <Switch>
             <Route exact path="/" component={Home} />
             {/* <Impersonate path="/" component={Home} /> */}
             <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
+            <Route path="/settings" component={Settings} />
             {/* <Route path="/" component={Home} /> */}
           </Switch>
         </BrowserRouter>
@@ -39,7 +41,8 @@ const App = props => {
 
 const mapStateToProps = state => {
   return {
-    logged: state.auth.loggedIn
+    logged: state.auth.loggedIn,
+    username: state.auth.session.user.username
   };
 };
 

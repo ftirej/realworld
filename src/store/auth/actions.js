@@ -25,6 +25,7 @@ export const loginRequest = () => {
 };
 
 export const loginSuccess = data => {
+  console.log(data);
   let { id, email, createdAt, updatedAt, username, bio, image, token } = data;
 
   return {
@@ -54,6 +55,39 @@ export const loginCheck = (jwt, tokenPayload) => {
   };
 };
 
+export const logOutRequest = () => {
+  return {
+    type: types.LOG_OUT_REQUEST
+  };
+};
+
+export const logOutSuccess = () => {
+  return {
+    type: types.LOG_OUT_SUCCESS
+  };
+};
+
+export const logOutError = () => {
+  return {
+    type: types.LOG_OUT_ERROR,
+    message: "error loggin out"
+  };
+};
+
+export const logOut = () => {
+  const cleanup = () => {
+    // We clean all the localStorage.
+    cleanupLocalStorageDefault();
+  };
+
+  return dispatch => {
+    dispatch(logOutRequest());
+    cleanup();
+    dispatch(logOutSuccess());
+    dispatch(clearSavedUrlToRedirect());
+  };
+};
+
 export const login = (email, password) => {
   return dispatch => {
     cleanupLocalStorageDefault();
@@ -63,7 +97,7 @@ export const login = (email, password) => {
       .then(response => {
         // save token
         localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.data.user.token);
-        dispatch(loginSuccess(response.data));
+        dispatch(loginSuccess(response.data.user));
         dispatch(clearSavedUrlToRedirect());
       })
       .catch(error => {
