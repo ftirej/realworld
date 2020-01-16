@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { usePrevious } from "../../hooks/prevState";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
+import * as settings from "../../store/settings/actions";
 import * as auth from "../../store/auth/actions";
-import Alert from "@material-ui/lab/Alert";
-
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
-import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
+
+import TextareaAutosize from "@material-ui/core/TextareaAutosize";
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -50,10 +50,24 @@ const Settings = props => {
     }
   });
 
+  const getUserProps = useCallback(() => {
+    return props.user;
+  }, [props.user]);
+
+  useEffect(() => {
+    setChange(getUserProps());
+  }, [getUserProps]);
+
   const handleSubmit = event => {
     event.preventDefault();
-    console.log(change);
-    props.actions.signup(change.username, change.email, change.password);
+
+    props.settingsActions.updateSettings(
+      change.email,
+      change.username,
+      change.password,
+      change.bio,
+      change.image
+    );
   };
 
   const handleFormChange = event => {
@@ -61,39 +75,6 @@ const Settings = props => {
       ...change,
       [event.target.name]: event.target.value
     });
-  };
-
-  const displayErrors = errors => {
-    let errorList = [];
-
-    if (errors.email) {
-      errorList.push(
-        <Alert
-          severity="error"
-          key={Math.random()}
-        >{`email: ${props.errorDescription.email}`}</Alert>
-      );
-    }
-
-    if (errors.username) {
-      errorList.push(
-        <Alert
-          severity="error"
-          key={Math.random()}
-        >{`username: ${props.errorDescription.username}`}</Alert>
-      );
-    }
-
-    if (errors.password) {
-      errorList.push(
-        <Alert
-          severity="error"
-          key={Math.random()}
-        >{`password: ${props.errorDescription.password}`}</Alert>
-      );
-    }
-
-    return errorList;
   };
 
   return (
@@ -106,8 +87,26 @@ const Settings = props => {
         <Typography component="h1" variant="h5">
           Your Settings
         </Typography>
-        <form className={classes.form} onSubmit={handleSubmit} noValidate>
+        <form
+          className={classes.form}
+          onSubmit={handleSubmit}
+          autoComplete="false"
+        >
           <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <TextField
+                autoComplete="fpic"
+                name="image"
+                variant="outlined"
+                fullWidth
+                id="urlpicture"
+                label="URL of profile picture"
+                autoFocus
+                disabled={props.settingsActions.isUpdating}
+                value={change.image || ""}
+                onChange={handleFormChange}
+              />
+            </Grid>
             <Grid item xs={12}>
               <TextField
                 autoComplete="fname"
@@ -118,34 +117,48 @@ const Settings = props => {
                 id="username"
                 label="User Name"
                 autoFocus
-                disabled={props.signingUp}
+                disabled={props.settingsActions.isUpdating}
+                value={change.username || ""}
+                onChange={handleFormChange}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextareaAutosize
+                name="bio"
+                style={{ width: "100%" }}
+                aria-label="minimum height"
+                rowsMin={10}
+                placeholder="Short bio about you"
+                disabled={props.settingsActions.isUpdating}
+                value={change.bio || ""}
                 onChange={handleFormChange}
               />
             </Grid>
             <Grid item xs={12}>
               <TextField
+                autoComplete="email"
                 variant="outlined"
                 required
                 fullWidth
                 id="email"
                 label="Email Address"
                 name="email"
-                autoComplete="email"
-                disabled={props.signingUp}
+                disabled={props.settingsActions.isUpdating}
+                value={change.email || ""}
                 onChange={handleFormChange}
               />
             </Grid>
             <Grid item xs={12}>
               <TextField
                 variant="outlined"
-                required
                 fullWidth
                 name="password"
                 label="Password"
                 type="password"
                 id="password"
                 autoComplete="current-password"
-                disabled={props.signingUp}
+                disabled={props.settingsActions.isUpdating}
+                value={change.password || ""}
                 onChange={handleFormChange}
               />
             </Grid>
@@ -158,16 +171,8 @@ const Settings = props => {
             className={classes.submit}
             disabled={props.signingUp}
           >
-            Sign Up
+            Update settings
           </Button>
-          <Grid container justify="flex-end">
-            <Grid item>
-              <Link to="/login" variant="body2">
-                Already have an account? Sign in
-              </Link>
-            </Grid>
-          </Grid>
-          {props.error ? displayErrors(props.errorDescription) : null}
         </form>
         <Button
           type="button"
@@ -175,7 +180,7 @@ const Settings = props => {
           variant="contained"
           color="primary"
           className={classes.button}
-          onClick={props.actions.logOut}
+          onClick={props.authActions.logOut}
         >
           Or click here to logout.
         </Button>
@@ -187,15 +192,14 @@ const Settings = props => {
 const matStateToProps = state => {
   return {
     loggedOut: state.auth.loggedOut,
-    signingUp: state.auth.signingUp,
-    error: state.auth.error,
-    errorDescription: state.auth.errorDescription
+    user: state.auth.session.user
   };
 };
 
 const matDispatchToProps = dispatch => {
   return {
-    actions: bindActionCreators({ ...auth }, dispatch)
+    settingsActions: bindActionCreators({ ...settings }, dispatch),
+    authActions: bindActionCreators({ ...auth }, dispatch)
   };
 };
 

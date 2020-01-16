@@ -25,7 +25,6 @@ export const loginRequest = () => {
 };
 
 export const loginSuccess = data => {
-  console.log(data);
   let { id, email, createdAt, updatedAt, username, bio, image, token } = data;
 
   return {
