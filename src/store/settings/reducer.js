@@ -10,21 +10,6 @@ export const reducer = (state = initialState, action) => {
       };
 
     case types.UPDATE_SETTINGS_SUCCESS:
-      action.authState.session = {
-        ...action.authState.session,
-        token: action.token,
-        user: {
-          ...action.authState.session.user,
-          id: action.id,
-          email: action.email,
-          createdAt: action.createdAt,
-          updatedAt: action.updatedAt,
-          username: action.username,
-          bio: action.bio,
-          image: action.image
-        }
-      };
-
       return {
         ...state,
         isUpdating: false

@@ -18,6 +18,21 @@ export const clearSavedUrlToRedirect = () => {
   };
 };
 
+export const updateUserSession = data => {
+  let { id, email, createdAt, updatedAt, username, bio, image, token } = data;
+  return {
+    type: types.UPDATE_USER_SESSION,
+    id,
+    email,
+    createdAt,
+    updatedAt,
+    username,
+    bio,
+    image,
+    token
+  };
+};
+
 export const loginRequest = () => {
   return {
     type: types.LOG_IN_REQUEST

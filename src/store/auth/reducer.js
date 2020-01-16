@@ -165,6 +165,25 @@ const reducer = (state = initialState, action) => {
       };
     }
 
+    case types.UPDATE_USER_SESSION:
+      return {
+        ...state,
+        session: {
+          ...state.session,
+          token: action.token,
+          user: {
+            ...state.session.user,
+            id: action.id,
+            email: action.email,
+            createdAt: action.createdAt,
+            updatedAt: action.updatedAt,
+            username: action.username,
+            bio: action.bio,
+            image: action.image
+          }
+        }
+      };
+
     default:
       break;
   }
