@@ -28,8 +28,8 @@ const useStyles = makeStyles(theme => ({
 
 const Article = props => {
   const classes = useStyles();
-
   const slugId = props.match.params.id;
+  let articleElement;
 
   const findArticle = useCallback(() => {
     props.feed.findArticle(slugId);
@@ -48,27 +48,39 @@ const Article = props => {
     __html: marked(props.article.body, { sanitize: true })
   };
 
-  return (
-    <React.Fragment>
-      <Box className={classes.mainTitle} disablegutters="true">
-        {<MainArticle article={props.article} />}
-      </Box>
-      <Container fixed>
-        <div
-          className={classes.articlePage}
-          dangerouslySetInnerHTML={markup}
-        ></div>
-        <hr className={classes.hrArt} />
-        {props.comments ? <CommentList comments={props.comments} /> : null}
-      </Container>
-    </React.Fragment>
-  );
+  if (props.isFinding) {
+    articleElement = null;
+  } else if (!props.isFinding && props.article && !props.isFindingComments) {
+    articleElement = (
+      <React.Fragment>
+        <Box className={classes.mainTitle} disablegutters="true">
+          {<MainArticle article={props.article} />}
+        </Box>
+        <Container fixed>
+          <div
+            className={classes.articlePage}
+            dangerouslySetInnerHTML={markup}
+          ></div>
+          <hr className={classes.hrArt} />
+          {props.comments ? (
+            <CommentList slugId={slugId} comments={props.comments} />
+          ) : null}
+        </Container>
+      </React.Fragment>
+    );
+  } else {
+    articleElement = null;
+  }
+
+  return articleElement;
 };
 
 const mapStateToProps = state => {
   return {
     article: state.feed.slugArticle,
-    comments: state.feed.comments
+    comments: state.feed.comments,
+    isFinding: state.feed.isFinding,
+    isFindingComments: state.feed.isFindingComments
   };
 };
 

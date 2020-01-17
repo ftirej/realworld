@@ -16,7 +16,7 @@ const CommentList = props => {
     <div>
       <Grid container justify="center">
         <Grid item xs={8}>
-          <CommentInput article={article} />
+          <CommentInput slugId={props.slugId} article={article} />
           {props.comments.map(comment => (
             <Comment comment={comment} key={comment.id} />
           ))}

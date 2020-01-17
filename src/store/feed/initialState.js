@@ -22,5 +22,7 @@ export default {
   isFinding: false,
   errorFinding: false,
   isFindingComments: false,
-  comments: []
+  comments: [],
+  isPostingComment: false,
+  comment: {}
 };

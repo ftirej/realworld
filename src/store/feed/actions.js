@@ -78,13 +78,49 @@ export const getCommentList = slugId => {
   return dispatch => {
     dispatch(getCommentsListRequest());
     axios
-      .get(`/articles/${slugId}/comments?`)
+      .get(`/articles/${slugId}/comments`)
       .then(response => {
         dispatch(getCommentsListSuccess(response.data.comments));
       })
       .catch(error => {
         console.log(error);
         dispatch(getCommentsListError(error.message));
+      });
+  };
+};
+
+export const postCommentRequest = () => {
+  return {
+    type: types.POST_COMMENT_REQUEST
+  };
+};
+
+export const postCommentSuccess = comment => {
+  return {
+    type: types.POST_COMMENT_SUCCESS,
+    comment
+  };
+};
+
+export const postCommentError = message => {
+  return {
+    type: types.POST_COMMENT_ERROR,
+    message
+  };
+};
+
+export const postCommentList = (slugId, comment) => {
+  return dispatch => {
+    dispatch(postCommentRequest());
+    axios
+      .post(`/articles/${slugId}/comments`, comment)
+      .then(response => {
+        dispatch(postCommentSuccess(response.data.comment));
+        dispatch(getCommentList(slugId));
+      })
+      .catch(error => {
+        console.log(error);
+        dispatch(postCommentError(error.message));
       });
   };
 };

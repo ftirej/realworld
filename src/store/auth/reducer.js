@@ -185,9 +185,8 @@ const reducer = (state = initialState, action) => {
       };
 
     default:
-      break;
+      return state;
   }
-  return state;
 };
 
 export default reducer;

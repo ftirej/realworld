@@ -58,12 +58,25 @@ const reducer = (state = initialState, action) => {
         ...state,
         isFindingComments: false
       };
-
+    case types.POST_COMMENT_REQUEST:
+      return {
+        ...state,
+        isPostingComment: true
+      };
+    case types.POST_COMMENT_SUCCESS:
+      return {
+        ...state,
+        isPostingComment: false,
+        comment: action.comment
+      };
+    case types.POST_COMMENT_ERROR:
+      return {
+        ...state,
+        isPostingComment: false
+      };
     default:
-      break;
+      return state;
   }
-
-  return state;
 };
 
 export default reducer;
