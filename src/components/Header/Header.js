@@ -24,15 +24,18 @@ const useStyles = makeStyles(theme => ({
     fontFamily: "titillium web,sans-serif",
     fontSize: "24px",
     paddingTop: "0",
-    marginRight: "32px"
+    marginRight: "32px",
+    textDecoration: "none"
   },
   button: {
     "&:hover": {
       backgroundColor: "transparent",
       color: "rgba(0,0,0,.6)"
     },
+    color: "rgba(0,0,0,.3)",
     textTransform: "none",
     fontSize: "16px",
+    textDecoration: "none",
     marginRight: "10px"
   }
 }));
@@ -46,7 +49,9 @@ const Header = props => {
         <AppBar position="static" className={classes.root}>
           <Toolbar className={classes.toolbar}>
             <Typography variant="h6" className={classes.title}>
-              conduit
+              <Link to="/" className={classes.title}>
+                conduit
+              </Link>
             </Typography>
             {!props.logged ? (
               <React.Fragment>
