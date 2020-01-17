@@ -20,5 +20,7 @@ export default {
     }
   },
   isFinding: false,
-  errorFinding: false
+  errorFinding: false,
+  isFindingComments: false,
+  comments: []
 };

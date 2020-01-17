@@ -42,6 +42,23 @@ const reducer = (state = initialState, action) => {
         errorFinding: true,
         errorMessage: action.message
       };
+    case types.GET_COMMENTS_LIST_REQUEST:
+      return {
+        ...state,
+        isFindingComments: true
+      };
+    case types.GET_COMMENTS_LIST_SUCCESS:
+      return {
+        ...state,
+        isFindingComments: false,
+        comments: action.comments
+      };
+    case types.GET_COMMENTS_LIST_ERROR:
+      return {
+        ...state,
+        isFindingComments: false
+      };
+
     default:
       break;
   }

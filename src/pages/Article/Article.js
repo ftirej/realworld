@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as feed from "../../store/feed/actions";
 import marked from "marked";
+import CommentList from "../../components/CommentList/CommentList";
 
 const useStyles = makeStyles(theme => ({
   mainTitle: {
@@ -32,6 +33,7 @@ const Article = props => {
 
   const findArticle = useCallback(() => {
     props.feed.findArticle(slugId);
+    props.feed.getCommentList(slugId);
   }, [props.feed, slugId]);
 
   useEffect(() => {
@@ -57,6 +59,7 @@ const Article = props => {
           dangerouslySetInnerHTML={markup}
         ></div>
         <hr className={classes.hrArt} />
+        {props.comments ? <CommentList comments={props.comments} /> : null}
       </Container>
     </React.Fragment>
   );
@@ -64,7 +67,8 @@ const Article = props => {
 
 const mapStateToProps = state => {
   return {
-    article: state.feed.slugArticle
+    article: state.feed.slugArticle,
+    comments: state.feed.comments
   };
 };
 

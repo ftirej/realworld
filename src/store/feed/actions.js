@@ -54,6 +54,41 @@ export const getYourFeed = page => {
   };
 };
 
+export const getCommentsListRequest = () => {
+  return {
+    type: types.GET_COMMENTS_LIST_REQUEST
+  };
+};
+
+export const getCommentsListSuccess = comments => {
+  return {
+    type: types.GET_COMMENTS_LIST_SUCCESS,
+    comments
+  };
+};
+
+export const getCommentsListError = message => {
+  return {
+    type: types.GET_COMMENTS_LIST_ERROR,
+    message
+  };
+};
+
+export const getCommentList = slugId => {
+  return dispatch => {
+    dispatch(getCommentsListRequest());
+    axios
+      .get(`/articles/${slugId}/comments?`)
+      .then(response => {
+        dispatch(getCommentsListSuccess(response.data.comments));
+      })
+      .catch(error => {
+        console.log(error);
+        dispatch(getCommentsListError(error.message));
+      });
+  };
+};
+
 export const setPageRequest = () => {
   return {
     type: types.SET_PAGE_REQUEST

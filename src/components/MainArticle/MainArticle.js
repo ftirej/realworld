@@ -44,25 +44,26 @@ const MainArticle = props => {
           >
             {props.article.title}
           </Typography>
-          <div>
+          <div style={{ display: "flex", alignItems: "center" }}>
             <Avatar
               aria-label="recipe"
               className={classes.avatar}
               src={props.article.author.image}
             ></Avatar>
-          </div>
-          <Typography
-            className={classes.mainH5}
-            variant="body1"
-            color="inherit"
-            paragraph
-          >
-            {`
+            <Typography
+              className={classes.mainH5}
+              style={{ marginLeft: "8px" }}
+              variant="body1"
+              color="inherit"
+              paragraph
+            >
+              {`
               ${props.article.author.username} - ${new Date(
-              props.article.createdAt
-            ).toDateString()}
+                props.article.createdAt
+              ).toDateString()}
             `}
-          </Typography>
+            </Typography>
+          </div>
         </Paper>
       </Container>
     </React.Fragment>
