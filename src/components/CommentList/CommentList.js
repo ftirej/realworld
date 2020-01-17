@@ -12,11 +12,14 @@ const article = {
 };
 
 const CommentList = props => {
+  console.log(props);
   return (
     <div>
       <Grid container justify="center">
         <Grid item xs={8}>
-          <CommentInput slugId={props.slugId} article={article} />
+          {props.logged ? (
+            <CommentInput slugId={props.slugId} article={article} />
+          ) : null}
           {props.comments.map(comment => (
             <Comment comment={comment} key={comment.id} />
           ))}

@@ -1,4 +1,5 @@
 export default {
+  isFetching: false,
   articles: [],
   articlesCount: 0,
   currentPage: 0,

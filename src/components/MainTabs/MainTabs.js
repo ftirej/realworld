@@ -68,13 +68,13 @@ const MainTabs = props => {
     ));
   };
 
-  return (
-    <React.Fragment>
-      <div className={classes.root}>
-        <Tabs value={value} onChange={handleChange} aria-label="ant example">
-          {props.loggedIn ? <Tab label="Your Feed" index={0} /> : null}
-          <Tab label="Global Feed" index={1} />
-        </Tabs>
+  let feedElement;
+
+  if (props.isFetching) {
+    feedElement = null;
+  } else if (!props.isFetching && props.articles && props.articles.length > 0) {
+    feedElement = (
+      <React.Fragment>
         <TabPanel value={value} index={0}>
           {getArticles(0)}
         </TabPanel>
@@ -85,6 +85,20 @@ const MainTabs = props => {
           articlesCount={props.articlesCount}
           currentPage={props.currentPage}
         />
+      </React.Fragment>
+    );
+  } else {
+    feedElement = null;
+  }
+
+  return (
+    <React.Fragment>
+      <div className={classes.root}>
+        <Tabs value={value} onChange={handleChange} aria-label="ant example">
+          {props.loggedIn ? <Tab label="Your Feed" index={0} /> : null}
+          <Tab label="Global Feed" index={1} />
+        </Tabs>
+        {feedElement}
       </div>
     </React.Fragment>
   );
@@ -95,7 +109,8 @@ const mapStateToProps = state => {
     loggedIn: state.auth.loggedIn,
     articles: state.feed.articles,
     articlesCount: state.feed.articlesCount,
-    currentPage: state.feed.currentPage
+    currentPage: state.feed.currentPage,
+    isFetching: state.feed.isFetching
   };
 };
 

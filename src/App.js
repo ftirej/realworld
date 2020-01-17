@@ -32,7 +32,10 @@ const App = props => {
             <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
             <Route path="/settings" component={Settings} />
-            <Route path="/article/:id" component={Article} />
+            <Route
+              path="/article/:id"
+              render={routeProps => <Article {...routeProps} {...props} />}
+            />
             {/* <Route path="/" component={Home} /> */}
           </Switch>
         </BrowserRouter>

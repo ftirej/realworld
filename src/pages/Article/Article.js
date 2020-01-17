@@ -63,7 +63,11 @@ const Article = props => {
           ></div>
           <hr className={classes.hrArt} />
           {props.comments ? (
-            <CommentList slugId={slugId} comments={props.comments} />
+            <CommentList
+              slugId={slugId}
+              comments={props.comments}
+              logged={props.logged}
+            />
           ) : null}
         </Container>
       </React.Fragment>

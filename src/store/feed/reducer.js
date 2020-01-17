@@ -5,16 +5,19 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case types.GET_GLOBAL_ARTICLE_REQUEST:
       return {
-        ...state
+        ...state,
+        isFetching: true
       };
     case types.GET_GLOBAL_ARTICLE_ERROR:
       return {
         ...state,
+        isFetching: false,
         message: action.message
       };
     case types.GET_GLOBAL_ARTICLE_SUCCESS:
       return {
         ...state,
+        isFetching: false,
         articles: action.articles,
         articlesCount: action.articlesCount
       };
