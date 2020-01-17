@@ -23,6 +23,25 @@ const reducer = (state = initialState, action) => {
         ...state,
         currentPage: action.currentPage
       };
+    case types.FIND_ARTICLE_REQUEST:
+      return {
+        ...state,
+        isFinding: true,
+        errorFinding: false
+      };
+    case types.FIND_ARTICLE_SUCCESS:
+      return {
+        ...state,
+        isFinding: false,
+        errorFinding: false,
+        slugArticle: action.article
+      };
+    case types.FIND_ARTICLE_ERROR:
+      return {
+        ...state,
+        errorFinding: true,
+        errorMessage: action.message
+      };
     default:
       break;
   }

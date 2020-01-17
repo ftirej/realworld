@@ -80,3 +80,37 @@ export const setPage = page => {
     dispatch(getGlobalFeed(page));
   };
 };
+
+export const findArticleRequest = () => {
+  return {
+    type: types.FIND_ARTICLE_REQUEST
+  };
+};
+
+export const findArticleSuccess = data => {
+  return {
+    type: types.FIND_ARTICLE_SUCCESS,
+    article: data.article
+  };
+};
+
+export const findArticleError = message => {
+  return {
+    type: types.FIND_ARTICLE_ERROR,
+    message
+  };
+};
+
+export const findArticle = slugId => {
+  return dispatch => {
+    dispatch(findArticleRequest());
+    axios
+      .get(`articles/${slugId}`)
+      .then(response => {
+        dispatch(findArticleSuccess(response.data));
+      })
+      .catch(error => {
+        dispatch(findArticleError(error.message));
+      });
+  };
+};

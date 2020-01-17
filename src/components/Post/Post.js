@@ -7,10 +7,10 @@ import CardActions from "@material-ui/core/CardActions";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 import { red } from "@material-ui/core/colors";
-import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import IconButton from "@material-ui/core/IconButton";
 import FavoriteIcon from "@material-ui/icons/Favorite";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -43,9 +43,13 @@ const PostCard = props => {
       <Card className={classes.card}>
         <CardHeader
           avatar={
-            <Avatar aria-label="recipe" className={classes.avatar}>
-              {props.article.author.username}
-            </Avatar>
+            <div>
+              <Avatar
+                aria-label="recipe"
+                className={classes.avatar}
+                src={props.article.author.image}
+              ></Avatar>
+            </div>
           }
           action={
             <IconButton
@@ -56,22 +60,29 @@ const PostCard = props => {
               {props.article.favoritesCount}
             </IconButton>
           }
-          title="Shrimp and Chorizo Paella"
-          subheader="September 14, 2016"
+          title={props.article.title}
+          subheader={`
+          ${props.article.author.username} - ${new Date(
+            props.article.createdAt
+          ).toDateString()}
+          `}
         />
         <CardContent>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="h4" color="textSecondary" component="p">
             {props.article.title}
           </Typography>
 
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="h6" color="textSecondary" component="p">
             {props.article.description}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <Button size="small" color="inherit">
+          <Link
+            to={`/article/${props.article.slug}`}
+            className={classes.button}
+          >
             Read More...
-          </Button>
+          </Link>
         </CardActions>
       </Card>
     </Container>

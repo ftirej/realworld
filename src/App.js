@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import Settings from "./pages/Settings/Settings";
+import Article from "./pages/Article/Article";
 import Header from "./components/Header/Header";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -31,6 +32,7 @@ const App = props => {
             <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
             <Route path="/settings" component={Settings} />
+            <Route path="/article/:id" component={Article} />
             {/* <Route path="/" component={Home} /> */}
           </Switch>
         </BrowserRouter>
