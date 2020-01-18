@@ -5,6 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
 import Container from "@material-ui/core/Container";
+import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -37,6 +38,10 @@ const useStyles = makeStyles(theme => ({
     fontSize: "16px",
     textDecoration: "none",
     marginRight: "10px"
+  },
+  avatar: {
+    height: "30px",
+    width: "30px"
   }
 }));
 
@@ -73,8 +78,22 @@ const Header = props => {
                 <Link to="/settings" className={classes.button}>
                   Settings
                 </Link>
-                <Link to="/:id" className={classes.button}>
-                  {props.username}
+                <Link
+                  to="/:id"
+                  className={classes.button}
+                  style={{
+                    display: "flex",
+                    alignItems: "center"
+                  }}
+                >
+                  <Avatar
+                    aria-label="recipe"
+                    className={classes.avatar}
+                    src={(props.user && props.user.image) || ""}
+                  ></Avatar>
+                  <span style={{ marginLeft: "8px" }}>
+                    {props.user.username}
+                  </span>
                 </Link>
               </React.Fragment>
             )}

@@ -9,6 +9,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import * as feed from "../../store/feed/actions";
 import ListPagination from "./ListPagination";
+import Spinner from "../../components/UI/Spinner/Spinner";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -30,7 +31,7 @@ function TabPanel(props) {
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper
+    backgroundColor: "#fafafa"
   }
 }));
 
@@ -71,7 +72,7 @@ const MainTabs = props => {
   let feedElement;
 
   if (props.isFetching) {
-    feedElement = null;
+    feedElement = <Spinner />;
   } else if (!props.isFetching && props.articles && props.articles.length > 0) {
     feedElement = (
       <React.Fragment>
@@ -88,7 +89,7 @@ const MainTabs = props => {
       </React.Fragment>
     );
   } else {
-    feedElement = null;
+    feedElement = <Spinner />;
   }
 
   return (

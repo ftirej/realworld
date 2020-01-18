@@ -8,6 +8,7 @@ import { bindActionCreators } from "redux";
 import * as feed from "../../store/feed/actions";
 import marked from "marked";
 import CommentList from "../../components/CommentList/CommentList";
+import Spinner from "../../components/UI/Spinner/Spinner";
 
 const useStyles = makeStyles(theme => ({
   mainTitle: {
@@ -49,7 +50,7 @@ const Article = props => {
   };
 
   if (props.isFinding) {
-    articleElement = null;
+    articleElement = <Spinner />;
   } else if (!props.isFinding && props.article && !props.isFindingComments) {
     articleElement = (
       <React.Fragment>
@@ -68,12 +69,14 @@ const Article = props => {
               comments={props.comments}
               logged={props.logged}
             />
-          ) : null}
+          ) : (
+            <Spinner />
+          )}
         </Container>
       </React.Fragment>
     );
   } else {
-    articleElement = null;
+    articleElement = <Spinner />;
   }
 
   return articleElement;

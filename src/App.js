@@ -25,7 +25,7 @@ const App = props => {
       <div className="App">
         <BrowserRouter>
           <CssBaseline />
-          <Header logged={props.logged} username={props.username} />
+          <Header logged={props.logged} user={props.user} />
           <Switch>
             <Route exact path="/" component={Home} />
             {/* <Impersonate path="/" component={Home} /> */}
@@ -47,7 +47,7 @@ const App = props => {
 const mapStateToProps = state => {
   return {
     logged: state.auth.loggedIn,
-    username: state.auth.session.user.username
+    user: state.auth.session.user
   };
 };
 
