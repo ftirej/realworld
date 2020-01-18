@@ -1,5 +1,6 @@
 import * as types from "./actionTypes";
 import axios from "../../axios-base";
+import { redirectTo } from "../common/actions";
 
 export const getGlobalArticleRequest = () => {
   return {
@@ -182,6 +183,42 @@ export const findArticle = slugId => {
       })
       .catch(error => {
         dispatch(findArticleError(error.message));
+      });
+  };
+};
+
+export const postArticleRequest = () => {
+  return {
+    type: types.POST_ARTICLE_REQUEST
+  };
+};
+
+export const postArticleSuccess = data => {
+  return {
+    type: types.POST_ARTICLE_SUCCESS,
+    article: data.article
+  };
+};
+
+export const postArticleError = message => {
+  return {
+    type: types.POST_ARTICLE_ERROR,
+    message
+  };
+};
+
+export const postArticle = article => {
+  return dispatch => {
+    dispatch(postArticleRequest());
+    axios
+      .post(`/articles`, { article })
+      .then(response => {
+        dispatch(postArticleSuccess(response.data.article));
+        dispatch(redirectTo("/"));
+      })
+      .catch(error => {
+        console.log(error);
+        dispatch(postArticleError(error.message));
       });
   };
 };

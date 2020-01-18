@@ -1,0 +1,1 @@
+export const REDIRECT_URL_TO = "REDIRECT_URL_TO";

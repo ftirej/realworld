@@ -25,5 +25,6 @@ export default {
   isFindingComments: false,
   comments: [],
   isPostingComment: false,
-  comment: {}
+  comment: {},
+  isPostingArticle: false
 };

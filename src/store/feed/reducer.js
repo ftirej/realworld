@@ -77,6 +77,22 @@ const reducer = (state = initialState, action) => {
         ...state,
         isPostingComment: false
       };
+    case types.POST_ARTICLE_REQUEST:
+      return {
+        ...state,
+        isPostingArticle: true
+      };
+    case types.POST_ARTICLE_SUCCESS:
+      return {
+        ...state,
+        isPostingArticle: false,
+        article: action.article
+      };
+    case types.POST_ARTICLE_ERROR:
+      return {
+        ...state,
+        isPostingArticle: false
+      };
     default:
       return state;
   }

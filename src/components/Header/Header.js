@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -6,6 +6,8 @@ import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
 import Container from "@material-ui/core/Container";
 import Avatar from "@material-ui/core/Avatar";
+import { useHistory } from "react-router-dom";
+import { connect } from "react-redux";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -47,6 +49,14 @@ const useStyles = makeStyles(theme => ({
 
 const Header = props => {
   const classes = useStyles();
+  let redirectTo = props.redirectTo;
+
+  const history = useHistory();
+  useEffect(() => {
+    if (redirectTo) {
+      history.push(redirectTo);
+    }
+  }, [redirectTo, history]);
 
   return (
     <React.Fragment>
@@ -74,6 +84,9 @@ const Header = props => {
               <React.Fragment>
                 <Link to="/" className={classes.button}>
                   Home
+                </Link>
+                <Link to="/newpost" className={classes.button}>
+                  New Post
                 </Link>
                 <Link to="/settings" className={classes.button}>
                   Settings
@@ -104,4 +117,10 @@ const Header = props => {
   );
 };
 
-export default Header;
+const mapStateToProps = state => {
+  return {
+    redirectTo: state.common.redirectTo
+  };
+};
+
+export default connect(mapStateToProps)(Header);
