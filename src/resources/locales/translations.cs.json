@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "Email",
+        "error": "Chyba",
+        "password": "Heslo",
+        "confirm": "Potvrdit",
+        "cancel": "Zru\u0161it",
+        "save": "Ulo\u017eit",
+        "delete": "Delete",
+        "close": "Zav\u0159\u00edt",
+        "done": "Hotovo",
+        "refresh": "Obnovit",
+        "loading": "Nahr\u00e1v\u00e1m...",
+        "edit": "Editovat",
+        "editCard": "Editovat kartu",
+        "hide": "Skr\u00fdt",
+        "hideCard": "Skr\u00fdt kartu",
+        "yes": "Ano",
+        "yes_discard": "Ano, zru\u0161it",
+        "no": "Ne",
+        "cancelMessage": "Zm\u011bny nejsou ulo\u017een\u00e9. P\u0159esto zru\u0161it?",
+        "changesSavedSuccessfully": "Zm\u011bny jsou \u00fasp\u011b\u0161n\u011b ulo\u017een\u00e9!",
+        "changesSavedError": "B\u011bhem ukl\u00e1d\u00e1n\u00ed informac\u00ed do\u0161lo k chyb\u011b.  Pros\u00edm, zkuste to za p\u00e1r minut.",
+        "unknownError": "Nezn\u00e1m\u00e1 chyba.",
+        "tableView": "Tabulkov\u00fd n\u00e1hled",
+        "graphView": "Graf",
+        "ok": "ok",
+        "requiredFields": "Po\u017eadovan\u00e9 polo\u017eky",
+        "clear": "Vy\u010distit",
+        "active": "Aktivn\u00ed",
+        "inactive": "Neaktivn\u00ed",
+        "disabled": "Nepovoleno",
+        "view": "N\u00e1hled",
+        "doConfirm": "Potvrdit?",
+        "enable": "Povoleno",
+        "disable": "Nepovoleno",
+        "acceptMessage": "Nem\u016f\u017eete prov\u00e9st operaci.",
+        "welcome": "V\u00edtejte",
+        "passwordHelp": "Pot\u0159ebujete pomoct s heslem?",
+        "next": "Dal\u0161\u00ed",
+        "back": "Zp\u011bt",
+        "successfullyUpdated": "\u00fasp\u011b\u0161n\u011b aktualizov\u00e1no.",
+        "vasPlatformLogo": "VAS Platform Logo",
+        "learnMore": "Zjistit v\u00edce",
+        "accountHome": "dom\u00e1c\u00ed \u00fa\u010det",
+        "comingSoon": "Ji\u017e brzy!",
+        "notDefined": "Nedefinov\u00e1no",
+        "current": "Aktu\u00e1ln\u00ed",
+        "previous": "P\u0159edchoz\u00ed",
+        "clearAll": "Vy\u010distit v\u0161e",
+        "preview": "N\u00e1hled",
+        "leave": "Odej\u00edt",
+        "undefined": "Nedefinov\u00e1no",
+        "backToTop": "Zp\u011bt nahoru",
+        "activate": "Aktivovat",
+        "deactivate": "Deaktivovat",
+        "days": {
+            "monday": "Po",
+            "tuesday": "\u00dat",
+            "wednesday": "St",
+            "thursday": "\u010ct",
+            "friday": "P\u00e1",
+            "saturday": "So",
+            "sunday": "Ne"
+        },
+        "monthsShort": {
+            "jan": "Led",
+            "feb": "\u00dan",
+            "mar": "B\u0159z",
+            "apr": "Dub",
+            "may": "Kv\u011b",
+            "jun": "\u010cer",
+            "jul": "\u010crvn",
+            "aug": "Srp",
+            "sep": "Z\u00e1\u0159",
+            "oct": "\u0158\u00edj",
+            "nov": "Lis",
+            "dec": "Pro"
+        },
+        "months": {
+            "jan": "Leden",
+            "feb": "\u00danor",
+            "mar": "B\u0159ezen",
+            "apr": "Duben",
+            "may": "Kv\u011bten",
+            "jun": "\u010cerven",
+            "jul": "\u010cervenec",
+            "aug": "Srpen",
+            "sep": "Z\u00e1\u0159\u00ed",
+            "oct": "\u0158\u00edjen",
+            "nov": "Listopad",
+            "dec": "Prosinec"
+        },
+        "today": "Dnes",
+        "yesterday": "V\u010dera",
+        "help": {
+            "tag": "Pot\u0159ebujete pomoct?",
+            "learnMore": "Zjistit v\u00edce",
+            "about": " Popis",
+            "labels": {
+                "worklists": "Pracovn\u00ed list!",
+                "commands": {
+                    "platform": "P\u0159\u00edkazy Platformy!",
+                    "list": "P\u0159\u00edkaz LIST!",
+                    "sum": "P\u0159\u00edkaz SUM",
+                    "count": "P\u0159\u00edkaz COUNT"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animals"
+        }
+    },
+    "unitSystems": {
+        "metric": "Metrick\u00fd syst\u00e9m",
+        "imperial": "Imperi\u00e1ln\u00ed syst\u00e9m"
+    },
+    "unitSystemsLabels": {
+        "metric": "Kilogramy, Litry, Stupn\u011b C, Miligramy",
+        "imperial": "Libry, Galony, Fahrenheity, Unce"
+    },
+    "recentCommands": {
+        "title": "Posledn\u00ed p\u0159\u00edkazy",
+        "edit": "Editovat",
+        "noCommands": "Nelze na\u010d\u00edst posledn\u00ed \np\u0159\u00edkazy",
+        "viewResults": "N\u00e1hled v\u00fdsledk\u016f"
+    },
+    "units": {
+        "inHundreds": "%{unit} ve stovk\u00e1ch",
+        "pounds": "Liber",
+        "inPounds": "%{value} lb",
+        "kilograms": "Kilogram\u016f",
+        "inKilograms": "%{value} kg",
+        "gallons": "Galon\u016f",
+        "inGallons": "%{value} gal",
+        "inGallonsPerMinute": "%{value} GPM",
+        "inLitres": "%{value} litr\u016f",
+        "inLitresPerMinute": "%{value} LPM",
+        "hg": "Plac\u016f rtuti",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "M\u00edl\u00ed",
+        "inMiles": "%{value} ml",
+        "inKilometers": "%{value} km",
+        "mph": "Mil za hodinu",
+        "inKph": "%{value} km\/h",
+        "inMph": "%{value} mph",
+        "inOunces": "%{value} oz",
+        "inGrams": "%{value} g",
+        "inTons": "%{value} t",
+        "inTonne": "%{value} T",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "Tun",
+        "metricTons": "t",
+        "ton": "tuna",
+        "metricTon": "t",
+        "lbs": "LBs",
+        "kg": "kg",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "lbs",
+                "singular": "libra",
+                "plural": "liber"
+            },
+            "metric": {
+                "symbol": "kg",
+                "singular": "kilogram",
+                "plural": "kilogram\u016f"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "t",
+                "singular": "tuna",
+                "plural": "tun"
+            },
+            "metric": {
+                "symbol": "T",
+                "singular": "tuna",
+                "plural": "tun"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "oz",
+                "singular": "unce",
+                "plural": "unc\u00ed"
+            },
+            "metric": {
+                "symbol": "gr",
+                "singular": "gram\u016f",
+                "plural": "gram\u016f"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "gal",
+                "singular": "galon",
+                "plural": "galon\u016f"
+            },
+            "metric": {
+                "symbol": "lt",
+                "singular": "litr",
+                "plural": "litr\u016f"
+            },
+            "singular": {
+                "metric": "lt",
+                "imperial": "gal"
+            },
+            "plural": {
+                "metric": "lts",
+                "imperial": "gal"
+            }
+        }
+    },
+    "dates": {
+        "day": "Den",
+        "month": "M\u011bs\u00edc",
+        "year": "Rok"
+    },
+    "login": {
+        "forgotPassword": "Zapomenut\u00e9 heslo?",
+        "login": "P\u0159ihl\u00e1sit",
+        "signIn": "Pros\u00edm, p\u0159ihlaste se",
+        "signInHere": "Zde p\u0159ihl\u00e1sit",
+        "sessionExpired": "P\u0159ipojen\u00ed vypr\u0161elo",
+        "rememberMe": "Zapamatovat",
+        "sessionExpiredMessage": "Odpojeno z d\u016fvodu neaktivity, pros\u00edm, p\u0159ihlaste se znovu.",
+        "invalidCredentials": "Neplatn\u00fd email nebo heslo. Zkuste znovu.",
+        "sessionClosedByChangedPassword": "Heslo zm\u011bn\u011bno",
+        "sessionClosedByChangedPasswordMessage": "Va\u0161e heslo bylo \u00fasp\u011b\u0161n\u011b zm\u011bn\u011bno. Abyste mohli pokra\u010dovat v pr\u00e1ci, p\u0159ihlaste se pros\u00edm."
+    },
+    "keto": {
+        "graphDesc": "Pred. Ketosis\/Tested",
+        "references": "REFERENCE",
+        "tableTitle": "Ketosis Prevalence",
+        "tableDesc": "Predicted Ketosis\/ Tested Animals",
+        "yAxis": "Prevalence Level %",
+        "allAnimals": "V\u0160ECHNA ZV\u00cd\u0158ATA",
+        "earlyFresh": "EARLY FRESH PREVALENCES",
+        "firstLact": "1. laktace",
+        "secondLact": "2. laktace",
+        "secondPlusLact": "vy\u0161\u0161\u00ed laktace",
+        "target": "C\u00cdL",
+        "overall": "(5 a\u017e 20 DIM)",
+        "early": "(5 a\u017e 11 DIM)",
+        "animals": "Zv\u00ed\u0159ata",
+        "earlyFreshDim": "\u010cERSTV\u011a OTELEN\u00c9 (5-11 DIM)"
+    },
+    "commandLine": {
+        "title": "P\u0158\u00cdKAZ",
+        "execute": "VYKONAT",
+        "placeholder": "Napsat p\u0159\u00edkaz",
+        "invalid": "Neplatn\u00fd p\u0159\u00edkaz",
+        "unsupported": "P\u0159\u00edkaz nen\u00ed podporov\u00e1n",
+        "results": {
+            "title": "V\u00fdsledky",
+            "executed": "Provedeno:",
+            "loading": "Nahr\u00e1v\u00e1n\u00ed",
+            "print": "Tisk",
+            "export": "Export",
+            "showGraph": "Uk\u00e1zat graf",
+            "hideGraph": "Skr\u00fdt graf",
+            "noMatch": "Nenalezeno"
+        },
+        "sum": {
+            "by": "By",
+            "pct": "Pct%",
+            "count": "Po\u010det",
+            "field": "%{modifier} %{field}",
+            "total": "Celkem",
+            "sum": "Polo\u017eka",
+            "childrenBy": "%{child} v %{parent}",
+            "noByOrSum": "{amount} zv\u00ed\u0159at ve skupin\u011b",
+            "range": "Range",
+            "standardDeviation": "Standard Deviation"
+        },
+        "count": {
+            "inGroup": "Zv\u00ed\u0159at ve skupin\u011b"
+        }
+    },
+    "signup": {
+        "setupAccount": "Nastavte sv\u016fj \u00fa\u010det",
+        "tokenExpired": "Odkaz k p\u0159ihl\u00e1\u0161en\u00ed vypr\u0161el, zadejte znovu sv\u016fj email",
+        "errorFetchingToken": "P\u0159i ov\u011b\u0159en\u00ed nastala chyba, zkuste to pros\u00edm znovu.",
+        "setPassword": "Nastavit heslo",
+        "signup": "P\u0159ihl\u00e1sit",
+        "email": "Email",
+        "profile": "Profil",
+        "password": "Heslo",
+        "firstStepThanksMessage": "D\u011bkujeme za v\u00e1\u0161 z\u00e1jem o VAS Platformu.",
+        "needEmail": "Abychom mohli za\u010d\u00edt, pot\u0159ebujeme v\u00e1\u0161 email.",
+        "haveAccount": "M\u00e1te ji\u017e zalo\u017een\u00fd \u00fa\u010det?",
+        "emptyEmail": "Pros\u00edm, zadejte v\u00e1\u0161 email.",
+        "invalidEmail": "Pros\u00edm, zadejte platn\u00fd email.",
+        "defaultError": "Nastal probl\u00e9m s va\u0161\u00ed registrac\u00ed. Zkuste to pros\u00edm znovu.",
+        "emailExists": "V\u00e1\u0161 email je ji\u017e registrovan\u00fd.",
+        "emailSent": "Email byl odesl\u00e1n ",
+        "checkInbox": "Pros\u00edm, zkontrolujte va\u0161\u00ed emailovou schr\u00e1nku, do kter\u00e9 jsme v\u00e1m poslali potvrzuj\u00edc\u00ed email s odkazem na dokon\u010den\u00ed registrace.",
+        "firstName": "Jm\u00e9no",
+        "lastName": "P\u0159\u00edjmen\u00ed",
+        "country": "Zem\u011b",
+        "state": "St\u00e1t",
+        "city": "M\u011bsto",
+        "postalCode": "PS\u010c",
+        "enterPassword": "Zadejte heslo",
+        "reEnterPassword": "Heslo znovu",
+        "allSet": "V\u0161e nastaveno!",
+        "accountCreated": "V\u00e1\u0161 \u00fa\u010det byl \u00fasp\u011b\u0161n\u011b vytvo\u0159en\u00fd.",
+        "continueToAgreements": "Kliknut\u00edm n\u00ed\u017ee zobraz\u00edte smlouvu o p\u0159edplatn\u00e9m koncov\u00e9ho u\u017eivatele a z\u00e1sady ochrany osobn\u00edch \u00fadaj\u016f, a za\u010dnete pou\u017e\u00edvat platformu VAS.",
+        "continue": "Pokra\u010dovat",
+        "gotMobile": "M\u00e1te mobil?",
+        "tryVasInMobile": "Vyzkou\u0161ejte VAS Platformu na va\u0161em za\u0159\u00edzen\u00ed.",
+        "addProfilePicture": "OBR\u00c1ZEK",
+        "error": {
+            "firstName": "Pros\u00edm, zadejte va\u0161e jm\u00e9no.",
+            "lastName": "Pros\u00edm, zadejte va\u0161e p\u0159\u00edjmen\u00ed.",
+            "country": "Je po\u017eadovan\u00e1 zem\u011b.",
+            "state": "Je po\u017eadovan\u00fd st\u00e1t.",
+            "city": "Je po\u017eadovan\u00e9 m\u011bsto.",
+            "postalCode": "Je po\u017eadovan\u00e9 PS\u010c.",
+            "passwordIsEmpty": "Pros\u00edm, zadejte heslo.",
+            "passwordMinimumRequirements": "Heslo nespl\u0148uje minim\u00e1ln\u00ed po\u017eadavky.",
+            "passwordNotMatch": "Heslo nesouhlas\u00ed.",
+            "rePasswordEmpty": "Pros\u00edm, zadejte znovu heslo.",
+            "signingUp": "P\u0159i p\u0159ihla\u0161ov\u00e1n\u00ed nastala chyba. Pros\u00edm, zkuste to pozd\u011bji."
+        }
+    },
+    "expiredToken": {
+        "title": "Omlouv\u00e1me se!",
+        "type": {
+            "signup": "dokon\u010dit registraci",
+            "reset": "resetovat heslo"
+        },
+        "line1": "V\u00e1\u0161 \u010das %{type}  vypr\u0161el!",
+        "line2": "Pros\u00edm, pro zasl\u00e1n\u00ed nov\u00e9ho odkazu zadejte v\u00e1\u0161 email.",
+        "send": "Odesl\u00e1no"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Zapomn\u011bli jste heslo?",
+        "subtitle_": "Pros\u00edm, zadejte v\u00e1\u0161 email a pokyny pro reset hesla",
+        "_subtitle": "v\u00e1m budou odeslan\u00e9.",
+        "titleMessage": "Zkontrolujte emailovou schr\u00e1nku.",
+        "description_": "Jestli\u017ee \u00fa\u010det odpov\u00edd\u00e1,",
+        "_description": "m\u011bli byste obdr\u017eet email s odkazem pro resetov\u00e1n\u00ed hesla.",
+        "continueSignup": "Email by odesl\u00e1n na %{email}. Pros\u00edm, zkontrolujte sv\u016fj email a pokra\u010dujte k p\u0159ihl\u00e1\u0161en\u00ed",
+        "backToLogin": "Zp\u011bt k p\u0159ihl\u00e1\u0161en\u00ed"
+    },
+    "passwordReset": {
+        "setNewPassword": "Nastavit nov\u00e9 heslo",
+        "tokenExpired": "Odkaz ke zresetov\u00e1n\u00ed hesla vypr\u0161el, zadejte znovu v\u00e1\u0161 email"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "V\u00e1\u0161 prohl\u00ed\u017ee\u010d nen\u00ed podporovan\u00fd",
+            "line1": "Pro pou\u017e\u00edv\u00e1n\u00ed VAS Platformy mus\u00edte pou\u017e\u00edvat jeden z t\u011bchto",
+            "line2": "doporu\u010den\u00fdch prohl\u00ed\u017ee\u010d\u016f.",
+            "line3": "(Klikn\u011bte pro sta\u017een\u00ed)"
+        }
+    },
+    "chart": {
+        "charts": "grafy",
+        "rechart": "Rechart - SimpleLineChart",
+        "rechartArea": "Rechart - SimpleAreaChart",
+        "slider": "Posuvn\u00edk",
+        "sliderValue": "Hodnota",
+        "rcSlider": "rc-slider",
+        "gauge": "M\u011b\u0159idlo",
+        "liquidGauge": "M\u011b\u0159i\u010d objemu",
+        "tempGauge": "Teplom\u011br",
+        "emptyPlaceholder": {
+            "title": "Zat\u00edm nejsou data",
+            "description": "Nelze vytvo\u0159it graf z d\u016fvodu nedostatku dat."
+        }
+    },
+    "filter": {
+        "results": "Vyhledat v\u00fdsledky",
+        "label": "Filtrovat",
+        "clearFilter": "Clear filter",
+        "clearFilters": "Clear filters",
+        "dateError": "End date can't be before start date",
+        "type": {
+            "pen": "Skupina"
+        },
+        "placeholder": {
+            "pen": "\u010c\u00edslo skupiny"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "Tombstone",
+            "parentage": "Parentage",
+            "currentLactation": "Aktu\u00e1ln\u00ed laktace",
+            "milkInfo": "Ml\u00e9ko",
+            "matings": "P\u0159ipa\u0159ov\u00e1n\u00ed",
+            "scanning": "Scanning",
+            "offspring": "Potomstvo",
+            "vet": "Veterin\u00e1\u0159",
+            "event": {
+                "events": "Ud\u00e1losti",
+                "eventsBar": "Cowcard events bar",
+                "dualTable": "dvojit\u00e1 tabulka",
+                "singleTable": "jednoduch\u00e1 tabulka",
+                "details": "Detaily",
+                "responsible": "Zodpov\u011bdn\u00fd",
+                "pen": "Skupina",
+                "date": "Datum",
+                "event": "Ud\u00e1lost",
+                "remarks": "Pozn\u00e1mky",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "\u017d\u00e1dn\u00e9 ud\u00e1losti k zobrazen\u00ed."
+            },
+            "lactation": {
+                "lactation": "LAKTACE",
+                "dairyLactation": "Sloupcov\u00fd graf denn\u00edch n\u00e1doj\u016f",
+                "dairyLactationWithParams": "Sloupcov\u00fd graf denn\u00edch n\u00e1doj\u016f pro%{dateFor} do %{dateTo}",
+                "weeklyLactationLineChart": "Liniov\u00fd graf t\u00fddenn\u00edch n\u00e1doj\u016f",
+                "noLactations": "\u017d\u00e1dn\u00e9 laktace k zobrazen\u00ed.",
+                "barGraph": "Sloupcov\u00fd graf",
+                "lineGraph": "\u010c\u00e1rov\u00fd graf"
+            },
+            "lactations": {
+                "noLactations": "\u017d\u00e1dn\u00e9 laktace k zobrazen\u00ed",
+                "summary": "Souhrn laktac\u00ed",
+                "prevLactsGraphic": "T\u00fddenn\u00ed ml\u00e9\u010dn\u00e9 produkce podle laktac\u00ed",
+                "age": "V\u011aK",
+                "dim": "DIM",
+                "lactationNumber": "Lactation number"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "\u017d\u00e1dn\u00e9 denn\u00ed ml\u00e9ko k zobrazen\u00ed.",
+                "dimTooltip": "DIM",
+                "milking": "dojen\u00ed",
+                "today": "Dnes",
+                "average": "Pr\u016fm\u011br",
+                "avg": "Pr\u016fm\u011br",
+                "expected": "O\u010dek\u00e1van\u00e9",
+                "exp": "O\u010dek.",
+                "deviation": "Odchylka",
+                "total": "CELKEM",
+                "estimatedMilk": "O\u010dek\u00e1van\u00e9 ml\u00e9ko"
+            },
+            "overview": {
+                "statusItems": "Status polo\u017eek",
+                "recentEvents": "Posledn\u00ed ud\u00e1losti",
+                "moreEvents": "V\u00edce ud\u00e1lost\u00ed",
+                "recentTestdays": "Posledn\u00ed KU",
+                "moreTestdays": "V\u00edce KU",
+                "moreItems": "V\u00edce polo\u017eek",
+                "dailyRecentProduction": "Posledn\u00ed denn\u00ed produkce"
+            },
+            "testDays": {
+                "noTests": "KU nejsou k zobrazen\u00ed.",
+                "date": "Datum",
+                "milk": "Ml\u00e9ko",
+                "dim": "DIM",
+                "pen": "SKUPINA"
+            },
+            "statusGroup": {
+                "noItems": "\u017d\u00e1dn\u00e1 data k zobrazen\u00ed."
+            },
+            "pedigree": {
+                "pedigree": "P\u016fvod",
+                "graphicView": "Graphic View",
+                "PDFView": "N\u00e1hled PDF"
+            },
+            "penChange": {
+                "penChanges": "Zm\u011bna skupiny",
+                "noPenChanges": "\u017d\u00e1dn\u00e9 zm\u011bny skupin pro zobrazen\u00ed",
+                "date": "Datum",
+                "daysInPen": "Dn\u00ed ve skupin\u011b",
+                "movedToPen": "P\u0159esunout do skupiny",
+                "PremiseId": "Premise ID",
+                "fromTo": "Z - Do",
+                "dim": "DIM",
+                "source": "Zdroj",
+                "testday": "KU",
+                "responsible": "Zodpov.",
+                "penTransfer": {
+                    "in": "V"
+                }
+            },
+            "sensor": {
+                "sensors": "Senzory",
+                "accordionTitle": "SCR monitorovac\u00ed syst\u00e9m"
+            },
+            "testDay": {
+                "testDays": "Kontroly u\u017eitkovosti",
+                "testDaysResults": "V\u00fdsledky KU",
+                "yAxisLayers": "REFERENCE",
+                "productionGraphByTestday": "Produk\u010dn\u00ed grafy z KU",
+                "testDaysToolTipTitle": "KU #"
+            },
+            "productionMilk": {
+                "noItems": "Nejsou k dispozici produk\u010dn\u00ed data."
+            },
+            "type": {
+                "adultCow": "KR\u00c1VA",
+                "bull": "B\u00ddK",
+                "calf": "TELE",
+                "heifer": "JALOVICE"
+            },
+            "farmName": "FNAME",
+            "cowName": "BNAME",
+            "pen": "Skupina",
+            "lact": "Laktace",
+            "rpro": "Reprodukce",
+            "dim": "DIM",
+            "dslh": "Dn\u00ed od posledn\u00ed \u0159\u00edje\/inseminace",
+            "dcc": "D\u00e9lka b\u0159ezosti",
+            "due": "Term\u00edn otelen\u00ed",
+            "ardat": "ARDAT",
+            "milkWithhold": "Bez dod\u00e1vky ml\u00e9ka",
+            "meatWithhold": "Bez dod\u00e1vky masa",
+            "reproductionCode": {
+                "heiferCalf": "Jalovice",
+                "noBred": "Nep\u0159ipou\u0161t\u011bt",
+                "fresh": "Otelen\u00e9",
+                "ok": "OK\/Jalov\u00e9",
+                "bred": "P\u0159ipu\u0161t\u011bn\u00e9",
+                "preg": "B\u0159ez\u00ed",
+                "dry": "Zasu\u0161en\u00e9",
+                "sld": "Prodan\u00e9\/\u00dahyn",
+                "bull": "B\u00fd\u010dek"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "Editovat polo\u017eky",
+                    "cardsPreview": "N\u00e1hled karty",
+                    "dragAndDropReorder": "Polo\u017eky zm\u011bn\u00edte p\u0159eta\u017een\u00edm",
+                    "addItems": "P\u0159idat polo\u017eky",
+                    "cardName": "N\u00e1zev karty",
+                    "searchSpecificCowItem": "Vyhledat specifickou polo\u017eku...",
+                    "cancelMessage": "M\u00e1te neulo\u017een\u00e9 zm\u011bny. I tak ukon\u010dit?",
+                    "validation": "Pros\u00edm, p\u0159ed ulo\u017een\u00edm p\u0159idejte alespo\u0148 jednu polo\u017eku.",
+                    "noItems": "Pros\u00edm, pro zobrazen\u00ed nov\u00e9 karty p\u0159idejte alespo\u0148 jednu polo\u017eku.",
+                    "isMobile": "Zobrazit v mobiln\u00ed aplikaci"
+                },
+                "add": {
+                    "itemBoxTitle": "P\u0159idat kartu polo\u017eek",
+                    "error": "Omlouv\u00e1me se, do\u0161lo k neo\u010dek\u00e1van\u00e9 chyb\u011b. Pros\u00edm, zkuste p\u0159idat kartu znovu.",
+                    "newItemsCard": "nov\u00e9 polo\u017eky karty"
+                },
+                "hide": {
+                    "title": "Skr\u00fdt polo\u017eky karty?",
+                    "line1": "Kliknut\u00edm na 'Obnovit skrytou kartu' ",
+                    "line2": "m\u016f\u017eete zobrazit skryt\u00e9 karty.",
+                    "confirm": "ano, skr\u00fdt"
+                },
+                "restoreCard": "Zobrazit skrytou kartu",
+                "addCard": "P\u0159idat novou kartu",
+                "restore": {
+                    "boxTitle": "Zobrazit skryt\u00e9 karty",
+                    "edition": {
+                        "title": "Vybrat karty",
+                        "subTitle": "Z t\u00e9to obrazovky lze zobrazit p\u0159edchoz\u00ed skryt\u00e9 karty."
+                    },
+                    "noHiddenCardTitle": "N\u00e1zev karty",
+                    "error": "Omlouv\u00e1me se, do\u0161lo k neo\u010dek\u00e1van\u00e9 chyb\u011b. Pros\u00edm, zkuste znovu p\u0159idat skrytou kartu.",
+                    "noItems": "Pros\u00edm, pro kontrolu klikn\u011bte na kartu polo\u017eek."
+                },
+                "successUpdate": "\u00fasp\u011b\u0161n\u011b zaktualizov\u00e1no",
+                "notSuccessUpdate": "P\u0159i ukl\u00e1d\u00e1n\u00ed informac\u00ed do\u0161lo k chyb\u011b. Pros\u00edm, zkuste to znovu za p\u00e1r minut.",
+                "itemCard": "Karta polo\u017eky",
+                "itemCardSuccessfullyAdded": "\u00fasp\u011b\u0161n\u011b p\u0159id\u00e1ny",
+                "itemCardSuccessfullyRestored": "polo\u017eky \u00fasp\u011b\u0161n\u011b obnoven\u00e9",
+                "itemCardSuccessfullyHidden": "Karta polo\u017eek \u00fasp\u011b\u0161n\u011b skryt\u00e1",
+                "itemCardColorPaletteLabel": "Barva",
+                "itemCardColorPaletteDefault": "V\u00fdchoz\u00ed barva",
+                "itemCardBackgroundColorPickerLabel": "Barva pozad\u00ed",
+                "itemCardForegroundColorPickerLabel": "Barva textu"
+            },
+            "subMenu": {
+                "overview": "P\u0159ehled",
+                "items": "Polo\u017eky",
+                "events": "Ud\u00e1losti",
+                "testDays": "KU",
+                "lactations": "Laktace",
+                "dailyMilk": "Denn\u00ed n\u00e1doj",
+                "penChanges": "Zm\u011bna skupin",
+                "pedigree": "Pedigree",
+                "partners": "Partne\u0159i"
+            },
+            "recentProduction": {
+                "milking": "Dojen\u00ed #"
+            },
+            "dead": "MRTV\u00c1",
+            "alive": "\u017dIV\u00c1",
+            "sold": "PRODAN\u00c1",
+            "placeholder": {
+                "title": "Nejsou polo\u017eky k zobrazen\u00ed",
+                "description": "Nakonfigurovat kartu polo\u017eek tak, aby se zde zobrazovala"
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "bdate",
+                        "weanDateTitle": "wean date",
+                        "sexTitle": "sex",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Calf Rearing Characteristics",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} days %{preposition} expected wean date",
+                            "prepositionUntil": "until",
+                            "prepositionPast": "past",
+                            "projected": "PROJECTED",
+                            "weaned": "weaned",
+                            "weaning": "weaning"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 days",
+                        "todayTitle": "today",
+                        "averageDailyGainTitle": "adg",
+                        "title": "Weight",
+                        "perDay": "d",
+                        "popover": "If your dairy is equipped with a F\u00f6rster half-body scale, this is an actual animal weight. If not, this weight is estimated based on calf age."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "milk",
+                        "concentrationTitle": "concentration",
+                        "additiveTitle": "Additive",
+                        "title": "Total Consumption",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Allowance Ratio",
+                        "dipsMilkIntake": "# dips milk intake",
+                        "avgBreaksDay": "Avg breaks \/day",
+                        "avgDailySteps": "Avg daily steps",
+                        "daysOnPrescription": "days on prescription"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Drinking Speed",
+                        "speed": "speed",
+                        "timeUnit": "m",
+                        "day": "Day"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Drinking Behavior",
+                        "milk": "milk"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Milk Consumption",
+                        "consumption": "Consumption",
+                        "lastTwoDays": "last 2 days",
+                        "visitNumber": "Visit %{number}",
+                        "visitRange": "Visits %{from} to %{to}",
+                        "visit": "visit",
+                        "withoutFeeding": "w\/o feeding",
+                        "additive": "additive",
+                        "total": "total",
+                        "yesterdayTarget": "yesterday's target",
+                        "todayEntitlement": "today's entitlement",
+                        "timeRange": "%{from} to %{to}"
+                    },
+                    "common": {
+                        "amount": "amount",
+                        "entitlement": "entitlement",
+                        "today": "Today",
+                        "yesterday": "Yesterday",
+                        "now": "now",
+                        "widgetNotFound": "There is no %{name} data to display for this animal",
+                        "widgetCommunicationError": "Communication Error"
+                    }
+                },
+                "table": {
+                    "message": "Zpr\u00e1va",
+                    "dateAndTime": "Datum a \u010das",
+                    "observations": "Pozorov\u00e1n\u00ed"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "Teplota",
+                        "ph": "PH",
+                        "activity": "Aktivita"
+                    },
+                    "views": {
+                        "view": "N\u00e1hled",
+                        "last24hs": "Posledn\u00edch 24 hodin",
+                        "last7days": "Posledn\u00edch 7 dn\u00ed",
+                        "last30days": "Posledn\u00edch 30 dn\u00ed"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "Nedostate\u010dn\u00fd p\u0159\u00edjem vody",
+                    "health102": "Zv\u00fd\u0161it pitn\u00fd cyklus",
+                    "health103": "Sn\u00ed\u017eit pitn\u00fd cyklus",
+                    "health104": "Zv\u00fd\u0161it teplotu",
+                    "health106": "Sn\u00ed\u017eit teplotu",
+                    "health601": "THI \u2265 72 Tepeln\u00fd stres",
+                    "health602": "THI \u2265 78 Tepeln\u00fd stres",
+                    "health603": "THI \u2265 82 Tepeln\u00fd stres",
+                    "health703": "Pokles aktivity",
+                    "fertility105": "Indikace bezprost\u0159edn\u00edho telen\u00ed",
+                    "fertility702": "\u0158\u00edje",
+                    "feeding201": "Efektivita krmiva",
+                    "feeding202": "Riziko acid\u00f3zy",
+                    "feeding203": "N\u00e1r\u016fst pr\u016fm\u011brn\u00e9ho pH",
+                    "feeding204": "Pokles pr\u016fm\u011brn\u00e9ho pH",
+                    "feeding205": "N\u00e1r\u016fst pH b\u011bhem 12h",
+                    "feeding206": "Pokles pH b\u011bhem 12h",
+                    "actincrease701": "N\u00e1r\u016fst aktivity",
+                    "actincrease704": "Pokles aktivity",
+                    "heat": "Detekce \u0159\u00edje",
+                    "insemination": "Inseminovan\u00e9 zv\u00ed\u0159e",
+                    "pregnancyResult": "Pozitivn\u00ed nebo negativn\u00ed v\u00fdsledek b\u0159ezosti",
+                    "calvingDetection": "Detekce telen\u00ed",
+                    "dryOff": "Zasu\u0161en\u00ed",
+                    "calvingConfirmation": "Potvrzen\u00ed telen\u00ed"
+                },
+                "selectPartner": "Partner:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "U tohoto zv\u00ed\u0159ete nelze zobrazit senzor SmaXtec"
+            }
+        },
+        "overview": {
+            "page": "P\u0159ehled st\u00e1da"
+        },
+        "pens": {
+            "penList": "Seznam skupin",
+            "animalCost": "Hodnota zv\u00ed\u0159ete",
+            "space": "Prostor",
+            "capacity": "Kapacita",
+            "count": "Po\u010det",
+            "extra": "Extra",
+            "feed": "Krmen\u00ed",
+            "feedingHdCount": "Feeding HD Count",
+            "feedingCount": "Feeding Count",
+            "herd": "St\u00e1do",
+            "label": "Label",
+            "pen": "Skupina",
+            "penCost": "Hodnota skupiny",
+            "penCount": "Po\u0159ad\u00ed skupiny",
+            "pens": "Skupiny",
+            "penType": "Typ skupiny",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "Premise ID",
+            "targetDmHd": "Target DM\/HD",
+            "costPerHd": "Cost\/HD",
+            "type": "Typ",
+            "view": "N\u00e1hled",
+            "zone": "Z\u00f3na",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "V\u0161echny typy skupin",
+                "isArtificialInseminationPen": "Inseminace",
+                "isBullPen": "S b\u00fdkem",
+                "isCalfPen": "Tele",
+                "isDryPen": "Zasu\u0161en\u00e9",
+                "isHospitalPen": "Nemocnice",
+                "isMilkingPen": "Dojen\u00e9",
+                "isUserPen": "U\u017eivatel",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "Otev\u0159\u00edt pracovn\u00ed listy",
+            "todayTitle": "Dnes",
+            "upcomingTitle": "Nadch\u00e1zej\u00edc\u00ed",
+            "lastDaysTitle": "Posledn\u00ed t\u0159i dny",
+            "accordionTitle": "Seznamy",
+            "time": {
+                "week": "P\u0159ed t\u00fddnem",
+                "yesterday": "V\u010derej\u0161\u00ed",
+                "today": "Dne\u0161n\u00ed"
+            },
+            "help": {
+                "tag": "Pot\u0159ebujete pomoct?",
+                "link": "Zjist\u011bte v\u00edce o pracovn\u00edch listech!"
+            },
+            "tableHead": {
+                "name": "Jm\u00e9no",
+                "listDate": "Datum sestavy",
+                "listType": "Typ sestavy",
+                "status": "Status",
+                "progress": "Progres",
+                "description": "Popis",
+                "ondone": "Ondone",
+                "postProcess": "Zpracov\u00e1n\u00ed"
+            },
+            "progress": {
+                "animals": "Zv\u00ed\u0159at",
+                "toBeProcessed": "ke zpracov\u00e1n\u00ed",
+                "filterNoResults": "Pou\u017eit\u00edm tohoto filtru nelze zobrazit zv\u00ed\u0159ata."
+            },
+            "status": {
+                "open": "Otev\u0159\u00edt",
+                "closed": "Uzav\u0159eno",
+                "delivered": "Dod\u00e1no",
+                "todo": "Todo",
+                "pending": "\u010cekaj\u00edc\u00ed",
+                "inProgress": "V procesu",
+                "queued": "Ve front\u011b",
+                "processed": "Zpracov\u00e1n\u00ed"
+            },
+            "changeStatus": {
+                "todo": "todo",
+                "done": "hotovo",
+                "completed": "Dokon\u010deno",
+                "processed": "Zpracov\u00e1no",
+                "toBeProcessed": "Ke zpracov\u00e1n\u00ed"
+            },
+            "identificationType": {
+                "unknown": "nezn\u00e1m\u00fd",
+                "tap": "tapped",
+                "scan": "naskenov\u00e1no",
+                "voice": "zvuk"
+            },
+            "tableColumns": {
+                "method": "Metoda",
+                "doneBy": "Vykon\u00e1no",
+                "updatedAt": "Done Time",
+                "changeStatus": "Status"
+            },
+            "noItems": "Nic k zobrazen\u00ed",
+            "listDetailsPageTitle": "Detaily seznamu",
+            "tabs": {
+                "todo": "todo",
+                "done": "hotovo"
+            },
+            "details": {
+                "table": {
+                    "id": "ID",
+                    "pen": "SKUPINA",
+                    "lact": "LAKT",
+                    "rprod": "RPROD",
+                    "dim": "DIM",
+                    "dcc": "DCC",
+                    "milk": "ML\u00c9KO",
+                    "all": "v\u0161e"
+                }
+            },
+            "listTypes": {
+                "todolist": "todo list"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Popis polo\u017eky",
+            "name": "Jm\u00e9no",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Typ",
+            "description": "Popis",
+            "standardItemNumber": "Standardn\u00ed polo\u017eka #",
+            "filterPlaceholder": "Name, # or Description"
+        },
+        "eventDefinitions": {
+            "title": "Event Definitions",
+            "number": "Number",
+            "eventName": "Event Name",
+            "standardEventCode": "Standard #",
+            "team": "Team",
+            "gap": "Gap",
+            "command": "Command",
+            "filterPlaceholder": "Event Name, # or Command"
+        },
+        "protocols": {
+            "title": "Protocols",
+            "number": "P#",
+            "event": "Event",
+            "protocol": "Protocol",
+            "remark": "Remark",
+            "goToPen": "Go To Pen",
+            "milkWithold": "Milk Withhold",
+            "meatWithold": "Meat Withhold",
+            "timeOnProtocol": "Time On Protocol",
+            "adult": "Adult",
+            "heifer": "Heifer",
+            "team": "Team",
+            "recheck": "Recheck",
+            "order": "Order",
+            "prompt": "P",
+            "days": {
+                "singular": "day",
+                "plural": "days"
+            },
+            "showInactive": "Show Inactive",
+            "details": "Protocol Details",
+            "hasPrompt": "Prompt: Yes"
+        }
+    },
+    "home": {
+        "home": "Dom\u016f",
+        "title": "VAS Platform",
+        "searchboxPlaceholder": "Vyhledat zv\u00ed\u0159e",
+        "selectContext": "Vybrat %{context}",
+        "context": {
+            "dairy": "Farma",
+            "company": "Spole\u010dnost",
+            "companyOrDairy": "Spole\u010dnost nebo farma",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Spojit z va\u0161\u00ed prvn\u00ed farmou z",
+                "myHome": "M\u016fj \u00favod",
+                "pendingInvitationPreppend": "M\u00e1te nevy\u0159\u00edzenou pozv\u00e1nku.\nJd\u011bte na",
+                "pendingInvitationAppend": "a p\u0159ijm\u011bte."
+            }
+        },
+        "dairyProfile": "Profil farmy",
+        "selectDairy": "Vybrat farmu",
+        "search": {
+            "noResults": "\u017d\u00e1dn\u00e1 farma neodpov\u00edd\u00e1 vyhled\u00e1v\u00e1n\u00ed"
+        }
+    },
+    "validation": {
+        "invalidName": "Pros\u00edm, zadejte platn\u00e9 jm\u00e9no.",
+        "invalidEmail": "Pros\u00edm, zadejte platn\u00fd email.",
+        "emptyEmail": "Pros\u00edm, zadejte v\u00e1\u0161 email.",
+        "invalidPassword": "Heslo mus\u00ed obsahovat alespo\u0148 6 znak\u016f.",
+        "emptyPassword": "Pros\u00edm, zadejte heslo.",
+        "passwordNotMatch": "Heslo nesouhlas\u00ed.",
+        "retypePassword": "Pros\u00edm, zadejte znovu heslo.",
+        "passwordMinimumRequirements": "Heslo nespl\u0148uje minim\u00e1ln\u00ed po\u017eadavky.",
+        "invalidCardName": "N\u00e1zev karty Polo\u017eky mus\u00ed obsahovat alespo\u0148 6 znak\u016f.",
+        "emptyCardName": "Pros\u00edm, zadejte n\u00e1zev karty Polo\u017eky.",
+        "changePassword": {
+            "emptyCurrentPassword": "Pros\u00edm, zadejte va\u0161e aktu\u00e1ln\u00ed heslo.",
+            "emptyNewPassword": "Pros\u00edm, zadejte nov\u00e9 heslo.",
+            "emptyConfirmNewPassword": "Pros\u00edm, potvr\u010fte nov\u00e9 heslo."
+        },
+        "address": {
+            "emptyCountry": "Vyberte zemi.",
+            "emptyStateProvince": "Pros\u00edm, %{action} st\u00e1t.",
+            "selectStateProvince": "vybrat",
+            "enterStateProvince": "zadat",
+            "emptyCity": "Zadejte m\u011bsto.",
+            "emptyPostalCode": "Zadejte PS\u010c."
+        },
+        "dairy": {
+            "emptyName": "Zadejte n\u00e1zev farmy."
+        },
+        "invalidMobilePhoneNumber": "Pros\u00edm, zadejte platn\u00e9 \u010d\u00edslo mobiln\u00edho telefonu. Ujist\u011bte se, \u017ee obsahuje pouze \u010d\u00edsla a nem\u00e1 mezery.",
+        "invalidPhoneNumber": "Pros\u00edm, zadejte platn\u00e9 \u010d\u00edslo telefonu. Ujist\u011bte se, \u017ee obsahuje pouze \u010d\u00edsla a nem\u00e1 mezery.",
+        "limitCharacters": "V tomto poli jste dos\u00e1hli limitu po\u010dtu znak\u016f.",
+        "accountSettings": {
+            "firstName": "Zadejte jm\u00e9no",
+            "lastName": "Zadejte p\u0159\u00edjmen\u00ed"
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404 Not Found",
+            "line1": "Omlouv\u00e1me se, hledan\u00e1 str\u00e1nka nen\u00ed dostupn\u00e1.",
+            "line2": "Zkuste to znovu nebo jd\u011bte na"
+        },
+        "tokenInvalid": "Token pro resetov\u00e1n\u00ed hesla nen\u00ed platn\u00fd.",
+        "unableChange": "Nen\u00ed mo\u017en\u00e9 zm\u011bnit heslo.",
+        "401": "Neautorizov\u00e1no",
+        "500": "Intern\u00ed chyba serveru",
+        "passwordInvalid": "Neplatn\u00e9 heslo."
+    },
+    "password": {
+        "passwordCreated": "Heslo bylo vytvo\u0159en\u00e9",
+        "passwordSuccessfullyCreated": "Va\u0161e heslo bylo \u00fasp\u011b\u0161n\u011b vytvo\u0159en\u00e9.",
+        "passwordUpdated": "Heslo zm\u011bn\u011bn\u00e9",
+        "passwordSuccessfullyChanged": "Va\u0161e heslo bylo \u00fasp\u011b\u0161n\u011b zm\u011bn\u011bn\u00e9.",
+        "continueToHome": "Pokra\u010dujte na \u00favod",
+        "enterPassword": "Zadejte heslo",
+        "savePassword": "Ulo\u017eit heslo",
+        "passwordRequirements": "Je po\u017eadov\u00e1n\u00e9 heslo",
+        "unableToChange": "Heslo nelze zm\u011bnit",
+        "setPassword": "Nastavte heslo",
+        "invalidToken": {
+            "invalidToken": "Neplatn\u00fd token",
+            "title_line1": "Va\u0161e pozv\u00e1nka do",
+            "title_line2": "VAS Platformy expirovala",
+            "line1": "Pros\u00edm, po\u0161lete email",
+            "line2": "nebo zavolejte",
+            "line3": "za \u00fa\u010delem nov\u00e9 pozv\u00e1nky."
+        },
+        "ValidPassword": {
+            "minLength": "Maxim\u00e1ln\u00ed d\u00e9lka \u0161est (6) p\u00edsmen.",
+            "numbersAndLetters": "Mus\u00ed obsahovat kombinaci p\u00edsmen a \u010d\u00edsel.",
+            "lowerUpperCases": "Mus\u00ed obsahovat mal\u00e1 a velk\u00e1 p\u00edsmena."
+        }
+    },
+    "breadcrumb": {
+        "operations": "Farma",
+        "herd": "St\u00e1do",
+        "cows": "Krav",
+        "pens": "Skupin",
+        "ID": "ID",
+        "overview": "P\u0159ehled",
+        "company": "Firma",
+        "dairy": "St\u00e1do",
+        "dairyComp": "DairyComp",
+        "dashboard": "Dashboard",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "Otev\u0159\u00edt pracovn\u00ed listy",
+        "messageCenter": "Centrum zpr\u00e1v"
+    },
+    "footer": {
+        "title": "VAS Platform"
+    },
+    "search": {
+        "searchHistory": "Prohledat historii",
+        "searchResults": "Naj\u00edt v\u00fdsledky",
+        "noResults": "\u017d\u00e1dn\u00e1 zv\u00ed\u0159ata odpov\u00eddaj\u00edc\u00ed hled\u00e1n\u00ed",
+        "searchForCow": "Vyhledat zv\u00ed\u0159e",
+        "firstResult": "Prvn\u00ed v\u00fdsledek",
+        "thirdResult": "T\u0159et\u00ed v\u00fdsledek"
+    },
+    "dairy": {
+        "noDairiesConnected": "\u017d\u00e1dn\u00e9 p\u0159ipojen\u00e9 farmy",
+        "noDairiesText_": "P\u0159ipojte se ke sv\u00e9 prvn\u00ed farm\u011b z va\u0161eho",
+        "requestAccessSuccess": "P\u0159\u00edstup byl \u00fasp\u011b\u0161n\u011b vy\u017e\u00e1d\u00e1n"
+    },
+    "menu": {
+        "myHome": "My Home",
+        "impersonationLabel": "Jako Admin",
+        "dairyManager": "Dairy Manager",
+        "accountSettings": "Nastaven\u00ed \u00fa\u010dtu",
+        "logOut": "Odhl\u00e1sit",
+        "reports": "Reporty",
+        "favorites": "Obl\u00edben\u00e9",
+        "favoriteReports": "Obl\u00edben\u00e9 reporty",
+        "dairyInformation": "Informace o farm\u011b",
+        "dairyConfiguration": "Nastaven\u00ed farmy",
+        "operations": "St\u0159ediska",
+        "userManagement": "U\u017eivatelsk\u00fd management",
+        "messageCenter": "Centrum zpr\u00e1v"
+    },
+    "accountSettings": {
+        "account": "\u00da\u010det",
+        "myAccount": "M\u016fj \u00fa\u010det",
+        "userProfile": "Profil u\u017eivatele",
+        "changeMyPassword": "Zm\u011bnit m\u00e9 heslo",
+        "password": "Heslo",
+        "mobilePhoneNumber": "\u010c\u00edslo mobiln\u00edho telefonu",
+        "phoneNumberValidationOnlyNumbers": "Zadejte \u010d\u00edsla pouze do pole \u010c\u00edslo mobiln\u00edho telefonu.",
+        "phoneNumberValidationExtensionNumbers": "Pros\u00edm, nezad\u00e1vejte \u010d\u00edsla pobo\u010dek.",
+        "firstName": "Jm\u00e9no",
+        "lastName": "P\u0159\u00edjmen\u00ed",
+        "dateFormat": "Form\u00e1t datumu",
+        "timeFormat": "Form\u00e1t \u010dasu",
+        "howYouPreferSeeDates": "Jak chcete zobrazovat data v aplikaci",
+        "howYouPreferSeeTimes": "Jak chcete zobrazovat \u010das v aplikaci",
+        "address": "Adresa",
+        "units": "Jednotky",
+        "chooseDisplayUnits": "Vyberte si nejpohodln\u011bj\u0161\u00ed zp\u016fsob zobrazen\u00ed jednotek",
+        "language": "Jazyk",
+        "languageToDisplay": "Jazyk, kter\u00fd se zobraz\u00ed ve VAS Platform\u011b",
+        "aboutMe": "O m\u011b",
+        "amIDiscoverable": "Je mo\u017en\u00e9 m\u011b naj\u00edt?",
+        "isDiscoverable": "Je dohledateln\u00fd",
+        "youCanBeContacted": "Ostatn\u00ed u\u017eivatel\u00e9 aplikace v\u00e1s mohou kontaktovat",
+        "youWantYourDairyFound": "Chcete, aby ostatn\u00ed u\u017eivatel\u00e9 na\u0161li va\u0161\u00ed farmu?",
+        "country": "Zem\u011b",
+        "state": "St\u00e1t",
+        "city": "M\u011bsto",
+        "addressLine1": "Adresa 1",
+        "addressLine2": "Adresa 2",
+        "addressEmail": "Email",
+        "phoneNumber": "Telefonn\u00ed \u010d\u00edslo",
+        "email": "Email",
+        "web": "Web",
+        "currentPassword": "Heslo",
+        "newPassword": "Nov\u00e9 heslo",
+        "confirmNewPassword": "Potvrdit nov\u00e9 heslo",
+        "physicalAddress": "Fyzick\u00e1 adresa",
+        "billingAddress": "\u00da\u010detn\u00ed adresa",
+        "theEmailGravatarDescription_line1": "Email, kter\u00fd pou\u017eijete pro p\u0159ihl\u00e1\u0161en\u00ed.",
+        "theEmailGravatarDescription_line2_part1": "Pou\u017e\u00edt ",
+        "theEmailGravatarDescription_line2_part2": " jako poskytovatel profilov\u00e9ho obr\u00e1zku, po aktualizace m\u016f\u017ee obnova chv\u00edli trvat.",
+        "profileSettings": "NASTAVEN\u00cd PROFILU",
+        "postalCode": "PS\u010c",
+        "profilePicture": {
+            "title": "P\u0158IDEJTE PROFILOVOU FOTKU",
+            "line1": "Chcete-li nastavit sv\u016fj profilov\u00fd obr\u00e1zek, p\u0159et\u00e1hn\u011bte obr\u00e1zek vlevo nebo\/a  vyberte obr\u00e1zek z knihovny.",
+            "line2": "Po nahr\u00e1n\u00ed m\u016f\u017eete upravit velikost a polohu obr\u00e1zku.",
+            "condition1": "Pou\u017eijte form\u00e1t JPG nebo PNG",
+            "condition2": "Velikost obr\u00e1zku max. 150 kb",
+            "condition3": "Podporovan\u00e9 velikosti obr\u00e1zku: 32x32, 100x100 nebo 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "Ozn\u00e1men\u00ed",
+            "whatsNewDetails": "V\u00edtejte na VAS Platform\u011b, zkontrolujte si ozn\u00e1men\u00ed.",
+            "myDairies": "Moje farmy",
+            "search": {
+                "placeholder": "Naj\u00edt a p\u0159ipojit novou farmu"
+            }
+        },
+        "myDairies": {
+            "noDairies": "\u017d\u00e1dn\u00e9 farmy k zobrazen\u00ed",
+            "dairyColumnTitle": "Farma",
+            "locationColumnTitle": "Lokalita",
+            "statusColumnTitle": "Status",
+            "invitationText": "Byl(a) jste pozvan\u00fd(\u00e1) na",
+            "requestAccessText": "Za\u017e\u00e1dal(a) jste o p\u0159\u00edstup k",
+            "viewDairyPage": " Zobrazit str\u00e1nku farmy",
+            "acceptAction": "P\u0159ijmout",
+            "declineAction": "Zam\u00edtnout",
+            "cancelAction": "Zru\u0161it \u017e\u00e1dost",
+            "leaveDairy": "Opustit farmu",
+            "status": {
+                "invited": "Pozv\u00e1n\/pozvan\u00e1",
+                "requested": "\u010cek\u00e1 na schv\u00e1len\u00ed",
+                "connected": "P\u0159ipojeno"
+            }
+        },
+        "myConnections": {
+            "title": "Moje p\u0159ipojen\u00ed",
+            "noConnections": "\u017d\u00e1dn\u00e1 p\u0159ipojen\u00ed k zobrazen\u00ed",
+            "connect": "P\u0159ipojit novou farmu",
+            "viewList": "Zobrazit seznam p\u0159ipojen\u00ed"
+        },
+        "dairiesFilterPlaceholder": "Naj\u00edt farmu",
+        "connectionInvite": {
+            "accepted": "P\u0159ijato pozv\u00e1n\u00ed do",
+            "confirmDeclinePart1": "Odm\u00edt\u00e1te pozv\u00e1n\u00ed do",
+            "confirmDeclinePart2": ". Potvrdit?",
+            "declined": "Zru\u0161it pozv\u00e1n\u00ed do",
+            "notFound": "Z\u00e1znam, kter\u00fd se pokou\u0161\u00edte zobrazit, ji\u017e nen\u00ed k dispozici."
+        },
+        "connectionLeave": {
+            "confirmed": "Byli jste \u00fasp\u011b\u0161n\u011b odhl\u00e1\u0161eni z",
+            "confirmLeave": "Ur\u010dit\u011b odej\u00edt",
+            "errorDairyLeaving": "An error occurred while leaving the dairy. Please try again in a few minutes.",
+            "errorCompanyLeaving": "An error occurred while leaving the company. Please try again in a few minutes.",
+            "errorDairyLeavingOnlyOwner": "Nem\u016f\u017eete odej\u00edt z farmy, proto\u017ee jste jedin\u00fd\/\u00e1, kdo m\u00e1 u\u017eivatelsk\u00e9 opr\u00e1vn\u011bn\u00ed. Pros\u00edm, p\u0159edejte toto opr\u00e1vn\u011bn\u00ed alespo\u0148 jednomu u\u017eivateli a zkuste to znovu.",
+            "errorCompanyLeavingOnlyOwner": "Nem\u016f\u017eete odej\u00edt z t\u00e9to spole\u010dnosti, proto\u017ee jste jedin\u00fd\/\u00e1, kdo m\u00e1 u\u017eivatelsk\u00e9 opr\u00e1vn\u011bn\u00ed. Pros\u00edm, p\u0159edejte toto opr\u00e1vn\u011bn\u00ed alespo\u0148 jednomu u\u017eivateli a zkuste to znovu."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " N\u00e1hled str\u00e1nky firmy",
+            "leaveCompany": "Opustit spole\u010dnost"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "Centrum zpr\u00e1v",
+        "view": "Zobrazit",
+        "noMessages": "Zpr\u00e1vy",
+        "filters": {
+            "all": "V\u0161echna ozn\u00e1men\u00ed",
+            "info": "Info",
+            "news": "Novinky",
+            "alert": "Upozorn\u011bn\u00ed",
+            "warning": "Varov\u00e1n\u00ed",
+            "announcement": "Ozn\u00e1men\u00ed",
+            "system": "Syst\u00e9mov\u00e1 upozorn\u011bn\u00ed",
+            "unread": "Nep\u0159e\u010dteno",
+            "worklists": "Aktualizace pracovn\u00edch seznam\u016f"
+        },
+        "actions": {
+            "markAsRead": "Ozna\u010dit jako p\u0159e\u010dten\u00e9",
+            "showMore": "V\u00edce detail\u016f"
+        }
+    },
+    "discoverability": {
+        "yes": "ano",
+        "no": "ne",
+        "dairy": {
+            "yesDetail": "Ano, zobrazit farmu dal\u0161\u00edm u\u017eivatel\u016fm",
+            "noDetail": "Ne, nezobrazit farmu dal\u0161\u00edm u\u017eivatel\u016fm"
+        },
+        "account": {
+            "yesDetail": "Ano, chci b\u00fdt viditeln\u00fd pro ostatn\u00ed u\u017eivatele",
+            "noDetail": "Ne, nechci b\u00fdt viditeln\u00fd pro dal\u0161\u00ed u\u017eivatele"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Company Configuration",
+        "userManagement": {
+            "title": "U\u017eivatelsk\u00fd management",
+            "fromCompany": "pro tuto spole\u010dnost",
+            "userRemovedSuccess": "spole\u010dnost \u00fasp\u011b\u0161n\u011b opu\u0161t\u011bn\u00e1",
+            "inviteUserModal": {
+                "existingUser": "Zadan\u00fd email pat\u0159\u00ed aktivn\u00edmu u\u017eivateli t\u00e9to spole\u010dnosti.",
+                "confirmButton": "Pozvat",
+                "noPlatformUser": "Zadan\u00fd email nepat\u0159\u00ed aktivn\u00edmu u\u017eivateli VAS Platformy. M\u016f\u017eete p\u0159idat pouze registrovan\u00e9 u\u017eivatele."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "Nastaven\u00ed farmy",
+        "dairyInformation": "Informace o farm\u011b",
+        "dairyInfo": "Info o farm\u011b",
+        "address": "Adresa",
+        "dairyName": "N\u00e1zev farmy",
+        "dairyType": "Typ farmy",
+        "dairyMainActivity": "Hlavn\u00ed aktivita farmy",
+        "changesSavedError": "Omlouv\u00e1me se, do\u0161lo k chyb\u011b. Pros\u00edm, zkuste editovat nastaven\u00ed farmy znovu.",
+        "dairySettings": "NASTAVEN\u00cd FARMY",
+        "userManagement": "U\u017eivatelsk\u00fd management",
+        "dairyImage": "Obr\u00e1zek farmy",
+        "description": "Popis",
+        "timezone": "\u010casov\u00e9 p\u00e1smo"
+    },
+    "userManagement": {
+        "users": "U\u017eivatel\u00e9",
+        "roles": "Role",
+        "role": "Role",
+        "assignRoles": "P\u0159i\u0159azen\u00ed rol\u00ed po schv\u00e1len\u00ed \u017e\u00e1dosti o p\u0159\u00edstup.",
+        "removeUserMessage": "Odstra\u0148ujete u\u017eivatele",
+        "fromDairy": "z t\u00e9to farmy",
+        "userRemovedSuccess": "\u00fasp\u011b\u0161n\u011b odstran\u011bno z t\u00e9to farmy.",
+        "confirmRemove": "Ano",
+        "permission": "Povolen\u00ed",
+        "permissions": "Povolen\u00ed",
+        "removeUser": "Odstranit",
+        "noUsers": "Nejsou k dispozici odpov\u00eddaj\u00edc\u00ed v\u00fdsledky.",
+        "accessPending": {
+            "title": "P\u0159\u00edstup \u010dek\u00e1 na vy\u0159\u00edzen\u00ed",
+            "declineRequestMessageFistPart": "Odm\u00edt\u00e1te p\u0159\u00edstup k",
+            "declineRequestMessageSecondPart": ". Potvrzujete?",
+            "confirmDeclineRequestMessageFistPart": "\u017d\u00e1dost o p\u0159\u00edstup do ",
+            "confirmDeclineRequestMessageSecondPart": "zam\u00edtnuta.",
+            "accessRequestTo": "\u017d\u00e1dost o p\u0159\u00edstup do",
+            "confirmApproveRequestMessage": "povolena"
+        },
+        "user": "U\u017eivatel",
+        "editRoles": "Editovat role",
+        "status": "Status",
+        "updated": "Aktualizov\u00e1n",
+        "sent": "Odesl\u00e1no",
+        "noAccessPending": "Moment\u00e1ln\u011b nejsou \u017e\u00e1dosti o p\u0159\u00edstup u\u017eivatel\u016f nebo pozv\u00e1nky ke zpracov\u00e1n\u00ed.",
+        "addRole": "P\u0159idat roli",
+        "addNewRole": "P\u0159idat novou funkci",
+        "editRole": "nastavit povolen\u00ed",
+        "editUserRoles": "Nastavit pozici u\u017eivatele",
+        "assignedRoles": "P\u0159i\u0159azen\u00e9 pozice",
+        "assignedRolesHintMessage": "P\u0159i\u0159azen\u00ed pozice u\u017eivateli jejich v\u00fdb\u011brem ze seznamu vlevo",
+        "inviteUser": "P\u0159idat nov\u00e9ho u\u017eivatele",
+        "roleEdition": {
+            "roleName": "N\u00e1zev pozice",
+            "roleDescription": "Popis pozice",
+            "errorOnlyOwner": "Zm\u011bny nelze ulo\u017eit pro  %{user}, proto\u017ee jsou mo\u017en\u00e9 pouze s opr\u00e1vn\u011bn\u00edmi Spr\u00e1vy u\u017eivatel\u016f. Toto opr\u00e1vn\u011bn\u00ed p\u0159i\u0159a\u010fte alespo\u0148 jednomu jin\u00e9mu u\u017eivateli a zkuste to znovu.",
+            "errorOnlyRole": "Zm\u011bny nelze ulo\u017eit pro %{role}, proto\u017ee to je mo\u017en\u00e9 pouze s opr\u00e1vn\u011bn\u00edmi z U\u017eivatelsk\u00e9ho managementu. Toto opr\u00e1vn\u011bn\u00ed p\u0159i\u0159a\u010fte alespo\u0148 jedn\u00e9 dal\u0161\u00ed pozici a akci opakujte.",
+            "permissionType": {
+                "dairy": "Farma",
+                "herd": "St\u00e1do",
+                "feed": "Krmen\u00ed",
+                "parlor": "Doj\u00edrna"
+            },
+            "permissionsAddLabel": "Vyberte sadu opr\u00e1vn\u011bn\u00ed ud\u011blen\u00fdch pro novou pozici.",
+            "permissionsEditLabel": "Vyberte sadu opr\u00e1vn\u011bn\u00ed ud\u011blen\u00fdch pro pozici.",
+            "editZonesHelpMessagePermission": "zapsat",
+            "editZonesHelpMessage": "Pokud jste t\u00e9to roli p\u0159i\u0159adili %{permission} opr\u00e1vn\u011bn\u00ed, a m\u00e1te na va\u0161\u00ed farm\u011b v\u00edce z\u00f3n, pak mus\u00edte vybrat, kter\u00e1 z\u00f3na se aplikuje.",
+            "editZonesHintMessage": "Tento panel bude zpracov\u00e1vat opr\u00e1vn\u011bn\u00ed pro z\u00e1pis podle z\u00f3ny v p\u0159\u00edpad\u011b, \u017ee u\u017eivatel takov\u00e9 opr\u00e1vn\u011bn\u00ed m\u00e1.",
+            "permissionsMessage": "Z\u00f3ny farmy se zapsan\u00fdmi povolen\u00edmi.",
+            "allRolesFilter": "V\u0161echny pozice",
+            "noUsers": "Nejsou odpov\u00eddaj\u00edc\u00ed v\u00fdsledky."
+        },
+        "accessPendingStatus": {
+            "invited": "Pozv\u00e1no",
+            "requested": "Po\u017e\u00e1d\u00e1no",
+            "inviteDeclined": "Pozv\u00e1nka zam\u00edtnuta",
+            "accessRequestDeclined": "\u017d\u00e1dost o p\u0159\u00edstup odm\u00edtnuta",
+            "cancelInvite": "Zru\u0161it pozv\u00e1n\u00ed",
+            "resendInvite": "Opakovat pozv\u00e1n\u00ed",
+            "editInvite": "Editovat pozv\u00e1nku",
+            "approve": "Povoleno",
+            "decline": "Zam\u00edtnuto"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "Pozice",
+            "availableRolesHintMessage": "Vyberte pozice, kter\u00e9 bude u\u017eivatel spl\u0148ovat. To bude m\u00edt p\u0159\u00edm\u00fd dopad na sadu ud\u011blen\u00fdch opr\u00e1vn\u011bn\u00ed.",
+            "assignedRoles": "Pozice p\u0159id\u011bleny",
+            "confirmButtonLabel": "Pozvat u\u017eivatele",
+            "assignedRolesHintMessage": "P\u0159i\u0159azen\u00ed pozic u\u017eivateli jejich v\u00fdb\u011brem ze seznamu vlevo",
+            "existingUser": "Zadan\u00fd e-mail pat\u0159\u00ed st\u00e1vaj\u00edc\u00edmu u\u017eivateli na t\u00e9to farm\u011b.",
+            "invitationSent": "U\u017eivatel byl \u00fasp\u011b\u0161n\u011b p\u0159id\u00e1n. Pozv\u00e1nka odesl\u00e1na.",
+            "previewUserText": " Kliknut\u00edm sem zobraz\u00edte n\u00e1hled u\u017eivatele",
+            "editRoles": "Editovat pozice",
+            "existingPlatformUser": "Zadan\u00fd e-mail pat\u0159\u00ed st\u00e1vaj\u00edc\u00edmu u\u017eivateli VAS platformy.",
+            "confirmUserLine1": "Potvrdit a",
+            "confirmUserLine2": "P\u0159i\u0159azen\u00ed pozic",
+            "exisitingUserConfirmed": "POTVRZENO",
+            "invitePendingUser": "Zadan\u00fd e-mail pat\u0159\u00ed u\u017eivateli, kter\u00fd je pozv\u00e1n a neodpov\u011bd\u011bl."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "Aktualizovat pozice, kter\u00e9 m\u00e1 u\u017eivatel p\u0159id\u011blen\u00e9. To bude m\u00edt p\u0159\u00edm\u00fd dopad na sadu ud\u011blen\u00fdch opr\u00e1vn\u011bn\u00ed.",
+            "availableRolesTitle": "Dostupn\u00e9 pozice",
+            "rolesUpdated": "Pozice \u00fasp\u011b\u0161n\u011b aktualizovan\u00e9."
+        },
+        "resendInvite": {
+            "successfullySent": "Nov\u00e9 pozv\u00e1n\u00ed bylo odeslan\u00e9"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "Ru\u0161\u00edte %{user} pozv\u00e1nku. Potvrdit?",
+            "cancelConfirmationMessage": "Pozv\u00e1nka k p\u0159\u00edstupu na %{dairyName} zru\u0161ena"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "Pozice byly \u00fasp\u011b\u0161n\u011b aktualizovan\u00e9."
+        },
+        "confirmDisableRole": "Z\u00e1kazem t\u00e9to pozice zm\u011bn\u00edte p\u0159\u00edstup k aplikaci pro %{userCount} u\u017eivatele. Potvrdit?",
+        "disableRoleConfirmed": "pozice je nyn\u00ed zak\u00e1zan\u00e1",
+        "disableOnlyRoleError": "Zm\u011bny nemohou b\u00fdt pro %{role} ulo\u017een\u00e9, proto\u017ee se jedn\u00e1 o jedinou pozici s povolen\u00edm u\u017eivatelsk\u00e9ho managementu. Pros\u00edm, p\u0159esu\u0148te toto povolen\u00ed alespo\u0148 na jednoho dal\u0161\u00edho u\u017eivatele.",
+        "confirmEnableRole": "Aktivace t\u00e9to pozici p\u0159id\u00e1 dal\u0161\u00ed p\u0159\u00edstup do aplikace pro %{userCount} u\u017eivatele. Potvrdit?",
+        "enableRoleConfirmed": "pozice povolena",
+        "customizeNewRole": "P\u0159izp\u016fsobit novou pozici",
+        "writerPermissionRequireZone": "Pros\u00edm, vyberte alespo\u0148 jednu z\u00f3nu, pro kterou se aplikuj\u00ed povolen\u00ed.",
+        "roleAddedSuccessfully": "%{roleName} pozicie p\u0159idan\u00e1.",
+        "errors": {
+            "userAlreadyHasPendingRequest": "U\u017eivatel %{email} ji\u017e m\u00e1 nevy\u0159\u00edzenou \u017e\u00e1dost pro p\u0159\u00edstup na farmu %{dairyName}."
+        },
+        "addNewUser": "P\u0159idat nov\u00e9ho u\u017eivatele"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "Stav integrace",
+            "notification": "Ozn\u00e1men\u00ed",
+            "help": "Pomoc"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "Pomozte n\u00e1m zlep\u0161it se"
+        },
+        "modal": {
+            "formTitle": "Pomozte n\u00e1m zlep\u0161it se",
+            "formContent": "Neust\u00e1le pracujeme na zlep\u0161en\u00ed VAS Platformy a r\u00e1di bychom sly\u0161eli v\u00e1\u0161 n\u00e1zor co se v\u00e1m l\u00edb\u00ed a co naopak ne.",
+            "inputLabel": "Sem napi\u0161te koment\u00e1\u0159",
+            "inputRequiredMessage": "Pros\u00edm, napi\u0161te v\u00e1\u0161 koment\u00e1\u0159",
+            "submitLabel": "Odeslat koment\u00e1\u0159",
+            "defaultErrorMessage": "Ops! N\u011bco je \u0161patn\u011b. Zkuste to pros\u00edm znovu.",
+            "successCaption": "D\u011bkujeme za v\u00e1\u0161 \u010das!",
+            "successContent": "Va\u0161e zp\u011btn\u00e1 vazba byla obdr\u017eena t\u00fdmem platformy VAS a je pro n\u00e1s velmi cenn\u00e1. D\u011bkujeme, \u017ee jste n\u00e1m pomohli vylep\u0161it n\u00e1\u0161 produkt pro v\u00e1s a ostatn\u00ed!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "Status integrace",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "\u010cek\u00e1 se na data.",
+            "Pros\u00edm, brzy znovu zkontrolujte."
+        ],
+        "lastSync": "Posledn\u00ed synchronizace:",
+        "integrationRequired": "Vy\u017eaduje se integrace",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "DairyComp status",
+            "disabledModuleText": "Pokro\u010dil\u00e1 spr\u00e1va st\u00e1da a p\u0159esn\u00e9 veden\u00ed z\u00e1znam\u016f o krav\u00e1ch.",
+            "communicationStatus": {
+                "title": "Status komunikace",
+                "healthy": "Zdrav\u00fd",
+                "notHealthy": "Nemocn\u00fd",
+                "lastBeat": "Last beat:"
+            },
+            "processingStatus": {
+                "title": "Posledn\u00ed synch. dat",
+                "dataValid": "Data platn\u00e1 od:",
+                "problemEncountered": "Je n\u00e1m l\u00edto, ale p\u0159i pokusu o zobrazen\u00ed va\u0161ich nejnov\u011bj\u0161\u00edch \u00fadaj\u016f do\u0161lo k probl\u00e9mu. Pracujeme na jeho vy\u0159e\u0161en\u00ed."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "Propojen\u00ed pro FeedComp bude brzy dostupn\u00e9.",
+            "disabledModuleText": "Sledov\u00e1n\u00ed \u00fa\u010dinnosti krmen\u00ed a p\u0159\u00edjm\u016f nad n\u00e1klady na krmen\u00ed.",
+            "processingStatus": {
+                "title": "Posledn\u00ed synch. dat",
+                "lastSync": "Posledn\u00ed synch:",
+                "problemEncountered": "Je n\u00e1m l\u00edto, ale p\u0159i pokusu o zobrazen\u00ed va\u0161ich nejnov\u011bj\u0161\u00edch \u00fadaj\u016f do\u0161lo k probl\u00e9mu. Pracujeme na jeho vy\u0159e\u0161en\u00ed."
+            },
+            "feedWatchServiceStatus": {
+                "title": "Nab\u00eddka FeedWatch",
+                "serviceStatus": "Status nab\u00eddky",
+                "isRunning": "Funk\u010dn\u00ed",
+                "notRunning": "Nefunk\u010dn\u00ed"
+            },
+            "scheduledTaskStatus": {
+                "title": "Scheduled Tasks",
+                "lastRan": "Last Ran:"
+            },
+            "dairyCompImportStatus": {
+                "title": "Last DC305 Import",
+                "penCount": "Pen Count",
+                "itemData": "Item Data"
+            },
+            "sendEquipmentExport": {
+                "title": "Request Export to Equipment",
+                "sendExport": "Send Export"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "ParlorComp Status",
+            "availableSoon": "ParlorComp Integration available soon.",
+            "disabledModuleText": "Monitor parlor performance and manage production effectively."
+        }
+    },
+    "notifications": {
+        "title": "Notifications",
+        "link": "See More Details",
+        "createdPlural": "were created by the %{provider} integration",
+        "createdSingular": "was created by the %{provider} integration",
+        "updatedPlural": "were updated by the %{provider} integration",
+        "updatedSingular": "was updated by the %{provider} integration"
+    },
+    "report": {
+        "favorite": {
+            "title": "Favorite Reports"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "DairyComp Reports",
+            "menu": {
+                "reproduction": "Reproduction",
+                "transition": "Transition",
+                "mastitis": "Mastitis",
+                "production": "Production",
+                "lameness": "Lameness"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "21 Day Int.",
+                        "bredElig": "# Bred Elig.",
+                        "bred": "# Bred",
+                        "bredRisk": "Bred Risk %",
+                        "pregElig": "# Preg Elig.",
+                        "preg": "# Preg",
+                        "pregRisk": "Preg Risk %",
+                        "pregLoss": "# Preg Loss"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "Dim at 1st bred",
+                        "headCount": "Head count"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "Technician",
+                        "95Percentage": "95% Conf. Int.",
+                        "risk": "Conc. Risk%",
+                        "preg": "# Preg",
+                        "open": "# Open",
+                        "other": "# Other",
+                        "pregLoss": "# Preg  Loss",
+                        "breeding": "# Breeding",
+                        "breedingPercentage": "% Breeding",
+                        "spc": "Spc",
+                        "bottomReference": "* More than 10% of outcome are unknown"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "FeedComp Reports",
+            "menu": {
+                "feederPerformance": "Feeder Performance",
+                "feedingBasics": "Feeding basics",
+                "intake": "P\u0159\u00edjem",
+                "inventory": "Z\u00e1soba",
+                "usage": "Pou\u017eit\u00ed",
+                "economics": "Ekonomika"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "Datum",
+                        "avgPenCount": "Avg Pen Count",
+                        "dropped": "# Dropped",
+                        "avgDropped": "Pr\u016fm\u011brn\u00fd pokles",
+                        "weighBacks": "# Weighbacks",
+                        "avgWeighBacks": "Avg. WeighBacks",
+                        "dm": "# DM",
+                        "avgDmAnimal": "avg Dm\/Animal",
+                        "pen": "SKUPINA",
+                        "noPen": "\u017d\u00e1dn\u00e1 skupina k zobrazen\u00ed."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "ParlorComp V\u00fdstupy",
+            "menu": {
+                "tankWatch": "Tankwatch",
+                "milkingSummaries": "P\u0159ehled dojen\u00ed",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "Tank",
+                        "route": "Route",
+                        "date": "Datum",
+                        "weight": "V\u00e1ha (LB)",
+                        "volume": "Objem (GAL)",
+                        "fat": "Tuk (%)",
+                        "protein": "Protein (%)",
+                        "lactose": "Lakt\u00f3za (%)",
+                        "solids": "Su\u0161ina (%)",
+                        "totals": "10 denn\u00ed pr\u016fm\u011br celkem",
+                        "tankAverages": "10 denn\u00ed pr\u016fm\u011bry"
+                    }
+                }
+            }
+        },
+        "backToReports": "Zp\u011bt na reporty",
+        "addToFavorites": "P\u0159idat k obl\u00edben\u00fdm",
+        "tableView": "Tabulkov\u00e9 zobrazen\u00ed",
+        "graphView": "Graf"
+    },
+    "landing": {
+        "configureDairy": "Nastavit farmu",
+        "dairyTeammates": "Spolupracovn\u00edci",
+        "searchUser": "Vyhledat u\u017eivatele",
+        "displayName": "Zobrazit jm\u00e9no",
+        "userType": "Typ u\u017eivatele",
+        "zones": "Z\u00f3ny",
+        "downloadZOF": "St\u00e1hnout ZOF",
+        "activeRecords": "Aktivn\u00ed z\u00e1znamy",
+        "cows": "Kr\u00e1vy",
+        "heifers": "Jalovice",
+        "bulls": "B\u00fdci",
+        "inactiveRecords": "Neaktivn\u00ed z\u00e1znamy",
+        "died": "\u00dahyn",
+        "sold": "Prod\u00e1no",
+        "supportedBy": "Podporov\u00e1no",
+        "cowSearch": "Vyhledat zv\u00ed\u0159e",
+        "acceptInvite": "P\u0159ijmout pozv\u00e1n\u00ed",
+        "declineInvite": "Nep\u0159ijmout pozv\u00e1n\u00ed",
+        "accessRequested": "P\u0159\u00edstup po\u017eadov\u00e1n",
+        "cancelAccessRequested": "Zru\u0161it \u017e\u00e1dost o p\u0159\u00edstup",
+        "requestAccess": "Za\u017e\u00e1dat o p\u0159\u00edstup"
+    },
+    "errorPage": {
+        "isoLogoAlt": "VAS Platform Logo",
+        "returnHome": "N\u00e1vrat na hlavn\u00ed str\u00e1nku"
+    },
+    "error400Page": {
+        "title": "Str\u00e1nka nenalezena",
+        "description": [
+            "Z\u00e1znam, ke kter\u00e9mu se sna\u017e\u00edte dostat, je nedostupn\u00fd.",
+            "Pros\u00edm, vra\u0165te se a zkuste znovu."
+        ]
+    },
+    "error403Page": {
+        "title": "P\u0159\u00edstup zam\u00edtnut",
+        "description": [
+            "Nem\u00e1te povolen\u00ed k p\u0159\u00edstupu na tuto str\u00e1nku.",
+            "Pokud si mysl\u00edte, \u017ee p\u0159\u00edstup m\u00e1te, kontaktujte mana\u017eera farmy."
+        ]
+    },
+    "error404Page": {
+        "title": "Str\u00e1nka nenalezena",
+        "description": [
+            "Omlouv\u00e1me se, str\u00e1nku, kterou hled\u00e1te, nem\u016f\u017eeme naj\u00edt.",
+            "Mo\u017en\u00e1 zkusit n\u00e1vrat na \u00favodn\u00ed str\u00e1nku?"
+        ]
+    },
+    "error500Page": {
+        "title": "Ale ne! Narazili jsme na probl\u00e9m.",
+        "description": [
+            "Nastal probl\u00e9m se serverem a sna\u017e\u00edme se jej opravit!",
+            "Brzy budeme op\u011bt v provozu."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "Omlouv\u00e1me se!",
+        "description": [
+            "Aplikace se pot\u00fdk\u00e1 s neo\u010dek\u00e1vanou chybou.",
+            "Pros\u00edm zkuste to pozd\u011bji, n\u00e1\u0161 podp\u016frn\u00fd t\u00fdm hled\u00e1 p\u0159\u00ed\u010dinu."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "Nenalezeno",
+        "description": [
+            "Z\u00e1znam, ke kter\u00e9mu se sna\u017e\u00edte dostat, je nedostupn\u00fd.",
+            "Pros\u00edm, vra\u0165te se a zkuste to znovu."
+        ]
+    },
+    "pagination": {
+        "first": "Prvn\u00ed",
+        "last": "Posledn\u00ed",
+        "view": "N\u00e1hled",
+        "rowsPerPage": "\u0159\u00e1dk\u016f na str\u00e1nce",
+        "records": {
+            "singular": "Z\u00e1znam",
+            "plural": "Z\u00e1znam\u016f"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "Ru\u0161\u00edte \u017e\u00e1dost o p\u0159\u00edstup k",
+        "confirmCancelPart2": ". Potvrzujete?",
+        "confirmedCancel": "\u017d\u00e1dost o p\u0159\u00edstup zru\u0161en\u00e1."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Show more info",
+                "hideInfo": "Show less info",
+                "references": "Reference",
+                "updated": "Zaktualizov\u00e1no",
+                "noData": {
+                    "title": "\u017d\u00e1dn\u00e1 data",
+                    "description": "Zpr\u00e1va neobsahuje data."
+                },
+                "integrationPending": {
+                    "title": "Vy\u017eaduje se integrace",
+                    "description": "Za \u00fa\u010delem integrace kontaktujte {vasSupport}",
+                    "linkText": "VAS podpora"
+                }
+            },
+            "error": {
+                "ohNo": "Ale ne!",
+                "errorLoadingWidget": "Do\u0161lo k chyb\u011b p\u0159i nahr\u00e1n\u00ed widgetu.",
+                "tryAgainLater": "Pros\u00edm, zkuste pozd\u011bji."
+            },
+            "cowStats": {
+                "title": "Statistika krav",
+                "info": "Posledn\u00edch 30 dn\u00ed",
+                "allMilkingCows": "Dojen\u00e9 kr\u00e1vy",
+                "fresh": "Otelen\u00e9",
+                "dueDry": "Na zasu\u0161en\u00ed",
+                "toTank": "Do tanku",
+                "hospital": "Nemocnice",
+                "allDryCows": "Zasu\u0161en\u00e9 kr\u00e1vy",
+                "closeUp": "P\u0159\u00edprava na porod",
+                "farOff": "Zasu\u0161en\u00e9",
+                "allHeifers": "Jalovice",
+                "closeUpHeifers": "P\u0159\u00edprava na porod"
+            },
+            "companyCowStats": {
+                "title": "STATISTIKA KRAV - po\u010det krav za v\u0161echny farmy",
+                "milkingCows": "Dojen\u00fdch krav",
+                "dryCows": "Zasu\u0161en\u00fdch krav",
+                "heifers": "Jalovic",
+                "toTank": "Do tanku",
+                "dueDry": "K zasu\u0161en\u00ed",
+                "freshCows": "Otelen\u00fdch",
+                "hospital": "Nemocnice",
+                "closeupCows": "P\u0159\u00edprava na porod",
+                "farOffCows": "Zasu\u0161en\u00e9",
+                "closeupHeifers": "P\u0159\u00edprava na porod",
+                "notCloseupHeifers": "Nejsou v p\u0159\u00edprav\u011b"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "Jalovic",
+                    "dryCows": "Zasu\u0161en\u00fdch krav",
+                    "milkingCows": "Dojen\u00fdch krav",
+                    "toTank": "Do tanku",
+                    "hospital": "Nemocnice",
+                    "fresh": "Otelen\u00fdch",
+                    "dueDry": "P\u0159ed zasu\u0161en\u00edm",
+                    "closeUp": "P\u0159\u00edprava na porod",
+                    "farOff": "Zasu\u0161en\u00e9",
+                    "closeUpHeifers": "P\u0159\u00edprava na porod"
+                },
+                "labels": {
+                    "xAxis": "Po\u010det zv\u00ed\u0159at"
+                }
+            },
+            "events": {
+                "events": "Ud\u00e1lost\u00ed",
+                "total": "Celkem",
+                "days": {
+                    "monday": "Pon",
+                    "tuesday": "\u00dat",
+                    "wednesday": "St\u0159",
+                    "thursday": "\u010ctv",
+                    "friday": "P\u00e1t",
+                    "saturday": "So",
+                    "sunday": "Ne"
+                }
+            },
+            "econIR": {
+                "toFreshen": "K otelen\u00fdm",
+                "cows": "Krav",
+                "heifers": "Jalovic",
+                "toDry": "K zasu\u0161en\u00ed",
+                "toCull": "Na vy\u0159azen\u00ed",
+                "milkingVsDry": "Dojen\u00fdch x zasu\u0161en\u00fdch",
+                "milkingCows": "Dojen\u00fdch krav",
+                "dryCows": "Zasu\u0161en\u00fdch krav",
+                "estimatedFemalesBorn": "Odhad po\u010dtu \u017eiv\u011b narozen\u00fdch jalovic",
+                "lactGt1": "Lakt> 1",
+                "lactEq1": "Lakt = 1"
+            },
+            "heiferCountByAge": {
+                "total": "CELKEM",
+                "subtotal": "SUBTOTAL",
+                "ageSuffix": "(Yr - Mo)",
+                "age": "Podle v\u011bku",
+                "pct": "PCT",
+                "count": "po\u010det"
+            },
+            "calfReport": {
+                "alive": "\u017div\u011b",
+                "birthsLabel": "Pohlav\u00ed telat podle lakta\u010dn\u00edch skupin",
+                "dead": "Mrtv\u011b",
+                "stillBirthsLabel": "% mrtv\u011b narozen\u00fdch podle po\u0159ad\u00ed laktace",
+                "calves": "Telat",
+                "allSexes": "V\u0161echna",
+                "females": "Jalovic",
+                "males": "B\u00fd\u010dk\u016f",
+                "lactationGroup": "LGRP"
+            },
+            "conceptionRate": {
+                "bredNumber": "Po\u0159ad\u00ed ins.",
+                "percent": "Procent",
+                "labels": {
+                    "ci95": "95% Cl",
+                    "conceptionRisk": "% b\u0159ezosti",
+                    "manyRebreeds": "Mno\u017estv\u00ed reins.",
+                    "manyOpens": "Varov\u00e1n\u00ed! Hodn\u011b jalov\u00fdch",
+                    "manyUnknownBredOutcomes": "Many Unknown Bred Outcomes"
+                },
+                "table": {
+                    "conceptionPercent": "%Cb\u0159z",
+                    "pregnant": "#B\u0159ez\u00edch",
+                    "open": "#Jalov\u00fdch",
+                    "other": "Jin\u00e9",
+                    "abort": "Abort",
+                    "total": "Celkem",
+                    "totPercent": "%CELK",
+                    "spc": "ID\/B\u0158"
+                },
+                "showMoreInfo": "Uka\u017e datovou tabulku",
+                "hideMoreInfo": "Skr\u00fdt datovou tabulku"
+            },
+            "pregnancyRisk": {
+                "date": "DATUM",
+                "percent": "PROCENT",
+                "viewDataTable": "UKA\u017d DATOVOU TABULKU",
+                "closeDataTable": "SKR\u00ddT DATOVOU TABULKU",
+                "labels": {
+                    "info": "\u010cekac\u00ed doba %{value} dn\u00ed",
+                    "percentage95ci": "PR 95% CI",
+                    "inseminationRisk": "% zab\u0159ez\u00e1v\u00e1n\u00ed",
+                    "pregnancyRisk": "Pregnancy Risk",
+                    "pregnantEligible": "Celkem",
+                    "totalPregnant": "B\u0159ez\u00edch",
+                    "percentage95ciFull": "Pregnancy Risk 95% CI"
+                },
+                "table": {
+                    "ci95": "95% CI",
+                    "brElegible": "Vhodn\u00fdch",
+                    "bred": "P\u0159ipu\u0161t\u011bno",
+                    "pct": "PCT",
+                    "pgElegible": "Vhodn\u00fdch",
+                    "pregnant": "B\u0159ez\u00edch",
+                    "abort": "Zmet\u00e1n\u00ed"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "Odhadovan\u00e1 ml\u00e9\u010dn\u00e1 produkce",
+                "pounds": "Liber",
+                "poundsInHundreds": "Liber ve stech",
+                "references": "Reference",
+                "perDayPerCow": "Na den a kr\u00e1vu",
+                "perDay": "Za den",
+                "closeDataTable": "ZAV\u0158\u00cdT TABULKU DAT"
+            },
+            "dmiByPenType": {
+                "DMI": "P\u0159\u00edjem su\u0161iny"
+            },
+            "weather": {
+                "today": "Dnes",
+                "currently": "Nyn\u00ed",
+                "min": "Min.",
+                "max": "Max.",
+                "humidityAbbr": "H",
+                "currentConditions": "Aktu\u00e1ln\u00ed podm\u00ednky",
+                "pressure": "Tlak",
+                "visibility": "Viditelnost",
+                "humidity": "Vlhkost",
+                "wind": "V\u00edtr"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "Zobrazit zak\u00e1zan\u00e9 za\u0159\u00edzen\u00ed",
+                "noDisabledEquipment": "\u017d\u00e1dn\u00e9 zak\u00e1zan\u00e9 vybaven\u00ed k zobrazen\u00ed",
+                "noEnableEquipmentToShow": "Nebylo zobrazeno \u017e\u00e1dn\u00e9 aktivn\u00ed za\u0159\u00edzen\u00ed",
+                "noEquipmentToShow": "\u017d\u00e1dn\u00e9 za\u0159\u00edzen\u00ed k zobrazen\u00ed",
+                "previousLoad": "P\u0159edchoz\u00ed nakl\u00e1dka",
+                "nextLoad": "Dal\u0161\u00ed nakl\u00e1dka",
+                "targetLoad": "C\u00edlov\u00e1 nakl\u00e1dka",
+                "actualQty": "Aktu\u00e1ln\u00ed Mno\u017estv\u00ed",
+                "loadBar": {
+                    "target": "C\u00edl",
+                    "actual": "Aktu\u00e1ln\u00ed"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "ECM",
+                "fatCorrectedMilk": "FCM",
+                "averageMilk": {
+                    "labelForDay": "Pr\u016fm\u011br za posledn\u00ed den",
+                    "labelForDays": "Pr\u016fm\u011br za posledn\u00edch %{days} dn\u00ed"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "Zobraz tabulku dat",
+                "closeDataTable": "Skr\u00fdt tabulku dat",
+                "table": {
+                    "chemical": "Chemik\u00e1lie",
+                    "current": "Aktu\u00e1ln\u00ed",
+                    "average": "Pr\u016fm\u011br",
+                    "tankCapacity": "Kapacita tanku"
+                },
+                "chart": {
+                    "chemicalData": "Chemical Data",
+                    "percent": "Procent",
+                    "available": "Dostupn\u00fdch",
+                    "remaining": "Zb\u00fdvaj\u00edc\u00ed",
+                    "tank": "Tank",
+                    "percentChemical": "% chemik\u00e1li\u00ed"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "Aktu\u00e1ln\u00ed",
+                "target": "C\u00edl",
+                "tons": "Hodnota v tun\u00e1ch",
+                "tonne": "Hodnota v tun\u011b",
+                "allIngredientsLoaded": "V\u0161echny ingredience jsou spr\u00e1vn\u011b nalo\u017eeny"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "DairyComp P\u0159ehled",
+            "zoneFilters": {
+                "all": "V\u0161echny z\u00f3ny"
+            },
+            "widgets": {
+                "notReady": "Widget nen\u00ed p\u0159ipraven."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "ParlorComp P\u0159ehled",
+            "zoneFilters": {
+                "all": "V\u0161echny z\u00f3ny"
+            },
+            "widgets": {
+                "notReady": "Widget nen\u00ed p\u0159ipraven."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "FeedComp P\u0159ehled",
+            "zoneFilters": {
+                "all": "V\u0161echny z\u00f3ny"
+            },
+            "widgets": {
+                "notReady": "Widget nen\u00ed p\u0159ipraven."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "Farma",
+        "dashboard": "Dashboard",
+        "pens": "Skupiny",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "P\u0159ehled",
+            "pens": "Skupiny",
+            "worklists": "Otev\u0159\u00edt pracovn\u00ed seznamy",
+            "embryoInventory": "Embryo Inventory"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "P\u0159ehled",
+            "pens": "Skupin",
+            "ingredients": "Komponenty",
+            "recipes": "Receptury",
+            "inventoryProjections": "Z\u00e1soby a Projekce",
+            "dmAdjustments": "Korekce na % su\u0161iny",
+            "bunkScoring": "Sk\u00f3re j\u00e1my"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "P\u0159ehled",
+            "pens": "Skupin",
+            "reports": "Zpr\u00e1vy z doj\u00edrny"
+        },
+        "configureCompany": {
+            "configureCompany": "Nastaven\u00ed",
+            "userManagement": "U\u017eivatel"
+        },
+        "configureDairy": {
+            "configureDairy": "Nastavit farmu",
+            "dairyConfiguration": "Nastaven\u00ed farmy",
+            "userManagement": "U\u017eivatelsk\u00fd management"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "%{contextName} Dashboard",
+        "customization": "P\u0159izp\u016fsoben\u00ed",
+        "dashboardCustomization": "P\u0159izp\u016fsobit",
+        "dashboardCustomizeCurrent": "Customize Current Dashboard",
+        "dashboardCreate": "Create New Dashboard",
+        "dragAndDropHint": "P\u0159esunout tento widget",
+        "dashboardSaved": "%{dashboard_name} bylo \u00fasp\u011b\u0161n\u011b zm\u011bn\u011bno.",
+        "dashboardErrorSaving": "Do\u0161lo k chyb\u011b. Pros\u00edm, zkuste to znovu za p\u00e1r minutek.",
+        "dashboardMobileCustomization": "Sign in from a desktop device to customize this page."
+    },
+    "dashboardCustomization": {
+        "newDashboard": "New Dashboard",
+        "panelTitle": "Page Customization",
+        "emptyList": {
+            "company": {
+                "line1": "Nyn\u00ed nejsou dostupn\u00e9 \u017e\u00e1dn\u00e9 widgety",
+                "line2": "Pracuje na p\u0159id\u00e1n\u00ed nov\u00fd widget\u016f. Pros\u00edm, brzy se sem op\u011bt pod\u00edvejte!"
+            },
+            "dairy": {
+                "line1": "Nelze zobrazit n\u011bjak\u00e9 widgety.",
+                "line2": "M\u016f\u017eete st\u00e1hnout widgety ze sekce Widget Galerie."
+            }
+        },
+        "emptyLine1": "Kliknut\u00edm na widget na seznamu jej zobraz\u00edte zde",
+        "emptyLine2": "Chcete-li tento dashboard ulo\u017eit, mus\u00edte p\u0159idat alespo\u0148 jeden widget.",
+        "selectWidgetsTitle": "Insert Widgets",
+        "widgetLayoutDetail": "Drag and Drop to reorder widgets",
+        "selectWidgetsDescription": "Select the widgets that you want to insert in this page.",
+        "widgetsLayoutDescription": " Drag and drop to reorder widgets",
+        "unsavedChanges": "M\u00e1te neulo\u017een\u00e9 zm\u011bny. Ur\u010dit\u011b Zru\u0161it?",
+        "allWidgets": "V\u0161echny Widgety",
+        "dairyWidgets": "Faremn\u00ed Widgety",
+        "widgetTitles": {
+            "general": "Obecn\u00e9",
+            "herd": "St\u00e1do",
+            "feed": "Krmen\u00ed",
+            "parlor": "Doj\u00edrna"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "Galerie Widget\u016f",
+            "installedSuccess": "Tento %{title} widget je nyn\u00ed na va\u0161em seznamu",
+            "installedFailure": "Do\u0161lo k chyb\u011b. Zkuste to pros\u00edm znovu za chv\u00edli.",
+            "title": "Galerie widget\u016f",
+            "line1": "Klikn\u011bte na tla\u010d\u00edtko P\u0158IDAT na widgetech n\u00ed\u017ee a vyberte je jako dostupn\u00e9 mo\u017enosti na platform\u011b VAS.",
+            "line2": "Odtud je m\u016f\u017eete vlo\u017eit na hlavn\u00ed panel a p\u0159ehledov\u00e9 str\u00e1nky.",
+            "installLabel": "P\u0159idat",
+            "installedLabel": "P\u0159id\u00e1no",
+            "recentlyInstalledBadge": "Pr\u00e1v\u011b p\u0159id\u00e1no",
+            "seeRequirements": "Pod\u00edvejte se na po\u017eadavky",
+            "integrationRequired": "Po\u017eadovan\u00e1 integrace",
+            "requirements": "Po\u017eadavky",
+            "contactSupport": "Kontaktujte podporu",
+            "goBack": "Zp\u011bt"
+        },
+        "deleteModalConfirmation": "Delete this dashboard?"
+    },
+    "agreements": {
+        "pageTitle": "END-USER SUBSCRIPTION AGREEMENT & PRIVACY POLICY",
+        "pleaseReview": "Please review the End-User Subscription Agreement and Privacy Policy that follows.",
+        "readAndAgree": "In order to utilize the service, we require that you read and agree to these terms:",
+        "endUserSuscriptionAgreement": "END-USER SUBSCRIPTION AGREEMENT",
+        "privacyPolicy": "PRIVACY POLICY",
+        "readAndAgreedSubscription": "I have read and agree to the terms of the End-User Subscription Agreement.",
+        "readAndAgreedPolicy": "I have read and agree to the terms of the Privacy Policy.",
+        "cancel": "CANCEL",
+        "agreeAndContinue": "AGREE AND CONTINUE",
+        "notificationConfirmCancel": "Are you sure you want to decline? In order to utilize the service, we require that you read and agree to these terms."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "Mobile Mixer",
+            "stationaryMixer": "Stationary Mixer",
+            "deliveryTruck": "Delivery Truck",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "Ingredients",
+            "location": "Location",
+            "locations": "Locations",
+            "dmPercent": "DM%",
+            "afCostTon": "AF Cost\/Ton",
+            "afCostMetricTon": "AF Cost\/Metric Ton",
+            "currentOnHandAF": "Current On-Hand AF",
+            "daysLeft": "Days Left",
+            "inRecipe": "In Recipe",
+            "trackingEnabled": "Tracking Enabled",
+            "notTracked": "Not tracked",
+            "dailyAf": "Daily AF",
+            "weighback": "Weighback",
+            "allowed": "Povoleno",
+            "notAllowed": "Nepovoleno",
+            "afProjections": "AF Projections",
+            "days": "Dn\u00ed",
+            "currentAf": "Current AF",
+            "afCost": "AF Cost",
+            "dmCost": "DM Cost",
+            "dmPercentage": "DM Percent",
+            "lastDmHistory": "Last DM% History",
+            "filter": "Filtr",
+            "filterApplied": "filtr pou\u017eit",
+            "filtersApplied": "filtry pou\u017eity",
+            "clear": "Vy\u010distit",
+            "type": "Typ",
+            "premix": "Premix",
+            "optionSelected": "vybran\u00e1 mo\u017enost",
+            "optionsSelected": "mo\u017enosti vybr\u00e1ny",
+            "lastInventoryMovements": {
+                "title": "Posledn\u00ed pohyby z\u00e1sob",
+                "date": "Datum",
+                "type": "Typ",
+                "afTons": "AF (tons)",
+                "runningTotal": "Running Total (tons)",
+                "inventoryTypes": {
+                    "delivery": "Dod\u00e1no",
+                    "sale": "Prodej",
+                    "adjustment": "Korekce",
+                    "usage": "Pou\u017eit\u00ed",
+                    "initialInventory": "Po\u010d\u00e1te\u010dn\u00ed z\u00e1soba",
+                    "transferIn": "P\u0159esun dovnit\u0159",
+                    "transforOut": "P\u0159esun ven"
+                }
+            },
+            "filterOptions": {
+                "all": "V\u0161e",
+                "inRecipes": "Pouze v receptur\u00e1ch",
+                "notInRecipes": "Nen\u00ed v receptur\u00e1ch",
+                "onlyPremixes": "Pouze Premixy",
+                "notPremixes": "Ne Premixy"
+            },
+            "recipes": {
+                "title": "%{ingredientName} pou\u017eit\u00ed v receptu\u0159e",
+                "recipeName": "N\u00e1zev receptury",
+                "DM": "DM QTY \/HD",
+                "AF": "AF QTY \/HD",
+                "pens": "Skupin krmen\u00fdch touto recepturou",
+                "animalsFed": "Zv\u00ed\u0159at nakrmeno",
+                "dailyAFUsage": "Daily AF Usage",
+                "placeholderLine1": "Vybran\u00e1 komponenta nen\u00ed",
+                "placeholderLine2": "pou\u017eit\u00e1 v n\u011bkter\u00e9 receptu\u0159e."
+            }
+        },
+        "dmAdjustments": {
+            "title": "Location DM% Adjustments",
+            "name": "N\u00e1zev komponentu",
+            "type": "Typ",
+            "location": "Um\u00edst\u011bn\u00ed",
+            "lastChange": "Posledn\u00ed zm\u011bna",
+            "responsible": "Zodpov\u011bdn\u00fd",
+            "dmPercent": "Su\u0161ina%",
+            "lastDmHistory": "Last DM% History",
+            "noDmHistory": "No DM% History Available",
+            "validation": {
+                "dmPercent": "Values have to be below 100%",
+                "percentChange": "V\u00edce ne\u017e 5% zm\u011bna"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "Zm\u011bna v su\u0161in\u011b",
+                    "message": "Zm\u011bna je o v\u00edce ne\u017e (+\/-) 5%, ur\u010dit\u011b chcete ud\u011blat zm\u011bnu?",
+                    "confirmLabel": "Ano"
+                },
+                "cancelChanges": {
+                    "title": "Zahodit neulo\u017een\u00e9 zm\u011bny?",
+                    "confirmLabel": "Zahodit"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "Receptury",
+            "activeRecipes": "Aktivn\u00ed receptury",
+            "otherRecipes": "Ostatn\u00ed receptury",
+            "recipeDm": "Recipe DM %",
+            "densityFactor": "Density Factor",
+            "afCostTon": "AF cost\/ton",
+            "currentlyReplacing": "Currently Replacing",
+            "premix": "premix",
+            "alternativeRecipe": "Alternativn\u00ed receptura",
+            "animalsFed": "Krmeno zv\u00ed\u0159at",
+            "pensFed": "Krmeno skupin",
+            "list": "Seznam receptur",
+            "inRecipe": "V RECEPTU\u0158E",
+            "dmhd": "DM \/ HD",
+            "afhd": "AF \/ HD",
+            "dm": "SU\u0160INA",
+            "dmPercent": "SU\u0160INA %",
+            "afCostHd": "af cost\/hd",
+            "active": "aktivn\u00ed",
+            "replaced": "vym\u011bn\u011bno",
+            "activeAlternative": "Active Alternative",
+            "seeMore": "see more",
+            "directions": "Recipe Directions",
+            "sequence": "Seq",
+            "ingredient": "Komponenta",
+            "location": "Um\u00edstn\u011bn\u00ed",
+            "af": "AF",
+            "afPercent": "AF %",
+            "pensUsing": "Skupiny s touto recepturou",
+            "total": "Celkem",
+            "recipeComposition": "Slo\u017een\u00ed receptury",
+            "alternate": "Alternate",
+            "instructions": {
+                "saveSequenceSuccess": "Sekvence byla \u00fasp\u011b\u0161n\u011b editovan\u00e1!",
+                "reorderHint": "Chcete-li zm\u011bnit po\u0159ad\u00ed sekvence, pou\u017eijte \u0161ipky vlevo nebo p\u0159et\u00e1hn\u011bte slo\u017eku.",
+                "validation": {
+                    "quantity": "Mno\u017estv\u00ed mus\u00ed b\u00fdt v\u00edce ne\u017e nula",
+                    "required": "Hodnota mus\u00ed existovat!"
+                }
+            },
+            "pens": {
+                "pen": "Skupina",
+                "type": "Typ",
+                "use": "Pou\u017eit\u00ed",
+                "description": "Popis"
+            }
+        },
+        "inventory": {
+            "title": "Z\u00e1soba",
+            "projections": {
+                "title": "Z\u00e1soba a v\u00fdhled",
+                "name": "N\u00e1zev",
+                "type": "Typ",
+                "location": "Um\u00edstn\u011bn\u00ed",
+                "afQty": "AF Qty",
+                "afCost": "AF Cost",
+                "dailyAf": "Daily AF",
+                "nextDays": "Dal\u0161\u00edch %{day} Dn\u00ed %{unit}",
+                "daysLeft": "Z\u016fst\u00e1v\u00e1 dn\u00ed",
+                "all": "V\u0161e",
+                "notTracked": "Nesledov\u00e1no",
+                "youreRunningOutOf": "You're running out of:"
+            }
+        },
+        "bunkScoring": {
+            "title": "Hodnocen\u00ed \u017elabu",
+            "animalsToFeed": "Zv\u00ed\u0159at ke krmen\u00ed",
+            "targetDmHd": "Target DM\/HD (%{unit})",
+            "feeding": "Krmen\u00ed",
+            "active": "Aktivn\u00ed",
+            "inactive": "Neaktivn\u00ed",
+            "lastDaysFeedings": "Last %{days} Days Feedings",
+            "filter": "Filtrovat",
+            "all": "V\u0161e",
+            "clear": "Vy\u010distit",
+            "lastUpdated": "Posledn\u00ed aktualizace",
+            "modal": {
+                "title": "Zm\u011bna v krmen\u00ed",
+                "bodyText": "Are you sure you want to %{state} Feeding in PEN %{penNumber}",
+                "confirmLabel": "Ano, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "SEM P\u0158ET\u00c1HN\u011aTE OBR\u00c1ZEK",
+        "line2": "Pou\u017eijte JPG nebo PNG",
+        "addImage": "P\u0158IDAT OBR\u00c1ZEK",
+        "changeImage": "ZM\u011aNIT OBR\u00c1ZEK"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "Status doj\u00edrny",
+        "milk": {
+            "name": "Ml\u00e9ko",
+            "currentShift": "Aktu\u00e1ln\u00ed sm\u011bna",
+            "currentPen": "Aktu\u00e1ln\u00ed skupina",
+            "currentFlow": {
+                "title": "Aktu\u00e1ln\u00ed pr\u016ftok",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "Krav ve skupin\u011b",
+            "currentPenTotalMilk": {
+                "title": "Celkov\u00fd n\u00e1doj aktu\u00e1ln\u00ed skupiny",
+                "value": "%{value} GAL"
+            },
+            "currentShiftTotalMilk": {
+                "title": "Celkov\u00fd n\u00e1doj aktu\u00e1ln\u00ed sm\u011bny",
+                "value": "%{value} GAL"
+            },
+            "totalTime": {
+                "title": "Celkov\u00fd \u010das",
+                "value": "%{value} MIN"
+            },
+            "secStall": "Sek\/st\u00e1n\u00ed",
+            "rotary": {
+                "title": "Posledn\u00ed data",
+                "name": "Kruhov\u00e1",
+                "minsTurn": "Minut\/Ot\u00e1\u010dka",
+                "secStall": "Sek\/st\u00e1n\u00ed",
+                "cowsHour": "Krav\/Hodinu",
+                "turnsHour": "Ot\u00e1\u010dek\/Hodinu",
+                "statistic": {
+                    "fastest": "Nejrychlej\u0161\u00ed",
+                    "average": "Pr\u016fm\u011br",
+                    "effective": "Efektivita"
+                }
+            },
+            "currentTask": {
+                "title": "Aktu\u00e1ln\u00ed \u00fakoly",
+                "task": "\u00dakol",
+                "cows": "Krav"
+            }
+        },
+        "wash": {
+            "name": "Proplach",
+            "minTemp": "Min Tep.",
+            "currentWashCycle": "Aktu\u00e1ln\u00ed proplach. cyklus",
+            "currentFlow": {
+                "title": "Aktu\u00e1ln\u00ed pr\u016ftok",
+                "value": "%{value} GAL"
+            },
+            "currentWashTotal": {
+                "title": "Current Wash Total",
+                "value": "%{value} GAL"
+            },
+            "washCycle": {
+                "rinse": "Oplach",
+                "wash": "Myt\u00ed",
+                "acid": "Kyselina"
+            }
+        },
+        "currentTemp": {
+            "title": "Akt. teplota"
+        },
+        "minTemp": {
+            "title": "Min. Teplota"
+        },
+        "maxTemp": {
+            "title": "Max. Teplota"
+        },
+        "tempAlarm": {
+            "title": "Tepl. Alarm",
+            "values": {
+                "none": "\u017d\u00e1dn\u00fd",
+                "high": "Vysok\u00e1 teplota"
+            }
+        },
+        "lastWashStatus": {
+            "title": "Posledn\u00ed myc\u00ed cyklus",
+            "values": {
+                "good": "Dobr\u00e9",
+                "bad": "\u0160patn\u00e9"
+            }
+        },
+        "washAlarm": {
+            "title": "Myc\u00ed poplach",
+            "values": {
+                "none": "\u017d\u00e1dn\u00e9",
+                "lowTemp": "N\u00edzk\u00e1 Teplota"
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "Karet",
+        "title": {
+            "line1": "Nejsou %{type}",
+            "line2": "k zobrazen\u00ed",
+            "line3": "s t\u00edmto filtrem",
+            "line4": "v t\u00e9to"
+        },
+        "types": {
+            "lists": "listy",
+            "error": "Do\u0161lo k ne\u010dekan\u00e9 chyb\u011b"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "Zpr\u00e1vy doj\u00edrny",
+            "noParlorToShow": "Doj\u00edrny nejsou k dispozici",
+            "typeOfParlor": "Typ doj\u00edrny",
+            "manufacturer": "V\u00fdrobce",
+            "stalls": "St\u00e1n\u00ed",
+            "currentShift": "Aktu\u00e1ln\u00ed sm\u011bna",
+            "currentPen": "Aktu\u00e1ln\u00ed skupina",
+            "parlorTitle": "Doj\u00edrna",
+            "parlorTypes": {
+                "herringbone": "Rybinov\u00e1",
+                "parallel": "Paraleln\u00ed",
+                "rotary": "Kruhov\u00e1"
+            },
+            "lastMilkingsReports": {
+                "title": "Informace o posledn\u00edm dojen\u00ed",
+                "milkings": {
+                    "pen": "Skupina",
+                    "totalMilk": "Celkem ml\u00e9ka",
+                    "milkHr": "Ml\u00e9ka\/hod",
+                    "milkCow": "Ml\u00e9ka\/kr\u00e1vu",
+                    "cows": "krav",
+                    "cowsHr": "Krav\/hod",
+                    "totalTime": "Celkov\u00fd \u010das",
+                    "startTime": "Za\u010d\u00e1tek",
+                    "stopTime": "Konec",
+                    "penGap": "Pen Gap",
+                    "maxTemp": "Max Tepl",
+                    "penDev": "Pen dev",
+                    "totalAvg": "Celkem\/Pr\u016fm.",
+                    "total": "celkem"
+                },
+                "washings": {
+                    "washupPhase": "Washup phase",
+                    "totalFlow": "celkov\u00fd pr\u016ftok",
+                    "totalTime": "celkov\u00fd \u010das",
+                    "startTime": "za\u010d\u00e1tek",
+                    "stopTime": "konec",
+                    "minTemp": "Min tep.",
+                    "maxTemp": "Max tep.",
+                    "flowMin": "Pr\u016ftok\/Min",
+                    "rinse": "Rinse",
+                    "wash": "Proplach",
+                    "acid": "Kyselina",
+                    "init": "Zah\u00e1jit",
+                    "washAcid": "Proplach a kyselina",
+                    "idle": "Ne\u010dinnost"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "Stat. posl. dojen\u00ed",
+                "barGraphView": "Sloupcov\u00fd graf",
+                "tableView": "Tabulka",
+                "totalMilk": "Ml\u00e9ko celkem",
+                "averageMilkPerHour": "Pr\u016fm. Ml\/hod",
+                "averageDuration": "Pr\u016fm. Trv\u00e1n\u00ed",
+                "averageCowsPerHour": "Pr\u016fm. krav\/hod",
+                "milking": "Dojen\u00ed",
+                "milkPerHour": "Ml\u00e9ka\/hod",
+                "duration": "Trv\u00e1n\u00ed",
+                "cowsPerHour": "Krav\/hod.",
+                "hours": "hod.",
+                "minutes": "min",
+                "totalAverage": "Celkem\/Pr\u016fm."
+            },
+            "lastRotaryData": {
+                "title": "Posledn\u00ed data"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Ozn\u00e1men\u00ed"
+    },
+    "embryoInventory": {
+        "title": "Embryo Inventory"
+    },
+    "frozenEmbryos": {
+        "title": "frozen"
+    },
+    "freshEmbryos": {
+        "title": "fresh"
+    },
+    "transferredEmbryos": {
+        "title": "P\u0159enesen\u00e1 embrya"
+    },
+    "Embryo": {
+        "title": "Embryos",
+        "from": "From",
+        "to": "To",
+        "stage": "Stage",
+        "grade": "Grade",
+        "status": "Storage",
+        "type": "Type",
+        "clear": "Clear",
+        "recipient": "Recipient",
+        "date": "Date",
+        "sire": "Sire",
+        "donor": "Donor",
+        "tech": "Tech",
+        "brCode": "BRCode",
+        "breedingCode": "Breeding Code",
+        "storage": "Storage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Embryo Breed",
+        "eage": "Eage",
+        "embryoAge": "Embryo Age",
+        "tank": "Tank",
+        "cane": "Cane",
+        "straw": "Straw",
+        "frozenAt": "Frozen @",
+        "method": "Method",
+        "incubator": "Incubator",
+        "strawVial": "Straw\/Vial",
+        "stageOpts": {
+            "1": "Unfertilized",
+            "2": "Simple Celled",
+            "3": "Early Morula",
+            "4": "Morula",
+            "5": "Early Blastocyst",
+            "6": "Blastocyst",
+            "7": "Expanded Blastocyst",
+            "8": "Hatched Blastocyst",
+            "9": "Expanded Hatched Blastocyst"
+        },
+        "methods": {
+            "unknown": "Unknown",
+            "slow": "Slow",
+            "dt": "DT"
+        },
+        "gradeOpts": {
+            "1": "Unspecified",
+            "2": "Good",
+            "3": "Fair",
+            "4": "Poor",
+            "5": "Dead"
+        },
+        "storageType": {
+            "fresh": "Fresh",
+            "frozen": "Frozen"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Other"
+        }
+    }
+}

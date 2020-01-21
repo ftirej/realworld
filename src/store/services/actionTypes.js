@@ -1,0 +1,1 @@
+export const SERVICE_ERROR = 'SERVICE_ERROR'

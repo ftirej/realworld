@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "Correo Electr\u00f3nico",
+        "error": "Error",
+        "password": "Contrase\u00f1a",
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "delete": "Eliminar",
+        "close": "Cerrar",
+        "done": "Listo",
+        "refresh": "Refrescar",
+        "loading": "Cargando ...",
+        "edit": "Editar",
+        "editCard": "Editar Tarjeta",
+        "hide": "Ocultar",
+        "hideCard": "Ocultar Tarjeta",
+        "yes": "Si",
+        "yes_discard": "Si, Deshacer",
+        "no": "No",
+        "cancelMessage": "Hay cambios sin guardar. \u00bfDeseas Cancelar?",
+        "changesSavedSuccessfully": "Cambios guardados!",
+        "changesSavedError": "Ocurri\u00f3 un error al guardar la informaci\u00f3n. Por favor, intente nuevamente en unos minutos",
+        "unknownError": "Error Desconocido.",
+        "tableView": "Tabla",
+        "graphView": "Ver en Gr\u00e1fico",
+        "ok": "ok",
+        "requiredFields": "Campo Requerido",
+        "clear": "Limpiar",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "disabled": "Deshabilitado",
+        "view": "Ver",
+        "doConfirm": "\u00bfDeseas Confirmar?",
+        "enable": "Habilitar",
+        "disable": "Inhabilitar",
+        "acceptMessage": "No puedes realizar esta operaci\u00f3n.",
+        "welcome": "Bienvenido",
+        "passwordHelp": "\u00bfNecesit\u00e1 ayuda con tu contrase\u00f1a?",
+        "next": "Siguiente",
+        "back": "Anterior",
+        "successfullyUpdated": "fue actualizado exitosamente.",
+        "vasPlatformLogo": "Logotipo de la plataforma VAS",
+        "learnMore": "Conocer m\u00e1s",
+        "accountHome": "Inicio",
+        "comingSoon": "\u00a1Pr\u00f3ximamente!",
+        "notDefined": "No definido",
+        "current": "Actual",
+        "previous": "Anterior",
+        "clearAll": "Borrar Todo",
+        "preview": "Previsualizaci\u00f3n",
+        "leave": "Abandonar",
+        "undefined": "Indefinido",
+        "backToTop": "Volver arriba",
+        "activate": "Activar",
+        "deactivate": "Desactivar",
+        "days": {
+            "monday": "Lu",
+            "tuesday": "Ma",
+            "wednesday": "Mi",
+            "thursday": "Ju",
+            "friday": "Vi",
+            "saturday": "S\u00e1",
+            "sunday": "Do"
+        },
+        "monthsShort": {
+            "jan": "Ene",
+            "feb": "Feb",
+            "mar": "Mar",
+            "apr": "Abr",
+            "may": "May",
+            "jun": "Jun",
+            "jul": "Jul",
+            "aug": "Ago",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Dec"
+        },
+        "months": {
+            "jan": "Enero",
+            "feb": "Febrero",
+            "mar": "Marzo",
+            "apr": "Abril",
+            "may": "Mayo",
+            "jun": "Junio",
+            "jul": "Julio",
+            "aug": "Agosto",
+            "sep": "Septiembre",
+            "oct": "Octubre",
+            "nov": "Noviembre",
+            "dec": "Diciembre"
+        },
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "help": {
+            "tag": "\u00bfNecesitas ayuda?",
+            "learnMore": "\u00a1Descubre m\u00e1s",
+            "about": " sobre",
+            "labels": {
+                "worklists": "Listas de Comando",
+                "commands": {
+                    "platform": "\u00a1Comandos de la Plataforma!",
+                    "list": "el Comando LIST",
+                    "sum": "el Comando SUM!",
+                    "count": "el Comando COUNT!"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animales"
+        }
+    },
+    "unitSystems": {
+        "metric": "Sistema M\u00e9trico",
+        "imperial": "Sistema Imperial"
+    },
+    "unitSystemsLabels": {
+        "metric": "Kilogramos, Litros, Celcius, Miligramos",
+        "imperial": "Libras, Galones, Fahrenheit, Onzas"
+    },
+    "recentCommands": {
+        "title": "Comandos Recientes",
+        "edit": "EDITAR",
+        "noCommands": "No hay comandos\nrecientes",
+        "viewResults": "Ver Resultados"
+    },
+    "units": {
+        "inHundreds": "%{unit} en centenas",
+        "pounds": "Libras",
+        "inPounds": "%{value} lbs",
+        "kilograms": "Kilogramos",
+        "inKilograms": "%{value} kg",
+        "gallons": "Galones",
+        "inGallons": "%{value} Gal",
+        "inGallonsPerMinute": "%{value} GPM",
+        "inLitres": "%{value} Lt",
+        "inLitresPerMinute": "%{value} LPM",
+        "hg": "Pulgadas de mercurio",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "Millas",
+        "inMiles": "%{value} mi",
+        "inKilometers": "%{value} km",
+        "mph": "Millas por hora",
+        "inKph": "%{value} km\/h",
+        "inMph": "%{value} mph",
+        "inOunces": "%{value} oz",
+        "inGrams": "%{value} g",
+        "inTons": "%{value} t",
+        "inTonne": "%{value} T",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "tons",
+        "metricTons": "t",
+        "ton": "ton",
+        "metricTon": "t",
+        "lbs": "LBs",
+        "kg": "kg",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "lbs",
+                "singular": "libra",
+                "plural": "libras"
+            },
+            "metric": {
+                "symbol": "kg",
+                "singular": "kilogramo",
+                "plural": "kilogramos"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "t",
+                "singular": "ton",
+                "plural": "tons"
+            },
+            "metric": {
+                "symbol": "T",
+                "singular": "tonelada",
+                "plural": "toneladas"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "oz",
+                "singular": "onzas",
+                "plural": "onzas"
+            },
+            "metric": {
+                "symbol": "gr",
+                "singular": "gramos",
+                "plural": "gramos"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "gal",
+                "singular": "gal\u00f3n",
+                "plural": "galones"
+            },
+            "metric": {
+                "symbol": "lt",
+                "singular": "litro",
+                "plural": "litros"
+            },
+            "singular": {
+                "metric": "lt",
+                "imperial": "gal"
+            },
+            "plural": {
+                "metric": "lts",
+                "imperial": "gal"
+            }
+        }
+    },
+    "dates": {
+        "day": "D\u00eda",
+        "month": "Mes",
+        "year": "A\u00f1o"
+    },
+    "login": {
+        "forgotPassword": "\u00bfOlvidaste tu Contrase\u00f1a?",
+        "login": "Iniciar sesi\u00f3n",
+        "signIn": "Por favor, ingresa tus credenciales",
+        "signInHere": "Inicia sesi\u00f3n aqu\u00ed",
+        "sessionExpired": "Sesi\u00f3n expirada",
+        "rememberMe": "Recu\u00e9rdame",
+        "sessionExpiredMessage": "La sesi\u00f3n expir\u00f3 debido a inactividad, por favor inicia sesi\u00f3n nuevamente para continuar.",
+        "invalidCredentials": "Correo o contrase\u00f1a incorrectos. Por favor, intente nuevamente.",
+        "sessionClosedByChangedPassword": "Contrase\u00f1a Actualizada",
+        "sessionClosedByChangedPasswordMessage": "Contrase\u00f1a modificada con \u00e9xito. Inicie sesi\u00f3n nuevamente para continuar"
+    },
+    "keto": {
+        "graphDesc": "Pred. Cetosis\/Test.",
+        "references": "REFERENCIAS",
+        "tableTitle": "Prevalencia de Cetosis",
+        "tableDesc": "Cetosis predecida\/ Animales Testeados",
+        "yAxis": "Nivel de Prevalencia %",
+        "allAnimals": "TODOS LOS ANIMALES",
+        "earlyFresh": "PREVALENCIAS DE RECI\u00c9N FRESCA",
+        "firstLact": "1ra LACT",
+        "secondLact": "2da LACT",
+        "secondPlusLact": "2da+ LACT",
+        "target": "OBJETIVO",
+        "overall": "(5 a 20 DIM)",
+        "early": "(5 a 11 DIM)",
+        "animals": "Animales",
+        "earlyFreshDim": "RECI\u00c9N FRESCA (5-11 DIM)"
+    },
+    "commandLine": {
+        "title": "COMANDO",
+        "execute": "EJECUTAR",
+        "placeholder": "Escribe un comando",
+        "invalid": "Comando inv\u00e1lido",
+        "unsupported": "Comando no soportado",
+        "results": {
+            "title": "Resultados del Comando",
+            "executed": "Ejecutado",
+            "loading": "Cargando",
+            "print": "Imprimir",
+            "export": "Exportar",
+            "showGraph": "Ver Gr\u00e1fico",
+            "hideGraph": "Ocultar Gr\u00e1fico",
+            "noMatch": "No Hay Resultados"
+        },
+        "sum": {
+            "by": "Para (By)",
+            "pct": "PCT %",
+            "count": "Conteo",
+            "field": "%{modifier} %{field}",
+            "total": "Total",
+            "sum": "Item",
+            "childrenBy": "POR %{child} EN %{parent}",
+            "noByOrSum": "{amount} animales en este grupo",
+            "range": "Rango",
+            "standardDeviation": "Desviaci\u00f3n Est\u00e1ndar"
+        },
+        "count": {
+            "inGroup": "Animales en este grupo"
+        }
+    },
+    "signup": {
+        "setupAccount": "Configuremos su cuenta",
+        "tokenExpired": "El enlace de registro ha caducado, por favor ingrese su correo electr\u00f3nico nuevamente",
+        "errorFetchingToken": "Se ha producido un error al intentar verificar el enlace de registro. Por favor, int\u00e9ntalo de nuevo.",
+        "setPassword": "Establece tu contrase\u00f1a",
+        "signup": "Registrarse",
+        "email": "Correo Electr\u00f3nico",
+        "profile": "Perfil",
+        "password": "Contrase\u00f1a",
+        "firstStepThanksMessage": "Gracias por tu inter\u00e9s en la Plataforma VAS.",
+        "needEmail": "Por favor ingresa tu correo electr\u00f3nico para iniciar sesi\u00f3n.",
+        "haveAccount": "\u00bfYa tienes una cuenta?",
+        "emptyEmail": "Por favor, ingresa su direcci\u00f3n de correo electr\u00f3nico.",
+        "invalidEmail": "Por favor, ingresa tu correo electr\u00f3nico.",
+        "defaultError": "Hubo un problema al registrarse. Por favor, intenta nuevamente en unos minutos.",
+        "emailExists": "Tu correo ya se encuentra registrado en la Plataforma VAS.",
+        "emailSent": "Te enviaremos un correo electr\u00f3nico a ",
+        "checkInbox": "Por favor, verifica tu correo electr\u00f3nico para confirmar y completar el registro.",
+        "firstName": "Nombre ",
+        "lastName": "Apellido",
+        "country": "Pa\u00eds",
+        "state": "Estado",
+        "city": "Ciudad",
+        "postalCode": "C\u00f3digo Postal",
+        "enterPassword": "Escriba su Contrase\u00f1a",
+        "reEnterPassword": "Confirme su Contrase\u00f1a",
+        "allSet": "Listo!",
+        "accountCreated": "Cuenta creada exitosamente.",
+        "continueToAgreements": "Presione abajo para visualizar el End-User Subscription Agreement y Privacy Policy, y comience a utilizar la Plataforma VAS.",
+        "continue": "Continuar",
+        "gotMobile": "\u00bfDispositivo m\u00f3vil?",
+        "tryVasInMobile": "Pruebe la plataforma VAS en su dispositivo.",
+        "addProfilePicture": "IMAGEN",
+        "error": {
+            "firstName": "Por Favor Ingres\u00e1 tu Nombre.",
+            "lastName": "Por Favor Ingres\u00e1 tu Apellido.",
+            "country": "Se requiere que ingreses el Pais.",
+            "state": "Se requiere que ingreses el Estado.",
+            "city": "Se requiere que ingreses la Ciudad.",
+            "postalCode": "Se requiere que ingreses el c\u00f3digo postal.",
+            "passwordIsEmpty": "Por favor, ingresa una contrase\u00f1a.",
+            "passwordMinimumRequirements": "La contrase\u00f1a no cumple los requerimientos m\u00ednimos.",
+            "passwordNotMatch": "La contrase\u00f1a no coincide.",
+            "rePasswordEmpty": "Por favor, escriba de nuevo su contrase\u00f1a",
+            "signingUp": "Error al Registrarse. Por favor vuelva a intentar."
+        }
+    },
+    "expiredToken": {
+        "title": "\u00a1Lo sentimos!",
+        "type": {
+            "signup": "completa el registro",
+            "reset": "restablecer tu contrase\u00f1a"
+        },
+        "line1": "Tu tiempo para %{type} ha expirado!",
+        "line2": "Por favor reingresa tu direcci\u00f3n de email para recibir un nuevo enlace.",
+        "send": "Enviar"
+    },
+    "forgotPassword": {
+        "forgotPassword": "\u00bfOlvidaste tu contrase\u00f1a?",
+        "subtitle_": "Ingresa tu direcci\u00f3n de correo electr\u00f3nico y te enviaremos",
+        "_subtitle": " las instrucciones para restablecer la contrase\u00f1a.",
+        "titleMessage": "Revisa tu correo electr\u00f3nico.",
+        "description_": "Si una cuenta coincide con",
+        "_description": "recibir\u00e1s un correo con un enlace para cambiar tu Contrase\u00f1a.",
+        "continueSignup": "Un email fue enviado a %{email}. Por favor, abre tu casilla de correo para continuar con el registro",
+        "backToLogin": "Regresar al inicio de sesi\u00f3n"
+    },
+    "passwordReset": {
+        "setNewPassword": "Definir nueva contrase\u00f1a",
+        "tokenExpired": "El enlace de restablecimiento de contrase\u00f1a ha caducado, por favor ingresa tu correo electr\u00f3nico nuevamente"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "Tu navegador no es soportado",
+            "line1": "Para usar la Plataforma VAS, debes usar uno de estos",
+            "line2": "Navegadores soportados",
+            "line3": "Haz click para descargar"
+        }
+    },
+    "chart": {
+        "charts": "gr\u00e1ficos",
+        "rechart": "Tabla - gr\u00e1fico de l\u00ednea",
+        "rechartArea": "Tabla - \u00c1rea de gr\u00e1fico simple",
+        "slider": "Barra",
+        "sliderValue": "Valores de Barra",
+        "rcSlider": "rc-Barra",
+        "gauge": "Indicador",
+        "liquidGauge": "Indicador de liquido",
+        "tempGauge": "Indicador de temperatura",
+        "emptyPlaceholder": {
+            "title": "Sin informaci\u00f3n a\u00fan",
+            "description": "No hay informaci\u00f3n suficiente como para representar el gr\u00e1fico para este reporte."
+        }
+    },
+    "filter": {
+        "results": "Resultados de B\u00fasqueda",
+        "label": "Filtrar por",
+        "clearFilter": "Borrar filtros",
+        "clearFilters": "Borrar filtros",
+        "dateError": "La fecha l\u00edmite no puede ser anterior a la fecha inicial",
+        "type": {
+            "pen": "Pen"
+        },
+        "placeholder": {
+            "pen": "N\u00famero de Pen"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "General",
+            "parentage": "Linaje",
+            "currentLactation": "Curva de Lactancia",
+            "milkInfo": "Producci\u00f3n de Leche",
+            "matings": "Seleci\u00f3n de toros",
+            "scanning": "Escaners",
+            "offspring": "Cria",
+            "vet": "Vet",
+            "event": {
+                "events": "Eventos",
+                "eventsBar": "Barra de tarjeta de eventos",
+                "dualTable": "tabla doble",
+                "singleTable": "tabla simple",
+                "details": "Detalles",
+                "responsible": "Responsable",
+                "pen": "Pen",
+                "date": "Fecha",
+                "event": "Evento",
+                "remarks": "Comentarios",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "No hay eventos que mostrar."
+            },
+            "lactation": {
+                "lactation": "LACTACION",
+                "dairyLactation": "Gr\u00e1fica de Lactancia",
+                "dairyLactationWithParams": "Gr\u00e1fica de Lactancia desde %{dateFor} hasta %{dateTo}",
+                "weeklyLactationLineChart": "Gr\u00e1fico semanal de Lactancia",
+                "noLactations": "No hay Lactancia para mostrar.",
+                "barGraph": "Gr\u00e1fico de Barra",
+                "lineGraph": "Gr\u00e1fico de L\u00ednea"
+            },
+            "lactations": {
+                "noLactations": "No hay Lactancia a mostrar.",
+                "summary": "Resumen de Lactancias",
+                "prevLactsGraphic": "Producci\u00f3n Semanal de Leche por Lactancia",
+                "age": "AGE",
+                "dim": "DIM",
+                "lactationNumber": "N\u00famero de lactancia"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "No hay infomarcion de leche diaria a mostrar.",
+                "dimTooltip": "DIM",
+                "milking": "producci\u00f3n #",
+                "today": "Hoy",
+                "average": "Promedio",
+                "avg": "PROM",
+                "expected": "Esperado",
+                "exp": "Esp",
+                "deviation": "Desviaci\u00f3n",
+                "total": "TOTAL",
+                "estimatedMilk": "Producci\u00f3n de leche estimada"
+            },
+            "overview": {
+                "statusItems": "Estatus de los \u00cdtems",
+                "recentEvents": "Eventos Recientes",
+                "moreEvents": "M\u00e1s Eventos",
+                "recentTestdays": "Controles m\u00e1s Recientes",
+                "moreTestdays": "Mas d\u00edas de controles",
+                "moreItems": "M\u00e1s \u00cdtems",
+                "dailyRecentProduction": "Producci\u00f3n de leche diaria reciente"
+            },
+            "testDays": {
+                "noTests": "No hay TestDays a mostrar.",
+                "date": "Fecha",
+                "milk": "Leche",
+                "dim": "DIM",
+                "pen": "PEN"
+            },
+            "statusGroup": {
+                "noItems": "No hay items a mostrar."
+            },
+            "pedigree": {
+                "pedigree": "Pedigree",
+                "graphicView": "Graphic View",
+                "PDFView": "Ver PDF"
+            },
+            "penChange": {
+                "penChanges": "Cambio de Pen",
+                "noPenChanges": "No hay cambio de Pen a mostrar.",
+                "date": "Fecha ",
+                "daysInPen": "D\u00edas en el Pen",
+                "movedToPen": "Movido al Pen",
+                "PremiseId": "ID de origen",
+                "fromTo": "De - A",
+                "dim": "DIM",
+                "source": "Origen",
+                "testday": "TESTDAY",
+                "responsible": "Responsable",
+                "penTransfer": {
+                    "in": "EN"
+                }
+            },
+            "sensor": {
+                "sensors": "Sensores",
+                "accordionTitle": "Actividad SCR - Datos de Sensores de Rumia"
+            },
+            "testDay": {
+                "testDays": "Controles de leche",
+                "testDaysResults": "Resultados de Dia del Control mensual de leche",
+                "yAxisLayers": "REFERENCIAS",
+                "productionGraphByTestday": "Gr\u00e1fica de producci\u00f3n por fecha de control",
+                "testDaysToolTipTitle": "# de control de leche"
+            },
+            "productionMilk": {
+                "noItems": "No hay datos de producci\u00f3n de leche a mostrar."
+            },
+            "type": {
+                "adultCow": "Vaca",
+                "bull": "Toro",
+                "calf": "Becerra",
+                "heifer": "Vaquilla"
+            },
+            "farmName": "FNAME",
+            "cowName": "BNAME",
+            "pen": "Pen",
+            "lact": "Lact",
+            "rpro": "Rpro",
+            "dim": "DIM",
+            "dslh": "DSLH",
+            "dcc": "DCC",
+            "due": "DUE",
+            "ardat": "ARDAT",
+            "milkWithhold": "Retiro de Leche",
+            "meatWithhold": "Retiro de Carne",
+            "reproductionCode": {
+                "heiferCalf": "CRIA HEMBRA",
+                "noBred": "NOINSEM",
+                "fresh": "PARTO",
+                "ok": "OK\/ VACIA",
+                "bred": "INSEM",
+                "preg": "PRE\u00d1ADA",
+                "dry": "SECA",
+                "sld": "VENDIDA\/ MUERTA",
+                "bull": "CRIA MACHO"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "Editar Tarjeta de Items",
+                    "cardsPreview": "Tarjeta previa",
+                    "dragAndDropReorder": "Para ordenar los Items arrastra y suelta",
+                    "addItems": "A\u00f1adir Items",
+                    "cardName": "Nombre de Tarjeta",
+                    "searchSpecificCowItem": "Buscar item espec\u00edfico ...",
+                    "cancelMessage": "Tienes cambios sin guardar. Seguro que quiere cancelar?",
+                    "validation": "Agrega al menos un item antes de guardar.",
+                    "noItems": "Agrega al menos un item para obtener una vista previa de la nueva tarjeta.",
+                    "isMobile": "\u00bfMostrar en sitio m\u00f3vil?"
+                },
+                "add": {
+                    "itemBoxTitle": "Agregar Items a la tarjeta",
+                    "error": "Lo sientimos, ha ocurrido un error. Intenta agregar la tarjeta nuevamente.",
+                    "newItemsCard": "tarjeta nueva"
+                },
+                "hide": {
+                    "title": "\u00bfOcultar tarjeta de items?",
+                    "line1": "Puedes restaurar tarjetas ocultas ",
+                    "line2": "haciendo clic en 'Restaurar tarjeta oculta'",
+                    "confirm": "Si, ocultar"
+                },
+                "restoreCard": "Restaurar tarjeta oculta",
+                "addCard": "A\u00f1adir nueva tarjeta",
+                "restore": {
+                    "boxTitle": "A\u00f1adir tarjeta oculta",
+                    "edition": {
+                        "title": "Seleccionar Tarjeta",
+                        "subTitle": "Las tarjetas ocultas anteriormente pueden agregarse en esta pantalla."
+                    },
+                    "noHiddenCardTitle": "Nombre de la Tarjeta",
+                    "error": "Lo Sentimos, A ocurrido un error. Intenta nuevamente para a\u00f1adir una tarjeta oculta.",
+                    "noItems": "Haz click en la tarjeta de items para examinarla."
+                },
+                "successUpdate": "fue actualizado exitosamente",
+                "notSuccessUpdate": "Se produjo un error al guardar la informaci\u00f3n. Por favor, int\u00e9ntelo de nuevo en unos minutos",
+                "itemCard": "Tarjeta de Item",
+                "itemCardSuccessfullyAdded": "a\u00f1adido con \u00e9xito",
+                "itemCardSuccessfullyRestored": "restauraci\u00f3n de items exitosa",
+                "itemCardSuccessfullyHidden": "Tarjeta de items ocultada con \u00e9xito",
+                "itemCardColorPaletteLabel": "Color",
+                "itemCardColorPaletteDefault": "Color Predeterminado",
+                "itemCardBackgroundColorPickerLabel": "Color de fondo",
+                "itemCardForegroundColorPickerLabel": "Color de texto"
+            },
+            "subMenu": {
+                "overview": "Resumen",
+                "items": "Items",
+                "events": "Eventos",
+                "testDays": "D\u00eda de Prueba",
+                "lactations": "Lactancias",
+                "dailyMilk": "Leche diaria",
+                "penChanges": "Cambios de Pen",
+                "pedigree": "Pedigree",
+                "partners": "Servicios Asociados"
+            },
+            "recentProduction": {
+                "milking": "Producci\u00f3n #"
+            },
+            "dead": "MUERTA",
+            "alive": "VIVA",
+            "sold": "VENDIDA",
+            "placeholder": {
+                "title": "No hay items para mostrar",
+                "description": "Configura tu tarjeta de items para verlos aqu\u00ed."
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "bdate",
+                        "weanDateTitle": "fecha de destete",
+                        "sexTitle": "sexo",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Datos de la crianza de la becerra",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} d\u00edas %{preposition} la fecha esperada de destete",
+                            "prepositionUntil": "hasta",
+                            "prepositionPast": "pasado",
+                            "projected": "PROYECTADO",
+                            "weaned": "destetado",
+                            "weaning": "destete"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 d\u00edas",
+                        "todayTitle": "hoy",
+                        "averageDailyGainTitle": "pda",
+                        "title": "Peso",
+                        "perDay": "d",
+                        "popover": "Si tu lecher\u00eda est\u00e1 equipada con una balanza de medio cuerpo F\u00f6rster, este es el peso real de animal. Si no, este peso es estimado en base a la edad del becerro."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "leche",
+                        "concentrationTitle": "concentraci\u00f3n",
+                        "additiveTitle": "Aditivo",
+                        "title": "Consumo Total",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Proporci\u00f3n Permitida",
+                        "dipsMilkIntake": "# ca\u00eddas en el consumo de leche",
+                        "avgBreaksDay": "Prom. cortes \/ d\u00eda",
+                        "avgDailySteps": "Prom. pasos diarios",
+                        "daysOnPrescription": "d\u00edas con prescripci\u00f3n"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Velocidad de Bebida",
+                        "speed": "velocidad",
+                        "timeUnit": "m",
+                        "day": "D\u00eda"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Comportamiento de Bebida",
+                        "milk": "leche"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Consumo de Leche",
+                        "consumption": "Consumici\u00f3n",
+                        "lastTwoDays": "\u00faltimos 2 d\u00edas",
+                        "visitNumber": "Visita %{number}",
+                        "visitRange": "Visitas %{from} al %{to}",
+                        "visit": "visita",
+                        "withoutFeeding": "sin alimentar",
+                        "additive": "aditivo",
+                        "total": "total",
+                        "yesterdayTarget": "objetivo de ayer",
+                        "todayEntitlement": "permitido de hoy",
+                        "timeRange": "%{from} al %{to}"
+                    },
+                    "common": {
+                        "amount": "cantidad",
+                        "entitlement": "permitido",
+                        "today": "Hoy",
+                        "yesterday": "Ayer",
+                        "now": "ahora",
+                        "widgetNotFound": "No hay informaci\u00f3n de %{name} para mostrar para este animal",
+                        "widgetCommunicationError": "Error de Comunicaci\u00f3n"
+                    }
+                },
+                "table": {
+                    "message": "Mensaje",
+                    "dateAndTime": "Fecha y hora",
+                    "observations": "Observaciones"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "Temperatura",
+                        "ph": "PH",
+                        "activity": "Actividad"
+                    },
+                    "views": {
+                        "view": "Vista",
+                        "last24hs": "\u00daltimas 24hs",
+                        "last7days": "\u00daltimos 7 d\u00edas",
+                        "last30days": "\u00daltimos 30 d\u00edas"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "Ingesta de agua insuficiente",
+                    "health102": "Aumento ciclos de bebida",
+                    "health103": "Reducci\u00f3n ciclos de bebida",
+                    "health104": "Aumento temperatura",
+                    "health106": "Descenso temperatura",
+                    "health601": "THI \u2265 72 estr\u00e9s t\u00e9rmico",
+                    "health602": "THI \u2265 78 estr\u00e9s t\u00e9rmico",
+                    "health603": "THI \u2265 82 estr\u00e9s t\u00e9rmico",
+                    "health703": "Reducci\u00f3n actividad f\u00edsica",
+                    "fertility105": "Indicaci\u00f3n de un parto pr\u00f3ximo",
+                    "fertility702": "Per\u00edodo de celo",
+                    "feeding201": "Eficiencia de la alimentaci\u00f3n",
+                    "feeding202": "Riesgo acidosis",
+                    "feeding203": "Aumento valor medio pH",
+                    "feeding204": "Descenso valor medio pH",
+                    "feeding205": "Aumento valor medio pH media jornada",
+                    "feeding206": "Descenso valor medio pH media jornada",
+                    "actincrease701": "Aumento actividad f\u00edsica",
+                    "actincrease704": "Aumento actividad f\u00edsica",
+                    "heat": "Detecci\u00f3n de calor",
+                    "insemination": "Inseminaci\u00f3n de un animal",
+                    "pregnancyResult": "Resultado positivo o negativo de embarazo",
+                    "calvingDetection": "Detecci\u00f3n de parto",
+                    "dryOff": "Seca",
+                    "calvingConfirmation": "Confirmaci\u00f3n de parto"
+                },
+                "selectPartner": "Servicio Asociado:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "No hay datos del sensor de SmaXtec a mostrar para este animal"
+            }
+        },
+        "overview": {
+            "page": "Vista general del hato"
+        },
+        "pens": {
+            "penList": "Lista de Pens",
+            "animalCost": "Costo del Animal",
+            "space": "Espacio",
+            "capacity": "Capacidad",
+            "count": "Conteo",
+            "extra": "Extra",
+            "feed": "Alimentaci\u00f3n",
+            "feedingHdCount": "Animales en Alimento",
+            "feedingCount": "Feeding Count",
+            "herd": "Hato",
+            "label": "Etiqueta",
+            "pen": "Pen",
+            "penCost": "Costo del Pen",
+            "penCount": "Conteo de Pen",
+            "pens": "Pens",
+            "penType": "Tipo de Pen",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Conteo de Animales",
+            "premiseId": "ID del Sitio",
+            "targetDmHd": "Objetivo de MS\/Animal",
+            "costPerHd": "COSTO \/ANIMAL",
+            "type": "Tipo",
+            "view": "Ver",
+            "zone": "Zona",
+            "views": {
+                "table": "Tabla",
+                "cards": "Tarjetas"
+            },
+            "penTypes": {
+                "allPenTypes": "Todos los Tipos de Pen",
+                "isArtificialInseminationPen": "IA",
+                "isBullPen": "Toro",
+                "isCalfPen": "Becerro",
+                "isDryPen": "Seca",
+                "isHospitalPen": "Hosp",
+                "isMilkingPen": "Ord",
+                "isUserPen": "Usuario",
+                "fullName": {
+                    "allPenTypes": "Todos",
+                    "isArtificialInseminationPen": "IA",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Becerra",
+                    "isDryPen": "Seca",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Orde\u00f1o",
+                    "isUserPen": "Usuario"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "Listas de Comando abiertas",
+            "todayTitle": "Hoy",
+            "upcomingTitle": "Pr\u00f3ximos",
+            "lastDaysTitle": "\u00daltimos 3 d\u00edas",
+            "accordionTitle": "Listas",
+            "time": {
+                "week": "Una semana atr\u00e1s",
+                "yesterday": "De Ayer",
+                "today": "De Hoy"
+            },
+            "help": {
+                "tag": "\u00bfNecesitas ayuda?",
+                "link": "\u00a1Descubre m\u00e1s sobre las Listas de Comando!"
+            },
+            "tableHead": {
+                "name": "Nombre",
+                "listDate": "Lista de fechas",
+                "listType": "Lista de tipos",
+                "status": "Estado",
+                "progress": "Progreso",
+                "description": "Descripci\u00f3n",
+                "ondone": "Ondone",
+                "postProcess": "Post Procesado"
+            },
+            "progress": {
+                "animals": "Animales",
+                "toBeProcessed": "a procesar",
+                "filterNoResults": "No hay animales para mostrar en esta pesta\u00f1a con este filtro."
+            },
+            "status": {
+                "open": "Abierto",
+                "closed": "Cerrado",
+                "delivered": "Entregado",
+                "todo": "Por hacer",
+                "pending": "Pendiente",
+                "inProgress": "En progreso",
+                "queued": "En cola",
+                "processed": "Procesado"
+            },
+            "changeStatus": {
+                "todo": "por hacer",
+                "done": "completado",
+                "completed": "Completado",
+                "processed": "Procesado",
+                "toBeProcessed": "A Ser Procesado"
+            },
+            "identificationType": {
+                "unknown": "desconocido",
+                "tap": "manual",
+                "scan": "escaneado",
+                "voice": "voz"
+            },
+            "tableColumns": {
+                "method": "M\u00e9todo",
+                "doneBy": "Completado por",
+                "updatedAt": "Completado el",
+                "changeStatus": "Estado"
+            },
+            "noItems": "No hay listas para mostrar",
+            "listDetailsPageTitle": "Detalles de la lista",
+            "tabs": {
+                "todo": "por hacer",
+                "done": "completado"
+            },
+            "details": {
+                "table": {
+                    "id": "ID",
+                    "pen": "PEN",
+                    "lact": "LACT",
+                    "rprod": "RPROD",
+                    "dim": "DIM",
+                    "dcc": "DCC",
+                    "milk": "MILK",
+                    "all": "todos"
+                }
+            },
+            "listTypes": {
+                "todolist": "lista de tareas"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Definiciones de Items",
+            "name": "Nombre",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Tipo",
+            "description": "Descripci\u00f3n",
+            "standardItemNumber": "Est\u00e1ndar #",
+            "filterPlaceholder": "Nombre, # o Descripci\u00f3n"
+        },
+        "eventDefinitions": {
+            "title": "Definiciones de Eventos",
+            "number": "N\u00famero",
+            "eventName": "Nombre de evento",
+            "standardEventCode": "Est\u00e1ndar #",
+            "team": "Equipo",
+            "gap": "Lapso",
+            "command": "Comando",
+            "filterPlaceholder": "Nombre de Evento, # o Comando"
+        },
+        "protocols": {
+            "title": "Protocolos",
+            "number": "P#",
+            "event": "Evento",
+            "protocol": "Protocolo",
+            "remark": "Observaci\u00f3n",
+            "goToPen": "Ir al Pen",
+            "milkWithold": "Retiro de Leche",
+            "meatWithold": "Retiro de Carne",
+            "timeOnProtocol": "Tiempo en Protocolo",
+            "adult": "Adulta",
+            "heifer": "Vaquilla",
+            "team": "Equipo",
+            "recheck": "Re chequear",
+            "order": "Order",
+            "prompt": "D",
+            "days": {
+                "singular": "d\u00eda",
+                "plural": "d\u00edas"
+            },
+            "showInactive": "Mostrar Inactivo",
+            "details": "Detalles del Protocolo",
+            "hasPrompt": "Di\u00e1logo: S\u00ed"
+        }
+    },
+    "home": {
+        "home": "Inicio",
+        "title": "Programa de VAS",
+        "searchboxPlaceholder": "Buscar un Animal",
+        "selectContext": "Selecciona un %{context}",
+        "context": {
+            "dairy": "Lecher\u00eda",
+            "company": "Compa\u00f1\u00eda",
+            "companyOrDairy": "Compa\u00f1\u00eda o Lecher\u00eda",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Con\u00e9ctate con tu primer lecher\u00eda desde",
+                "myHome": "Inicio",
+                "pendingInvitationPreppend": "Tienes una invitaci\u00f3n pendiente.\nIr a",
+                "pendingInvitationAppend": "para aceptar."
+            }
+        },
+        "dairyProfile": "Perfil de la Lecher\u00eda",
+        "selectDairy": "Selecciona una Lecher\u00eda",
+        "search": {
+            "noResults": "Ninguna lecher\u00eda coincide con esta b\u00fasqueda"
+        }
+    },
+    "validation": {
+        "invalidName": "Ingresa un nombre v\u00e1lido.",
+        "invalidEmail": "Ingresa un correo electr\u00f3nico v\u00e1lido.",
+        "emptyEmail": "Ingresa un correo electr\u00f3nico.",
+        "invalidPassword": "La contrase\u00f1a debe tener 6 caracteres.",
+        "emptyPassword": "Ingresa tu Contrese\u00f1a.",
+        "passwordNotMatch": "La contrase\u00f1a no coincide.",
+        "retypePassword": "Vuelva a escribir su contrase\u00f1a.",
+        "passwordMinimumRequirements": "La contrase\u00f1a no cumple con los requerimientos.",
+        "invalidCardName": "La tarjeta de Items debe tener 6 caracteres como m\u00ednimo.",
+        "emptyCardName": "Ingresa el nombre de la tarjeta de los Items.",
+        "changePassword": {
+            "emptyCurrentPassword": "Ingresa tu contrase\u00f1a actual.",
+            "emptyNewPassword": "Ingresa nueva contrase\u00f1a.",
+            "emptyConfirmNewPassword": "Confirme su nueva contrase\u00f1a."
+        },
+        "address": {
+            "emptyCountry": "Selecciona tu pa\u00eds.",
+            "emptyStateProvince": "Por favor, %{action} un estado",
+            "selectStateProvince": "seleccion\u00e1",
+            "enterStateProvince": "escriba",
+            "emptyCity": "Selecciona tu ciudad.",
+            "emptyPostalCode": "Ingresa tu C\u00f3digo Postal."
+        },
+        "dairy": {
+            "emptyName": "Ingresa el nombre de la Lecher\u00eda."
+        },
+        "invalidMobilePhoneNumber": "Ingres\u00e1 un n\u00famero de celular v\u00e1lido. Aseg\u00farate de que sean solo n\u00fameros, sin espacios.",
+        "invalidPhoneNumber": "Ingresa un n\u00famero de celular v\u00e1lido. Aseg\u00farate de solo ingresar n\u00fameros sin espacios.",
+        "limitCharacters": "Sobrepasa el l\u00edmite de espacio de los caracteres de este campo.",
+        "accountSettings": {
+            "firstName": "Por favor, ingresa tu nombre",
+            "lastName": "Por favor, ingresa tu apellido"
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404 No encontrado",
+            "line1": "Lo sentimos, la p\u00e1gina que esta buscando no esta disponible.",
+            "line2": "Vuelve a intentar o vaya a"
+        },
+        "tokenInvalid": "El token de restablecimiento de contrase\u00f1a no es v\u00e1lido.",
+        "unableChange": "No puedes cambiar la contrase\u00f1a.",
+        "401": "No autorizado",
+        "500": "Error Interno del Servidor",
+        "passwordInvalid": "Contrase\u00f1a incorrecta."
+    },
+    "password": {
+        "passwordCreated": "Contrase\u00f1a Creada",
+        "passwordSuccessfullyCreated": "Contrase\u00f1a creada con \u00e9xito.",
+        "passwordUpdated": "Contrase\u00f1a Actualizada",
+        "passwordSuccessfullyChanged": "Contrase\u00f1a actualizada con \u00e9xito.",
+        "continueToHome": "Continuar al inicio",
+        "enterPassword": "Ingresa tu contrase\u00f1a",
+        "savePassword": "Guardar Contrase\u00f1a",
+        "passwordRequirements": "Requerimientos de contrase\u00f1a",
+        "unableToChange": "No se pudo cambiar la contrase\u00f1a.",
+        "setPassword": "Crea tu contrase\u00f1a",
+        "invalidToken": {
+            "invalidToken": "Token inv\u00e1lido.",
+            "title_line1": "Su invitaci\u00f3n a",
+            "title_line2": "La Plataforma VAS expir\u00f3",
+            "line1": "Env\u00edanos un correo electr\u00f3nico a",
+            "line2": "o llama al",
+            "line3": "para obtener una nueva invitaci\u00f3n."
+        },
+        "ValidPassword": {
+            "minLength": "Debe llevar un m\u00ednimo de (6) caracteres.",
+            "numbersAndLetters": "Debe llevar letras y n\u00fameros.",
+            "lowerUpperCases": "Debe llevar letras may\u00fasculas y min\u00fasculas."
+        }
+    },
+    "breadcrumb": {
+        "operations": "Operaciones",
+        "herd": "Hato",
+        "cows": "Vacas",
+        "pens": "Pens",
+        "ID": "ID",
+        "overview": "Vista General",
+        "company": "Compa\u00f1\u00eda",
+        "dairy": "Lecher\u00eda",
+        "dairyComp": "DairyComp",
+        "dashboard": "Tablero",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "Listas de Comando abiertas",
+        "messageCenter": "Centro de Mensajes"
+    },
+    "footer": {
+        "title": "Plataforma de VAS"
+    },
+    "search": {
+        "searchHistory": "Buscar Historial",
+        "searchResults": "Resultados de B\u00fasqueda",
+        "noResults": "Ning\u00fan animal coincide con esta b\u00fasqueda",
+        "searchForCow": "Buscar un Animal",
+        "firstResult": "Primer Resultado",
+        "thirdResult": "Tercer Resultado"
+    },
+    "dairy": {
+        "noDairiesConnected": "No hay lecher\u00edas conectadas",
+        "noDairiesText_": "Con\u00e9ctese a su primer lecher\u00eda desde la pantalla de ",
+        "requestAccessSuccess": "Acceso solicitado con \u00e9xito a"
+    },
+    "menu": {
+        "myHome": "Inicio",
+        "impersonationLabel": "Admin como",
+        "dairyManager": "Administrador",
+        "accountSettings": "Configuraci\u00f3n de Cuenta",
+        "logOut": "Cerrar Sesi\u00f3n",
+        "reports": "Reportes",
+        "favorites": "Favoritos",
+        "favoriteReports": "Reportes Favoritos",
+        "dairyInformation": "Informaci\u00f3n de la Lecher\u00eda",
+        "dairyConfiguration": "Configuraci\u00f3n de la Lecher\u00eda",
+        "operations": "Operaciones",
+        "userManagement": "Administraci\u00f3n de Usuarios",
+        "messageCenter": "Centro de Mensajes"
+    },
+    "accountSettings": {
+        "account": "Cuenta",
+        "myAccount": "Mi Cuenta",
+        "userProfile": "Perfil de Usuario",
+        "changeMyPassword": "Cambiar mi contrase\u00f1a",
+        "password": "Contrase\u00f1a",
+        "mobilePhoneNumber": "N\u00famero de Celular",
+        "phoneNumberValidationOnlyNumbers": "Ingresar s\u00f3lo n\u00fameros en el campo de n\u00famero de celular.",
+        "phoneNumberValidationExtensionNumbers": "Por favor, ingresa s\u00f3lo tu n\u00famero sin extensi\u00f3n.",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "dateFormat": "Formato de fecha",
+        "timeFormat": "Formato de hora",
+        "howYouPreferSeeDates": "Como prefieres ver la fecha en la aplicaci\u00f3n",
+        "howYouPreferSeeTimes": "Como prefieres ver la hora en la aplicaci\u00f3n",
+        "address": "Direcci\u00f3n",
+        "units": "Unidades",
+        "chooseDisplayUnits": "Elije la forma para mostrar las unidades",
+        "language": "Idioma",
+        "languageToDisplay": "Idioma que se mostrar\u00e1 en la Plataforma VAS",
+        "aboutMe": "Acerca de m\u00ed",
+        "amIDiscoverable": "\u00bfPuedo ser encontrado?",
+        "isDiscoverable": "\u00bfPuede ser encontrada?",
+        "youCanBeContacted": "\u00bfDeseas que te puedan contactar otros usuarios de la aplicaci\u00f3n?",
+        "youWantYourDairyFound": "\u00bfQuieres que otros usuarios puedan ver la ubicaci\u00f3n de tu lecher\u00eda?",
+        "country": "Pa\u00eds",
+        "state": "Estado",
+        "city": "Cuidad",
+        "addressLine1": "L\u00ednea 1 Direcci\u00f3n",
+        "addressLine2": "L\u00ednea 2 Direcci\u00f3n",
+        "addressEmail": "Correo Electr\u00f3nico de la Direcci\u00f3n",
+        "phoneNumber": "N\u00famero Telef\u00f3nico",
+        "email": "Correo Electr\u00f3nico",
+        "web": "Web",
+        "currentPassword": "Contrase\u00f1a Actual",
+        "newPassword": "Nueva Contrase\u00f1a",
+        "confirmNewPassword": "Confirmar Contrase\u00f1a",
+        "physicalAddress": "Direcci\u00f3n F\u00edsica",
+        "billingAddress": "Dirreci\u00f3n para enviar",
+        "theEmailGravatarDescription_line1": "Correo electr\u00f3nico que usar\u00e1 para iniciar sesi\u00f3n.",
+        "theEmailGravatarDescription_line2_part1": "Utilizar ",
+        "theEmailGravatarDescription_line2_part2": " como proveedor para su foto, podr\u00eda tomar alg\u00fan tiempo para actualizar.",
+        "profileSettings": "Configuraci\u00f3n de Perfil",
+        "postalCode": "C\u00f3digo Postal",
+        "profilePicture": {
+            "title": "AGREGAR FOTO DE PERFIL",
+            "line1": "Arrastra una imagen a la izquierda o selecciona una de tu librer\u00eda para definirla como foto de perfil",
+            "line2": "Puedes ajustar el tama\u00f1o y la posici\u00f3n de la foto despu\u00e9s de subirla.",
+            "condition1": "Usa un archivo JPG o PNG.",
+            "condition2": "El l\u00edmite de tama\u00f1o es de 150k",
+            "condition3": "Tama\u00f1os de im\u00e1genes soportados: 32x32, 100x100 o 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "Anuncios",
+            "whatsNewDetails": "Bienvenido a la Plataforma VAS, aqu\u00ed encontrar\u00e1s anuncios",
+            "myDairies": "Mis Lecher\u00edas",
+            "search": {
+                "placeholder": "Encuentra y con\u00e9ctate a una nueva lecher\u00eda "
+            }
+        },
+        "myDairies": {
+            "noDairies": "No hay lecher\u00edas que mostrar",
+            "dairyColumnTitle": "Lecher\u00eda",
+            "locationColumnTitle": "Ubicaci\u00f3n",
+            "statusColumnTitle": "Estado",
+            "invitationText": "Has sido invitado a ",
+            "requestAccessText": "Has solicitado acceso a ",
+            "viewDairyPage": " Ver p\u00e1gina de Lecher\u00eda",
+            "acceptAction": "Aceptar",
+            "declineAction": "Rechazar",
+            "cancelAction": "Cancelar Solicitud",
+            "leaveDairy": "Abandonar Lecher\u00eda",
+            "status": {
+                "invited": "Invitado",
+                "requested": "Esperando Aprobaci\u00f3n",
+                "connected": "Conectado"
+            }
+        },
+        "myConnections": {
+            "title": "Mis Conexiones",
+            "noConnections": "No hay conexiones para mostrar",
+            "connect": "Con\u00e9ctate a una nueva lecher\u00eda",
+            "viewList": "Ver Lista de Conexiones"
+        },
+        "dairiesFilterPlaceholder": "Buscar Lecher\u00eda",
+        "connectionInvite": {
+            "accepted": "Aceptar invitaci\u00f3n a",
+            "confirmDeclinePart1": "Est\u00e1s rechazando la invitaci\u00f3n a",
+            "confirmDeclinePart2": ". \u00bfDeseas Confirmar?",
+            "declined": "Cancelar invitaci\u00f3n a",
+            "notFound": "El registro que intentas revisar ya no est\u00e1 disponible."
+        },
+        "connectionLeave": {
+            "confirmed": "Te has desconectado exitosamente de",
+            "confirmLeave": "\u00bfEst\u00e1s seguro de abandonar",
+            "errorDairyLeaving": "Ocurri\u00f3 un error al intentar abandonar la lecher\u00eda. Por favor, intente nuevamente en unos minutos",
+            "errorCompanyLeaving": "Ocurri\u00f3 un error al intentar abandonar la compa\u00f1\u00eda. Por favor, intente nuevamente en unos minutos",
+            "errorDairyLeavingOnlyOwner": "No puedes abandonar esta lecher\u00eda porque actualmente eres el \u00fanico usuario con permiso de Administraci\u00f3n de Usuarios. Por favor asigne este permiso a otro usuario e intente nuevamente.",
+            "errorCompanyLeavingOnlyOwner": "No puedes abandonar esta compa\u00f1\u00eda porque actualmente eres el \u00fanico usuario con permiso de Administraci\u00f3n de Usuarios. Por favor asigne este permiso a otro usuario e intente nuevamente."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " Ver p\u00e1gina de Compa\u00f1\u00eda",
+            "leaveCompany": "Abandonar Compa\u00f1\u00eda"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "Centro de Mensajes",
+        "view": "Vista",
+        "noMessages": "Mensajes",
+        "filters": {
+            "all": "Todas las notificaciones",
+            "info": "Informaci\u00f3n",
+            "news": "Noticias",
+            "alert": "Alerta",
+            "warning": "Advertencia",
+            "announcement": "Anuncios",
+            "system": "Notificaciones del sistema",
+            "unread": "No le\u00eddos",
+            "worklists": "Actualizaciones de Listas de Comando"
+        },
+        "actions": {
+            "markAsRead": "Marcar como Leido",
+            "showMore": "Ver M\u00e1s Detalles"
+        }
+    },
+    "discoverability": {
+        "yes": "S\u00cd",
+        "no": "NO",
+        "dairy": {
+            "yesDetail": "S\u00ed, que s\u00ed est\u00e9 visible mi lecher\u00eda para otros usuarios",
+            "noDetail": "No, que no est\u00e9 visible mi lecher\u00eda para otros usuarios"
+        },
+        "account": {
+            "yesDetail": "S\u00ed, quiero ser visible para otros usuarios",
+            "noDetail": "No, no quiero ser visible para otros usuarios"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Configuraci\u00f3n de la Compa\u00f1\u00eda",
+        "userManagement": {
+            "title": "Administraci\u00f3n de Usuarios",
+            "fromCompany": "de esta compa\u00f1\u00eda",
+            "userRemovedSuccess": "ha sido removido exitosamente de la Compa\u00f1\u00eda.",
+            "inviteUserModal": {
+                "existingUser": "El correo electr\u00f3nico ingresado pertenece a un usuario existente en esta compa\u00f1\u00eda.",
+                "confirmButton": "Invitar",
+                "noPlatformUser": "El correo electr\u00f3nico ingresado no pertenece a un usuario existente en la Plataforma VAS. Solo puedes agregar usuarios registrados."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "Configuraci\u00f3n de la Lecher\u00eda",
+        "dairyInformation": "Informaci\u00f3n de la Lecher\u00eda",
+        "dairyInfo": "Info Lecher\u00eda",
+        "address": "Direcci\u00f3n",
+        "dairyName": "Nombre de la Lecher\u00eda",
+        "dairyType": "Tipo de lecher\u00eda",
+        "dairyMainActivity": "Actividad principal de la Lecher\u00eda",
+        "changesSavedError": "Lo sentimos, ha ocurrido un error. Ingresa nuevamente a la Configuraci\u00f3n de la Lecher\u00eda.",
+        "dairySettings": "Ajuste de la lecher\u00eda",
+        "userManagement": "Administraci\u00f3n de Usuarios",
+        "dairyImage": "Imagen de la Lecher\u00eda",
+        "description": "Descripci\u00f3n",
+        "timezone": "Zona Horaria"
+    },
+    "userManagement": {
+        "users": "Usuarios",
+        "roles": "Roles",
+        "role": "Rol",
+        "assignRoles": "Asignar roles una vez que sea aprovada la solicitud de acceso.",
+        "removeUserMessage": "Est\u00e1s eliminando el usuario",
+        "fromDairy": "de esta lecher\u00eda",
+        "userRemovedSuccess": "se ha removido exitosamente de la Lecher\u00eda.",
+        "confirmRemove": "S\u00ed",
+        "permission": "Permiso",
+        "permissions": "Permisos",
+        "removeUser": "Eliminar",
+        "noUsers": "No se encontraron resultados.",
+        "accessPending": {
+            "title": "Acceso pendiente",
+            "declineRequestMessageFistPart": "Est\u00e1s rechazando el acceso a",
+            "declineRequestMessageSecondPart": ". \u00bfDeseas Confirmar?",
+            "confirmDeclineRequestMessageFistPart": "Solicitud de acceso a",
+            "confirmDeclineRequestMessageSecondPart": "rechazado.",
+            "accessRequestTo": "Solicitud de acceso a",
+            "confirmApproveRequestMessage": "aprobado"
+        },
+        "user": "Usuario",
+        "editRoles": "Editar Roles",
+        "status": "Estado",
+        "updated": "Actualizado",
+        "sent": "Enviado",
+        "noAccessPending": "No hay solicitudes de acceso de usuario o invitaciones para procesar en este momento.",
+        "addRole": "Agregar Rol",
+        "addNewRole": "Agregar nuevo rol",
+        "editRole": "editar permisos del rol",
+        "editUserRoles": "Editar roles del usuario",
+        "assignedRoles": "Roles asignados",
+        "assignedRolesHintMessage": "Asignar roles al usuario seleccion\u00e1ndolos de la lista de la izquierda",
+        "inviteUser": "Agregar nuevo usuario",
+        "roleEdition": {
+            "roleName": "Nombre del Rol",
+            "roleDescription": "Descripci\u00f3n del Rol",
+            "errorOnlyOwner": "Los cambios no se pueden guardar para %{user} porque es el \u00fanico con permisos de Administraci\u00f3n de Usuarios. Por favor, asigna ese permiso al menos a otro usuario y vuelve a intentarlo.",
+            "errorOnlyRole": "Los cambios no se pueden guardar para %{role} porque es el \u00fanico con permisos de Administraci\u00f3n de Usuarios. Por favor, asigna ese permiso al menos a otro rol y vuelve a intentarlo.",
+            "permissionType": {
+                "dairy": "Lecher\u00eda",
+                "herd": "Hato",
+                "feed": "Alimentaci\u00f3n",
+                "parlor": "Sala de orde\u00f1o"
+            },
+            "permissionsAddLabel": "Selecciona el conjunto de capacidades permitidas para el nuevo rol.",
+            "permissionsEditLabel": "Selecciona el conjunto de capacidades permitidas para este rol.",
+            "editZonesHelpMessagePermission": "escritura",
+            "editZonesHelpMessage": "Si asignaste para el permiso %{permission} a este rol, y tienes m\u00faltiples zonas en tu lecher\u00eda, debes seleccionar a qu\u00e9 regiones se aplicar\u00e1.",
+            "editZonesHintMessage": "Este panel manejar\u00e1 los permisos de escritura por zona en caso de que el usuario tenga dicho permiso.",
+            "permissionsMessage": "Zonas con permisos de escritura",
+            "allRolesFilter": "Todos los Roles",
+            "noUsers": "No hay resultados que coincidan"
+        },
+        "accessPendingStatus": {
+            "invited": "Invitado",
+            "requested": "Solicitado",
+            "inviteDeclined": "Invitaci\u00f3n rechazada",
+            "accessRequestDeclined": "Solicitud de acceso rechazada",
+            "cancelInvite": "Cancelar invitaci\u00f3n",
+            "resendInvite": "Reenviar invitaci\u00f3n",
+            "editInvite": "Editar invitaci\u00f3n",
+            "approve": "Aprobar",
+            "decline": "Rechazar"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "Roles",
+            "availableRolesHintMessage": "Selecciona los roles que cumplir\u00e1 el usuario. Esto impactar\u00e1 directamente en los permisos asignados.",
+            "assignedRoles": "Roles asignados",
+            "confirmButtonLabel": "Invitar usuario",
+            "assignedRolesHintMessage": "Asignar roles al usuario seleccion\u00e1ndolos de la lista de la izquierda",
+            "existingUser": "El correo electr\u00f3nico ingresado pertenece a un usuario existente en esta lecher\u00eda. ",
+            "invitationSent": "Usuario agregado con \u00e9xito. Invitaci\u00f3n enviada.",
+            "previewUserText": " Haga clic aqu\u00ed para obtener una vista previa del usuario",
+            "editRoles": "Editar roles",
+            "existingPlatformUser": "El correo electr\u00f3nico ingresado pertenece a un usuario existente en la Plataforma VAS. ",
+            "confirmUserLine1": "Confirmar y",
+            "confirmUserLine2": "Asignar Roles",
+            "exisitingUserConfirmed": "CONFIRMADO",
+            "invitePendingUser": "El correo electr\u00f3nico ingresado pertenece a un usuario que est\u00e1 invitado y no ha respondido."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "Actualice los roles que el usuario tiene asignados. Esto impactar\u00e1 directamente en los permisos otorgados.",
+            "availableRolesTitle": "Roles disponibles",
+            "rolesUpdated": "Roles actualizados con \u00e9xito."
+        },
+        "resendInvite": {
+            "successfullySent": "Una nueva invitaci\u00f3n ha sido enviada a"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "Est\u00e1s cancelando la invitaci\u00f3n a %{user}. \u00bfConfirma?",
+            "cancelConfirmationMessage": "La invitaci\u00f3n a %{dairyName} ha sido rechazada"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "Roles actualizados con \u00e9xito."
+        },
+        "confirmDisableRole": "La inhabilitaci\u00f3n de este rol cambiar\u00e1 el acceso a la aplicaci\u00f3n para %{userCount} usuario(s). \u00bfConfirma?",
+        "disableRoleConfirmed": " ahora est\u00e1 deshabilitado",
+        "disableOnlyRoleError": "Los cambios no pueden ser guardados para %{role} porque es el \u00fanico usuario con permiso para manejar usuarios. Asigne ese permiso a al menos otro rol e intent\u00e1 nuevamente",
+        "confirmEnableRole": "Al habilitar esta funci\u00f3n, se agregar\u00e1 m\u00e1s acceso a la aplicaci\u00f3n para %{userCount} usuarios . \u00bfConfirma?",
+        "enableRoleConfirmed": "rol habilitado",
+        "customizeNewRole": "Personaliza tu nuevo rol",
+        "writerPermissionRequireZone": "Selecciona al menos una zona donde se aplicar\u00e1n los permisos de escritura.",
+        "roleAddedSuccessfully": "rol %{roleName} a\u00f1adido.",
+        "errors": {
+            "userAlreadyHasPendingRequest": "El usuario %{email} ya tiene una solicitud pendiente para acceder a %{dairyName}."
+        },
+        "addNewUser": "Agregar nuevo usuario"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "Estado de la integraci\u00f3n",
+            "notification": "Notificaciones",
+            "help": "Ayuda"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "Ay\u00fadanos a mejorar"
+        },
+        "modal": {
+            "formTitle": "Ay\u00fadanos a Mejorar",
+            "formContent": "Estamos continuamente mejorando la experiencia en la Plataforma VAS, por lo que nos encantar\u00eda saber lo que funciona bien y en qu\u00e9 podemos mejorar.",
+            "inputLabel": "Escribe tu comentario aqu\u00ed",
+            "inputRequiredMessage": "Por favor, escribe tu comentario",
+            "submitLabel": "Enviar Comentario",
+            "defaultErrorMessage": "Whoops, algo fall\u00f3, por favor intenta nuevamente.",
+            "successCaption": "\u00a1Gracias por su tiempo!",
+            "successContent": "Su opini\u00f3n ha sido recibida y es muy valiosa para el equipo de la Plataforma VAS. \u00a1Gracias por ayudarnos a mejorar nuestro producto!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "Estado de la integraci\u00f3n",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "Esperando a recibir informaci\u00f3n.",
+            "Por favor, vuelve pronto."
+        ],
+        "lastSync": "\u00daltima sincronizaci\u00f3n:",
+        "integrationRequired": "Integraci\u00f3n Requerida",
+        "emergency": {
+            "title": "Datos No Actuales",
+            "lastSyncLine1": "Tu \u00faltima sincronizaci\u00f3n de datos fue",
+            "lastSyncLine2": "24 horas atr\u00e1s",
+            "checkConnectionLine1": "Por favor verifique",
+            "checkConnectionLine2": "la conexi\u00f3n o contacte a su manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "Estado de DairyComp",
+            "disabledModuleText": "Manejo avanzado de hatos y captura precisa de registros de vacas.",
+            "communicationStatus": {
+                "title": "Estado de Comunicaci\u00f3n",
+                "healthy": "Bueno",
+                "notHealthy": "Malo",
+                "lastBeat": "\u00daltimo latido:"
+            },
+            "processingStatus": {
+                "title": "\u00daltima sincronizaci\u00f3n de datos",
+                "dataValid": "Datos v\u00e1lidos a partir del: ",
+                "problemEncountered": "lo sentimos, encontramos un problema al tratar de mostrar sus datos m\u00e1s recientes. Estamos trabajando para resolverlo."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "La integraci\u00f3n de FeedComp estar\u00e1 disponible pronto.",
+            "disabledModuleText": "Monitorear la eficiencia de la alimentaci\u00f3n y los ingresos contra los costos de alimentaci\u00f3n.",
+            "processingStatus": {
+                "title": "\u00daltima sincronizaci\u00f3n de datos",
+                "lastSync": "\u00daltima sincronizaci\u00f3n",
+                "problemEncountered": "Lo sentimos, encontramos un problema mostrando la informaci\u00f3n actualizada. Estamos trabajando en resolverlo."
+            },
+            "feedWatchServiceStatus": {
+                "title": "Servicio de FeedWatch",
+                "serviceStatus": "Estado de servicio",
+                "isRunning": "En ejecuci\u00f3n",
+                "notRunning": "No est\u00e1 ejecutandose"
+            },
+            "scheduledTaskStatus": {
+                "title": "Tareas Programadas",
+                "lastRan": "\u00daltima ejecuci\u00f3n:"
+            },
+            "dairyCompImportStatus": {
+                "title": "\u00daltima importaci\u00f3n de DC305",
+                "penCount": "Conteo de Pen",
+                "itemData": "Informaci\u00f3n de Items"
+            },
+            "sendEquipmentExport": {
+                "title": "Solicitar Exporte a Equipamiento",
+                "sendExport": "Enviar Exporte"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "Estado de ParlorComp",
+            "availableSoon": "La integraci\u00f3n de ParlorComp estar\u00e1 disponible pronto.",
+            "disabledModuleText": "Controle el rendimiento de la sala y administre la eficiencia de producci\u00f3n."
+        }
+    },
+    "notifications": {
+        "title": "Notificaciones",
+        "link": "Ver m\u00e1s detalles",
+        "createdPlural": "fueron creadas por la integraci\u00f3n de %{provider}",
+        "createdSingular": "fue creada por la integraci\u00f3n de %{provider}",
+        "updatedPlural": "fueron actualizadas por la integraci\u00f3n de %{provider}",
+        "updatedSingular": "fue actualizada por la integraci\u00f3n de %{provider}"
+    },
+    "report": {
+        "favorite": {
+            "title": "Informes favoritos"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": " Reportes de DairyComp",
+            "menu": {
+                "reproduction": "Reproducci\u00f3n",
+                "transition": "Transici\u00f3n",
+                "mastitis": "Mastitis",
+                "production": "Producci\u00f3n",
+                "lameness": "Cojera"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "Int. de 21 D\u00edas",
+                        "bredElig": "# Aplica para Inseminar.",
+                        "bred": "# Inseminaciones",
+                        "bredRisk": "Riesgo de Inseminaci\u00f3n %",
+                        "pregElig": "# Aplica para Preg.",
+                        "preg": "# Embarazos",
+                        "pregRisk": "Riesgo de Preg %",
+                        "pregLoss": "# Perdida de Preg"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "DIM a la 1ra Insemin.",
+                        "headCount": "Conteo de animales"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "T\u00e9cnico",
+                        "95Percentage": "Int. Conf. 95%",
+                        "risk": "%Riesgo Conc.",
+                        "preg": "# Pre\u00f1",
+                        "open": "# Vac\u00eda",
+                        "other": "# Otros",
+                        "pregLoss": "# P\u00e9rdidas de Pre\u00f1",
+                        "breeding": "# Inseminaciones",
+                        "breedingPercentage": "% Inseminaci\u00f3n",
+                        "spc": "Spc",
+                        "bottomReference": "* M\u00e1s del 10% de los resultados desconocidos"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "Reportes de FeedComp",
+            "menu": {
+                "feederPerformance": "Desempe\u00f1o del Alimentador",
+                "feedingBasics": "Conceptos b\u00e1sicos de alimentaci\u00f3n",
+                "intake": "Consumo",
+                "inventory": "Inventario",
+                "usage": "Uso",
+                "economics": "Conceptos econ\u00f3micos"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "Fecha",
+                        "avgPenCount": "Animales promedio por pen",
+                        "dropped": "# Descarga",
+                        "avgDropped": "Descarga Prom.",
+                        "weighBacks": "# Sobrante",
+                        "avgWeighBacks": "Sobrante promedio",
+                        "dm": "# MS",
+                        "avgDmAnimal": "Promedio MS\/Animal",
+                        "pen": "PEN",
+                        "noPen": "No hay pen para mostrar."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "Reportes ParlorComp",
+            "menu": {
+                "tankWatch": "Lavado de tanque",
+                "milkingSummaries": "Resumen de Orde\u00f1o",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "Tanque",
+                        "route": "Ruta",
+                        "date": "Fecha",
+                        "weight": "Peso (Kg)",
+                        "volume": "Volumen (Lts)",
+                        "fat": "Grasa (%)",
+                        "protein": "Prote\u00edna (%)",
+                        "lactose": "Lactosa (%)",
+                        "solids": "S\u00f3lidos (%)",
+                        "totals": "prom. total 10 d\u00edas",
+                        "tankAverages": "promedios 10 d\u00edas"
+                    }
+                }
+            }
+        },
+        "backToReports": "Regresar a Reportes",
+        "addToFavorites": "A\u00f1adir a Favoritos",
+        "tableView": "Tabla",
+        "graphView": "Ver Gr\u00e1fico"
+    },
+    "landing": {
+        "configureDairy": "Configurar Lecher\u00eda",
+        "dairyTeammates": "Compa\u00f1eros de Lecher\u00eda",
+        "searchUser": "Buscar Usuario",
+        "displayName": "Usuario",
+        "userType": "Tipo de Usuario",
+        "zones": "Zonas",
+        "downloadZOF": "Descargar ZOF",
+        "activeRecords": "Registros Activos",
+        "cows": "Vacas",
+        "heifers": "Vaquillas",
+        "bulls": "Toros",
+        "inactiveRecords": "Registros Inactivos",
+        "died": "Muertas",
+        "sold": "Vendidas",
+        "supportedBy": "Soporte dado por",
+        "cowSearch": "Buscar un Animal",
+        "acceptInvite": "Aceptar invitaci\u00f3n",
+        "declineInvite": "Rechazar invitaci\u00f3n",
+        "accessRequested": "Acceso solicitado",
+        "cancelAccessRequested": "Cancelar solicitud de acceso",
+        "requestAccess": "Solicitar acceso"
+    },
+    "errorPage": {
+        "isoLogoAlt": "Logotipo de plataforma VAS",
+        "returnHome": "Regresar al Inicio"
+    },
+    "error400Page": {
+        "title": "P\u00e1gina no encontrada",
+        "description": [
+            "La p\u00e1gina a la que tratas de ingresar no est\u00e1 disponible.",
+            "Regresa e intentalo de nuevo."
+        ]
+    },
+    "error403Page": {
+        "title": "Acceso Denegado",
+        "description": [
+            "No tienes permiso para acceder a esta p\u00e1gina.",
+            "Por favor contacta al encargado si crees que deber\u00edas."
+        ]
+    },
+    "error404Page": {
+        "title": "P\u00e1gina no encontrada",
+        "description": [
+            "Lo sentimos, no encontramos la p\u00e1gina que est\u00e1s buscando.",
+            "Puedes intentar regresar al inicio"
+        ]
+    },
+    "error500Page": {
+        "title": "Oh, no! encontramos un problema.",
+        "description": [
+            "Ocurri\u00f3 un error en el servidor, estamos trabajando para arreglarlo!",
+            "Estaremos disponibles en breve."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "\u00a1Lo sentimos!",
+        "description": [
+            "La aplicaci\u00f3n ha encontrado un error inesperado.",
+            "Int\u00e9ntalo de nuevo, nuestro equipo de asistencia va a investigar el problema."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "No se encontr\u00f3",
+        "description": [
+            "El registro que intentas acceder no est\u00e1 disponible.",
+            "Por favor, regrese y vuelva a intentarlo."
+        ]
+    },
+    "pagination": {
+        "first": "Primero",
+        "last": "\u00daltimo",
+        "view": "Ver",
+        "rowsPerPage": "filas por pagina",
+        "records": {
+            "singular": "Registro",
+            "plural": "Registros"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "Est\u00e1s cancelando la solicitud de acceso a",
+        "confirmCancelPart2": ". \u00bfConfirma?",
+        "confirmedCancel": "Solicitud de acceso cancelada."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Mostrar m\u00e1s informaci\u00f3n",
+                "hideInfo": "Mostrar menos informaci\u00f3n",
+                "references": "Referencias",
+                "updated": "Actualizado",
+                "noData": {
+                    "title": "No hay datos",
+                    "description": "No hay datos para este reporte"
+                },
+                "integrationPending": {
+                    "title": "Integraci\u00f3n Requerida",
+                    "description": "Contacta {vasSupport} para completar la integraci\u00f3n",
+                    "linkText": "Soporte de VAS"
+                }
+            },
+            "error": {
+                "ohNo": "Oh no!",
+                "errorLoadingWidget": "Hubo un problema cargando este widget.",
+                "tryAgainLater": "Por favor, intente de nuevo m\u00e1s tarde."
+            },
+            "cowStats": {
+                "title": "Estad\u00edsticas de vaca",
+                "info": "\u00daltimos 30 d\u00edas",
+                "allMilkingCows": "Todas la vacas en producci\u00f3n",
+                "fresh": "Fresca",
+                "dueDry": "A secar",
+                "toTank": "Al Tanque",
+                "hospital": "Hospital",
+                "allDryCows": "Todas las vacas secas",
+                "closeUp": "Por parir",
+                "farOff": "Recien secas",
+                "allHeifers": "Todas las becerras",
+                "closeUpHeifers": "Becerras por parir"
+            },
+            "companyCowStats": {
+                "title": "ESTAD\u00cdSTICAS DE VACAS - Totales para todas las lecher\u00edas de la compa\u00f1\u00eda",
+                "milkingCows": "Vacas lecheras",
+                "dryCows": "Vacas Secas",
+                "heifers": "Vaquillas",
+                "toTank": "Al Tanque",
+                "dueDry": "A Secar",
+                "freshCows": "Fresca",
+                "hospital": "Hospital",
+                "closeupCows": "Por Parir",
+                "farOffCows": "Reci\u00e9n Secas",
+                "closeupHeifers": "Por Parir",
+                "notCloseupHeifers": "Lejos de Parir"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "Vaquillas",
+                    "dryCows": "Vacas Secas",
+                    "milkingCows": "Vacas Lecheras",
+                    "toTank": "Al Tanque",
+                    "hospital": "Hospital",
+                    "fresh": "Frescas",
+                    "dueDry": "A Secar",
+                    "closeUp": "Por Parir",
+                    "farOff": "Reci\u00e9n Secas",
+                    "closeUpHeifers": "Por Parir"
+                },
+                "labels": {
+                    "xAxis": "N\u00famero de Animales"
+                }
+            },
+            "events": {
+                "events": "Eventos",
+                "total": "Total",
+                "days": {
+                    "monday": "Lun",
+                    "tuesday": "Mar",
+                    "wednesday": "Mi\u00e9",
+                    "thursday": "Jue",
+                    "friday": "Vie",
+                    "saturday": "S\u00e1b",
+                    "sunday": "Dom"
+                }
+            },
+            "econIR": {
+                "toFreshen": "Frescas",
+                "cows": "Vacas",
+                "heifers": "Vaquillas",
+                "toDry": "A Secar",
+                "toCull": "A Sacrificar",
+                "milkingVsDry": "Lecheras vs Secas",
+                "milkingCows": "Vacas lecheras",
+                "dryCows": "Vacas Secas",
+                "estimatedFemalesBorn": "Estimaci\u00f3n de vacas nacidas vivas",
+                "lactGt1": "Lact > 1",
+                "lactEq1": "Lact = 1"
+            },
+            "heiferCountByAge": {
+                "total": "TOTAL",
+                "subtotal": "SUBTOTAL",
+                "ageSuffix": "(A\u00f1o - Mes)",
+                "age": "Por Edad",
+                "pct": "PCT",
+                "count": "Conteo"
+            },
+            "calfReport": {
+                "alive": "Vivas",
+                "birthsLabel": "Sexo de los Nacidos por Grupo de Lactancia",
+                "dead": "Muertas",
+                "stillBirthsLabel": "Porcentaje de Nacidos Muertos por Grupo de Lactancia",
+                "calves": "Cr\u00edas",
+                "allSexes": "Todos los sexos",
+                "females": "Hembras",
+                "males": "Machos",
+                "lactationGroup": "LGRP"
+            },
+            "conceptionRate": {
+                "bredNumber": "N\u00famero de Bred",
+                "percent": "Porcentaje",
+                "labels": {
+                    "ci95": "95% CI",
+                    "conceptionRisk": "% Riesgo de concepci\u00f3n",
+                    "manyRebreeds": "Muchos re-criados",
+                    "manyOpens": "Atenci\u00f3n! Muchos Abiertos",
+                    "manyUnknownBredOutcomes": "Muchos resultados de crianza desconocida"
+                },
+                "table": {
+                    "conceptionPercent": "%Conc",
+                    "pregnant": "#Embarazos",
+                    "open": "#Vac\u00eda",
+                    "other": "Otros",
+                    "abort": "Aborto",
+                    "total": "Total",
+                    "totPercent": "%TOT",
+                    "spc": "SPC"
+                },
+                "showMoreInfo": "Mostrar tabla de datos",
+                "hideMoreInfo": "Ocultar tabla de datos"
+            },
+            "pregnancyRisk": {
+                "date": "FECHA",
+                "percent": "PORCENTAJE",
+                "viewDataTable": "MOSTRAR TABLA DE DATOS",
+                "closeDataTable": "OCULTAR TABLA DE DATOS",
+                "labels": {
+                    "info": "Per\u00edodo de espera de %{value} d\u00edas",
+                    "percentage95ci": "PR 95% CI",
+                    "inseminationRisk": "Riesgo de inseminaci\u00f3n",
+                    "pregnancyRisk": "Riesgo de embarazo",
+                    "pregnantEligible": "Total",
+                    "totalPregnant": "Pregnant",
+                    "percentage95ciFull": "Pregnancy Risk 95% CI"
+                },
+                "table": {
+                    "ci95": "95% CI",
+                    "brElegible": "Aplica p\/inseminar",
+                    "bred": "Insem",
+                    "pct": "PCT",
+                    "pgElegible": "Aplica p\/preg.",
+                    "pregnant": "Pre\u00f1ada",
+                    "abort": "Abortos"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "Producci\u00f3n de leche estimada",
+                "pounds": "Libras",
+                "poundsInHundreds": "Libras en cientos",
+                "references": "Referencias",
+                "perDayPerCow": "Por d\u00eda por vaca",
+                "perDay": "Por d\u00eda",
+                "closeDataTable": "CERRAR TABLA DE DATOS"
+            },
+            "dmiByPenType": {
+                "DMI": "DMI"
+            },
+            "weather": {
+                "today": "Hoy",
+                "currently": "Actualmente",
+                "min": "M\u00edn.",
+                "max": "M\u00e1x.",
+                "humidityAbbr": "H",
+                "currentConditions": "Condiciones Actuales",
+                "pressure": "Presi\u00f3n",
+                "visibility": "Visibilidad",
+                "humidity": "Humedad",
+                "wind": "Viento"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "Mostrar Equipamiento Deshabilitado",
+                "noDisabledEquipment": "No hay Equipamiento Deshabilitado para mostrar",
+                "noEnableEquipmentToShow": "No hay Equipamiento Habilitado para mostrar",
+                "noEquipmentToShow": "No hay Equipamiento para mostrar",
+                "previousLoad": "Carga Anterior",
+                "nextLoad": "Pr\u00f3xima Carga",
+                "targetLoad": "Carga Objetivo",
+                "actualQty": "Cant. Actual",
+                "loadBar": {
+                    "target": "Objetivo",
+                    "actual": "Actual"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "ECM",
+                "fatCorrectedMilk": "FCM",
+                "averageMilk": {
+                    "labelForDay": "Promedio para el \u00faltimo d\u00eda",
+                    "labelForDays": "Promedio para los \u00faltimos %{days} d\u00edas"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "Mostrar Tabla de Datos",
+                "closeDataTable": "Ocultar Tabla de Datos",
+                "table": {
+                    "chemical": "Qu\u00edmico",
+                    "current": "Actual",
+                    "average": "Promedio",
+                    "tankCapacity": "Capicidad del Tanque"
+                },
+                "chart": {
+                    "chemicalData": "Datos Qu\u00edmicos",
+                    "percent": "Porcentaje",
+                    "available": "Disponible",
+                    "remaining": "Restante",
+                    "tank": "Tanque",
+                    "percentChemical": "% de Qu\u00edmico"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "Actual",
+                "target": "Objetivo",
+                "tons": "Valores en Tons",
+                "tonne": "Valores en Toneladas",
+                "allIngredientsLoaded": "Todos los ingredientes est\u00e1n cargados correctamente"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "Vista General de DairyComp",
+            "zoneFilters": {
+                "all": "Todas las zonas"
+            },
+            "widgets": {
+                "notReady": "Widget no listo."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "Vista General de ParlorComp",
+            "zoneFilters": {
+                "all": "Todas las Zonas"
+            },
+            "widgets": {
+                "notReady": "Widget no listo."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "Vista General de FeedComp",
+            "zoneFilters": {
+                "all": "Todas las Zonas"
+            },
+            "widgets": {
+                "notReady": "Widget no listo."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "Lecher\u00eda",
+        "dashboard": "Tablero",
+        "pens": "Pens",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "Vista General",
+            "pens": "Pens",
+            "worklists": "Listas de Comando abiertas",
+            "embryoInventory": "Inventario de Embriones"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "Vista General",
+            "pens": "Pens",
+            "ingredients": "Ingredientes",
+            "recipes": "Recetas",
+            "inventoryProjections": "Inventario y Proyecciones",
+            "dmAdjustments": "Ajustes de %MS por Ubicaci\u00f3n",
+            "bunkScoring": "Bunk Scoring"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "Vista General",
+            "pens": "Pens",
+            "reports": "Reportes de Sala de Orde\u00f1o"
+        },
+        "configureCompany": {
+            "configureCompany": "Configurar Compa\u00f1\u00eda",
+            "userManagement": "Administraci\u00f3n de Usuarios"
+        },
+        "configureDairy": {
+            "configureDairy": "Configurar Lecher\u00eda",
+            "dairyConfiguration": "Configuraci\u00f3n de la Lecher\u00eda",
+            "userManagement": "Administraci\u00f3n de Usuarios"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "Tablero de %{contextName}",
+        "customization": "Configuraci\u00f3n",
+        "dashboardCustomization": "Configurar",
+        "dashboardCustomizeCurrent": "Configurar este Tablero",
+        "dashboardCreate": "Crear Nuevo Tablero",
+        "dragAndDropHint": "Arrastra y Suelta el widget",
+        "dashboardSaved": "%{dashboard_name} fue configurado con \u00e9xito.",
+        "dashboardErrorSaving": "Se produjo un error. Por favor, vuelve a intentarlo en unos minutos.",
+        "dashboardMobileCustomization": "Inicia sesi\u00f3n desde una PC, para configurar esta p\u00e1gina"
+    },
+    "dashboardCustomization": {
+        "newDashboard": "Nuevo Tablero",
+        "panelTitle": "Configuraci\u00f3n de P\u00e1gina",
+        "emptyList": {
+            "company": {
+                "line1": "No hay widget disponibles en este momento",
+                "line2": "Estamos trabajando para agregar nuevos widgets pr\u00f3ximamente. Por favor, \u00a1vuelve pronto!"
+            },
+            "dairy": {
+                "line1": "No hay widgets para mostrar",
+                "line2": "Puedes descargar widgets para esta secci\u00f3n desde la Galer\u00eda de Widgets"
+            }
+        },
+        "emptyLine1": "Haz click en un widget de la lista para previsualizarlo aqu\u00ed.",
+        "emptyLine2": "Para guardar este tablero, debes al menos a\u00f1adir un widget.",
+        "selectWidgetsTitle": "Insertar Widgets",
+        "widgetLayoutDetail": "Para ordenar los widgets arrastra y suelta",
+        "selectWidgetsDescription": "Selecciona los widgets que desees insertar en esta p\u00e1gina",
+        "widgetsLayoutDescription": " Para ordenar los widgets arrastra y suelta",
+        "unsavedChanges": "Tienes cambios sin guardar. \u00bfEst\u00e1s seguro de Cancelar?",
+        "allWidgets": "Todos los Widgets",
+        "dairyWidgets": "Widgets de la Lecher\u00eda",
+        "widgetTitles": {
+            "general": "General",
+            "herd": "Hato",
+            "feed": "Alimentaci\u00f3n",
+            "parlor": "Sala de orde\u00f1o"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "Galer\u00eda de Widgets",
+            "installedSuccess": "El widget %{title} no est\u00e1 en tu lista",
+            "installedFailure": "Se produjo un error. Por favor, vuelve a intentarlo en unos minutos.",
+            "title": "Galer\u00eda de Widgets",
+            "line1": "Haz click en el bot\u00f3n A\u00d1ADIR de los widgets para habilitarlos en la plataforma de VAS.",
+            "line2": "Desde all\u00ed, podr\u00e1s instertarlos en tu Tablero y p\u00e1ginas de Vista General.",
+            "installLabel": "A\u00f1adir",
+            "installedLabel": "A\u00f1adido",
+            "recentlyInstalledBadge": "A\u00f1adido reci\u00e9n",
+            "seeRequirements": "Ver Requerimientos",
+            "integrationRequired": "Integraci\u00f3n requerida",
+            "requirements": "Requerimientos",
+            "contactSupport": "Contacta a Soporte",
+            "goBack": "Volver"
+        },
+        "deleteModalConfirmation": "\u00bfBorrar este Tablero?"
+    },
+    "agreements": {
+        "pageTitle": "CONTRATO DE SUSCRIPCI\u00d3N DE USUARIO FINAL & POL\u00cdTICA DE PRIVACIDAD",
+        "pleaseReview": "Por favor revise el siguiente Contrato de Suscripci\u00f3n de Usuario Final y Pol\u00edtica de Privacidad.",
+        "readAndAgree": "A fin de utilizar el servicio, se requiere que lea y acepte los siguientes t\u00e9rminos:",
+        "endUserSuscriptionAgreement": "CONTRATO DE SUSCRIPCI\u00d3N DE USUARIO FINAL",
+        "privacyPolicy": "POL\u00cdTICA DE PRIVACIDAD",
+        "readAndAgreedSubscription": "He le\u00eddo y acepto los t\u00e9rminos del Contrato de Suscripci\u00f3n de Usuario Final.",
+        "readAndAgreedPolicy": "He le\u00eddo y acepto los t\u00e9rminos de la Pol\u00edtica de Privacidad.",
+        "cancel": "CANCELAR",
+        "agreeAndContinue": "ACEPTAR Y CONTINUAR",
+        "notificationConfirmCancel": "\u00bfEst\u00e1 seguro que desea rechazar? A fin de utilizar el servicio, se requiere que lea y acepte los t\u00e9rminos."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "Mezclador M\u00f3vil",
+            "stationaryMixer": "Mezclador Estacionario",
+            "deliveryTruck": "Cami\u00f3n de Entrega",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "Ingredientes",
+            "location": "Ubicaci\u00f3n",
+            "locations": "Ubicaci\u00f3n",
+            "dmPercent": "MS%",
+            "afCostTon": "Costo BH\/Ton",
+            "afCostMetricTon": "Costo BH\/Ton M\u00e9trica",
+            "currentOnHandAF": "Cantidad disponible en BH",
+            "daysLeft": "D\u00edas Restantes",
+            "inRecipe": "En Receta",
+            "trackingEnabled": "Seguimiento Habilitado",
+            "notTracked": "Sin seguimiento",
+            "dailyAf": "BH Diario",
+            "weighback": "Reusable",
+            "allowed": "Permitido",
+            "notAllowed": "No Permitido",
+            "afProjections": "Proyecciones BH",
+            "days": "D\u00edas",
+            "currentAf": "BH Actual",
+            "afCost": "Costo BH",
+            "dmCost": "Costo de MS",
+            "dmPercentage": "Porcentaje de MS",
+            "lastDmHistory": "Historial de % de \u00faltimos MS",
+            "filter": "Filtrar",
+            "filterApplied": "filtro aplicado",
+            "filtersApplied": "filtros aplicados",
+            "clear": "Borrar",
+            "type": "Tipo",
+            "premix": "Premezcla",
+            "optionSelected": "opci\u00f3n seleccionada",
+            "optionsSelected": "opciones seleccionadas",
+            "lastInventoryMovements": {
+                "title": "\u00daltimos movimientos de inventario",
+                "date": "Fecha",
+                "type": "Tipo",
+                "afTons": "BH (tons)",
+                "runningTotal": "Saldo (tons)",
+                "inventoryTypes": {
+                    "delivery": "Entrega",
+                    "sale": "Venta",
+                    "adjustment": "Ajustes",
+                    "usage": "Uso",
+                    "initialInventory": "Inventario Inicial",
+                    "transferIn": "Ingreso",
+                    "transforOut": "Egreso"
+                }
+            },
+            "filterOptions": {
+                "all": "Todas",
+                "inRecipes": "Solo en recetas",
+                "notInRecipes": "Sin uso en receta",
+                "onlyPremixes": "S\u00f3lo Premezclas",
+                "notPremixes": "No Premezclas"
+            },
+            "recipes": {
+                "title": "Uso por Recetas de %{ingredientName}",
+                "recipeName": "Nombre de Receta",
+                "DM": "MS\/Animal",
+                "AF": "BH\/Animal",
+                "pens": "Pens alimentados con esta Receta",
+                "animalsFed": "Animales Alimentados",
+                "dailyAFUsage": "Consumo de BH diario",
+                "placeholderLine1": "Este ingrediente no es",
+                "placeholderLine2": "usado  por ninguna receta."
+            }
+        },
+        "dmAdjustments": {
+            "title": "Ajustes de %MS por Ubicaci\u00f3n",
+            "name": "Nombre de Ingrediente",
+            "type": "Tipo",
+            "location": "Ubicaci\u00f3n",
+            "lastChange": "\u00daltimo Cambio",
+            "responsible": "Responsable",
+            "dmPercent": "MS%",
+            "lastDmHistory": "Historial de % de \u00faltimos MS",
+            "noDmHistory": "Sin Historial Disponible de %MS",
+            "validation": {
+                "dmPercent": "Los valores deben ser menores al 100%",
+                "percentChange": "Cambio mayor al 5%"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "Ajuste en MS%",
+                    "message": "Ajuste mayor al (+\/-) 5%, \u00bfest\u00e1s seguro que quieres hacerlo?",
+                    "confirmLabel": "S\u00ed"
+                },
+                "cancelChanges": {
+                    "title": "Hay cambios sin guardar. \u00bfDeseas descartarlos?",
+                    "confirmLabel": "S\u00ed, Descartar"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "Recetas",
+            "activeRecipes": "Recetas Activas",
+            "otherRecipes": "Otras Recetas",
+            "recipeDm": "MS % de Receta",
+            "densityFactor": "Densidad",
+            "afCostTon": "Costo BH\/ton",
+            "currentlyReplacing": "Reemplazando",
+            "premix": "premezcla",
+            "alternativeRecipe": "Receta Alternativa",
+            "animalsFed": "Animales Alimentados",
+            "pensFed": "Pens Alimentados",
+            "list": "Lista de Recetas",
+            "inRecipe": "EN RECETA",
+            "dmhd": "MS \/ Animal",
+            "afhd": "BH \/ Animal",
+            "dm": "MS",
+            "dmPercent": "MS %",
+            "afCostHd": "costo BH \/ Animal",
+            "active": "activa",
+            "replaced": "reemplazada",
+            "activeAlternative": "Alternativa Activa",
+            "seeMore": "ver m\u00e1s",
+            "directions": "Instrucciones de Receta",
+            "sequence": "Sec.",
+            "ingredient": "Ingrediente",
+            "location": "Ubicaci\u00f3n",
+            "af": "BH",
+            "afPercent": "BH %",
+            "pensUsing": "Pens usando esta Receta",
+            "total": "Total",
+            "recipeComposition": "Composici\u00f3n",
+            "alternate": "Alternativa",
+            "instructions": {
+                "saveSequenceSuccess": "\u00a1Secuencia editada con \u00e9xito!",
+                "reorderHint": "Usa las flechas de la izquierda o arrastra un ingrediente para reordenar la secuencia.",
+                "validation": {
+                    "quantity": "Cantidad debe ser mayor a cero",
+                    "required": "Valor requerido"
+                }
+            },
+            "pens": {
+                "pen": "Pen",
+                "type": "Tipo",
+                "use": "Uso",
+                "description": "Descripci\u00f3n"
+            }
+        },
+        "inventory": {
+            "title": "Inventario",
+            "projections": {
+                "title": "Inventario y Proyecciones",
+                "name": "Nombre",
+                "type": "Tipo",
+                "location": "Ubicaci\u00f3n",
+                "afQty": "Cant. BH",
+                "afCost": "Costo BH",
+                "dailyAf": "BH Diario",
+                "nextDays": "Pr\u00f3ximos %{day} d\u00edas (%{unit})",
+                "daysLeft": "D\u00edas restantes",
+                "all": "Todos",
+                "notTracked": "Sin seguimiento",
+                "youreRunningOutOf": "Te est\u00e1s quedando sin:"
+            }
+        },
+        "bunkScoring": {
+            "title": "Bunk Scoring",
+            "animalsToFeed": "Animales para Alimentar",
+            "targetDmHd": "Objetivo de MS\/Animal",
+            "feeding": "Alimentaci\u00f3n",
+            "active": "Activo",
+            "inactive": "Inactivo",
+            "lastDaysFeedings": "Alimentaci\u00f3n de los \u00daltimos %{days} D\u00edas",
+            "filter": "Filtrar",
+            "all": "Todas",
+            "clear": "Despejado",
+            "lastUpdated": "\u00daltima actualizaci\u00f3n",
+            "modal": {
+                "title": "Cambiar en Alimentaci\u00f3n",
+                "bodyText": "Est\u00e1s seguro que quieres a %{state} Feeding en PEN %{penNumber}",
+                "confirmLabel": "Si, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "ARRASTRA Y SUELTA UNA IMAGEN AQU\u00cd",
+        "line2": "Usa un JPG o PNG",
+        "addImage": "AGREGAR IMAGEN",
+        "changeImage": "CAMBIAR IMAGEN"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "Estado de la Sala de Orde\u00f1o",
+        "milk": {
+            "name": "Milk",
+            "currentShift": "Turno Actual",
+            "currentPen": "Pen Actual",
+            "currentFlow": {
+                "title": "Flujo Actual",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "Vacas en el Pen",
+            "currentPenTotalMilk": {
+                "title": "Leche Total del Pen Actual",
+                "value": "%{value} GAL"
+            },
+            "currentShiftTotalMilk": {
+                "title": "Leche Total del Turno Actual",
+                "value": "%{value} GAL"
+            },
+            "totalTime": {
+                "title": "Tiempo Total",
+                "value": "%{value} MIN"
+            },
+            "secStall": "Seg\/Stall",
+            "rotary": {
+                "title": "\u00daltima informaci\u00f3n de Rotaci\u00f3n",
+                "name": "Rotaci\u00f3n",
+                "minsTurn": "Mins\/ Vuelta",
+                "secStall": "Seg\/ Stall",
+                "cowsHour": "Vacas\/ Hora",
+                "turnsHour": "Vueltas\/ Hora",
+                "statistic": {
+                    "fastest": "El m\u00e1s r\u00e1pido",
+                    "average": "Promedio",
+                    "effective": "Efectivo"
+                }
+            },
+            "currentTask": {
+                "title": "Tareas Actuales",
+                "task": "Tarea",
+                "cows": "Vacas"
+            }
+        },
+        "wash": {
+            "name": "Lavado",
+            "minTemp": "Temp. M\u00edn",
+            "currentWashCycle": "Ciclo Actual de Lavado",
+            "currentFlow": {
+                "title": "Flujo Actual",
+                "value": "%{value} GAL"
+            },
+            "currentWashTotal": {
+                "title": "Lavado Total Actual",
+                "value": "%{value} GAL"
+            },
+            "washCycle": {
+                "rinse": "Enjuague",
+                "wash": "Lavado",
+                "acid": "\u00c1cido"
+            }
+        },
+        "currentTemp": {
+            "title": "Temp. Actual"
+        },
+        "minTemp": {
+            "title": "Temp. M\u00edn"
+        },
+        "maxTemp": {
+            "title": "Temp. M\u00e1x"
+        },
+        "tempAlarm": {
+            "title": "Alarma de Temperatura",
+            "values": {
+                "none": "Ninguno",
+                "high": "Temp. Alta"
+            }
+        },
+        "lastWashStatus": {
+            "title": "\u00daltimo estado de lavado",
+            "values": {
+                "good": "Bueno",
+                "bad": "Malo"
+            }
+        },
+        "washAlarm": {
+            "title": "Alarma de Lavado",
+            "values": {
+                "none": "Ninguno",
+                "lowTemp": "Temp. Baja"
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "Tarjetas",
+        "title": {
+            "line1": "No hay ning\u00fan %{type}",
+            "line2": "a mostrar",
+            "line3": "con estos filtros aplicados",
+            "line4": "en esta"
+        },
+        "types": {
+            "lists": "listas",
+            "error": "Ocurri\u00f3 un error inesperado"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "Reportes de Sala de Orde\u00f1o",
+            "noParlorToShow": "No hay Salas de orde\u00f1o para mostrar",
+            "typeOfParlor": "Tipo de Sala de orde\u00f1o",
+            "manufacturer": "Fabricante",
+            "stalls": "Puesto",
+            "currentShift": "Turno Actual",
+            "currentPen": "Pen Actual",
+            "parlorTitle": "sala de orde\u00f1o",
+            "parlorTypes": {
+                "herringbone": "Espina de pescado",
+                "parallel": "Paralelo",
+                "rotary": "de Rotaci\u00f3n"
+            },
+            "lastMilkingsReports": {
+                "title": "\u00daltimos Reportes de Orde\u00f1o",
+                "milkings": {
+                    "pen": "Pen",
+                    "totalMilk": "Leche Total",
+                    "milkHr": "Leche \/h",
+                    "milkCow": "Leche \/vaca",
+                    "cows": "vacas",
+                    "cowsHr": "Vacas \/h",
+                    "totalTime": "Tiempo Total",
+                    "startTime": "Hora de inicio",
+                    "stopTime": "Hora de fin",
+                    "penGap": "Lapso entre Pens",
+                    "maxTemp": "Temp. M\u00e1x.",
+                    "penDev": "Pen des",
+                    "totalAvg": "Total\/PROM",
+                    "total": "total"
+                },
+                "washings": {
+                    "washupPhase": "Fase de lavado",
+                    "totalFlow": "Flujo total",
+                    "totalTime": "tiempo total",
+                    "startTime": "hora de inicio",
+                    "stopTime": "hora de fin",
+                    "minTemp": "Temp. M\u00edn.",
+                    "maxTemp": "Temp. M\u00e1x.",
+                    "flowMin": "Caudal\/Min",
+                    "rinse": "Enjuague",
+                    "wash": "Lavado",
+                    "acid": "\u00c1cido",
+                    "init": "Inicializar",
+                    "washAcid": "Lavado & \u00c1cido",
+                    "idle": "Ocioso"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "Estad\u00edsticas de \u00daltimo Orde\u00f1o",
+                "barGraphView": "Gr\u00e1fico",
+                "tableView": "Tabla",
+                "totalMilk": "Leche Total",
+                "averageMilkPerHour": "Prom Leche\/h",
+                "averageDuration": "Duraci\u00f3n Prom.",
+                "averageCowsPerHour": "Vacas Prom\/h",
+                "milking": "Orde\u00f1o",
+                "milkPerHour": "Leche \/h",
+                "duration": "Duraci\u00f3n",
+                "cowsPerHour": "Vacas\/h",
+                "hours": "hs",
+                "minutes": "min.",
+                "totalAverage": "Total\/PROM"
+            },
+            "lastRotaryData": {
+                "title": "\u00daltima informaci\u00f3n de Rotaci\u00f3n"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Anuncio"
+    },
+    "embryoInventory": {
+        "title": "Inventario de Embriones"
+    },
+    "frozenEmbryos": {
+        "title": "congelado"
+    },
+    "freshEmbryos": {
+        "title": "fresco"
+    },
+    "transferredEmbryos": {
+        "title": "Transferidos"
+    },
+    "Embryo": {
+        "title": "Embriones",
+        "from": "Desde",
+        "to": "Hasta",
+        "stage": "Etapa",
+        "grade": "Grado",
+        "status": "Almacenamiento",
+        "type": "Tipo",
+        "clear": "Limpiar",
+        "recipient": "Receptora",
+        "date": "Fecha",
+        "sire": "Semental",
+        "donor": "Donante",
+        "tech": "T\u00e9c.",
+        "brCode": "BRCode",
+        "breedingCode": "C\u00f3digo de Inseminaci\u00f3n",
+        "storage": "Almacenamiento",
+        "ebrd": "EBRD",
+        "embryoBreed": "Raza del embrion",
+        "eage": "Eage",
+        "embryoAge": "Edad del Embri\u00f3n",
+        "tank": "Tanque",
+        "cane": "Ca\u00f1a",
+        "straw": "Varilla",
+        "frozenAt": "Congelado el",
+        "method": "M\u00e9todo",
+        "incubator": "Incubadora",
+        "strawVial": "Varilla\/Vial",
+        "stageOpts": {
+            "1": "No fecundado",
+            "2": "C\u00e9lula Simple",
+            "3": "M\u00f3rula temprana",
+            "4": "M\u00f3rula",
+            "5": "Blastocisto Temprano",
+            "6": "Blastocisto",
+            "7": "Blastocisto Expandido",
+            "8": "Blastocisto Eclosionado",
+            "9": "Blastocisto Eclosionado Expandido"
+        },
+        "methods": {
+            "unknown": "desconocido",
+            "slow": "Lento",
+            "dt": "TD"
+        },
+        "gradeOpts": {
+            "1": "No especificado",
+            "2": "Bueno",
+            "3": "Regular",
+            "4": "Pobre",
+            "5": "Muerta"
+        },
+        "storageType": {
+            "fresh": "Fresca",
+            "frozen": "Congelado"
+        },
+        "recoveryType": {
+            "ivf": "FIV",
+            "flush": "Lavado",
+            "other": "Otros"
+        }
+    }
+}

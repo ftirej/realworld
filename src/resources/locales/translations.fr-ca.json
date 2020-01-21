@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "Courriel",
+        "error": "Erreur",
+        "password": "Mot de passe",
+        "confirm": "Confirmer",
+        "cancel": "Annuler",
+        "save": "Sauvegarder",
+        "delete": "Supprimer",
+        "close": "Fermer",
+        "done": "Termin\u00e9",
+        "refresh": "Actualiser",
+        "loading": "Chargement en cours...",
+        "edit": "Modifier",
+        "editCard": "Modifier la carte",
+        "hide": "Cacher",
+        "hideCard": "Cacher la carte",
+        "yes": "Oui",
+        "yes_discard": "Oui, supprimer",
+        "no": "Non",
+        "cancelMessage": "Des modifications n'ont pas \u00e9t\u00e9 sauvegard\u00e9es. Annuler quand m\u00eame?",
+        "changesSavedSuccessfully": "Modifications enregistr\u00e9es avec succ\u00e8s!",
+        "changesSavedError": "Une erreur s'est produite lors de l'enregistrement des informations. Veuillez r\u00e9essayer dans quelques minutes.",
+        "unknownError": "Erreur inconnue.",
+        "tableView": "Tableau",
+        "graphView": "Graphique",
+        "ok": "ok",
+        "requiredFields": "Champs obligatoires",
+        "clear": "Effacer",
+        "active": "Actif",
+        "inactive": "Inactif",
+        "disabled": "D\u00e9sactiv\u00e9",
+        "view": "Afficher",
+        "doConfirm": "Confirmez-vous?",
+        "enable": "Activer",
+        "disable": "D\u00e9sactiver",
+        "acceptMessage": "Cette op\u00e9ration n'est pas possible.",
+        "welcome": "Bienvenue",
+        "passwordHelp": "Besoin d'aide avec votre mot de passe?",
+        "next": "Suivant",
+        "back": "Retour",
+        "successfullyUpdated": "mise \u00e0 jour r\u00e9ussie.",
+        "vasPlatformLogo": "Logo de la plateforme VAS",
+        "learnMore": "En savoir plus",
+        "accountHome": "Page d'accueil",
+        "comingSoon": "\u00c0 venir!",
+        "notDefined": "Non d\u00e9fini",
+        "current": "Actuel",
+        "previous": "Pr\u00e9c\u00e9dent",
+        "clearAll": "Tout effacer",
+        "preview": "Aper\u00e7u",
+        "leave": "Quitter",
+        "undefined": "Ind\u00e9termin\u00e9",
+        "backToTop": "Retour en haut de la page",
+        "activate": "Activer",
+        "deactivate": "D\u00e9sactiver",
+        "days": {
+            "monday": "Lun",
+            "tuesday": "Mar",
+            "wednesday": "Mer",
+            "thursday": "Jeu",
+            "friday": "Ven",
+            "saturday": "Sam",
+            "sunday": "Dim"
+        },
+        "monthsShort": {
+            "jan": "Jan",
+            "feb": "F\u00e9v",
+            "mar": "Mar",
+            "apr": "Avr",
+            "may": "Mai",
+            "jun": "Jun",
+            "jul": "Jul",
+            "aug": "Aou",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Dec"
+        },
+        "months": {
+            "jan": "Janvier",
+            "feb": "F\u00e9vrier",
+            "mar": "Mars",
+            "apr": "Avril",
+            "may": "Mai",
+            "jun": "Juin",
+            "jul": "Juillet",
+            "aug": "Ao\u00fbt",
+            "sep": "Septembre",
+            "oct": "Octobre",
+            "nov": "Novembre",
+            "dec": "D\u00e9cembre"
+        },
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "help": {
+            "tag": "Besoin d'aide?",
+            "learnMore": "En savoir plus",
+            "about": " \u00c0 propos",
+            "labels": {
+                "worklists": "Listes de t\u00e2ches",
+                "commands": {
+                    "platform": "Fonctions de la plateforme",
+                    "list": "Fonction LIST",
+                    "sum": "La fonction SUM",
+                    "count": "La fonction COUNT"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animaux"
+        }
+    },
+    "unitSystems": {
+        "metric": "Syst\u00e8me m\u00e9trique",
+        "imperial": "Syst\u00e8me imp\u00e9rial"
+    },
+    "unitSystemsLabels": {
+        "metric": "Kilogrammes, Litres, Celsius, Milligrammes",
+        "imperial": "Livres, Gallons, Fahrenheit, Onces"
+    },
+    "recentCommands": {
+        "title": "Fonctions r\u00e9centes",
+        "edit": "EDIT",
+        "noCommands": "Il n'y a pas de \nfonctions r\u00e9centes",
+        "viewResults": "Afficher r\u00e9sultats"
+    },
+    "units": {
+        "inHundreds": "%{unit} en centaines",
+        "pounds": "Livres",
+        "inPounds": "%{value} lbs",
+        "kilograms": "Kilogrammes",
+        "inKilograms": "%{value} kg",
+        "gallons": "Gallons",
+        "inGallons": "%{value} gal",
+        "inGallonsPerMinute": "%{value} gal\/min",
+        "inLitres": "%{value} L",
+        "inLitresPerMinute": "%{value} L\/min",
+        "hg": "Pouces de mercure",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "Milles",
+        "inMiles": "%{value} ml",
+        "inKilometers": "%{value} km",
+        "mph": "Milles par heure",
+        "inKph": "%{value} km\/h",
+        "inMph": "%{value} mph",
+        "inOunces": "%{value} oz",
+        "inGrams": "%{value} g",
+        "inTons": "%{value} t",
+        "inTonne": "%{value} T",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "tonnes",
+        "metricTons": "t",
+        "ton": "tonne",
+        "metricTon": "t",
+        "lbs": "lbs",
+        "kg": "kg",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "lbs",
+                "singular": "livre",
+                "plural": "livres"
+            },
+            "metric": {
+                "symbol": "kg",
+                "singular": "kilogramme",
+                "plural": "kilogrammes"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "t",
+                "singular": "tonne",
+                "plural": "tonnes"
+            },
+            "metric": {
+                "symbol": "T",
+                "singular": "tonne",
+                "plural": "tonnes"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "oz",
+                "singular": "onces",
+                "plural": "onces"
+            },
+            "metric": {
+                "symbol": "g",
+                "singular": "grammes",
+                "plural": "grammes"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "gal",
+                "singular": "gallon",
+                "plural": "gallons"
+            },
+            "metric": {
+                "symbol": "L",
+                "singular": "litre",
+                "plural": "litres"
+            },
+            "singular": {
+                "metric": "L",
+                "imperial": "gal"
+            },
+            "plural": {
+                "metric": "L",
+                "imperial": "gal"
+            }
+        }
+    },
+    "dates": {
+        "day": "Jour",
+        "month": "Mois",
+        "year": "Ann\u00e9e"
+    },
+    "login": {
+        "forgotPassword": "Mot de passe oubli\u00e9?",
+        "login": "Connexion",
+        "signIn": "Veuillez vous connecter",
+        "signInHere": "Connectez vous ici",
+        "sessionExpired": "Session expir\u00e9e",
+        "rememberMe": "Se souvenir de moi",
+        "sessionExpiredMessage": "Votre session a expir\u00e9 pour cause d'inactivit\u00e9, veuillez vous connecter \u00e0 nouveau afin de continuer.",
+        "invalidCredentials": "Adresse courriel ou mot de passe erron\u00e9. Veuillez r\u00e9essayer.",
+        "sessionClosedByChangedPassword": "Mot de passe modifi\u00e9",
+        "sessionClosedByChangedPasswordMessage": "Votre mot de passe a \u00e9t\u00e9 modifi\u00e9 avec succ\u00e8s. Veuillez ouvrir une nouvelle session afin de continuer."
+    },
+    "keto": {
+        "graphDesc": "Pr\u00e9vision c\u00e9tose\/Test\u00e9e",
+        "references": "R\u00c9F\u00c9RENCES",
+        "tableTitle": "Pr\u00e9valence de c\u00e9tose",
+        "tableDesc": "Pr\u00e9vision c\u00e9tose\/ Animaux test\u00e9s",
+        "yAxis": "Niveau de pr\u00e9valence %",
+        "allAnimals": "TOUS ANIMAUX",
+        "earlyFresh": "PR\u00c9VALENCE V\u00caLAGES H\u00c2TIFS",
+        "firstLact": "1e LACT",
+        "secondLact": "2e LACT",
+        "secondPlusLact": "+ de 2 LACT",
+        "target": "OBJECTIF",
+        "overall": "(5 \u00e0 20 DIM (JEL))",
+        "early": "(5 \u00e0 11 DIM (JEL))",
+        "animals": "Animaux",
+        "earlyFreshDim": "V\u00caLAGES H\u00c2TIFS (5-11 DIM (JEL))"
+    },
+    "commandLine": {
+        "title": "FONCTION (COMMAND)",
+        "execute": "EX\u00c9CUTER",
+        "placeholder": "Tapez une fonction",
+        "invalid": "Fonction non valide",
+        "unsupported": "Fonction non exploitable",
+        "results": {
+            "title": "R\u00e9sultats fonction",
+            "executed": "Ex\u00e9cut\u00e9:",
+            "loading": "En chargement",
+            "print": "Imprimer",
+            "export": "Exporter",
+            "showGraph": "Voir tableau",
+            "hideGraph": "Masquer tableau",
+            "noMatch": "Aucun r\u00e9sultat trouv\u00e9"
+        },
+        "sum": {
+            "by": "Par",
+            "pct": "PCT %",
+            "count": "Nombre",
+            "field": "%{modifier} %{field}",
+            "total": "Total",
+            "sum": "\u00c9l\u00e9ment",
+            "childrenBy": "%{child} dans %{parent}",
+            "noByOrSum": "{amount} animaux dans ce groupe",
+            "range": "port\u00e9e",
+            "standardDeviation": "\u00c9cart type"
+        },
+        "count": {
+            "inGroup": "Animaux dans ce groupe"
+        }
+    },
+    "signup": {
+        "setupAccount": "Configurons votre compte",
+        "tokenExpired": "Le lien d'inscription a expir\u00e9, veuillez entrer votre adresse courriel \u00e0 nouveau.",
+        "errorFetchingToken": "Une erreur s'est produite lors de la v\u00e9rification du lien d'inscription. Veuillez r\u00e9essayer.",
+        "setPassword": "Cr\u00e9ez un mot de passe",
+        "signup": "Inscription",
+        "email": "Courriel",
+        "profile": "Profil",
+        "password": "Mot de passe",
+        "firstStepThanksMessage": "Nous vous remercions pour l'int\u00e9r\u00eat que vous portez envers la plateforme VAS.",
+        "needEmail": "Pour commencer, veuillez entrer votre adresse courriel.",
+        "haveAccount": "Vous avez d\u00e9j\u00e0 un compte?",
+        "emptyEmail": "Veuillez entrer votre adresse courriel.",
+        "invalidEmail": "Veuillez soumettre une adresse courriel valide.",
+        "defaultError": "Un probl\u00e8me est survenu lors de votre inscription. Veuillez r\u00e9essayer plus tard.",
+        "emailExists": "Cette adresse courriel est d\u00e9j\u00e0 inscrite aupr\u00e8s de la plateforme VAS.",
+        "emailSent": "Un courriel a \u00e9t\u00e9 envoy\u00e9 \u00e0 l'adresse ",
+        "checkInbox": "Veuillez consulter votre bo\u00eete courriel, vous devriez recevoir un message de notre part afin de confirmer et compl\u00e9ter votre inscription.",
+        "firstName": "Pr\u00e9nom",
+        "lastName": "Nom de famille",
+        "country": "Pays",
+        "state": "\u00c9tat\/Province",
+        "city": "Ville",
+        "postalCode": "Code postal",
+        "enterPassword": "Entrez votre mot de passe",
+        "reEnterPassword": "Confirmez votre mot de passe",
+        "allSet": "Tout est r\u00e9gl\u00e9!",
+        "accountCreated": "Votre compte a \u00e9t\u00e9 cr\u00e9\u00e9 avec succ\u00e8s.",
+        "continueToAgreements": "Cliquez ci-dessous afin de consulter l'accord d'abonnement de l'utilisateur et la politique de confidentialit\u00e9, et pour commencer \u00e0 utiliser la Plateforme VAS.",
+        "continue": "Continuer",
+        "gotMobile": "Avez-vous un t\u00e9l\u00e9phone portable?",
+        "tryVasInMobile": "Essayez la plateforme VAS sur votre appareil.",
+        "addProfilePicture": "IMAGE",
+        "error": {
+            "firstName": "Veuillez entrer votre pr\u00e9nom.",
+            "lastName": "Veuillez entrer votre nom de famille",
+            "country": "Veuillez entrer un pays.",
+            "state": "Veuillez entrer un \u00e9tat\/une province.",
+            "city": "Veuillez entrer une ville.",
+            "postalCode": "Veuillez entrer un code postal.",
+            "passwordIsEmpty": "Veuillez entrer un mot de passe.",
+            "passwordMinimumRequirements": "Le mot de passe ne r\u00e9pond pas aux exigences minimales.",
+            "passwordNotMatch": "Le mot de passe ne correspond pas.",
+            "rePasswordEmpty": "Veuillez confirmer votre mot de passe.",
+            "signingUp": "Une erreur s'est produite lors de l'inscription. Veuillez r\u00e9essayer plus tard."
+        }
+    },
+    "expiredToken": {
+        "title": "D\u00e9sol\u00e9!",
+        "type": {
+            "signup": "veuillez compl\u00e9ter votre inscription",
+            "reset": "R\u00e9initialisez votre mot de passe"
+        },
+        "line1": "Votre d\u00e9lai de %{type} a expir\u00e9!",
+        "line2": "Veuillez entrer votre adresse courriel de nouveau afin de recevoir un nouveau lien.",
+        "send": "Envoyer"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Mot de passe oubli\u00e9?",
+        "subtitle_": "Veuillez entrer votre adresse courriel, les instructions \u00e0 suivre",
+        "_subtitle": "pour r\u00e9initialiser votre mot de passe vous seront envoy\u00e9es.",
+        "titleMessage": "V\u00e9rifiez votre courriel.",
+        "description_": "S'il existe un compte correspondant",
+        "_description": "vous recevrez un courriel contenant un lien afin de r\u00e9initialiser votre mot de passe.",
+        "continueSignup": "Un courriel a \u00e9t\u00e9 envoy\u00e9 \u00e0 %{email}. Veuillez v\u00e9rifier votre bo\u00eete courriel afin de terminer votre inscription.",
+        "backToLogin": "Retour \u00e0 la page de connexion"
+    },
+    "passwordReset": {
+        "setNewPassword": "\u00c9tablir un nouveau mot de passe",
+        "tokenExpired": "Le lien de r\u00e9initialisation du mot de passe est expir\u00e9, veuillez entrer votre adresse courriel de nouveau."
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "Le navigateur n'est pas compatible",
+            "line1": "Afin d'utiliser la plateforme VAS, vous devez utiliser l'un des",
+            "line2": "navigateurs compatibles suivants.",
+            "line3": "(Cliquez pour t\u00e9l\u00e9charger)"
+        }
+    },
+    "chart": {
+        "charts": "graphiques",
+        "rechart": "Repr\u00e9sentation graphique - graphique lin\u00e9aire simple",
+        "rechartArea": "Repr\u00e9sentation graphique - graphique en zones simples",
+        "slider": "Curseur",
+        "sliderValue": "Valeur du curseur",
+        "rcSlider": "rc-curseur",
+        "gauge": "Indicateur",
+        "liquidGauge": "Indicateur de niveau de liquide",
+        "tempGauge": "Indicateur de temp\u00e9rature",
+        "emptyPlaceholder": {
+            "title": "Aucune donn\u00e9e \u00e0 ce point ci",
+            "description": "Il n'y a pas assez de donn\u00e9es pour tracer un graphique pour ce rapport."
+        }
+    },
+    "filter": {
+        "results": "Recherche de r\u00e9sultats",
+        "label": "Filtrer selon",
+        "clearFilter": "R\u00e9initialiser le filtre",
+        "clearFilters": "R\u00e9initialiser les filtres",
+        "dateError": "La date de fin ne peut pas pr\u00e9c\u00e9der la date de d\u00e9but",
+        "type": {
+            "pen": "Enclos"
+        },
+        "placeholder": {
+            "pen": "# d'enclos"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "Position de base",
+            "parentage": "Parents",
+            "currentLactation": "Lactation en cours",
+            "milkInfo": "Info Lait",
+            "matings": "Saillies",
+            "scanning": "Scanographie",
+            "offspring": "Prog\u00e9niture",
+            "vet": "V\u00e9t\u00e9rinaire",
+            "event": {
+                "events": "\u00c9v\u00e9nements",
+                "eventsBar": "Barre d'\u00e9v\u00e9nements - Fiche de vache",
+                "dualTable": "tableau double",
+                "singleTable": "tableau unique",
+                "details": "D\u00e9tails",
+                "responsible": "Responsable",
+                "pen": "Enclos",
+                "date": "Date",
+                "event": "\u00c9v\u00e9nement",
+                "remarks": "Remarques",
+                "dim": "DIM (JEL)"
+            },
+            "recentEvent": {
+                "noEvents": "Il n'y a pas de donn\u00e9es d'\u00e9v\u00e9nements \u00e0 afficher."
+            },
+            "lactation": {
+                "lactation": "LACTATION",
+                "dairyLactation": "Graphique de production de lait quotidienne",
+                "dairyLactationWithParams": "Graphique de production de lait quotidienne de %{dateFor} \u00e0 %{dateTo}",
+                "weeklyLactationLineChart": "Graphique lin\u00e9aire de production de lait hebdomadaire",
+                "noLactations": "Aucune production de lait \u00e0 afficher.",
+                "barGraph": "Graphique \u00e0 barres",
+                "lineGraph": "Graphique lin\u00e9aire"
+            },
+            "lactations": {
+                "noLactations": "Aucune lactation \u00e0 afficher.",
+                "summary": "R\u00e9sum\u00e9 des lactations",
+                "prevLactsGraphic": "Production de lait hebdomadaire par lactation",
+                "age": "AGE",
+                "dim": "DIM (JEL)",
+                "lactationNumber": "Num\u00e9ro de lactation"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "Aucune production de lait quotidienne \u00e0 afficher.",
+                "dimTooltip": "DIM (JEL)",
+                "milking": "en lactation",
+                "today": "aujourd'hui",
+                "average": "Moyenne",
+                "avg": "MOY",
+                "expected": "Escompt\u00e9",
+                "exp": "Esc",
+                "deviation": "\u00c9cart",
+                "total": "TOTAL",
+                "estimatedMilk": "Masse estim\u00e9e du lait"
+            },
+            "overview": {
+                "statusItems": "\u00c9l\u00e9ments d'\u00e9tat",
+                "recentEvents": "\u00c9v\u00e9nements r\u00e9cents",
+                "moreEvents": "Plus d'\u00e9v\u00e9nements",
+                "recentTestdays": "Derniers contr\u00f4les de lait",
+                "moreTestdays": "Autres contr\u00f4les de lait",
+                "moreItems": "Plus d'\u00e9l\u00e9ments",
+                "dailyRecentProduction": "Production quotidienne r\u00e9cente"
+            },
+            "testDays": {
+                "noTests": "Aucunes donn\u00e9es de contr\u00f4le de lait \u00e0 afficher.",
+                "date": "Date",
+                "milk": "Lait",
+                "dim": "DIM (JEL)",
+                "pen": "ENCLOS"
+            },
+            "statusGroup": {
+                "noItems": "Aucune donn\u00e9e d'\u00e9l\u00e9ments \u00e0 afficher."
+            },
+            "pedigree": {
+                "pedigree": "G\u00e9n\u00e9alogie",
+                "graphicView": "Graphic View",
+                "PDFView": "Affichage PDF"
+            },
+            "penChange": {
+                "penChanges": "Changements d'enclos",
+                "noPenChanges": "Aucun changement d'enclos \u00e0 afficher.",
+                "date": "Date",
+                "daysInPen": "Jours dans l'enclos",
+                "movedToPen": "D\u00e9plac\u00e9 \u00e0 l'enclos",
+                "PremiseId": "Identification du site",
+                "fromTo": "De - \u00c0",
+                "dim": "DIM (JEL)",
+                "source": "Source",
+                "testday": "TESTDAY",
+                "responsible": "Responsable",
+                "penTransfer": {
+                    "in": "DANS"
+                }
+            },
+            "sensor": {
+                "sensors": "D\u00e9tecteurs",
+                "accordionTitle": "Activit\u00e9 SCR - Donn\u00e9es du d\u00e9tecteur de rumination"
+            },
+            "testDay": {
+                "testDays": "Contr\u00f4les de lait",
+                "testDaysResults": "R\u00e9sultats de contr\u00f4les de lait",
+                "yAxisLayers": "R\u00c9F\u00c9RENCES",
+                "productionGraphByTestday": "Graphique de production par jour de contr\u00f4le de lait",
+                "testDaysToolTipTitle": "# de contr\u00f4le de lait"
+            },
+            "productionMilk": {
+                "noItems": "Aucune donn\u00e9e de production de lait \u00e0 afficher."
+            },
+            "type": {
+                "adultCow": "VACHE",
+                "bull": "TAUREAU",
+                "calf": "VEAU",
+                "heifer": "G\u00c9NISSE"
+            },
+            "farmName": "FNAME",
+            "cowName": "BNAME",
+            "pen": "Enclos",
+            "lact": "Lact",
+            "rpro": "Rpro",
+            "dim": "JEL (DIM)",
+            "dslh": "DSLH",
+            "dcc": "DCC",
+            "due": "DATE PR\u00c9VUE DE V\u00caLAGE",
+            "ardat": "ARDAT",
+            "milkWithhold": "P\u00e9riode de retrait de lait",
+            "meatWithhold": "D\u00e9lai avant abattage",
+            "reproductionCode": {
+                "heiferCalf": "G\u00c9NISSE",
+                "noBred": "NE PAS INS\u00c9MINER",
+                "fresh": "V\u00caL\u00c9E",
+                "ok": "OK\/VIDE",
+                "bred": "SAILLIE",
+                "preg": "GESTANTE",
+                "dry": "TARIE",
+                "sld": "VENDUE\/MORTE",
+                "bull": "VEAU M\u00c2LE"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "Modifier la carte d'\u00e9l\u00e9ments",
+                    "cardsPreview": "Aper\u00e7u de la carte",
+                    "dragAndDropReorder": "Glisser-d\u00e9poser pour r\u00e9organiser les \u00e9l\u00e9ments",
+                    "addItems": "Ajouter des \u00e9l\u00e9ments",
+                    "cardName": "Nom de la carte",
+                    "searchSpecificCowItem": "Rechercher un \u00e9l\u00e9ment de vache sp\u00e9cifique...",
+                    "cancelMessage": "Vous avez des modifications non sauvegard\u00e9es. Annuler quand m\u00eame?",
+                    "validation": "Veuillez ajouter au moins un \u00e9l\u00e9ment \u00e0 la carte avant de sauvegarder.",
+                    "noItems": "Veuillez ajouter au moins un \u00e9l\u00e9ment pour voir un aper\u00e7u de la nouvelle carte.",
+                    "isMobile": "Afficher dans l'appli mobile"
+                },
+                "add": {
+                    "itemBoxTitle": "Ajouter une carte d'\u00e9l\u00e9ments",
+                    "error": "D\u00e9sol\u00e9, une erreur inattendue s'est produite. Veuillez essayer d'ajouter une carte de nouveau.",
+                    "newItemsCard": "Nouvelle carte d'\u00e9l\u00e9ments"
+                },
+                "hide": {
+                    "title": "Masquer la carte d'\u00e9l\u00e9ments?",
+                    "line1": "Vous pouvez restaurer les cartes masqu\u00e9es en ",
+                    "line2": "cliquant sur \"Restaurer la carte masqu\u00e9e\"",
+                    "confirm": "oui, masquer"
+                },
+                "restoreCard": "Restaurer la carte masqu\u00e9e",
+                "addCard": "Ajouter une nouvelle carte",
+                "restore": {
+                    "boxTitle": "Restaurer les cartes masqu\u00e9es",
+                    "edition": {
+                        "title": "S\u00e9lectionnez les cartes",
+                        "subTitle": "Les cartes masqu\u00e9es auparavant peuvent \u00eatre ajout\u00e9es \u00e0 partir de cet \u00e9cran."
+                    },
+                    "noHiddenCardTitle": "Nom de la Carte",
+                    "error": "D\u00e9sol\u00e9, une erreur inattendue s'est produite. Veuillez essayer d'ajouter une carte masqu\u00e9e \u00e0 nouveau.",
+                    "noItems": "Veuillez cliquer sur une carte d'articles de la liste pour la consulter."
+                },
+                "successUpdate": "mise \u00e0 jour r\u00e9ussie",
+                "notSuccessUpdate": "Une erreur s'est produite lors de l'enregistrement des informations. Veuillez r\u00e9essayer dans quelques minutes",
+                "itemCard": "carte d'articles",
+                "itemCardSuccessfullyAdded": "ajout r\u00e9ussi",
+                "itemCardSuccessfullyRestored": "articles restaur\u00e9s avec succ\u00e8s",
+                "itemCardSuccessfullyHidden": "carte d'articles masqu\u00e9e avec succ\u00e8s",
+                "itemCardColorPaletteLabel": "Couleur",
+                "itemCardColorPaletteDefault": "Couleur par d\u00e9faut",
+                "itemCardBackgroundColorPickerLabel": "Couleur de l'arri\u00e8re-plan",
+                "itemCardForegroundColorPickerLabel": "Couleur du texte"
+            },
+            "subMenu": {
+                "overview": "Vue d'ensemble",
+                "items": "Articles",
+                "events": "\u00c9v\u00e9nements",
+                "testDays": "Contr\u00f4les de lait",
+                "lactations": "Lactations",
+                "dailyMilk": "Lait Quotidien",
+                "penChanges": "Changement d'enclos",
+                "pedigree": "Pedigree",
+                "partners": "Partenaires"
+            },
+            "recentProduction": {
+                "milking": "# Traite"
+            },
+            "dead": "MORTE",
+            "alive": "EN VIE",
+            "sold": "VENDUE",
+            "placeholder": {
+                "title": "Il n'y a pas d'articles \u00e0 afficher",
+                "description": "Configurez votre carte d\u2019articles pour les afficher ici."
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "date naiss",
+                        "weanDateTitle": "date sevrage",
+                        "sexTitle": "sexe",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Caract\u00e9ristiques de l'\u00e9levage du veau",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} jours %{preposition} date attendue du sevrage",
+                            "prepositionUntil": "jusqu'\u00e0",
+                            "prepositionPast": "apr\u00e8s",
+                            "projected": "PROJET\u00c9",
+                            "weaned": "sevr\u00e9",
+                            "weaning": "sevrage"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 jours",
+                        "todayTitle": "aujourd'hui",
+                        "averageDailyGainTitle": "adg (gain de poids moyen)",
+                        "title": "Poids",
+                        "perDay": "j",
+                        "popover": "Si votre ferme est \u00e9quip\u00e9e d'un appareil \"F\u00f6rster half-body scale\", ceci est le poids r\u00e9el de l'animal. Sinon, il s'agit d'une estimation bas\u00e9e sur l'\u00e2ge du veau."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "lait",
+                        "concentrationTitle": "concentration",
+                        "additiveTitle": "Suppl\u00e9ment",
+                        "title": "Consommation totale",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Ratio d'allocation",
+                        "dipsMilkIntake": "# dips consommation de lait",
+                        "avgBreaksDay": "Moy. pauses\/jour",
+                        "avgDailySteps": "Moy. pas\/jour",
+                        "daysOnPrescription": "Jours de prescription"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Vitesse d'abreuvement",
+                        "speed": "vitesse",
+                        "timeUnit": "m",
+                        "day": "Jour"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Comportement d'abreuvement",
+                        "milk": "lait"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Consommation de lait",
+                        "consumption": "Consommation",
+                        "lastTwoDays": "derniers 2 jours",
+                        "visitNumber": "Visite %{number}",
+                        "visitRange": "Visites %{from} \u00e0 %{to}",
+                        "visit": "visite",
+                        "withoutFeeding": "sans alimentation",
+                        "additive": "suppl\u00e9ment",
+                        "total": "total",
+                        "yesterdayTarget": "objectif d'hier",
+                        "todayEntitlement": "admissibilit\u00e9 d'aujourd'hui",
+                        "timeRange": "%{from} \u00e0 %{to}"
+                    },
+                    "common": {
+                        "amount": "quantit\u00e9",
+                        "entitlement": "admissible",
+                        "today": "Aujourd'hui",
+                        "yesterday": "Hier",
+                        "now": "maintenant",
+                        "widgetNotFound": "Il n'y a pas de donn\u00e9es %{name} \u00e0 afficher pour cet animal",
+                        "widgetCommunicationError": "Erreur de communication"
+                    }
+                },
+                "table": {
+                    "message": "Message",
+                    "dateAndTime": "Date et Heure",
+                    "observations": "Observations"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "Temp\u00e9rature",
+                        "ph": "pH",
+                        "activity": "Activit\u00e9"
+                    },
+                    "views": {
+                        "view": "Vue",
+                        "last24hs": "Derni\u00e8res 24 h",
+                        "last7days": "7 derniers jours",
+                        "last30days": "30 derniers jours"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "Consommation d'eau insuffisante",
+                    "health102": "Augmentation des cycles de consommation d'eau",
+                    "health103": "R\u00e9duction des cycles de consommation d'eau",
+                    "health104": "Augmentation de temp\u00e9rature",
+                    "health106": "Baisse de temp\u00e9rature",
+                    "health601": "ITH \u2265 72 Stress thermique",
+                    "health602": "ITH \u2265 78 Stress thermique",
+                    "health603": "ITH \u2265 82 Stress thermique",
+                    "health703": "Baisse d'activit\u00e9",
+                    "fertility105": "Indication de v\u00ealage imminent",
+                    "fertility702": "\u0153strus",
+                    "feeding201": "Efficacit\u00e9 alimentaire",
+                    "feeding202": "Risque d'acidose",
+                    "feeding203": "Augmentation du pH moyen",
+                    "feeding204": "Baisse du pH moyen",
+                    "feeding205": "Augmentation du pH en 12 h",
+                    "feeding206": "Baisse du pH en 12 h",
+                    "actincrease701": "Augmentation de l'activit\u00e9",
+                    "actincrease704": "Augmentation de l'activit\u00e9",
+                    "heat": "D\u00e9tection de chaleur",
+                    "insemination": "Ins\u00e9mination d'un animal",
+                    "pregnancyResult": "R\u00e9sultat de grossesse positif ou n\u00e9gatif",
+                    "calvingDetection": "D\u00e9tection d'un v\u00ealage",
+                    "dryOff": "Tarissement",
+                    "calvingConfirmation": "Confirmation d'un v\u00ealage"
+                },
+                "selectPartner": "Partenaire:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "Il n'y a pas de donn\u00e9es de capteur SmaXtec \u00e0 afficher pour cet animal."
+            }
+        },
+        "overview": {
+            "page": "Vue d'ensemble du troupeau"
+        },
+        "pens": {
+            "penList": "Liste d'enclos",
+            "animalCost": "Co\u00fbt des animaux",
+            "space": "Espace",
+            "capacity": "Capacit\u00e9",
+            "count": "Nombre",
+            "extra": "Extra",
+            "feed": "Alimentation",
+            "feedingHdCount": "D\u00e9nombrement pour l'alimentation",
+            "feedingCount": "Feeding Count",
+            "herd": "Troupeau",
+            "label": "\u00c9tiquette",
+            "pen": "Enclos",
+            "penCost": "Co\u00fbt d'enclos",
+            "penCount": "Nombre d'enclos",
+            "pens": "Enclos",
+            "penType": "Type d'enlos",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "Identification du site",
+            "targetDmHd": "Objectif MS\/T\u00eate",
+            "costPerHd": "Cost\/HD",
+            "type": "Type",
+            "view": "Voir",
+            "zone": "Zone",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "Tous types d'enclos",
+                "isArtificialInseminationPen": "IA",
+                "isBullPen": "Enclos Taureau",
+                "isCalfPen": "Veau",
+                "isDryPen": "Tarie",
+                "isHospitalPen": "H\u00f4pital",
+                "isMilkingPen": "En lactation",
+                "isUserPen": "Utilisateur",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "Listes de t\u00e2ches en cours",
+            "todayTitle": "Aujourd'hui",
+            "upcomingTitle": "\u00c0 venir",
+            "lastDaysTitle": "Trois derniers jours",
+            "accordionTitle": "Listes",
+            "time": {
+                "week": "Il y a une semaine",
+                "yesterday": "Ceux d'hier",
+                "today": "Ceux d'aujourd'hui"
+            },
+            "help": {
+                "tag": "Besoin d'aide?",
+                "link": "En savoir plus sur les listes de t\u00e2ches"
+            },
+            "tableHead": {
+                "name": "Nom",
+                "listDate": "Date de la liste",
+                "listType": "Type de liste",
+                "status": "\u00c9tat",
+                "progress": "Progr\u00e8s",
+                "description": "Description",
+                "ondone": "En attente",
+                "postProcess": "Post-processus"
+            },
+            "progress": {
+                "animals": "Animaux",
+                "toBeProcessed": "\u00e0 traiter",
+                "filterNoResults": "Il n'y a pas d'animaux \u00e0 afficher pour cet onglet sous ce filtre."
+            },
+            "status": {
+                "open": "Ouvert",
+                "closed": "Ferm\u00e9",
+                "delivered": "Livr\u00e9",
+                "todo": "\u00c0 faire",
+                "pending": "En attente",
+                "inProgress": "En cours",
+                "queued": "En attente",
+                "processed": "Trait\u00e9"
+            },
+            "changeStatus": {
+                "todo": "\u00e0 faire",
+                "done": "termin\u00e9",
+                "completed": "Compl\u00e9t\u00e9",
+                "processed": "Trait\u00e9",
+                "toBeProcessed": "\u00c0 traiter"
+            },
+            "identificationType": {
+                "unknown": "inconnu",
+                "tap": "saisie manuelle",
+                "scan": "scann\u00e9",
+                "voice": "voix"
+            },
+            "tableColumns": {
+                "method": "M\u00e9thode",
+                "doneBy": "Fait par",
+                "updatedAt": "Heure compl\u00e9t\u00e9",
+                "changeStatus": "Statut"
+            },
+            "noItems": "Aucune liste \u00e0 afficher",
+            "listDetailsPageTitle": "D\u00e9tails de la liste",
+            "tabs": {
+                "todo": "\u00e0 faire",
+                "done": "termin\u00e9"
+            },
+            "details": {
+                "table": {
+                    "id": "IDENTIFIANT",
+                    "pen": "ENCLOS",
+                    "lact": "LACT",
+                    "rprod": "RPROD",
+                    "dim": "DIM (JEL)",
+                    "dcc": "DCC",
+                    "milk": "LAIT",
+                    "all": "tous"
+                }
+            },
+            "listTypes": {
+                "todolist": "liste des t\u00e2ches"
+            }
+        },
+        "itemDefinitions": {
+            "title": "d\u00e9fintion de l'\u00e9l\u00e9ment",
+            "name": "Nom",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Type",
+            "description": "Description",
+            "standardItemNumber": "# d'\u00e9l\u00e9ment standard",
+            "filterPlaceholder": "Nom, # ou description"
+        },
+        "eventDefinitions": {
+            "title": "D\u00e9finitions d'\u00e9v\u00e9nements",
+            "number": "Num\u00e9ro",
+            "eventName": "Nom d'\u00e9v\u00e9nement",
+            "standardEventCode": "# standard",
+            "team": "\u00c9quipe",
+            "gap": "Diff\u00e9rence",
+            "command": "Commande",
+            "filterPlaceholder": "Nom d'\u00e9v\u00e9nement, # ou fonction"
+        },
+        "protocols": {
+            "title": "Protocoles",
+            "number": "P#",
+            "event": "\u00c9v\u00e9nement",
+            "protocol": "Protocole",
+            "remark": "Commentaire",
+            "goToPen": "Aller \u00e0 l'enclos",
+            "milkWithold": "Retrait de lait",
+            "meatWithold": "D\u00e9lai d'abattage",
+            "timeOnProtocol": "Temps sur protocole",
+            "adult": "Adulte",
+            "heifer": "G\u00e9nisse",
+            "team": "\u00c9quipe",
+            "recheck": "Rev\u00e9rifier",
+            "order": "Commande",
+            "prompt": "P",
+            "days": {
+                "singular": "jour",
+                "plural": "jours"
+            },
+            "showInactive": "Afficher inactif",
+            "details": "D\u00e9tails du protocole",
+            "hasPrompt": "Demande: Oui"
+        }
+    },
+    "home": {
+        "home": "Accueil",
+        "title": "Plateforme VAS",
+        "searchboxPlaceholder": "Rechercher une vache",
+        "selectContext": "S\u00e9lectionnez un %{context}",
+        "context": {
+            "dairy": "Ferme",
+            "company": "Entreprise",
+            "companyOrDairy": "Entreprise ou ferme",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Connexion \u00e0 votre premi\u00e8re ferme de",
+                "myHome": "Accueil",
+                "pendingInvitationPreppend": "Vous avez une invitation en attente.\nAller \u00e0",
+                "pendingInvitationAppend": "pour accepter."
+            }
+        },
+        "dairyProfile": "Profil de production",
+        "selectDairy": "S\u00e9lectionnez une ferme",
+        "search": {
+            "noResults": "Aucune ferme ne correspond \u00e0 cette recherche"
+        }
+    },
+    "validation": {
+        "invalidName": "Veuillez entrer un nom valide.",
+        "invalidEmail": "Veuillez soumettre une adresse courriel valide.",
+        "emptyEmail": "Veuillez entrer votre adresse courriel.",
+        "invalidPassword": "Le mot de passe doit contenir au moins 6 caract\u00e8res.",
+        "emptyPassword": "Veuillez entrer votre mot de passe.",
+        "passwordNotMatch": "Le mot de passe ne correspond pas.",
+        "retypePassword": "Veuillez confirmer votre mot de passe.",
+        "passwordMinimumRequirements": "Le mot de passe ne r\u00e9pond pas aux exigences minimales.",
+        "invalidCardName": "Le nom de la Carte d'\u00e9l\u00e9ments doit contenir au moins 6 caract\u00e8res.",
+        "emptyCardName": "Veuillez entrer le nom de la carte d'\u00e9l\u00e9ments.",
+        "changePassword": {
+            "emptyCurrentPassword": "Veuillez entrer votre mot de passe actuel.",
+            "emptyNewPassword": "Veuillez entrer votre nouveau mot de passe.",
+            "emptyConfirmNewPassword": "Veuillez confirmer le nouveau mot de passe."
+        },
+        "address": {
+            "emptyCountry": "Veuillez s\u00e9lectionner un pays.",
+            "emptyStateProvince": "Veuillez %{action} un \u00e9tat\/une province.",
+            "selectStateProvince": "s\u00e9lectionner",
+            "enterStateProvince": "entrer",
+            "emptyCity": "Veuillez entrer une ville.",
+            "emptyPostalCode": "Veuillez entrer un code postal."
+        },
+        "dairy": {
+            "emptyName": "Veuillez entrer le nom de la ferme."
+        },
+        "invalidMobilePhoneNumber": "Veuillez entrer un num\u00e9ro de t\u00e9l\u00e9phone mobile valide. Assurez-vous de n'entrer que des chiffres, sans les espaces.",
+        "invalidPhoneNumber": "Veuillez entrer un num\u00e9ro de t\u00e9l\u00e9phone fixe valide. Assurez-vous de n'entrer que des chiffres, sans les espaces.",
+        "limitCharacters": "Vous avez atteint la limite de caract\u00e8res pour ce champ.",
+        "accountSettings": {
+            "firstName": "Veuillez entrer votre pr\u00e9nom",
+            "lastName": "Veuillez entrer votre nom de famille."
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404 introuvable",
+            "line1": "D\u00e9sol\u00e9, la page que vous recherchez n'est pas disponible.",
+            "line2": "Veuillez r\u00e9essayer ou aller \u00e0"
+        },
+        "tokenInvalid": "Le code de r\u00e9initialisation du mot de passe n'est pas valide.",
+        "unableChange": "Impossible de changer le mot de passe.",
+        "401": "Non autoris\u00e9",
+        "500": "Erreur interne du serveur",
+        "passwordInvalid": "Ce mot de passe est incorrect."
+    },
+    "password": {
+        "passwordCreated": "Mot de passe cr\u00e9\u00e9",
+        "passwordSuccessfullyCreated": "Votre mot de passe a \u00e9t\u00e9 cr\u00e9\u00e9 avec succ\u00e8s",
+        "passwordUpdated": "Mot de passe mis \u00e0 jour",
+        "passwordSuccessfullyChanged": "Votre mot de passe a \u00e9t\u00e9 modifi\u00e9 avec succ\u00e8s.",
+        "continueToHome": "Continuer vers la page d'accueil",
+        "enterPassword": "Entrez votre mot de passe",
+        "savePassword": "Sauvegarder le mot de passe",
+        "passwordRequirements": "Exigences du mot de passe",
+        "unableToChange": "Impossible de changer le mot de passe.",
+        "setPassword": "Cr\u00e9\u00e9z votre mot de passe",
+        "invalidToken": {
+            "invalidToken": "Code invalide.",
+            "title_line1": "Votre invitation \u00e0",
+            "title_line2": "la plateforme VAS a expir\u00e9",
+            "line1": "S'il vous pla\u00eet, \u00e9crivez-nous \u00e0 l'adresse ",
+            "line2": "ou appelez nous au ",
+            "line3": "afin d'obtenir une nouvelle invitation."
+        },
+        "ValidPassword": {
+            "minLength": "Longueur minimale de six (6) caract\u00e8res.",
+            "numbersAndLetters": "Doit contenir une combinaison de lettres et de chiffres.",
+            "lowerUpperCases": "Doit contenir des lettres minuscules et majuscules."
+        }
+    },
+    "breadcrumb": {
+        "operations": "Op\u00e9rations",
+        "herd": "Troupeau",
+        "cows": "Vaches",
+        "pens": "Enclos",
+        "ID": "ID",
+        "overview": "Vue d'ensemble",
+        "company": "Entreprise",
+        "dairy": "Ferme",
+        "dairyComp": "DairyComp",
+        "dashboard": "Tableau de bord",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "Listes de t\u00e2ches en cours",
+        "messageCenter": "Fen\u00eatre \u00e0 messages"
+    },
+    "footer": {
+        "title": "Plateforme VAS"
+    },
+    "search": {
+        "searchHistory": "Historique des recherches",
+        "searchResults": "R\u00e9sultats de la recherche",
+        "noResults": "Aucun r\u00e9sultat de recherche d'animaux correspondant",
+        "searchForCow": "Rechercher un animal",
+        "firstResult": "Premier r\u00e9sultat",
+        "thirdResult": "Troisi\u00e8me r\u00e9sultat"
+    },
+    "dairy": {
+        "noDairiesConnected": "Aucune ferme connect\u00e9e",
+        "noDairiesText_": "Connectez-vous avec votre premi\u00e8re ferme de votre",
+        "requestAccessSuccess": "Demande d'acc\u00e8s envoy\u00e9e avec succ\u00e8s \u00e0"
+    },
+    "menu": {
+        "myHome": "Ma page d'accueil",
+        "impersonationLabel": "Administrateur en tant que",
+        "dairyManager": "Gestionnaire de toupeau laitier",
+        "accountSettings": "Param\u00e8tres du compte",
+        "logOut": "Se d\u00e9connecter",
+        "reports": "Rapports",
+        "favorites": "Favoris",
+        "favoriteReports": "Rapports Favoris",
+        "dairyInformation": "Information sur la ferme",
+        "dairyConfiguration": "Configuration de la ferme",
+        "operations": "Op\u00e9rations",
+        "userManagement": "Gestion des utilisateurs",
+        "messageCenter": "Fen\u00eatre \u00e0 messages"
+    },
+    "accountSettings": {
+        "account": "Compte",
+        "myAccount": "Mon Compte",
+        "userProfile": "Profil d'utilisateur",
+        "changeMyPassword": "Changer mon mot de passe",
+        "password": "Mot de passe",
+        "mobilePhoneNumber": "Num\u00e9ro de t\u00e9l\u00e9phone portable",
+        "phoneNumberValidationOnlyNumbers": "Entrez uniquement des chiffres dans le champ Num\u00e9ro de t\u00e9l\u00e9phone portable.",
+        "phoneNumberValidationExtensionNumbers": "N'incluez pas les num\u00e9ros de poste.",
+        "firstName": "Pr\u00e9nom",
+        "lastName": "Nom de famille",
+        "dateFormat": "Format de la date",
+        "timeFormat": "Format de l'heure",
+        "howYouPreferSeeDates": "Comment pr\u00e9f\u00e9rez-vous voir les dates dans l'application",
+        "howYouPreferSeeTimes": "Comment pr\u00e9f\u00e9rez-vous voir l'heure dans l'application",
+        "address": "Adresse",
+        "units": "Unit\u00e9s",
+        "chooseDisplayUnits": "Choisissez le moyen d'afficher les unit\u00e9s avec lequel vous \u00eates le plus familier",
+        "language": "Langue",
+        "languageToDisplay": "La langue d'affichage dans la plateforme VAS",
+        "aboutMe": "\u00c0 mon sujet",
+        "amIDiscoverable": "Suis-je visible?",
+        "isDiscoverable": "Est visible",
+        "youCanBeContacted": "Vous pouvez \u00eatre contact\u00e9 par d'autres utilisateurs de l'application",
+        "youWantYourDairyFound": "Voulez-vous que d'autres utilisateurs trouvent votre ferme?",
+        "country": "Pays",
+        "state": "\u00c9tat\/ Province",
+        "city": "Ville",
+        "addressLine1": "Ligne d'adresse 1",
+        "addressLine2": "Ligne d'adresse 2",
+        "addressEmail": "Adresse courriel",
+        "phoneNumber": "Num\u00e9ro de t\u00e9l\u00e9phone",
+        "email": "Courriel",
+        "web": "Addresse internet",
+        "currentPassword": "Mot de passe actuel",
+        "newPassword": "Nouveau mot de passe",
+        "confirmNewPassword": "Confirmer le nouveau mot de passe",
+        "physicalAddress": "Adresse physique",
+        "billingAddress": "Adresse de facturation",
+        "theEmailGravatarDescription_line1": "Le courriel que vous utiliserez pour vous connecter.",
+        "theEmailGravatarDescription_line2_part1": "Utiliser ",
+        "theEmailGravatarDescription_line2_part2": " en tant que fournisseur de votre photo de profil, l'actualisation apr\u00e8s la mise \u00e0 jour peut prendre un certain temps.",
+        "profileSettings": "PARAM\u00c8TRES DU PROFIL",
+        "postalCode": "Code postal",
+        "profilePicture": {
+            "title": "AJOUTEZ UNE PHOTO DE PROFIL",
+            "line1": "Faites glisser une des images \u00e0 gauche, ou s\u00e9lectionnez une image \u00e0 partir de votre ordinateur pour personnaliser votre photo de profil.",
+            "line2": "Vous pourrez ajuster la position et la taille de l'image une fois le t\u00e9l\u00e9chargement termin\u00e9.",
+            "condition1": "Veuillez utiliser un fichier .jpg ou .png.",
+            "condition2": "Taille maximale de l'image: 150kb.",
+            "condition3": "Tailles d'image compatibles: 32x32, 100x100 ou 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "Avis",
+            "whatsNewDetails": "Bienvenue sur la plateforme VAS, jetez un \u0153il ici pour les avis.",
+            "myDairies": "Mes fermes",
+            "search": {
+                "placeholder": "Trouvez une nouvelle ferme et connectez-vous"
+            }
+        },
+        "myDairies": {
+            "noDairies": "Il n'y a pas de ferme \u00e0 afficher",
+            "dairyColumnTitle": "Ferme",
+            "locationColumnTitle": "Lieu",
+            "statusColumnTitle": "\u00c9tat",
+            "invitationText": "Vous avez \u00e9t\u00e9 invit\u00e9 \u00e0",
+            "requestAccessText": "Vous avez demand\u00e9 l'acc\u00e8s \u00e0",
+            "viewDairyPage": " Voir la page de la ferme",
+            "acceptAction": "Accepter",
+            "declineAction": "Refuser",
+            "cancelAction": "Annuler la demande",
+            "leaveDairy": "Quitter la ferme",
+            "status": {
+                "invited": "Invit\u00e9",
+                "requested": "En attente d'approbation",
+                "connected": "Connect\u00e9"
+            }
+        },
+        "myConnections": {
+            "title": "Mes connexions",
+            "noConnections": "Aucune connexion \u00e0 afficher",
+            "connect": "Se connecter \u00e0 une nouvelle ferme",
+            "viewList": "Voir la liste des connexions"
+        },
+        "dairiesFilterPlaceholder": "Trouver une ferme",
+        "connectionInvite": {
+            "accepted": "Invitation accept\u00e9e",
+            "confirmDeclinePart1": "Vous refusez l'invitation",
+            "confirmDeclinePart2": ". Confirmez vous?",
+            "declined": "Refuser l'invitation \u00e0",
+            "notFound": "L'entr\u00e9e que vous tentez de v\u00e9rifier n'est plus disponible."
+        },
+        "connectionLeave": {
+            "confirmed": "Vous vous \u00eates bien d\u00e9connect\u00e9 de",
+            "confirmLeave": "\u00cates-vous certain de vouloir quitter?",
+            "errorDairyLeaving": "Une erreur est survenue en quittant la ferme. Veuillez r\u00e9essayer dans quelques minutes.",
+            "errorCompanyLeaving": "Une erreur est survenue au moment de quitter l'entreprise. Veuillez r\u00e9essayer dans quelques minutes.",
+            "errorDairyLeavingOnlyOwner": "Vous ne pouvez pas quitter cette ferme car vous \u00eates le seul \u00e0 \u00eatre autoris\u00e9 pour la gestion d'utilisateurs en ce moment. Veuillez attribuer cette autorisation \u00e0 au moins un autre utilisateur et essayer de nouveau.",
+            "errorCompanyLeavingOnlyOwner": "Vous ne pouvez pas quitter cette entreprise car vous \u00eates le seul \u00e0 \u00eatre autoris\u00e9 pour la gestion d'utilisateurs en ce moment. Veuillez attribuer cette autorisation \u00e0 au moins un autre utilisateur et essayer de nouveau."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " Voir la page de l'entreprise",
+            "leaveCompany": "Quitter l'entreprise"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "Messages",
+        "view": "Afficher",
+        "noMessages": "Messages",
+        "filters": {
+            "all": "Tous les avis",
+            "info": "Info",
+            "news": "Actualit\u00e9s",
+            "alert": "Avertissement",
+            "warning": "Mise en garde",
+            "announcement": "Avis",
+            "system": "Avis du syst\u00e8me",
+            "unread": "Non lu",
+            "worklists": "Mises \u00e0 jour des listes de t\u00e2ches"
+        },
+        "actions": {
+            "markAsRead": "Marquer comme lu",
+            "showMore": "Voir d\u00e9tails"
+        }
+    },
+    "discoverability": {
+        "yes": "oui",
+        "no": "non",
+        "dairy": {
+            "yesDetail": "Oui, ferme visible pour les autres utilisateurs",
+            "noDetail": "Non, ferme non visible pour les autres utilisateurs"
+        },
+        "account": {
+            "yesDetail": "Oui, je veux \u00eatre visible pour les autres utilisateurs",
+            "noDetail": "Non, je ne veux pas \u00eatre visible pour les autres utilisateurs"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Configuration de l'entreprise",
+        "userManagement": {
+            "title": "Gestion des utilisateurs",
+            "fromCompany": "de cette entreprise",
+            "userRemovedSuccess": "a bien \u00e9t\u00e9 retir\u00e9 de cette entreprise.",
+            "inviteUserModal": {
+                "existingUser": "L'adresse courriel appartient \u00e0 un utilisateur existant dans cette entreprise.",
+                "confirmButton": "Inviter",
+                "noPlatformUser": "L'adresse courriel soumise n'appartient pas \u00e0 un utilisateur de la plateforme VAS. Vous pouvez seulement ajouter des utilisateurs de la plateforme VAS existants."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "Configuration de la ferme",
+        "dairyInformation": "Information sur la ferme",
+        "dairyInfo": "Info de la ferme",
+        "address": "Adresse",
+        "dairyName": "Nom de la ferme",
+        "dairyType": "Type de ferme",
+        "dairyMainActivity": "Activit\u00e9 principale de la ferme",
+        "changesSavedError": "D\u00e9sol\u00e9, une erreur inattendue s'est produite. Veuillez essayer de modifier votre configuration de ferme \u00e0 nouveau.",
+        "dairySettings": "PARAM\u00c8TRES DE LA FERME",
+        "userManagement": "Gestion des utilisateurs",
+        "dairyImage": "Image de la ferme",
+        "description": "Description",
+        "timezone": "Fuseau horaire"
+    },
+    "userManagement": {
+        "users": "Utilisateurs",
+        "roles": "R\u00f4les",
+        "role": "R\u00f4le",
+        "assignRoles": "Attribuez des r\u00f4les lors de l'approbation de la demande d'acc\u00e8s.",
+        "removeUserMessage": "Vous supprimez l'utilisateur",
+        "fromDairy": "de cette ferme",
+        "userRemovedSuccess": "supprim\u00e9 de la ferme.",
+        "confirmRemove": "Oui",
+        "permission": "Permission",
+        "permissions": "Permissions",
+        "removeUser": "Supprimer",
+        "noUsers": "Aucun r\u00e9sultat correspondant.",
+        "accessPending": {
+            "title": "Acc\u00e8s en attente d'approbation",
+            "declineRequestMessageFistPart": "Vous refusez l'acc\u00e8s \u00e0",
+            "declineRequestMessageSecondPart": ". Confirmez-vous?",
+            "confirmDeclineRequestMessageFistPart": "Acc\u00e8s demand\u00e9 aupr\u00e8s de  ",
+            "confirmDeclineRequestMessageSecondPart": "refus\u00e9.",
+            "accessRequestTo": "Acc\u00e8s demand\u00e9 aupr\u00e8s de",
+            "confirmApproveRequestMessage": "approuv\u00e9"
+        },
+        "user": "Utilisateur",
+        "editRoles": "Modifier les r\u00f4les",
+        "status": "\u00c9tat",
+        "updated": "Mis \u00e0 jour",
+        "sent": "Envoy\u00e9",
+        "noAccessPending": "Il n'y a aucune demande d'acc\u00e8s utilisateur ni d'invitation \u00e0 traiter pour le moment.",
+        "addRole": "Ajouter un r\u00f4le",
+        "addNewRole": "Ajouter un nouveau r\u00f4le",
+        "editRole": "modifier les permissions du r\u00f4le",
+        "editUserRoles": "Modifier les r\u00f4les d'utilisateur",
+        "assignedRoles": "R\u00f4les assign\u00e9s",
+        "assignedRolesHintMessage": "Attribuer des r\u00f4les \u00e0 l'utilisateur en les s\u00e9lectionnant parmi la liste de gauche",
+        "inviteUser": "Ajouter un nouvel utilisateur",
+        "roleEdition": {
+            "roleName": "Nom du r\u00f4le",
+            "roleDescription": "Description du r\u00f4le",
+            "errorOnlyOwner": "Les modifications ne peuvent pas \u00eatre enregistr\u00e9es pour %{user} car c'est le seul \u00e9tant autoris\u00e9 pour la gestion d'utilisateurs. Veuillez attribuer cette autorisation \u00e0 au moins un autre utilisateur et r\u00e9essayer.",
+            "errorOnlyRole": "Les modifications ne peuvent pas \u00eatre enregistr\u00e9es pour %{role} car c'est le seul \u00e9tant autoris\u00e9 pour la gestion d'utilisateurs. Veuillez attribuer cette autorisation \u00e0 au moins un autre r\u00f4le et r\u00e9essayer.",
+            "permissionType": {
+                "dairy": "Ferme",
+                "herd": "Troupeau",
+                "feed": "Alimentation",
+                "parlor": "Salle de traite"
+            },
+            "permissionsAddLabel": "S\u00e9lectionnez les autorisations accord\u00e9es au nouveau r\u00f4le.",
+            "permissionsEditLabel": "S\u00e9lectionnez les autorisations accord\u00e9es pour ce r\u00f4le.",
+            "editZonesHelpMessagePermission": "\u00e9crire",
+            "editZonesHelpMessage": "Si vous avez assign\u00e9 %{permission} autorisations pour ce r\u00f4le, et si vous avez diff\u00e9rentes zones dans votre ferme, vous devez s\u00e9lectionner les zones auxquelles elle s'appliquera.",
+            "editZonesHintMessage": "Ce panneau g\u00e9rera les autorisations d'\u00e9criture par zone au cas o\u00f9 l'utilisateur disposerait d'une telle autorisation.",
+            "permissionsMessage": "Zones de ferme avec autorisations d'\u00e9criture",
+            "allRolesFilter": "Tous les r\u00f4les",
+            "noUsers": "Aucun r\u00e9sultat correspondant."
+        },
+        "accessPendingStatus": {
+            "invited": "Invit\u00e9",
+            "requested": "Demand\u00e9",
+            "inviteDeclined": "Invitation refus\u00e9e",
+            "accessRequestDeclined": "Demande d'acc\u00e8s refus\u00e9e",
+            "cancelInvite": "Annuler l'invitation",
+            "resendInvite": "Envoyer l'invitation de nouveau",
+            "editInvite": "Modifier l'invitation",
+            "approve": "Approuver",
+            "decline": "Refuser"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "R\u00f4les",
+            "availableRolesHintMessage": "S\u00e9lectionnez les r\u00f4les que l'utilisateur occupera. Cela aura un impact direct sur les autorisations accord\u00e9es.",
+            "assignedRoles": "R\u00f4les assign\u00e9s",
+            "confirmButtonLabel": "Inviter un utilisateur",
+            "assignedRolesHintMessage": "Attribuer des r\u00f4les \u00e0 l'utilisateur en les s\u00e9lectionnant dans la liste de gauche",
+            "existingUser": "L'adresse courriel entr\u00e9e appartient d\u00e9j\u00e0 \u00e0 un utilisateur de cette ferme.",
+            "invitationSent": "Ajout d'utilisateur r\u00e9ussi. L'invitation a \u00e9t\u00e9 envoy\u00e9e.",
+            "previewUserText": "Cliquez ici pour avoir un aper\u00e7u de l'utilisateur",
+            "editRoles": "Modifier les r\u00f4les",
+            "existingPlatformUser": "L'adresse courriel soumise appartient d\u00e9j\u00e0 \u00e0 un utilisateur de la plateforme VAS.",
+            "confirmUserLine1": "Confirmer et",
+            "confirmUserLine2": "Attribuer les r\u00f4les",
+            "exisitingUserConfirmed": "CONFIRM\u00c9",
+            "invitePendingUser": "L'adresse courriel soumise appartient \u00e0 un utilisateur qui a \u00e9t\u00e9 invit\u00e9 mais qui n'a pas encore r\u00e9pondu."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "Mettez \u00e0 jour les r\u00f4les attribu\u00e9s \u00e0 l'utilisateur. Cela aura un impact direct sur les autorisations accord\u00e9es.",
+            "availableRolesTitle": "R\u00f4les disponibles",
+            "rolesUpdated": "Les r\u00f4les ont \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s."
+        },
+        "resendInvite": {
+            "successfullySent": "Une nouvelle invitation a \u00e9t\u00e9 envoy\u00e9e \u00e0"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "Vous annulez une invitation pour %{user}. Confirmez-vous?",
+            "cancelConfirmationMessage": "Invitation d'acc\u00e8s \u00e0 %{dairyName} annul\u00e9e"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "Les r\u00f4les ont \u00e9t\u00e9 mis \u00e0 jour avec succ\u00e8s."
+        },
+        "confirmDisableRole": "La d\u00e9sactivation de ce r\u00f4le modifiera l'acc\u00e8s \u00e0 l'application pour %{userCount} utilisateurs. Confirmez-vous?",
+        "disableRoleConfirmed": "le r\u00f4le est maintenant d\u00e9sactiv\u00e9",
+        "disableOnlyRoleError": "Les modifications ne peuvent pas \u00eatre enregistr\u00e9es pour %{role} car c'est le seul ayant l'autorization pour la gestion d'utilisateurs. Veuillez attribuer cette autorisation \u00e0 au moins un autre r\u00f4le et r\u00e9essayer.",
+        "confirmEnableRole": "L'activation de ce r\u00f4le augmentera l'acc\u00e8s \u00e0 l'application pour %{userCount} utilisateurs. Confirmez-vous?",
+        "enableRoleConfirmed": "r\u00f4le activ\u00e9",
+        "customizeNewRole": "Personnaliser le nouveau r\u00f4le",
+        "writerPermissionRequireZone": "Veuillez s\u00e9lectionner au moins une zone o\u00f9 les autorisations d'\u00e9criture s'appliqueront.",
+        "roleAddedSuccessfully": "R\u00f4le %{roleName} ajout\u00e9",
+        "errors": {
+            "userAlreadyHasPendingRequest": "L'utilisateur %{email} a d\u00e9j\u00e0 une demande en attente pour acc\u00e9der \u00e0 la ferme %{dairyName}."
+        },
+        "addNewUser": "Ajouter un nouvel utilisateur"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "Statut d'int\u00e9gration",
+            "notification": "Avis",
+            "help": "Aide"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "Aidez nous \u00e0 nous am\u00e9liorer"
+        },
+        "modal": {
+            "formTitle": "Aidez nous \u00e0 nous am\u00e9liorer",
+            "formContent": "La plateforme VAS est en constante am\u00e9lioration. Nous aimerions donc savoir ce qui vous convient le mieux et ce que nous pourrions am\u00e9liorer davantage.",
+            "inputLabel": "\u00c9crivez votre commentaire ici",
+            "inputRequiredMessage": "Veuillez \u00e9crire votre commentaire",
+            "submitLabel": "Envoyer le commentaire",
+            "defaultErrorMessage": "Oups! Quelque chose s'est mal pass\u00e9. Veuillez r\u00e9essayer.",
+            "successCaption": "Nous vous remercions d'avoir pris le temps!",
+            "successContent": "Vos commentaires ont \u00e9t\u00e9 re\u00e7us par l'\u00e9quipe de la plateforme VAS. Votre opinion est importante pour nous. Merci de nous aider \u00e0 am\u00e9liorer notre produit pour vous et pour les autres!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "Statut d'int\u00e9gration",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "En attente de r\u00e9ception des donn\u00e9es.",
+            "Revenez nous voir bient\u00f4t."
+        ],
+        "lastSync": "Derni\u00e8re synchronisation:",
+        "integrationRequired": "int\u00e9gration requise",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "Statut DairyComp",
+            "disabledModuleText": "Gestion avanc\u00e9e du troupeau et tenue d'un registre des vaches pr\u00e9cis.",
+            "communicationStatus": {
+                "title": "Statut de communication",
+                "healthy": "En bonne sant\u00e9",
+                "notHealthy": "Mauvaise sant\u00e9",
+                "lastBeat": "Dernier battement:"
+            },
+            "processingStatus": {
+                "title": "Derni\u00e8re synchronisation des donn\u00e9es",
+                "dataValid": "Donn\u00e9es valides en date du:",
+                "problemEncountered": "Un probl\u00e8me est survenu au moment d\u2019afficher vos derni\u00e8res donn\u00e9es. Nous tentons pr\u00e9sentement de le r\u00e9soudre."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "Int\u00e9gration avec FeedComp disponible bient\u00f4t.",
+            "disabledModuleText": "Suivez l'efficacit\u00e9 de l'alimentation et faites le suivi des revenus par rapport aux co\u00fbts d'alimentation.",
+            "processingStatus": {
+                "title": "Derni\u00e8re synchronisation des donn\u00e9es",
+                "lastSync": "Derni\u00e8re synchronisation:",
+                "problemEncountered": "Un probl\u00e8me est survenu au moment d\u2019afficher vos derni\u00e8res donn\u00e9es. Nous travaillons pr\u00e9sentement \u00e0 le r\u00e9soudre."
+            },
+            "feedWatchServiceStatus": {
+                "title": "Service FeedWatch",
+                "serviceStatus": "\u00c9tat du service",
+                "isRunning": "En cours",
+                "notRunning": "En veille"
+            },
+            "scheduledTaskStatus": {
+                "title": "T\u00e2ches planifi\u00e9es",
+                "lastRan": "Derni\u00e8re ex\u00e9cution:"
+            },
+            "dairyCompImportStatus": {
+                "title": "Derni\u00e8re importation DC305",
+                "penCount": "Nombre d'enclos",
+                "itemData": "Donn\u00e9es d'article"
+            },
+            "sendEquipmentExport": {
+                "title": "Demander l'exportation vers l'\u00e9quipement",
+                "sendExport": "Envoyer l'exportation"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "Statut de ParlorComp",
+            "availableSoon": "Int\u00e9gration avec ParlorComp disponible bient\u00f4t.",
+            "disabledModuleText": "Suivez les performances de la salle de traite et g\u00e9rez efficacement la production."
+        }
+    },
+    "notifications": {
+        "title": "Avis",
+        "link": "Voir plus de d\u00e9tails",
+        "createdPlural": "Ont \u00e9t\u00e9 cr\u00e9\u00e9s par l'int\u00e9gration de %{provider}",
+        "createdSingular": "A \u00e9t\u00e9 cr\u00e9\u00e9 par l'int\u00e9gration de %{provider}",
+        "updatedPlural": "Ont \u00e9t\u00e9 mis \u00e0 jour par l'int\u00e9gration de %{provider}",
+        "updatedSingular": "A \u00e9t\u00e9 mis \u00e0 jour par l'int\u00e9gration de %{provider}"
+    },
+    "report": {
+        "favorite": {
+            "title": "Rapports Favoris"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "Rapports DairyComp",
+            "menu": {
+                "reproduction": "Reproduction",
+                "transition": "Pr\u00e9v\u00ealage",
+                "mastitis": "Mammite",
+                "production": "Production",
+                "lameness": "Boiterie"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "Int. de 21 jours",
+                        "bredElig": "# Saillie \u00e9ligible",
+                        "bred": "# Fois saillie",
+                        "bredRisk": "% Risque de saillie",
+                        "pregElig": "# Gest. \u00e9ligible",
+                        "preg": "# Gest.",
+                        "pregRisk": "% Risque de gest.",
+                        "pregLoss": "# Gest. Perdue"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "JEL 1\u00e8re saillie",
+                        "headCount": "Nombre de b\u00eates"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "Technicien",
+                        "95Percentage": "Int. de conf. 95%",
+                        "risk": "% chance de conc.",
+                        "preg": "# Gestante",
+                        "open": "# Vide",
+                        "other": "# Autre",
+                        "pregLoss": "# Gest. Perdue",
+                        "breeding": "# de Saillie",
+                        "breedingPercentage": "% Saillie",
+                        "spc": "Spc",
+                        "bottomReference": "* Plus de 10% des r\u00e9sultats sont inconnus."
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "Rapports FeedComp",
+            "menu": {
+                "feederPerformance": "Performance de la ligne d'alimentation",
+                "feedingBasics": "Bases de l'alimentation",
+                "intake": "Consommation",
+                "inventory": "Inventaire",
+                "usage": "Usage",
+                "economics": "\u00c9conomie"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "Date",
+                        "avgPenCount": "Moy. nombre d'enclos",
+                        "dropped": "# Livr\u00e9",
+                        "avgDropped": "Moyenne livr\u00e9",
+                        "weighBacks": "# Refus",
+                        "avgWeighBacks": "Moyenne refus",
+                        "dm": "# MS",
+                        "avgDmAnimal": "Moyenne MS\/ animal",
+                        "pen": "Enclos",
+                        "noPen": "Il n'y a pas d'enclos \u00e0 afficher."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "Rapports ParlorComp",
+            "menu": {
+                "tankWatch": "Tankwatch",
+                "milkingSummaries": "R\u00e9sum\u00e9 de traite",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "CVMS"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "Tank",
+                        "route": "Route",
+                        "date": "Date",
+                        "weight": "Poids (lb)",
+                        "volume": "Volume (gal)",
+                        "fat": "Gras (%)",
+                        "protein": "Prot\u00e9ine (%)",
+                        "lactose": "Lactose (%)",
+                        "solids": "Solides (%)",
+                        "totals": "Totaux moyenne 10 jours",
+                        "tankAverages": "Moyenne 10 jours"
+                    }
+                }
+            }
+        },
+        "backToReports": "Retour aux rapports",
+        "addToFavorites": "Ajouter aux favoris",
+        "tableView": "Affichage tableau",
+        "graphView": "Affichage graphique"
+    },
+    "landing": {
+        "configureDairy": "Configurer la ferme",
+        "dairyTeammates": "Co\u00e9quipiers laitiers",
+        "searchUser": "Rechercher un utilisateur",
+        "displayName": "Nom Affich\u00e9",
+        "userType": "Type d'utilisateur",
+        "zones": "Zones",
+        "downloadZOF": "T\u00e9l\u00e9charger ZOF",
+        "activeRecords": "Fichiers actifs",
+        "cows": "Vaches",
+        "heifers": "G\u00e9nisses",
+        "bulls": "Taureaux",
+        "inactiveRecords": "Fichiers inactifs",
+        "died": "D\u00e9c\u00e9d\u00e9e",
+        "sold": "Vendue",
+        "supportedBy": "Appuy\u00e9 par",
+        "cowSearch": "Rechercher un animal",
+        "acceptInvite": "Accepter l'invitation",
+        "declineInvite": "Refuser l'invitation",
+        "accessRequested": "Acc\u00e8s demand\u00e9",
+        "cancelAccessRequested": "Annuler la demande d'acc\u00e8s",
+        "requestAccess": "Demande d'acc\u00e8s"
+    },
+    "errorPage": {
+        "isoLogoAlt": "Logo de la plateforme VAS",
+        "returnHome": "Retour \u00e0 la page d'accueil"
+    },
+    "error400Page": {
+        "title": "Page introuvable",
+        "description": [
+            "Le fichier que vous tentez de consulter n'est pas disponible.",
+            "Veuillez essayer de nouveau."
+        ]
+    },
+    "error403Page": {
+        "title": "Acc\u00e8s refus\u00e9",
+        "description": [
+            "Vous n'\u00eates pas autoris\u00e9 \u00e0 acc\u00e9der \u00e0 cette page.",
+            "Veuillez contacter votre superviseur si vous pensez que vous devriez avoir acc\u00e8s."
+        ]
+    },
+    "error404Page": {
+        "title": "Page introuvable",
+        "description": [
+            "D\u00e9sol\u00e9, nous ne trouvons pas la page que vous cherchez.",
+            "Peut-\u00eatre devriez vous essayer de retourner \u00e0 la page d'accueil?"
+        ]
+    },
+    "error500Page": {
+        "title": "Oh non! Un probl\u00e8me est survenu.",
+        "description": [
+            "Une erreur de serveur s'est produite et nous travaillons pour r\u00e9soudre le probl\u00e8me!",
+            "Nous serons bient\u00f4t op\u00e9rationnels."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "Nous sommes d\u00e9sol\u00e9s!",
+        "description": [
+            "Une erreur inattendue s'est produite.",
+            "Veuillez r\u00e9essayer, notre \u00e9quipe de soutien technique va se pencher sur le probl\u00e8me."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "Introuvable",
+        "description": [
+            "Le fichier que vous tentez de consulter n'est pas disponible.",
+            "Veuillez revenir \u00e0 l'\u00e9tape pr\u00e9c\u00e9dente et essayer de nouveau."
+        ]
+    },
+    "pagination": {
+        "first": "Premier",
+        "last": "Dernier",
+        "view": "Afficher",
+        "rowsPerPage": "lignes par page",
+        "records": {
+            "singular": "Dossier",
+            "plural": "Dossiers"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "Vous annulez la demande d'acc\u00e8s \u00e0",
+        "confirmCancelPart2": ". Confirmez-vous?",
+        "confirmedCancel": "Demande d'acc\u00e8s annul\u00e9e."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Afficher plus d'information",
+                "hideInfo": "Afficher moins d'information",
+                "references": "R\u00e9f\u00e9rences",
+                "updated": "Mis \u00e0 jour",
+                "noData": {
+                    "title": "Aucune donn\u00e9e",
+                    "description": "Il n'y a pas de donn\u00e9es pour ce rapport."
+                },
+                "integrationPending": {
+                    "title": "Int\u00e9gration requise",
+                    "description": "Veuillez contacter {vasSupport} afin de compl\u00e9ter l'int\u00e9gration",
+                    "linkText": "Soutien technique VAS"
+                }
+            },
+            "error": {
+                "ohNo": "Oh non!",
+                "errorLoadingWidget": "Une erreur s'est produite lors du chargement de ce widget.",
+                "tryAgainLater": "Veuillez r\u00e9essayer plus tard."
+            },
+            "cowStats": {
+                "title": "Statistiques vaches",
+                "info": "30 derniers jours",
+                "allMilkingCows": "Toutes les vaches en lactation",
+                "fresh": "Fra\u00eechement v\u00eal\u00e9e",
+                "dueDry": "\u00c0 tarir sous peu",
+                "toTank": "\u00c0 la citerne",
+                "hospital": "H\u00f4pital",
+                "allDryCows": "Toutes les vaches taries",
+                "closeUp": "Pr\u00e9v\u00ealage",
+                "farOff": "En d\u00e9but de tarissement",
+                "allHeifers": "Toutes les g\u00e9nisses",
+                "closeUpHeifers": "G\u00e9nisses en pr\u00e9v\u00ealage"
+            },
+            "companyCowStats": {
+                "title": "STATS VACHES - Totaux pour toutes les fermes de l'entreprise",
+                "milkingCows": "Vaches en lait",
+                "dryCows": "Vaches taries",
+                "heifers": "G\u00e9nisses",
+                "toTank": "\u00c0 la citerne",
+                "dueDry": "\u00c0 tarir",
+                "freshCows": "Fra\u00eechement v\u00eal\u00e9es",
+                "hospital": "H\u00f4pital",
+                "closeupCows": "Pr\u00e9v\u00ealage",
+                "farOffCows": "En d\u00e9but de tarissement",
+                "closeupHeifers": "Pr\u00e9v\u00ealage",
+                "notCloseupHeifers": "En d\u00e9but de tarissement"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "G\u00e9nisses",
+                    "dryCows": "Vaches taries",
+                    "milkingCows": "Vaches en lait",
+                    "toTank": "\u00c0 la citerne",
+                    "hospital": "H\u00f4pital",
+                    "fresh": "Fra\u00eechement v\u00eal\u00e9e",
+                    "dueDry": "\u00c0 tarir sous peu",
+                    "closeUp": "Pr\u00e9v\u00ealage",
+                    "farOff": "En d\u00e9but de tarissement",
+                    "closeUpHeifers": "Pr\u00e9v\u00ealage"
+                },
+                "labels": {
+                    "xAxis": "Nombre de b\u00eates"
+                }
+            },
+            "events": {
+                "events": "\u00c9v\u00e9nements",
+                "total": "Total",
+                "days": {
+                    "monday": "Lun",
+                    "tuesday": "Mar",
+                    "wednesday": "Mer",
+                    "thursday": "Jeu",
+                    "friday": "Ven",
+                    "saturday": "Sam",
+                    "sunday": "Dim"
+                }
+            },
+            "econIR": {
+                "toFreshen": "\u00c0 v\u00ealer",
+                "cows": "Vaches",
+                "heifers": "G\u00e9nisses",
+                "toDry": "\u00c0 tarir",
+                "toCull": "\u00c0 r\u00e9former",
+                "milkingVsDry": "En lactation vs tarie",
+                "milkingCows": "Vaches en lactation",
+                "dryCows": "Vaches taries",
+                "estimatedFemalesBorn": "Nombre estim\u00e9 de femelles n\u00e9es vivantes",
+                "lactGt1": "Lact > 1",
+                "lactEq1": "Lact = 1"
+            },
+            "heiferCountByAge": {
+                "total": "TOTAL",
+                "subtotal": "SOUS-TOTAL",
+                "ageSuffix": "(An - Mo)",
+                "age": "Par \u00e2ge",
+                "pct": "PCT",
+                "count": "d\u00e9compte"
+            },
+            "calfReport": {
+                "alive": "En vie",
+                "birthsLabel": "Total des naissances par sexe par groupe de lactation",
+                "dead": "Mort",
+                "stillBirthsLabel": "Pourcentage de mort-n\u00e9 par groupe de lactation",
+                "calves": "Veaux",
+                "allSexes": "Tous les sexes",
+                "females": "Femelles",
+                "males": "M\u00e2les",
+                "lactationGroup": "LGRP"
+            },
+            "conceptionRate": {
+                "bredNumber": "Num\u00e9ro de saillie",
+                "percent": "Pourcent",
+                "labels": {
+                    "ci95": "95% IC",
+                    "conceptionRisk": "% Risque de conception",
+                    "manyRebreeds": "Beaucoup de resaillie",
+                    "manyOpens": "Attention! Beaucoup de vides",
+                    "manyUnknownBredOutcomes": "Plusieurs r\u00e9sultats de saillie inconnus"
+                },
+                "table": {
+                    "conceptionPercent": "%Conc",
+                    "pregnant": "#Preg",
+                    "open": "#Ouvert",
+                    "other": "Autre",
+                    "abort": "Avortement",
+                    "total": "Total",
+                    "totPercent": "%TOT",
+                    "spc": "SPC"
+                },
+                "showMoreInfo": "Afficher le tableau de donn\u00e9es",
+                "hideMoreInfo": "Cacher le tableau de donn\u00e9es"
+            },
+            "pregnancyRisk": {
+                "date": "DATE",
+                "percent": "POURCENT",
+                "viewDataTable": "AFFICHER LE TABLEAU DE DONN\u00c9ES",
+                "closeDataTable": "MASQUER LE TABLEAU DE DONN\u00c9ES",
+                "labels": {
+                    "info": "P\u00e9riode d'attente %{value} jours",
+                    "percentage95ci": "PR 95% IC",
+                    "inseminationRisk": "Risque d'ins\u00e9mination",
+                    "pregnancyRisk": "Risque de gestation",
+                    "pregnantEligible": "Total",
+                    "totalPregnant": "Gestante",
+                    "percentage95ciFull": "Risque de gestation 95% IC"
+                },
+                "table": {
+                    "ci95": "LC \u00c0 95 %",
+                    "brElegible": "IN Elig",
+                    "bred": "\u00c9lev\u00e9",
+                    "pct": "PCT",
+                    "pgElegible": "GE Elig",
+                    "pregnant": "Gest",
+                    "abort": "Avortements"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "Production de lait estim\u00e9e",
+                "pounds": "Livres",
+                "poundsInHundreds": "Livres en centaines",
+                "references": "R\u00e9f\u00e9rences",
+                "perDayPerCow": "Par jour par vache",
+                "perDay": "Par jour",
+                "closeDataTable": "Fermer le tableau de donn\u00e9es"
+            },
+            "dmiByPenType": {
+                "DMI": "IMS"
+            },
+            "weather": {
+                "today": "Aujourd'hui",
+                "currently": "Actuellement",
+                "min": "Min.",
+                "max": "Max.",
+                "humidityAbbr": "H",
+                "currentConditions": "Conditions actuelles",
+                "pressure": "Pression",
+                "visibility": "Visibilit\u00e9",
+                "humidity": "Humidit\u00e9",
+                "wind": "Vent"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "Afficher \u00e9quipement d\u00e9sactiv\u00e9",
+                "noDisabledEquipment": "Aucun \u00e9quipement d\u00e9sactiv\u00e9 \u00e0 afficher",
+                "noEnableEquipmentToShow": "Aucun \u00e9quipement activ\u00e9 \u00e0 afficher",
+                "noEquipmentToShow": "Aucun \u00e9quipement \u00e0 afficher",
+                "previousLoad": "Chargement pr\u00e9c\u00e9dent",
+                "nextLoad": "Prochain chargement",
+                "targetLoad": "Objectif du chargement",
+                "actualQty": "Qt\u00e9 r\u00e9elle",
+                "loadBar": {
+                    "target": "Objectif",
+                    "actual": "R\u00e9el"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "LCE",
+                "fatCorrectedMilk": "LCG",
+                "averageMilk": {
+                    "labelForDay": "Moyenne du dernier jour",
+                    "labelForDays": "Moyenne pour les derniers %{days} jours"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "Afficher le tableau de donn\u00e9es",
+                "closeDataTable": "Cacher le tableau de donn\u00e9es",
+                "table": {
+                    "chemical": "Produit chimique",
+                    "current": "Actuel",
+                    "average": "Moyenne",
+                    "tankCapacity": "Capacit\u00e9 du r\u00e9servoir"
+                },
+                "chart": {
+                    "chemicalData": "Donn\u00e9es produits chimiques",
+                    "percent": "Pourcent",
+                    "available": "Disponible",
+                    "remaining": "Restant",
+                    "tank": "R\u00e9servoir",
+                    "percentChemical": "% Produit chimique"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "R\u00e9el",
+                "target": "Objectif",
+                "tons": "Valeurs en tonnes",
+                "tonne": "Valeurs en tonnes",
+                "allIngredientsLoaded": "Tous les ingr\u00e9dients sont correctement charg\u00e9s"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "Vue d'ensemble DairyComp",
+            "zoneFilters": {
+                "all": "Toutes les zones"
+            },
+            "widgets": {
+                "notReady": "Le widget n'est pas pr\u00eat."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "Vue d'ensemble ParlorComp",
+            "zoneFilters": {
+                "all": "Toutes les zones"
+            },
+            "widgets": {
+                "notReady": "Le widget n'est pas pr\u00eat."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "Vue d'ensemble FeedComp",
+            "zoneFilters": {
+                "all": "Toutes les zones"
+            },
+            "widgets": {
+                "notReady": "Le widget n'est pas pr\u00eat."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "Ferme",
+        "dashboard": "Tableau de bord",
+        "pens": "Enclos",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "Vue d'ensemble",
+            "pens": "Enclos",
+            "worklists": "Ouvrir les listes de t\u00e2ches",
+            "embryoInventory": "Embryons transf\u00e9r\u00e9s"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "Vue d'ensemble",
+            "pens": "Enclos",
+            "ingredients": "Ingr\u00e9dients",
+            "recipes": "Recettes",
+            "inventoryProjections": "Inventaire & Projections",
+            "dmAdjustments": "Ajustements du %MS par location",
+            "bunkScoring": "Notation des distributeurs"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "Vue d'ensemble",
+            "pens": "Enclos",
+            "reports": "Rapports de traite"
+        },
+        "configureCompany": {
+            "configureCompany": "Param\u00e9trer l'entreprise",
+            "userManagement": "Gestion des utilisateurs"
+        },
+        "configureDairy": {
+            "configureDairy": "Configurer la ferme",
+            "dairyConfiguration": "Configuration de la ferme",
+            "userManagement": "Gestion des utilisateurs"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "Tableau de bord %{contextName}",
+        "customization": "Personnalisation",
+        "dashboardCustomization": "Personnaliser",
+        "dashboardCustomizeCurrent": "Personnaliser le tableau de bord",
+        "dashboardCreate": "Cr\u00e9er un nouveau tableau de bord",
+        "dragAndDropHint": "Glissez et d\u00e9posez ce widget",
+        "dashboardSaved": "%{dashboard_name} a \u00e9t\u00e9 personnalis\u00e9 avec succ\u00e8s.",
+        "dashboardErrorSaving": "Une erreur est survenue. Veuillez r\u00e9essayer dans quelques minutes.",
+        "dashboardMobileCustomization": "Veuillez vous connecter \u00e0 partir d'un ordinateur de bureau afin de personnaliser cette page."
+    },
+    "dashboardCustomization": {
+        "newDashboard": "Nouveau tableau de bord",
+        "panelTitle": "Personnalisation de la page",
+        "emptyList": {
+            "company": {
+                "line1": "Aucun widget disponible en ce moment",
+                "line2": "Nous travaillons sur l'ajout de nouveau widgets pour les prochaines versions. Revenez voir bient\u00f4t!"
+            },
+            "dairy": {
+                "line1": "Aucun widget \u00e0 afficher",
+                "line2": "Vous pouvez t\u00e9l\u00e9charger des widgets pour cette section \u00e0 partir de la galerie de widgets."
+            }
+        },
+        "emptyLine1": "Veuillez cliquer sur un widget de la liste pour en avoir un aper\u00e7u.",
+        "emptyLine2": "Pour sauvegarder ce tableau de bord, vous devez ajouter au moins un widget.",
+        "selectWidgetsTitle": "Ajouter des widgets",
+        "widgetLayoutDetail": "Glisser-d\u00e9poser pour r\u00e9organiser les widgets",
+        "selectWidgetsDescription": "S\u00e9lectionnez les widgets que vous souhaitez ajouter sur cette page.",
+        "widgetsLayoutDescription": " Glisser-d\u00e9poser pour r\u00e9organiser les widgets",
+        "unsavedChanges": "Vous avez des modifications non sauvegard\u00e9es. \u00cates vous certain de vouloir annuler?",
+        "allWidgets": "Tous les widgets",
+        "dairyWidgets": "Widgets laitiers",
+        "widgetTitles": {
+            "general": "G\u00e9n\u00e9ral",
+            "herd": "Troupeau",
+            "feed": "Alimentation",
+            "parlor": "Salle de traite"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "Galerie de widgets",
+            "installedSuccess": "Le widget %{title} est maintenant dans votre liste",
+            "installedFailure": "Une erreur est survenue. Veuillez r\u00e9essayer dans quelques minutes",
+            "title": "Galerie de widgets",
+            "line1": "Appuyez sur le bouton \"Ajouter\" parmi les widgets ci-bas afin de les s\u00e9lectionner comme option disponible sur votre plateforme VAS.",
+            "line2": "\u00c0 partir de l\u00e0, vous pouvez les ajouter \u00e0 votre tableau de bord et \u00e0 votre page r\u00e9capitulative.",
+            "installLabel": "Ajouter",
+            "installedLabel": "Ajout\u00e9e",
+            "recentlyInstalledBadge": "Ajout\u00e9 \u00e0 l'instant",
+            "seeRequirements": "Voir les exigences",
+            "integrationRequired": "Int\u00e9gration requise",
+            "requirements": "Exigences",
+            "contactSupport": "Contacter le soutien technique",
+            "goBack": "Retour"
+        },
+        "deleteModalConfirmation": "Supprimer ce tableau de bord?"
+    },
+    "agreements": {
+        "pageTitle": "ACCORD D'ABONNEMENT DE L'UTILISATEUR ET POLITIQUE DE CONFIDENTIALIT\u00c9",
+        "pleaseReview": "Veuillez consulter l'accord d'abonnement de l'utilisateur et la politique de confidentialit\u00e9 qui suit.",
+        "readAndAgree": "Afin d'utiliser le service, nous vous demandons de lire et d'accepter les conditions suivantes:",
+        "endUserSuscriptionAgreement": "ACCORD D'ABONNEMENT DE L'UTILISATEUR",
+        "privacyPolicy": "POLITQUE DE CONFIDENTIALIT\u00c9",
+        "readAndAgreedSubscription": "J'ai lu et j'accepte les termes du contrat d'abonnement utilisateur.",
+        "readAndAgreedPolicy": "J'ai lu et j'accepte les termes de la politique de confidentialit\u00e9.",
+        "cancel": "ANNULER",
+        "agreeAndContinue": "ACCEPTER ET CONTINUER",
+        "notificationConfirmCancel": "\u00cates-vous certain de vouloir refuser? Vous devez lire et accepter ces conditions afin de pouvoir utiliser le service."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "M\u00e9langeur mobile",
+            "stationaryMixer": "M\u00e9langeur stationnaire",
+            "deliveryTruck": "Camion de livraison",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "Ingr\u00e9dients",
+            "location": "Emplacement",
+            "locations": "Emplacements",
+            "dmPercent": "MS%",
+            "afCostTon": "Co\u00fbt\/tonne CS",
+            "afCostMetricTon": "Co\u00fbt CS \/ tonne m\u00e9trique",
+            "currentOnHandAF": "CS pr\u00e9sentement en stock",
+            "daysLeft": "Jours restants",
+            "inRecipe": "Dans la recette",
+            "trackingEnabled": "Suivi activ\u00e9",
+            "notTracked": "Non suivi",
+            "dailyAf": "CS quotidien",
+            "weighback": "Repasser",
+            "allowed": "Permis",
+            "notAllowed": "Interdit",
+            "afProjections": "Projections CS",
+            "days": "Jours",
+            "currentAf": "CS actuel",
+            "afCost": "Co\u00fbt CS",
+            "dmCost": "Co\u00fbt MS",
+            "dmPercentage": "Pourcentage MS",
+            "lastDmHistory": "Dernier MS% Historique",
+            "filter": "Filtre",
+            "filterApplied": "filtre appliqu\u00e9",
+            "filtersApplied": "filtres appliqu\u00e9s",
+            "clear": "Effacer",
+            "type": "Type",
+            "premix": "Premix",
+            "optionSelected": "option s\u00e9lectionn\u00e9e",
+            "optionsSelected": "options s\u00e9lectionn\u00e9es",
+            "lastInventoryMovements": {
+                "title": "Derniers mouvements des stocks",
+                "date": "Date",
+                "type": "Type",
+                "afTons": "Brut (tonnes)",
+                "runningTotal": "Total cumul\u00e9 (tonnes)",
+                "inventoryTypes": {
+                    "delivery": "Livraison",
+                    "sale": "Vente",
+                    "adjustment": "Ajustement",
+                    "usage": "Utilisation",
+                    "initialInventory": "Inventaire initial",
+                    "transferIn": "Transfert entrant",
+                    "transforOut": "Transfert sortant"
+                }
+            },
+            "filterOptions": {
+                "all": "Tous",
+                "inRecipes": "Seulement dans les recettes",
+                "notInRecipes": "Pas dans les recettes",
+                "onlyPremixes": "Seulement les pr\u00e9mix",
+                "notPremixes": "Pas les pr\u00e9mix"
+            },
+            "recipes": {
+                "title": "%{ingredientName} Utilisation par recettes",
+                "recipeName": "Nom de recette",
+                "DM": "QT\u00c9 MS\/TETE",
+                "AF": "QT\u00c9 CS\/TETE",
+                "pens": "Enclos nourris avec cette recette",
+                "animalsFed": "Animaux nourris",
+                "dailyAFUsage": "Utilisation quotidienne d'aliments comme servi (CS)",
+                "placeholderLine1": "L'ingr\u00e9dient actuel n'est pas",
+                "placeholderLine2": "utilis\u00e9 par aucune recette."
+            }
+        },
+        "dmAdjustments": {
+            "title": "Ajustements du %MS par location",
+            "name": "Ingr\u00e9dient",
+            "type": "Type",
+            "location": "Emplacement",
+            "lastChange": "Derni\u00e8re modification",
+            "responsible": "Responsable",
+            "dmPercent": "%MS",
+            "lastDmHistory": "Dernier historique de la %MS",
+            "noDmHistory": "Aucun historique de MS% disponible",
+            "validation": {
+                "dmPercent": "Les valeurs doivent \u00eatre inf\u00e9rieures \u00e0 100%",
+                "percentChange": "Plus de 5% de diff\u00e9rence"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "Changement en %MS",
+                    "message": "Changement de (+\/-) 5%, \u00eates vous certain de vouloir proc\u00e9der?",
+                    "confirmLabel": "Oui"
+                },
+                "cancelChanges": {
+                    "title": "Abandonner les modifications non sauvegard\u00e9es?",
+                    "confirmLabel": "Abandonner"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "Recettes",
+            "activeRecipes": "Recettes actives",
+            "otherRecipes": "Autres recettes",
+            "recipeDm": "% MS Recette",
+            "densityFactor": "Facteur de densit\u00e9",
+            "afCostTon": "Co\u00fbt\/tonne CS",
+            "currentlyReplacing": "En cours de remplacement",
+            "premix": "pr\u00e9m\u00e9lange",
+            "alternativeRecipe": "Recette alternative",
+            "animalsFed": "Animaux nourris",
+            "pensFed": "Enclos nourris",
+            "list": "Liste de Recettes",
+            "inRecipe": "DANS RECETTE",
+            "dmhd": "MS\/T\u00eate",
+            "afhd": "CS\/TETE",
+            "dm": "MS",
+            "dmPercent": "MS%",
+            "afCostHd": "Co\u00fbt CS\/T\u00eate",
+            "active": "Actif",
+            "replaced": "remplac\u00e9",
+            "activeAlternative": "Alternative active",
+            "seeMore": "voir plus",
+            "directions": "Instructions de la recette",
+            "sequence": "S\u00e9q",
+            "ingredient": "Ingr\u00e9dient",
+            "location": "Location",
+            "af": "CS",
+            "afPercent": "CS %",
+            "pensUsing": "Enclos utilisant cette recette",
+            "total": "Total",
+            "recipeComposition": "Formulation de la recette",
+            "alternate": "Alternatif",
+            "instructions": {
+                "saveSequenceSuccess": "S\u00e9quence modifi\u00e9e avec succ\u00e8s!",
+                "reorderHint": "Utilisez les fl\u00e8ches de gauche ou glissez-d\u00e9posez les ingr\u00e9dients de la liste pour changer l'ordre de la s\u00e9quence.",
+                "validation": {
+                    "quantity": "La quantit\u00e9 doit \u00eatre sup\u00e9rieure \u00e0 z\u00e9ro",
+                    "required": "La valeur doit \u00eatre existante"
+                }
+            },
+            "pens": {
+                "pen": "Enclos",
+                "type": "Type",
+                "use": "Utilisation",
+                "description": "Description"
+            }
+        },
+        "inventory": {
+            "title": "Inventaire",
+            "projections": {
+                "title": "Inventaire & Projections",
+                "name": "Nom",
+                "type": "Type",
+                "location": "Location",
+                "afQty": "QT\u00c9 CS",
+                "afCost": "Co\u00fbt CS",
+                "dailyAf": "CS quotidien",
+                "nextDays": "Prochain %{day} jours (%{unit})",
+                "daysLeft": "Jours restants",
+                "all": "Tous",
+                "notTracked": "Non suivi",
+                "youreRunningOutOf": "Vous \u00eates \u00e0 court de:"
+            }
+        },
+        "bunkScoring": {
+            "title": "Notation des distributeurs",
+            "animalsToFeed": "Animaux \u00e0 nourrir",
+            "targetDmHd": "Cible MS\/T\u00ca (%{unit})",
+            "feeding": "Alimentation",
+            "active": "Actif",
+            "inactive": "Inactif",
+            "lastDaysFeedings": "Alimentation des %{days} derniers jours",
+            "filter": "Filtre",
+            "all": "Tous",
+            "clear": "Effacer",
+            "lastUpdated": "Derni\u00e8re mise \u00e0 jour",
+            "modal": {
+                "title": "Changement dans l'alimentation",
+                "bodyText": "\u00cates vous certain de vouloir %{state} l'alimentaiton dans l'enclos %{penNumber}",
+                "confirmLabel": "Oui, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "GLISSER-D\u00c9POSER UNE IMAGE ICI",
+        "line2": "Utiliser un fichier .jpg ou .png .",
+        "addImage": "AJOUTER UNE IMAGE",
+        "changeImage": "CHANGER L'IMAGE"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "Statut de la salle de traite",
+        "milk": {
+            "name": "Lait",
+            "currentShift": "Rotation en cours",
+            "currentPen": "Enclos Actuel",
+            "currentFlow": {
+                "title": "Circulation actuelle",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "Vaches dans l'enclos",
+            "currentPenTotalMilk": {
+                "title": "Lait total pour l'enclos",
+                "value": "%{value} GAL"
+            },
+            "currentShiftTotalMilk": {
+                "title": "Lait total pour la rotation en cours",
+                "value": "%{value} GAL"
+            },
+            "totalTime": {
+                "title": "Temps total",
+                "value": "%{value} MIN"
+            },
+            "secStall": "Sec\/Stalle",
+            "rotary": {
+                "title": "Derni\u00e8re donn\u00e9e Carrousel de traite",
+                "name": "Carrousel de traite",
+                "minsTurn": "Min\/ Tour",
+                "secStall": "Sec\/ Stalle",
+                "cowsHour": "Vaches\/ Heure",
+                "turnsHour": "Tours\/ Heure",
+                "statistic": {
+                    "fastest": "Plus rapide",
+                    "average": "Moyenne",
+                    "effective": "Effectif"
+                }
+            },
+            "currentTask": {
+                "title": "T\u00e2ches en cours",
+                "task": "T\u00e2che",
+                "cows": "Vaches"
+            }
+        },
+        "wash": {
+            "name": "Lavage",
+            "minTemp": "Temp\u00e9rature minimum",
+            "currentWashCycle": "Cycle de lavage actuel",
+            "currentFlow": {
+                "title": "Circulation actuelle",
+                "value": "%{value} GAL"
+            },
+            "currentWashTotal": {
+                "title": "Total de lavage actuel",
+                "value": "%{value} GAL"
+            },
+            "washCycle": {
+                "rinse": "Rin\u00e7age",
+                "wash": "Lavage",
+                "acid": "Acide"
+            }
+        },
+        "currentTemp": {
+            "title": "Temp\u00e9rature actuelle"
+        },
+        "minTemp": {
+            "title": "Temp\u00e9rature minimum"
+        },
+        "maxTemp": {
+            "title": "Temp\u00e9rature maximale"
+        },
+        "tempAlarm": {
+            "title": "Alarme de temp.",
+            "values": {
+                "none": "Aucun",
+                "high": "Haute temp."
+            }
+        },
+        "lastWashStatus": {
+            "title": "Statut du dernier lavage",
+            "values": {
+                "good": "Bon",
+                "bad": "Mauvais"
+            }
+        },
+        "washAlarm": {
+            "title": "Alarme de lavage",
+            "values": {
+                "none": "Aucun",
+                "lowTemp": "Basse temp."
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "Cartes",
+        "title": {
+            "line1": "Aucun %{type}",
+            "line2": "\u00e0 afficher",
+            "line3": "avec ces filtres appliqu\u00e9s",
+            "line4": "dans ces"
+        },
+        "types": {
+            "lists": "listes",
+            "error": "Une erreur s'est produite"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "Rapports de traite",
+            "noParlorToShow": "Aucune salle de traite \u00e0 afficher",
+            "typeOfParlor": "Type de salle de traite",
+            "manufacturer": "Fabricant",
+            "stalls": "Stalles",
+            "currentShift": "Rotation actuelle",
+            "currentPen": "Enclos actuel",
+            "parlorTitle": "salle de traite",
+            "parlorTypes": {
+                "herringbone": "En \u00e9pi",
+                "parallel": "Parall\u00e8le",
+                "rotary": "Carrousel"
+            },
+            "lastMilkingsReports": {
+                "title": "Derniers rapports de traite",
+                "milkings": {
+                    "pen": "Enclos",
+                    "totalMilk": "Lait total",
+                    "milkHr": "Lait \/h",
+                    "milkCow": "Lait \/vache",
+                    "cows": "vaches",
+                    "cowsHr": "Vaches \/h",
+                    "totalTime": "Temps total",
+                    "startTime": "Heure de d\u00e9part",
+                    "stopTime": "Heure d'arr\u00eat",
+                    "penGap": "Intervalle entre Enclos",
+                    "maxTemp": "Temp. max.",
+                    "penDev": "\u00c9cart de l'enclos",
+                    "totalAvg": "Total\/MOY",
+                    "total": "total"
+                },
+                "washings": {
+                    "washupPhase": "Phase de nettoyage",
+                    "totalFlow": "D\u00e9bit total",
+                    "totalTime": "temps total",
+                    "startTime": "Heure de d\u00e9part",
+                    "stopTime": "Heure d'arr\u00eat",
+                    "minTemp": "Temp. min.",
+                    "maxTemp": "Temp. max.",
+                    "flowMin": "D\u00e9bit \/min",
+                    "rinse": "Rin\u00e7age",
+                    "wash": "Lavage",
+                    "acid": "Acide",
+                    "init": "Initialiser",
+                    "washAcid": "Lavage et acide",
+                    "idle": "en veille"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "Derni\u00e8res statistiques de traite",
+                "barGraphView": "Affichage graphique \u00e0 barres",
+                "tableView": "Affichage tableau",
+                "totalMilk": "Lait total",
+                "averageMilkPerHour": "Moy. Lait \/h",
+                "averageDuration": "Dur\u00e9e moyenne",
+                "averageCowsPerHour": "Moy. Vaches \/h",
+                "milking": "Traite",
+                "milkPerHour": "Lait \/h",
+                "duration": "Dur\u00e9e",
+                "cowsPerHour": "Vaches \/h",
+                "hours": "h",
+                "minutes": "min",
+                "totalAverage": "Total\/MOY"
+            },
+            "lastRotaryData": {
+                "title": "Derni\u00e8res donn\u00e9es de rotation"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Avis"
+    },
+    "embryoInventory": {
+        "title": "Embryons transf\u00e9r\u00e9s"
+    },
+    "frozenEmbryos": {
+        "title": "Congel\u00e9"
+    },
+    "freshEmbryos": {
+        "title": "Frais"
+    },
+    "transferredEmbryos": {
+        "title": "Embryons transf\u00e9r\u00e9s"
+    },
+    "Embryo": {
+        "title": "Embryons",
+        "from": "De",
+        "to": "\u00c0",
+        "stage": "Stade",
+        "grade": "Niveau",
+        "status": "Entreposage",
+        "type": "Type",
+        "clear": "Effacer",
+        "recipient": "Receveuse",
+        "date": "Date",
+        "sire": "Taureau",
+        "donor": "Donneuse",
+        "tech": "Tech",
+        "brCode": "BRCode (code de saillie)",
+        "breedingCode": "CODE DE SAILLIE",
+        "storage": "Entreposage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Race de l'embryon",
+        "eage": "Eage",
+        "embryoAge": "L'age de l'embryon",
+        "tank": "R\u00e9servoir",
+        "cane": "Canne",
+        "straw": "Paillette",
+        "frozenAt": "Congel\u00e9 \u00e0",
+        "method": "M\u00e9thode",
+        "incubator": "Incubateur",
+        "strawVial": "Paillette",
+        "stageOpts": {
+            "1": "Non fertilis\u00e9",
+            "2": "Unicellulaire",
+            "3": "D\u00e9but de morula",
+            "4": "Morula",
+            "5": "D\u00e9but de blastocyste",
+            "6": "Blastocyste",
+            "7": "Balstocyste d\u00e9velopp\u00e9",
+            "8": "Blastocyste \u00e9clos",
+            "9": "Blastocyste d\u00e9velopp\u00e9 \u00e9clos"
+        },
+        "methods": {
+            "unknown": "Inconnus",
+            "slow": "Lente",
+            "dt": "JT"
+        },
+        "gradeOpts": {
+            "1": "Non sp\u00e9cifi\u00e9",
+            "2": "Bon",
+            "3": "Juste",
+            "4": "Pauvre",
+            "5": "Mort"
+        },
+        "storageType": {
+            "fresh": "Frais",
+            "frozen": "Congel\u00e9"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Autre"
+        }
+    }
+}

@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "E-posti aadress",
+        "error": "Viga",
+        "password": "Salas\u00f5na",
+        "confirm": "Kinnita",
+        "cancel": "T\u00fchista",
+        "save": "Salvesta",
+        "delete": "Delete",
+        "close": "Sulge",
+        "done": "Valmis",
+        "refresh": "Uuenda",
+        "loading": "Laadib...",
+        "edit": "Muuda",
+        "editCard": "Muuda kaarti",
+        "hide": "Peida",
+        "hideCard": "Peida kaart",
+        "yes": "Jah",
+        "yes_discard": "Jah, loobu",
+        "no": "Ei",
+        "cancelMessage": "Teil on salvestamata muudatusi. T\u00fchista sellegipoolest?",
+        "changesSavedSuccessfully": "Muudatused edukalt salvestatud!",
+        "changesSavedError": "Info salvestamisel ilmnes viga. Palun proovige m\u00f5ne minuti p\u00e4rast uuesti.",
+        "unknownError": "Tundmatu viga.",
+        "tableView": "Tabelivaade",
+        "graphView": "Graafiline vaade",
+        "ok": "OK",
+        "requiredFields": "Vajalikud v\u00e4ljad",
+        "clear": "Puhasta",
+        "active": "Aktiivne",
+        "inactive": "Mitteaktiivne",
+        "disabled": "Katkestatud",
+        "view": "Vaade",
+        "doConfirm": "Kas kinnitate?",
+        "enable": "V\u00f5imalda",
+        "disable": "\u00c4ra v\u00f5imalda",
+        "acceptMessage": "Tegevust ei ole v\u00f5imalik sooritada.",
+        "welcome": "Tere tulemast",
+        "passwordHelp": "Vajate salas\u00f5naga abi?",
+        "next": "J\u00e4rgmine",
+        "back": "Tagasi",
+        "successfullyUpdated": "edukalt uuendatud",
+        "vasPlatformLogo": "VAS Platvormi logo",
+        "learnMore": "Vaata lisaks",
+        "accountHome": "konto avaleht",
+        "comingSoon": "Varsti tulekul!",
+        "notDefined": "M\u00e4\u00e4ratlemata",
+        "current": "Kehtiv",
+        "previous": "Eelmine",
+        "clearAll": "Puhasta k\u00f5ik",
+        "preview": "Eelvaade",
+        "leave": "Lahku",
+        "undefined": "Ei ole tuvastatav",
+        "backToTop": "Tagasi \u00fcles",
+        "activate": "Aktiveeri",
+        "deactivate": "Deaktiveeri",
+        "days": {
+            "monday": "Esmasp",
+            "tuesday": "Teisip",
+            "wednesday": "Kolmap",
+            "thursday": "Neljap",
+            "friday": "Reede",
+            "saturday": "Laup",
+            "sunday": "P\u00fchap"
+        },
+        "monthsShort": {
+            "jan": "Jaanuar",
+            "feb": "Veebruar",
+            "mar": "M\u00e4rts",
+            "apr": "Aprill",
+            "may": "Mai",
+            "jun": "Juuni",
+            "jul": "Juuli",
+            "aug": "August",
+            "sep": "September",
+            "oct": "Oktoober",
+            "nov": "November",
+            "dec": "Detsember"
+        },
+        "months": {
+            "jan": "Jaanuar",
+            "feb": "Veebruar",
+            "mar": "M\u00e4rts",
+            "apr": "Aprill",
+            "may": "Mai",
+            "jun": "Juuni",
+            "jul": "Juuli",
+            "aug": "August",
+            "sep": "September",
+            "oct": "Oktoober",
+            "nov": "November",
+            "dec": "Detsember"
+        },
+        "today": "T\u00e4na",
+        "yesterday": "Eile",
+        "help": {
+            "tag": "Vajate abi?",
+            "learnMore": "Rohkem infot",
+            "about": " About",
+            "labels": {
+                "worklists": "T\u00f6\u00f6nimekrjad!",
+                "commands": {
+                    "platform": "Platvormi k\u00e4sklused!",
+                    "list": "LOENDI k\u00e4sklus!",
+                    "sum": "the SUM Command!",
+                    "count": "the COUNT Command!"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animals"
+        }
+    },
+    "unitSystems": {
+        "metric": "Meeterm\u00f5\u00f5dustik",
+        "imperial": "Inglise m\u00f5\u00f5dustik"
+    },
+    "unitSystemsLabels": {
+        "metric": "Kilogrammid, liitrid, Celsius, milligrammid",
+        "imperial": "Naelad, gallonid, Fahrenheit, untsid"
+    },
+    "recentCommands": {
+        "title": "Recent Commands",
+        "edit": "EDIT",
+        "noCommands": "There are no Recent\nCommands",
+        "viewResults": "View Results"
+    },
+    "units": {
+        "inHundreds": "%{unit} sadades",
+        "pounds": "Naelad",
+        "inPounds": "%{value} lbs",
+        "kilograms": "Kilogrammid",
+        "inKilograms": "%{value} kg",
+        "gallons": "Gallonid",
+        "inGallons": "%{value} Gal",
+        "inGallonsPerMinute": "%{value} GPM",
+        "inLitres": "%{value} Lts",
+        "inLitresPerMinute": "%{value} LPM",
+        "hg": "Elavh\u00f5bedasammas",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "Miili",
+        "inMiles": "%{value} ml",
+        "inKilometers": "%{value} km",
+        "mph": "Miili tunnis",
+        "inKph": "%{value} km\/h",
+        "inMph": "%{value} mph",
+        "inOunces": "%{value} oz",
+        "inGrams": "%{value} g",
+        "inTons": "%{value} t",
+        "inTonne": "%{value} T",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "tonni",
+        "metricTons": "t",
+        "ton": "tonn",
+        "metricTon": "t",
+        "lbs": "LBs",
+        "kg": "kg",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "lbs",
+                "singular": "nael",
+                "plural": "naela"
+            },
+            "metric": {
+                "symbol": "kg",
+                "singular": "kilogramm",
+                "plural": "kilogrammi"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "t",
+                "singular": "tonn",
+                "plural": "tonni"
+            },
+            "metric": {
+                "symbol": "T",
+                "singular": "tonn",
+                "plural": "tonni"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "unts",
+                "singular": "untsi",
+                "plural": "untsi"
+            },
+            "metric": {
+                "symbol": "gr",
+                "singular": "grammi",
+                "plural": "grammi"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "gal",
+                "singular": "gallon",
+                "plural": "gallonit"
+            },
+            "metric": {
+                "symbol": "l",
+                "singular": "liiter",
+                "plural": "liitrit"
+            },
+            "singular": {
+                "metric": "l",
+                "imperial": "gal"
+            },
+            "plural": {
+                "metric": "lts",
+                "imperial": "gal"
+            }
+        }
+    },
+    "dates": {
+        "day": "P\u00e4ev",
+        "month": "Kuu",
+        "year": "Aasta"
+    },
+    "login": {
+        "forgotPassword": "Unustasite parooli?",
+        "login": "Logige sisse",
+        "signIn": "Palun logige sisse",
+        "signInHere": "Logige sisse siin",
+        "sessionExpired": "Seanss aegus",
+        "rememberMe": "M\u00e4leta mind",
+        "sessionExpiredMessage": "Teie seanss l\u00f5ppes passiivsuse t\u00f5ttu, palun logige t\u00f6\u00f6 j\u00e4tkamiseks sisse.",
+        "invalidCredentials": "E-post v\u00f5i parool on vale. Palun proovige uuesti.",
+        "sessionClosedByChangedPassword": "Parooli uuendati",
+        "sessionClosedByChangedPasswordMessage": "Teie parooli muudeti edukalt. T\u00f6\u00f6 j\u00e4tkamiseks logige palun uuesti sisse"
+    },
+    "keto": {
+        "graphDesc": "Testitud\/Progn. ketoos",
+        "references": "VIITED",
+        "tableTitle": "Ketoosi levimus",
+        "tableDesc": "Testitud loomad\/Prognoositud ketoos",
+        "yAxis": "Levimuse taseme %",
+        "allAnimals": "K\u00d5IK LOOMAD",
+        "earlyFresh": "EARLY FRESH PREVALENCES",
+        "firstLact": "1. LAKT",
+        "secondLact": "2. LAKT",
+        "secondPlusLact": "2.+ LAKT",
+        "target": "EESM\u00c4RK",
+        "overall": "(5 kuni 20 DIM)",
+        "early": "(5 kuni 11 DIM)",
+        "animals": "Loomad",
+        "earlyFreshDim": "EARLY FRESH (5-11 DIM)"
+    },
+    "commandLine": {
+        "title": "K\u00c4SK",
+        "execute": "TEOSTA",
+        "placeholder": "Sisestage k\u00e4sk",
+        "invalid": "Vale k\u00e4sk",
+        "unsupported": "K\u00e4sk ei ole toetatud",
+        "results": {
+            "title": "K\u00e4su tulemused",
+            "executed": "Teostatud:",
+            "loading": "Laadimine",
+            "print": "Prindi",
+            "export": "Ekspordi",
+            "showGraph": "Show Graph",
+            "hideGraph": "Hide Graph",
+            "noMatch": "Vasteid ei leitud"
+        },
+        "sum": {
+            "by": "By",
+            "pct": "PCT %",
+            "count": "Count",
+            "field": "%{modifier} %{field}",
+            "total": "Total",
+            "sum": "Item",
+            "childrenBy": "BY %{child} IN %{parent}",
+            "noByOrSum": "{amount} animals in this group",
+            "range": "Range",
+            "standardDeviation": "Standard Deviation"
+        },
+        "count": {
+            "inGroup": "Animals in this group"
+        }
+    },
+    "signup": {
+        "setupAccount": "Looge endale konto",
+        "tokenExpired": "Registreerumislink on aegunud, palun sisestage enda e-posti aadress uuesti",
+        "errorFetchingToken": "Registreerumislingi kinnitamisel ilmnes viga, palun proovige uuesti",
+        "setPassword": "M\u00e4\u00e4rake enda parool",
+        "signup": "Logige sisse",
+        "email": "E-post",
+        "profile": "Profiil",
+        "password": "Parool",
+        "firstStepThanksMessage": "T\u00e4name, et tunnete huvi VAS-platvormi vastu.",
+        "needEmail": "Alustamiseks vajame teie e-posti aadressi.",
+        "haveAccount": "Kas teil on juba konto?",
+        "emptyEmail": "Palun sisestage enda e-posti aadress.",
+        "invalidEmail": "Palun sisestage kehtiv e-posti aadress.",
+        "defaultError": "Registreerimisel ilmnes t\u00f5rge. Palun proovige hiljem uuesti.",
+        "emailExists": "Teie e-posti aadress on VAS-platvormil juba registreeritud.",
+        "emailSent": "E-kiri saadeti aadressile ",
+        "checkInbox": "Palun kontrollige oma postkasti, et meie e-kirja alusel registreerimine kinnitada ja l\u00f5petada.",
+        "firstName": "Eesnimi",
+        "lastName": "Perekonnanimi",
+        "country": "Riik",
+        "state": "Maakond",
+        "city": "Linn",
+        "postalCode": "Postiindeks",
+        "enterPassword": "Sisestage parool",
+        "reEnterPassword": "Sisestage parool uuesti",
+        "allSet": "K\u00f5ik on seadistatud!",
+        "accountCreated": "Konto on edukalt loodud.",
+        "continueToAgreements": "Kl\u00f5psake allpool, et n\u00e4ha l\u00f5ppkasutaja liitumislepingut ja privaatsuspoliitikat ning alustage VAS-platvormi kasutamist.",
+        "continue": "J\u00e4tka",
+        "gotMobile": "Teil on nutitelefon?",
+        "tryVasInMobile": "Proovige oma seadmel VAS-platvormi.",
+        "addProfilePicture": "PILT",
+        "error": {
+            "firstName": "Palun sisestage enda eesnimi.",
+            "lastName": "Palun sisestage enda perekonnanimi.",
+            "country": "Riik on n\u00f5utav.",
+            "state": "Maakond on n\u00f5utav.",
+            "city": "Linn on n\u00f5utav.",
+            "postalCode": "Postiindeks on n\u00f5utav.",
+            "passwordIsEmpty": "Palun sisestage parool.",
+            "passwordMinimumRequirements": "Parool ei vasta miinimumn\u00f5uetele.",
+            "passwordNotMatch": "Parool ei kattu.",
+            "rePasswordEmpty": "Palun sisestage parool uuesti.",
+            "signingUp": "Viga sisselogimisel. Palun proovige hiljem uuesti."
+        }
+    },
+    "expiredToken": {
+        "title": "Vabandame!",
+        "type": {
+            "signup": "l\u00f5petage registreerimine",
+            "reset": "taastage enda parool"
+        },
+        "line1": "%{type} sisestamisaeg on aegunud!",
+        "line2": "Uue lingi saamiseks sisestage enda e-posti aadress uuesti.",
+        "send": "Saada"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Unustasite parooli?",
+        "subtitle_": "Sisestage enda e-posti aadress ja parool l\u00e4htestatakse",
+        "_subtitle": "teile saadetakse juhised.",
+        "titleMessage": "Kontrollige enda postkasti.",
+        "description_": "Kui konto kattub,",
+        "_description": "saate e-kirja, milles on parooli l\u00e4htestamise link.",
+        "continueSignup": "E-kiri saadeti aadressile %{email}. Palun kontrollige sisselogimise j\u00e4tkamiseks enda postkasti",
+        "backToLogin": "Tagasi sisselogimisele"
+    },
+    "passwordReset": {
+        "setNewPassword": "M\u00e4\u00e4rake uus parool",
+        "tokenExpired": "Parooli l\u00e4htestamise link on aegunud, palun sisestage enda e-posti aadress uuesti"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "Teie veebilehitseja ei ole toetatud",
+            "line1": "VAS-platvormi kasutamiseks peab teil olema \u00fcks nendest",
+            "line2": "toetatud veebilehitsejatest.",
+            "line3": "(kl\u00f5psake alla laadimiseks)"
+        }
+    },
+    "chart": {
+        "charts": "graafikud",
+        "rechart": "Graafik - lihtne joondiagramm",
+        "rechartArea": "Graafik - lihtne kihtdiagramm",
+        "slider": "Liugur",
+        "sliderValue": "Liuguri v\u00e4\u00e4rtus",
+        "rcSlider": "rc-liugur",
+        "gauge": "M\u00f5\u00f5dik",
+        "liquidGauge": "Vedelikum\u00f5\u00f5dik",
+        "tempGauge": "Temperatuurim\u00f5\u00f5dik",
+        "emptyPlaceholder": {
+            "title": "Andmeid veel pole",
+            "description": "Selle aruande graafiku koostamiseks pole piisavalt andmeid."
+        }
+    },
+    "filter": {
+        "results": "Otsingutulemused",
+        "label": "Filtreeri vastavalt",
+        "clearFilter": "Clear filter",
+        "clearFilters": "Clear filters",
+        "dateError": "End date can't be before start date",
+        "type": {
+            "pen": "Sulg"
+        },
+        "placeholder": {
+            "pen": "Sulu number"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "Tombstone",
+            "parentage": "P\u00f5lvnemine",
+            "currentLactation": "Kehtiv laktatsioon",
+            "milkInfo": "Piima info",
+            "matings": "Paaritamised",
+            "scanning": "Skannimine",
+            "offspring": "J\u00e4rglased",
+            "vet": "Loomaarst",
+            "event": {
+                "events": "S\u00fcndmused",
+                "eventsBar": "Kaardi s\u00fcndmuste riba",
+                "dualTable": "kahekordne tabel",
+                "singleTable": "\u00fcks tabel",
+                "details": "\u00dcksikasjad",
+                "responsible": "Vastutav",
+                "pen": "Sulg",
+                "date": "Kuup\u00e4ev",
+                "event": "S\u00fcndmus",
+                "remarks": "M\u00e4rkused",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "Puuduvad s\u00fcndmuste andmed, mida kuvada."
+            },
+            "lactation": {
+                "lactation": "LAKTATSIOON",
+                "dairyLactation": "P\u00e4evase laktatasiooni ribadiagramm",
+                "dairyLactationWithParams": "P\u00e4evase laktatasiooni ribadiagramm alates %{dateFor} kuni %{dateTo}",
+                "weeklyLactationLineChart": "N\u00e4dalase laktatasiooni joondiagramm",
+                "noLactations": "Puudub laktatsioon, mida kuvada.",
+                "barGraph": "Ribagraafik",
+                "lineGraph": "Joongraafik"
+            },
+            "lactations": {
+                "noLactations": "Puuduvad laktatsioonid, mida kuvada.",
+                "summary": "Laktatsioonide kokkuv\u00f5te",
+                "prevLactsGraphic": "N\u00e4dalane piimatootmine laktatsiooni kaupa",
+                "age": "VANUS",
+                "dim": "DIM",
+                "lactationNumber": "Lactation number"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "Puudub p\u00e4evane piim, mida kuvada.",
+                "dimTooltip": "DIM",
+                "milking": "l\u00fcpsmine",
+                "today": "T\u00e4na",
+                "average": "Keskmine",
+                "avg": "KESKM",
+                "expected": "Oodatav",
+                "exp": "Ood.",
+                "deviation": "H\u00e4lve",
+                "total": "KOKKU",
+                "estimatedMilk": "Hinnanguline piima kaal"
+            },
+            "overview": {
+                "statusItems": "Elementide olek",
+                "recentEvents": "Hiljutised s\u00fcndmused",
+                "moreEvents": "Rohkem s\u00fcndmusi",
+                "recentTestdays": "Hiljutised testip\u00e4evad",
+                "moreTestdays": "Rohkem testip\u00e4evi",
+                "moreItems": "Rohkem elemente",
+                "dailyRecentProduction": "P\u00e4evane hiljutine tootmine"
+            },
+            "testDays": {
+                "noTests": "Puuduvad testip\u00e4evade andmed, mida kuvada.",
+                "date": "Kuup\u00e4ev",
+                "milk": "Piim",
+                "dim": "DIM",
+                "pen": "SULG"
+            },
+            "statusGroup": {
+                "noItems": "Puuduvad andmed, mida kuvada."
+            },
+            "pedigree": {
+                "pedigree": "P\u00f5lvnemine",
+                "graphicView": "Graphic View",
+                "PDFView": "PDF vaade"
+            },
+            "penChange": {
+                "penChanges": "Sulu muutused",
+                "noPenChanges": "Puuduvad sulu muutused, mida kuvada.",
+                "date": "Kuup\u00e4ev",
+                "daysInPen": "P\u00e4eva sulus",
+                "movedToPen": "Viidud sulgu",
+                "PremiseId": "Hoone ID",
+                "fromTo": "Alates - kuni",
+                "dim": "DIM",
+                "source": "Allikas",
+                "testday": "TESTIP\u00c4EV",
+                "responsible": "Vastutav",
+                "penTransfer": {
+                    "in": "SISSE"
+                }
+            },
+            "sensor": {
+                "sensors": "Andurid",
+                "accordionTitle": "SCR aktiivsus - M\u00e4letsemisanduri andmed"
+            },
+            "testDay": {
+                "testDays": "Testip\u00e4evad",
+                "testDaysResults": "Testip\u00e4eva tulemused",
+                "yAxisLayers": "VIITED",
+                "productionGraphByTestday": "Testip\u00e4eva tootmisgraafik",
+                "testDaysToolTipTitle": "Testip\u00e4ev #"
+            },
+            "productionMilk": {
+                "noItems": "Puuduvad piima tootmise andmed, mida kuvada."
+            },
+            "type": {
+                "adultCow": "LEHM",
+                "bull": "PULL",
+                "calf": "VASIKAS",
+                "heifer": "MULLIKAS"
+            },
+            "farmName": "Farmi nimi",
+            "cowName": "Lauda nimi",
+            "pen": "Sulg",
+            "lact": "Lakt",
+            "rpro": "Rpro",
+            "dim": "DIM",
+            "dslh": "Dslh",
+            "dcc": "Dcc",
+            "due": "Kuni",
+            "ardat": "ARDAT",
+            "milkWithhold": "Piima kinnihoidmine",
+            "meatWithhold": "Liha kinnihoidmine",
+            "reproductionCode": {
+                "heiferCalf": "LEHMVASIKAS",
+                "noBred": "SEEMENDAMATA",
+                "fresh": "SIIRE",
+                "ok": "OK\/ AVATUD",
+                "bred": "SEEMENDAMINE",
+                "preg": "TIINUS",
+                "dry": "KUIV",
+                "sld": "M\u00dc\u00dcDUD\/SURNUD",
+                "bull": "PULLVASIKAS"
+            },
+            "agedy": "VANUS",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "Muuda kaardi elemente",
+                    "cardsPreview": "Kaardi eelvaade",
+                    "dragAndDropReorder": "J\u00e4rjekorra muutmiseks lohistage elemente",
+                    "addItems": "Lisa elemente",
+                    "cardName": "Kaardi nimi",
+                    "searchSpecificCowItem": "Otsin lehma spetsiifilist elementi...",
+                    "cancelMessage": "Teil on salvestamata muudatusi. T\u00fchistan ikkagi?",
+                    "validation": "Lisage enne salvestamist kaardile v\u00e4hemalt \u00fcks element.",
+                    "noItems": "Uue kaardi eelvaate v\u00f5imaldamiseks lisage v\u00e4hemalt \u00fcks element.",
+                    "isMobile": "N\u00e4ita mobiilirakenduses"
+                },
+                "add": {
+                    "itemBoxTitle": "Lisa kaardile elemente",
+                    "error": "Kahjuks ilmnes ootamatu viga. Palun proovige kaarti uuesti lisada.",
+                    "newItemsCard": "kaardi uued elemendid"
+                },
+                "hide": {
+                    "title": "Peita kaardi elemendid?",
+                    "line1": "Peidetud kaartide taastamiseks kl\u00f5psake ",
+                    "line2": "valikul 'Taasta peidetud kaart'.",
+                    "confirm": "jah, peida"
+                },
+                "restoreCard": "Taasta peidetud kaart",
+                "addCard": "Lisa uus kaart",
+                "restore": {
+                    "boxTitle": "Taasta peidetud kaardid",
+                    "edition": {
+                        "title": "Valige kaardid",
+                        "subTitle": "Eelnevalt peidetud kaardid lisatakse sellele ekraanile."
+                    },
+                    "noHiddenCardTitle": "Kaardi nimi",
+                    "error": "Kahjuks ilmnes ootamatu viga. Palun proovige uuesti peidetud kaarti lisada.",
+                    "noItems": "Vaatamiseks kl\u00f5psake loendis Kaardi elemendile."
+                },
+                "successUpdate": "on edukalt uuendatud",
+                "notSuccessUpdate": "Info salvestamisel ilmnes viga. Palun proovige m\u00f5ne minuti p\u00e4rast uuesti",
+                "itemCard": "Kaardi element",
+                "itemCardSuccessfullyAdded": "edukalt lisatud",
+                "itemCardSuccessfullyRestored": "elemendid on edukalt taastatud",
+                "itemCardSuccessfullyHidden": "Kaardi element on edukalt peidetud",
+                "itemCardColorPaletteLabel": "V\u00e4rv",
+                "itemCardColorPaletteDefault": "Vaikev\u00e4rv",
+                "itemCardBackgroundColorPickerLabel": "Tausta v\u00e4rv",
+                "itemCardForegroundColorPickerLabel": "Teksti v\u00e4rv"
+            },
+            "subMenu": {
+                "overview": "\u00dclevaade",
+                "items": "elemendid",
+                "events": "S\u00fcndmused",
+                "testDays": "Testip\u00e4evad",
+                "lactations": "Laktatsioonid",
+                "dailyMilk": "Igap\u00e4evane piim",
+                "penChanges": "Sulu muutused",
+                "pedigree": "Pedigree",
+                "partners": "Partnerid"
+            },
+            "recentProduction": {
+                "milking": "L\u00fcpsmine #"
+            },
+            "dead": "SURNUD",
+            "alive": "ELUS",
+            "sold": "M\u00dc\u00dcDUD",
+            "placeholder": {
+                "title": "Puuduvad elemendid, mida kuvada",
+                "description": "M\u00e4\u00e4rake kaardi elemendid, mida siin n\u00e4idatakse."
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "bdate",
+                        "weanDateTitle": "wean date",
+                        "sexTitle": "sex",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Calf Rearing Characteristics",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} days %{preposition} expected wean date",
+                            "prepositionUntil": "until",
+                            "prepositionPast": "past",
+                            "projected": "PROJECTED",
+                            "weaned": "weaned",
+                            "weaning": "weaning"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 days",
+                        "todayTitle": "today",
+                        "averageDailyGainTitle": "adg",
+                        "title": "Weight",
+                        "perDay": "d",
+                        "popover": "If your dairy is equipped with a F\u00f6rster half-body scale, this is an actual animal weight. If not, this weight is estimated based on calf age."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "milk",
+                        "concentrationTitle": "concentration",
+                        "additiveTitle": "Additive",
+                        "title": "Total Consumption",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Allowance Ratio",
+                        "dipsMilkIntake": "# dips milk intake",
+                        "avgBreaksDay": "Avg breaks \/day",
+                        "avgDailySteps": "Avg daily steps",
+                        "daysOnPrescription": "days on prescription"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Drinking Speed",
+                        "speed": "speed",
+                        "timeUnit": "m",
+                        "day": "Day"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Drinking Behavior",
+                        "milk": "milk"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Milk Consumption",
+                        "consumption": "Consumption",
+                        "lastTwoDays": "last 2 days",
+                        "visitNumber": "Visit %{number}",
+                        "visitRange": "Visits %{from} to %{to}",
+                        "visit": "visit",
+                        "withoutFeeding": "w\/o feeding",
+                        "additive": "additive",
+                        "total": "total",
+                        "yesterdayTarget": "yesterday's target",
+                        "todayEntitlement": "today's entitlement",
+                        "timeRange": "%{from} to %{to}"
+                    },
+                    "common": {
+                        "amount": "amount",
+                        "entitlement": "entitlement",
+                        "today": "Today",
+                        "yesterday": "Yesterday",
+                        "now": "now",
+                        "widgetNotFound": "There is no %{name} data to display for this animal",
+                        "widgetCommunicationError": "Communication Error"
+                    }
+                },
+                "table": {
+                    "message": "S\u00f5num",
+                    "dateAndTime": "Kuup\u00e4ev ja kellaaeg",
+                    "observations": "Vaatlused"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "Temperatuur",
+                        "ph": "PH",
+                        "activity": "Aktiivsus"
+                    },
+                    "views": {
+                        "view": "Vaade",
+                        "last24hs": "Viimased 24h",
+                        "last7days": "Viimased 7 p\u00e4eva",
+                        "last30days": "Viimased 30 p\u00e4eva"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "Ebapiisav vee juurdevool",
+                    "health102": "Suureneb joomists\u00fcklites",
+                    "health103": "V\u00e4heneb joomists\u00fcklites",
+                    "health104": "Temperatuurit\u00f5us",
+                    "health106": "Temperatuurilangus",
+                    "health601": "THI \u2265 72 Kuumastress",
+                    "health602": "THI \u2265 78 Kuumastress",
+                    "health603": "THI \u2265 82 Kuumastress",
+                    "health703": "Aktiivsuse langus",
+                    "fertility105": "Peatse poegimise m\u00e4rguanne",
+                    "fertility702": "Innaaeg",
+                    "feeding201": "S\u00f6\u00f6da t\u00f5husus",
+                    "feeding202": "Atsidoosi oht",
+                    "feeding203": "Keskmise pH kasv",
+                    "feeding204": "Keskmise pH langus",
+                    "feeding205": "pH kasv 12h jooksul",
+                    "feeding206": "pH langus 12h jooksul",
+                    "actincrease701": "Aktiivsuse t\u00f5us",
+                    "actincrease704": "Aktiivsuse t\u00f5us",
+                    "heat": "Soojuse tuvastamine",
+                    "insemination": "Seemendatud loomast",
+                    "pregnancyResult": "Tiineks j\u00e4\u00e4mise positiivne v\u00f5i negatiivne tulemus",
+                    "calvingDetection": "Poegimise tuvastamine",
+                    "dryOff": "Ahtrus m\u00f6\u00f6das",
+                    "calvingConfirmation": "Poegimise kinnitamine"
+                },
+                "selectPartner": "Partner:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "Selle looma kohta puuduvad SmaXtec anduri andmed"
+            }
+        },
+        "overview": {
+            "page": "Karja \u00fclevaate leht"
+        },
+        "pens": {
+            "penList": "Sulgude loend",
+            "animalCost": "Looma hind",
+            "space": "Ruum",
+            "capacity": "Mahutavus",
+            "count": "Loendus",
+            "extra": "Lisa",
+            "feed": "S\u00f6\u00f6t",
+            "feedingHdCount": "S\u00f6\u00f6tmise HD loendus",
+            "feedingCount": "Feeding Count",
+            "herd": "Kari",
+            "label": "Silt",
+            "pen": "Sulg",
+            "penCost": "Sulu hind",
+            "penCount": "Sulgude loendus",
+            "pens": "Sulud",
+            "penType": "Sulu t\u00fc\u00fcp",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "Hoone ID",
+            "targetDmHd": "Eesm\u00e4rk DM\/HD",
+            "costPerHd": "Cost\/HD",
+            "type": "T\u00fc\u00fcp",
+            "view": "Vaade",
+            "zone": "Tsoon",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "K\u00f5ik sulut\u00fc\u00fcbid",
+                "isArtificialInseminationPen": "AI",
+                "isBullPen": "Pullisulg",
+                "isCalfPen": "Vasikas",
+                "isDryPen": "Ahtrus",
+                "isHospitalPen": "Kliinik",
+                "isMilkingPen": "L\u00fcpsmine",
+                "isUserPen": "Kasutaja",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "Avatud t\u00f6\u00f6de loendid",
+            "todayTitle": "T\u00e4na",
+            "upcomingTitle": "Saabuv",
+            "lastDaysTitle": "Viimased kolm p\u00e4eva",
+            "accordionTitle": "Loendid",
+            "time": {
+                "week": "N\u00e4dal tagasi",
+                "yesterday": "Eilsed",
+                "today": "T\u00e4nased"
+            },
+            "help": {
+                "tag": "Vajate abi?",
+                "link": "Lisainfo t\u00f6\u00f6de loendite kohta"
+            },
+            "tableHead": {
+                "name": "Nimi",
+                "listDate": "Loendi kuup\u00e4ev",
+                "listType": "Loendi t\u00fc\u00fcp",
+                "status": "Olek",
+                "progress": "Edenemine",
+                "description": "Kirjeldus",
+                "ondone": "T\u00f6\u00f6s",
+                "postProcess": "J\u00e4rgnev t\u00f6\u00f6tlus"
+            },
+            "progress": {
+                "animals": "Loomad",
+                "toBeProcessed": "mis on t\u00f6\u00f6deldavad",
+                "filterNoResults": "Selle filtri selles vahekaardis ei leidu \u00fchtegi looma."
+            },
+            "status": {
+                "open": "Avatud",
+                "closed": "Suletud",
+                "delivered": "Kohal",
+                "todo": "Teha",
+                "pending": "Ootel",
+                "inProgress": "T\u00f6\u00f6s",
+                "queued": "J\u00e4rjekorras",
+                "processed": "T\u00f6\u00f6deldud"
+            },
+            "changeStatus": {
+                "todo": "teha",
+                "done": "tehtud",
+                "completed": "T\u00e4idetud",
+                "processed": "T\u00f6\u00f6deldud",
+                "toBeProcessed": "Tuleb t\u00f6\u00f6delda"
+            },
+            "identificationType": {
+                "unknown": "tundmatu",
+                "tap": "koputatud",
+                "scan": "skannitud",
+                "voice": "h\u00e4\u00e4l"
+            },
+            "tableColumns": {
+                "method": "Meetod",
+                "doneBy": "Tegi",
+                "updatedAt": "Tegemisaeg",
+                "changeStatus": "Olek"
+            },
+            "noItems": "Puuduvad loendid, mida n\u00e4idata",
+            "listDetailsPageTitle": "Loendi \u00fcksikasjad",
+            "tabs": {
+                "todo": "teha",
+                "done": "tehtud"
+            },
+            "details": {
+                "table": {
+                    "id": "ID",
+                    "pen": "SULG",
+                    "lact": "LAKT",
+                    "rprod": "RPROD",
+                    "dim": "DIM",
+                    "dcc": "DCC",
+                    "milk": "PIIM",
+                    "all": "k\u00f5ik"
+                }
+            },
+            "listTypes": {
+                "todolist": "\u00fclesannete loend"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Item Definitions",
+            "name": "Name",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Type",
+            "description": "Description",
+            "standardItemNumber": "Standard #",
+            "filterPlaceholder": "Name, # or Description"
+        },
+        "eventDefinitions": {
+            "title": "Event Definitions",
+            "number": "Number",
+            "eventName": "Event Name",
+            "standardEventCode": "Standard #",
+            "team": "Team",
+            "gap": "Gap",
+            "command": "Command",
+            "filterPlaceholder": "Event Name, # or Command"
+        },
+        "protocols": {
+            "title": "Protocols",
+            "number": "P#",
+            "event": "Event",
+            "protocol": "Protocol",
+            "remark": "Remark",
+            "goToPen": "Go To Pen",
+            "milkWithold": "Milk Withhold",
+            "meatWithold": "Meat Withhold",
+            "timeOnProtocol": "Time On Protocol",
+            "adult": "Adult",
+            "heifer": "Heifer",
+            "team": "Team",
+            "recheck": "Recheck",
+            "order": "Order",
+            "prompt": "P",
+            "days": {
+                "singular": "day",
+                "plural": "days"
+            },
+            "showInactive": "Show Inactive",
+            "details": "Protocol Details",
+            "hasPrompt": "Prompt: Yes"
+        }
+    },
+    "home": {
+        "home": "Kodu",
+        "title": "VAS-platvorm",
+        "searchboxPlaceholder": "Looma otsimine",
+        "selectContext": "Valige %{context}",
+        "context": {
+            "dairy": "Piimafarm",
+            "company": "Ettev\u00f5te",
+            "companyOrDairy": "Piimafarmi ettev\u00f5te",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "\u00dchendage esimese piimafarmiga asukohas",
+                "myHome": "Minu kodu",
+                "pendingInvitationPreppend": "Teil on ootel kutse. \nMInge",
+                "pendingInvitationAppend": "kinnitamiseks."
+            }
+        },
+        "dairyProfile": "Piimafarmi profiil",
+        "selectDairy": "Valige piimafarm",
+        "search": {
+            "noResults": "Selle otsinguga ei leitud \u00fchtegi piimafarmi"
+        }
+    },
+    "validation": {
+        "invalidName": "Palun sisestage kehtiv nimi.",
+        "invalidEmail": "Palun sisestage kehtiv e-posti aadress.",
+        "emptyEmail": "Palun sisestage enda e-posti aadress.",
+        "invalidPassword": "Parool peab sisaldama v\u00e4hemalt 6 t\u00e4hem\u00e4rki.",
+        "emptyPassword": "Palun sisestage enda parool.",
+        "passwordNotMatch": "Parool ei kattu.",
+        "retypePassword": "Palun sisestage parool uuesti.",
+        "passwordMinimumRequirements": "Parool ei vasta miinimumn\u00f5uetele.",
+        "invalidCardName": "Kaardi nimi peab sisaldama v\u00e4hemalt 6 t\u00e4hem\u00e4rki.",
+        "emptyCardName": "Palun sisestage kaardi nimetus.",
+        "changePassword": {
+            "emptyCurrentPassword": "Palun sisestage kehtiv parool.",
+            "emptyNewPassword": "Palun sisestage enda uus parool.",
+            "emptyConfirmNewPassword": "Palun kinnitage uus parool."
+        },
+        "address": {
+            "emptyCountry": "Palun valige riik.",
+            "emptyStateProvince": "Palun %{action} riik",
+            "selectStateProvince": "valige",
+            "enterStateProvince": "sisestage",
+            "emptyCity": "Palun sisestage linn.",
+            "emptyPostalCode": "Palun sisestage postiindeks."
+        },
+        "dairy": {
+            "emptyName": "Palun sisestage piimafarmi nimi."
+        },
+        "invalidMobilePhoneNumber": "Palun sisestage kehtiv mobiiltelefoni number. Veenduge, et sisestate ainult numbreid, mitte t\u00fchikuid.",
+        "invalidPhoneNumber": "Palun sisestage kehtiv telefoninumber. Veenduge, et sisestate ainult numbreid, mitte t\u00fchikuid.",
+        "limitCharacters": "Olete j\u00f5udnud selle v\u00e4lja t\u00e4hem\u00e4rkide piirm\u00e4\u00e4rani.",
+        "accountSettings": {
+            "firstName": "Palun sisestage enda eesnimi",
+            "lastName": "Palun sisestage enda perekonnanimi"
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404 Ei leitud",
+            "line1": "Kahjuks ei ole teie poolt otsitav leht saadaval.",
+            "line2": "Palun proovige uuesti v\u00f5i liikuge kohta"
+        },
+        "tokenInvalid": "Parooli l\u00e4htestamise m\u00e4rgis ei kehti.",
+        "unableChange": "Parooli ei saa muuta.",
+        "401": "Kinnitamata",
+        "500": "Serveri sisemine viga",
+        "passwordInvalid": "Kehtiv parool ei ole korrektne."
+    },
+    "password": {
+        "passwordCreated": "Parool on loodud",
+        "passwordSuccessfullyCreated": "Teie parool on edukalt loodud.",
+        "passwordUpdated": "Parool on uuendatud",
+        "passwordSuccessfullyChanged": "Teie parooli muudeti edukalt.",
+        "continueToHome": "J\u00e4tkake kodust",
+        "enterPassword": "Sisestage parool",
+        "savePassword": "Salvestage parool",
+        "passwordRequirements": "Parooli n\u00f5uded",
+        "unableToChange": "Parooli ei saa muuta.",
+        "setPassword": "M\u00e4\u00e4rake enda parool",
+        "invalidToken": {
+            "invalidToken": "Vale m\u00e4rgis.",
+            "title_line1": "Teie kutse",
+            "title_line2": "VAS-platvorm on aegunud",
+            "line1": "Palun saatke meile e-kiri aadressile",
+            "line2": "v\u00f5i helistage",
+            "line3": "et saada uut kutset."
+        },
+        "ValidPassword": {
+            "minLength": "Minimaalne pikkus on 6 t\u00e4hem\u00e4rki.",
+            "numbersAndLetters": "Peab sisaldama t\u00e4hem\u00e4rke ning numbreid.",
+            "lowerUpperCases": "Peab sisaldama v\u00e4ikseid ja suurt\u00e4hti."
+        }
+    },
+    "breadcrumb": {
+        "operations": "Toimingud",
+        "herd": "Kari",
+        "cows": "Lehmi",
+        "pens": "Sulgusid",
+        "ID": "ID",
+        "overview": "\u00dclevaade",
+        "company": "Company",
+        "dairy": "Dairy",
+        "dairyComp": "Meierei",
+        "dashboard": "T\u00f6\u00f6laud",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "Avatud t\u00f6\u00f6de loendid",
+        "messageCenter": "S\u00f5numikeskus"
+    },
+    "footer": {
+        "title": "VAS-platvorm"
+    },
+    "search": {
+        "searchHistory": "Otsing ajaloost",
+        "searchResults": "Otsingutulemused",
+        "noResults": "Otsinguga ei kattu \u00fchtegi looma",
+        "searchForCow": "Looma otsimine",
+        "firstResult": "Esimene tulemus",
+        "thirdResult": "Kolmas tulemus"
+    },
+    "dairy": {
+        "noDairiesConnected": "Piimafarme ei ole \u00fchendatud",
+        "noDairiesText_": "\u00dchendamine teie esimese piimafarmiga asukohast",
+        "requestAccessSuccess": "Juurdep\u00e4\u00e4s edukalt taotletud"
+    },
+    "menu": {
+        "myHome": "Minu kodu",
+        "impersonationLabel": "Admin on",
+        "dairyManager": "Piimafarmi juht",
+        "accountSettings": "Konto s\u00e4tted",
+        "logOut": "V\u00e4ljalogimine",
+        "reports": "Raportid",
+        "favorites": "Lemmikud",
+        "favoriteReports": "Lemmikute raportid",
+        "dairyInformation": "Piimafarmi info",
+        "dairyConfiguration": "Piimafarmi konfiguratsioon",
+        "operations": "Toimingud",
+        "userManagement": "Kasutajate haldus",
+        "messageCenter": "S\u00f5numikeskus"
+    },
+    "accountSettings": {
+        "account": "Konto",
+        "myAccount": "Minu konto",
+        "userProfile": "Kasutajaprofiil",
+        "changeMyPassword": "Muuda minu parooli",
+        "password": "Parool",
+        "mobilePhoneNumber": "Mobiiltelefoni number",
+        "phoneNumberValidationOnlyNumbers": "Sisestage numbrid ainult mobiiltelefoni numbri v\u00e4ljale.",
+        "phoneNumberValidationExtensionNumbers": "Palun \u00e4rge lisage laiendusnumbreid.",
+        "firstName": "Eesnimi",
+        "lastName": "Perekonnanimi",
+        "dateFormat": "Kuup\u00e4eva formaat",
+        "timeFormat": "Kellaaja formaat",
+        "howYouPreferSeeDates": "Kuidas soovite rakenduses kuup\u00e4evi n\u00e4ha",
+        "howYouPreferSeeTimes": "Kuidas soovite rakenduses kellaaegu n\u00e4ha",
+        "address": "Aadress",
+        "units": "\u00dchikud",
+        "chooseDisplayUnits": "Valige k\u00f5ige mugavam viis \u00fchikute kuvamiseks",
+        "language": "Keel",
+        "languageToDisplay": "VAS-platvormi suhtluskeel",
+        "aboutMe": "Minu info",
+        "amIDiscoverable": "Kas olen leitav?",
+        "isDiscoverable": "Leitav",
+        "youCanBeContacted": "Rakenduse teised kasutajad saavad teiega \u00fchendust v\u00f5tta",
+        "youWantYourDairyFound": "Kas soovite, et teised kasutajad leiaksid teie piimafarmi?",
+        "country": "Riik",
+        "state": "Maakond",
+        "city": "Linn",
+        "addressLine1": "Aadressi rida 1",
+        "addressLine2": "Aadressi rida 2",
+        "addressEmail": "Address Email",
+        "phoneNumber": "Telefoninumber",
+        "email": "E-posti aadress",
+        "web": "Veebiaadress",
+        "currentPassword": "Kehtiv parool",
+        "newPassword": "Uus parool",
+        "confirmNewPassword": "Kinnitage uus parool.",
+        "physicalAddress": "F\u00fc\u00fcsiline aadress",
+        "billingAddress": "Arveldamise aadress",
+        "theEmailGravatarDescription_line1": "E-posti aadress, mida sisselogimisel kasutate.",
+        "theEmailGravatarDescription_line2_part1": "Kasuta ",
+        "theEmailGravatarDescription_line2_part2": " profiilipildi pakkujana, v\u00f5ib v\u00e4rskendamine p\u00e4rast vahetamist aega v\u00f5tta.",
+        "profileSettings": "PROFIILI S\u00c4TTED",
+        "postalCode": "Postiindeks",
+        "profilePicture": {
+            "title": "LISAGE ENDA PROFIILIPILT",
+            "line1": "Profiilipildi seadmiseks lohistage sinna vasakul asuv pilt v\u00f5i valige pilt enda teegist.",
+            "line2": "P\u00e4rast \u00fcleslaadimist saate pildi suurust ja asukohta muuta.",
+            "condition1": "Kasutage JPG- v\u00f5i PNG-faili.",
+            "condition2": "Pildi suuruse piirang on 150k",
+            "condition3": "Pildi toetatud suurused: 32x32, 100x100 v\u00f5i 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "Teated",
+            "whatsNewDetails": "Tere tulemast VAS-platvormile, vaadake teateid siit.",
+            "myDairies": "Minu piimafarmid",
+            "search": {
+                "placeholder": "Leia ja \u00fchenda uue piimafarmiga"
+            }
+        },
+        "myDairies": {
+            "noDairies": "Puuduvad piimafarmid, mida n\u00e4idata",
+            "dairyColumnTitle": "Piimafarm",
+            "locationColumnTitle": "Asukoht",
+            "statusColumnTitle": "Olek",
+            "invitationText": "Olete kutsutud liituma",
+            "requestAccessText": "Olete k\u00fcsinud ligip\u00e4\u00e4su:",
+            "viewDairyPage": " Vaadake piimafarmi lehte",
+            "acceptAction": "Kinnita",
+            "declineAction": "Keeldu",
+            "cancelAction": "T\u00fchista p\u00e4ring",
+            "leaveDairy": "Lahku piimafarmist",
+            "status": {
+                "invited": "Kutsutud",
+                "requested": "Ootan kinnitust",
+                "connected": "\u00dchendatud"
+            }
+        },
+        "myConnections": {
+            "title": "Minu \u00fchendused",
+            "noConnections": "Puuduvad \u00fchendused, mida n\u00e4idata",
+            "connect": "\u00dchenda uue piimafarmiga",
+            "viewList": "Vaata \u00fchenduste loendit"
+        },
+        "dairiesFilterPlaceholder": "Leia piimafarm",
+        "connectionInvite": {
+            "accepted": "Accepted invite to",
+            "confirmDeclinePart1": "You are declining your invite to",
+            "confirmDeclinePart2": ". Do you confirm?",
+            "declined": "Declined invite to",
+            "notFound": "The record you are trying to review is no longer available."
+        },
+        "connectionLeave": {
+            "confirmed": "You are successfully disconnected from",
+            "confirmLeave": "Are you sure you want to leave",
+            "errorDairyLeaving": "An error occurred while leaving the dairy. Please try again in a few minutes.",
+            "errorCompanyLeaving": "An error occurred while leaving the company. Please try again in a few minutes.",
+            "errorDairyLeavingOnlyOwner": "You cannot leave this dairy because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again.",
+            "errorCompanyLeavingOnlyOwner": "You cannot leave this company because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " View Company Page",
+            "leaveCompany": "Leave Company"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "S\u00f5numikeskus",
+        "view": "Vaade",
+        "noMessages": "S\u00f5numid",
+        "filters": {
+            "all": "K\u00f5ik teavitused",
+            "info": "Info",
+            "news": "Uudised",
+            "alert": "Alarm",
+            "warning": "Hoiatus",
+            "announcement": "Teavitused",
+            "system": "S\u00fcsteemi teavitused",
+            "unread": "Lugemata",
+            "worklists": "T\u00f6\u00f6de loendite uuendused"
+        },
+        "actions": {
+            "markAsRead": "M\u00e4rkige loetuks",
+            "showMore": "Vaadake rohkem \u00fcksikasju"
+        }
+    },
+    "discoverability": {
+        "yes": "jah",
+        "no": "ei",
+        "dairy": {
+            "yesDetail": "Jah, piimafarm on n\u00e4htav teistele kasutajatele",
+            "noDetail": "Ei, piimafarm ei ole n\u00e4htav teistele kasutajatele"
+        },
+        "account": {
+            "yesDetail": "Jah, ma soovin teistele kasutajatele n\u00e4htav olla",
+            "noDetail": "Ei, ma ei soovi teistele kasutajatele n\u00e4htav olla"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Company Configuration",
+        "userManagement": {
+            "title": "User Management",
+            "fromCompany": "from this company",
+            "userRemovedSuccess": "successfully removed from the company.",
+            "inviteUserModal": {
+                "existingUser": "The email entered belongs to an existing user in this company.",
+                "confirmButton": "Invite",
+                "noPlatformUser": "The email entered does not belong to an existing user in VAS Platform. You can only add registered users."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "Piimafarmi konfiguratsioon",
+        "dairyInformation": "Piimafarmi informatsioon",
+        "dairyInfo": "Piimafarmi info",
+        "address": "Aadress",
+        "dairyName": "Piimafarmi nimi",
+        "dairyType": "Piimafarmi t\u00fc\u00fcp",
+        "dairyMainActivity": "Piimafarmi peamised tegevused",
+        "changesSavedError": "Kahjuks ilmnes ootamatu viga. Palun proovige uuesti piimafarmi konfiguratsiooni muuta.",
+        "dairySettings": "PIIMAFARMI S\u00c4TTED",
+        "userManagement": "Kasutajate haldus",
+        "dairyImage": "Piimafarmi pilt",
+        "description": "Kirjeldus",
+        "timezone": "Ajatsoon"
+    },
+    "userManagement": {
+        "users": "Kasutajad",
+        "roles": "Rollid",
+        "role": "Roll",
+        "assignRoles": "M\u00e4\u00e4rake juurdep\u00e4\u00e4su taotlemise kinnitamisel rollid.",
+        "removeUserMessage": "Olete kasutajat eemaldamas",
+        "fromDairy": "sellest piimafarmist",
+        "userRemovedSuccess": "edukalt meiereist eemaldatud.",
+        "confirmRemove": "Jah",
+        "permission": "Ligip\u00e4\u00e4s",
+        "permissions": "Ligip\u00e4\u00e4sud",
+        "removeUser": "Eemalda",
+        "noUsers": "Kattuvad tulemused puuduvad.",
+        "accessPending": {
+            "title": "Ligip\u00e4\u00e4s ootel",
+            "declineRequestMessageFistPart": "Olete keeldunud ligip\u00e4\u00e4sust:",
+            "declineRequestMessageSecondPart": ". Kas kinnitate?",
+            "confirmDeclineRequestMessageFistPart": "Ligip\u00e4\u00e4su taotlus: ",
+            "confirmDeclineRequestMessageSecondPart": "tagasi l\u00fckatud.",
+            "accessRequestTo": "Ligip\u00e4\u00e4su taotlus:",
+            "confirmApproveRequestMessage": "kinnitatud"
+        },
+        "user": "Kasutaja",
+        "editRoles": "Rollide muutmine",
+        "status": "Olek",
+        "updated": "Uuendatud",
+        "sent": "Saadetud",
+        "noAccessPending": "Hetkel puuduvad kasutajate juurdep\u00e4\u00e4su taotlused ning kutsed, mida peaks t\u00f6\u00f6tlema.",
+        "addRole": "Lisa roll",
+        "addNewRole": "Lisa uus roll",
+        "editRole": "muuda rolli \u00f5igusi",
+        "editUserRoles": "Muuda kasutaja rolle",
+        "assignedRoles": "M\u00e4\u00e4ratud rollid",
+        "assignedRolesHintMessage": "M\u00e4\u00e4rake kasutajale rollid, valides need vasakul olevast loendist",
+        "inviteUser": "Lisa uus kasutaja",
+        "roleEdition": {
+            "roleName": "Rolli nimetus",
+            "roleDescription": "Rolli kirjeldus",
+            "errorOnlyOwner": "Kasutajale  %{user} ei saa muudatusi salvestada, sest te olete praegu ainus, kellel on kasutajate halduse \u00f5igused. M\u00e4\u00e4rake see \u00f5igus v\u00e4hemalt \u00fchele teisele kasutajale ja proovige uuesti.",
+            "errorOnlyRole": "Rollile %{role} ei saa muudatusi salvestada, sest te olete praegu ainus, kellel on kasutajate halduse \u00f5igused. M\u00e4\u00e4rake see \u00f5igus v\u00e4hemalt \u00fchele teisele kasutajale ja proovige uuesti.",
+            "permissionType": {
+                "dairy": "Piimafarm",
+                "herd": "Kari",
+                "feed": "S\u00f6\u00f6t",
+                "parlor": "Ooteruum"
+            },
+            "permissionsAddLabel": "Valige \u00f5igused, mida soovite uuele rollile anda.",
+            "permissionsEditLabel": "Valige \u00f5igused, mida soovite sellel rollile anda.",
+            "editZonesHelpMessagePermission": "write",
+            "editZonesHelpMessage": "If you assigned %{permission} permissions to this role, and have multiple zones in your dairy, you must select to which zones it will apply.",
+            "editZonesHintMessage": "Selles paneelis saab hallata sisestamis\u00f5igust tsoonide kaupa kui kasutajal on sellised \u00f5igused.",
+            "permissionsMessage": "Piimafarmi tsoonid koos kirjutamis\u00f5igustega",
+            "allRolesFilter": "K\u00f5ik rollid",
+            "noUsers": "Kattuvad tulemused puuduvad."
+        },
+        "accessPendingStatus": {
+            "invited": "Kutsutud",
+            "requested": "Taotletud",
+            "inviteDeclined": "Kutse tagasi l\u00fckatud",
+            "accessRequestDeclined": "Ligip\u00e4\u00e4su taotlus tagasi l\u00fckatud",
+            "cancelInvite": "T\u00fchista kutse",
+            "resendInvite": "Saada kutse uuesti",
+            "editInvite": "Muuda kutset",
+            "approve": "Kinnita",
+            "decline": "Keeldu"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "Rollid",
+            "availableRolesHintMessage": "Valige rollid, mida kasutaja t\u00e4idab. See m\u00f5jutab otseselt antud \u00f5iguste kogumit.",
+            "assignedRoles": "Rollid on m\u00e4\u00e4ratud",
+            "confirmButtonLabel": "Kutsuge kasutaja",
+            "assignedRolesHintMessage": "M\u00e4\u00e4rake kasutajale rollid, valides need vasakul olevast loendist",
+            "existingUser": "Sisestatud e-posti aadress kuulub selle piimafarmi olemasolevale kasutajale.",
+            "invitationSent": "Kasutaja on edukalt lisatud. Kutse saadeti.",
+            "previewUserText": " Kasutaja vaatamiseks kl\u00f5psake siia",
+            "editRoles": "Muuda rolle",
+            "existingPlatformUser": "Sisestatud e-post aadress kuulub  VAS-platvormi olemasolevale kasutajale.",
+            "confirmUserLine1": "Kinnitage ja",
+            "confirmUserLine2": "M\u00e4\u00e4ra rollid",
+            "exisitingUserConfirmed": "KINNITATUD",
+            "invitePendingUser": "Sisestatud e-posti aadress kuulub kasutajale, keda on kutsutud ja kes ei ole vastanud."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "Uuendage kasutajale m\u00e4\u00e4ratud rolle. See m\u00f5jutab otseselt antud \u00f5iguste kogumit.",
+            "availableRolesTitle": "V\u00f5imalikud rollid",
+            "rolesUpdated": "Rollid on edukalt uuendatud."
+        },
+        "resendInvite": {
+            "successfullySent": "Uus kutse saadeti aadressile"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "T\u00fchistate %{user} kutse. Kas kinnitate?",
+            "cancelConfirmationMessage": "%{dairyName} ligip\u00e4\u00e4su kutse on t\u00fchistatud"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "Rollid on edukalt uuendatud."
+        },
+        "confirmDisableRole": "Selle rolli keelamine muudab %{userCount} kasutaja(te) ligip\u00e4\u00e4su rakendusele. Kas kinnitate?",
+        "disableRoleConfirmed": "roll on n\u00fc\u00fcd keelatud",
+        "disableOnlyRoleError": "Rollile %{role} ei saa muudatusi salvestada, sest te olete praegu ainus, kellel on kasutajate halduse \u00f5igused. M\u00e4\u00e4rake see \u00f5igus v\u00e4hemalt \u00fchele teisele kasutajale ja proovige uuesti.",
+        "confirmEnableRole": "Selle rolli lubamine muudab %{userCount} kasutaja(te) ligip\u00e4\u00e4su rakendusele. Kas kinnitate?",
+        "enableRoleConfirmed": "roll on lubatud",
+        "customizeNewRole": "Kohandage uut rolli",
+        "writerPermissionRequireZone": "Valige v\u00e4hemalt \u00fcks tsoon, millele kirjutamis\u00f5igused kehtivad.",
+        "roleAddedSuccessfully": "%{roleName} roll lisati.",
+        "errors": {
+            "userAlreadyHasPendingRequest": "Kasutajal %{email} on juba ootel taotlus piimafarmile  ligi p\u00e4\u00e4semiseks %{dairyName}."
+        },
+        "addNewUser": "Lisa uus kasutaja"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "Integreerimise olek",
+            "notification": "Teavitused",
+            "help": "Abi"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "Aidake meil platvormi t\u00e4iustada"
+        },
+        "modal": {
+            "formTitle": "Aidake meil platvormi t\u00e4iustada",
+            "formContent": "Me t\u00e4iustame pidevalt VAS-platvormi kasutamist, seega soovime kuulda, mis teie arvates h\u00e4sti toimib ning kuidas me saaksime seda paremini teha.",
+            "inputLabel": "Kirjutage enda kommentaar siia",
+            "inputRequiredMessage": "Palun kirjutage enda kommentaar",
+            "submitLabel": "Saatke kommentaar",
+            "defaultErrorMessage": "Midagi l\u00e4ks valesti. Palun proovige uuesti.",
+            "successCaption": "T\u00e4name aja eest!",
+            "successContent": "Teie tagasiside j\u00f5udis VAS-platvormi meeskonnani ja see on meile v\u00e4ga v\u00e4\u00e4rtuslik. T\u00e4name teid, et aitasite meil teie ja teiste jaoks seda toodet t\u00e4iustada!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "Integreerimise olek",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "Ootab andmete vastuv\u00f5tmist.",
+            "Palun kontrollige varsti uuesti."
+        ],
+        "lastSync": "Viimane s\u00fcnkroonimine:",
+        "integrationRequired": "integreerimine on vajalik",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "DairyComp olek",
+            "disabledModuleText": "T\u00e4iustatud karja haldamine ja t\u00e4pne lehmade arvestus.",
+            "communicationStatus": {
+                "title": "Kommunikatsiooni olek",
+                "healthy": "Hea",
+                "notHealthy": "Halb",
+                "lastBeat": "Viimane andmepakett:"
+            },
+            "processingStatus": {
+                "title": "Viimane andmete s\u00fcnkroonimine",
+                "dataValid": "Andmed kehtivad:",
+                "problemEncountered": "Kahjuks ilmnes v\u00e4rskete andmete n\u00e4itamisel probleem. Me t\u00f6\u00f6tame probleemi lahendamise nimel."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "FeedComp integratsioon toimub varsti.",
+            "disabledModuleText": "J\u00e4lgib s\u00f6\u00f6da t\u00f5husust ning j\u00e4lgib sissetulekuid vastavalt s\u00f6\u00f6da hinnale.",
+            "processingStatus": {
+                "title": "Viimane andmete s\u00fcnkroonimine",
+                "lastSync": "Viimane s\u00fcnkr.:",
+                "problemEncountered": "Kahjuks ilmnes v\u00e4rskete andmete n\u00e4itamisel probleem. Me t\u00f6\u00f6tame probleemi lahendamise nimel."
+            },
+            "feedWatchServiceStatus": {
+                "title": "FeedWatch teenus",
+                "serviceStatus": "Teenuse olek",
+                "isRunning": "T\u00f6\u00f6tab",
+                "notRunning": "Ei t\u00f6\u00f6ta"
+            },
+            "scheduledTaskStatus": {
+                "title": "Planeeritud \u00fclesanded",
+                "lastRan": "Viimane t\u00f6\u00f6tamine:"
+            },
+            "dairyCompImportStatus": {
+                "title": "Viimane DC305 importimine",
+                "penCount": "Sulgude loendus",
+                "itemData": "Elemendi andmed"
+            },
+            "sendEquipmentExport": {
+                "title": "Seadmesse eksportimise taotlus",
+                "sendExport": "Saada eksport"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "ParlorComp olek",
+            "availableSoon": "ParlorComp integratsioon toimub varsti.",
+            "disabledModuleText": "J\u00e4lgige ooteruumi ja t\u00f5hustage tootmise juhtimist."
+        }
+    },
+    "notifications": {
+        "title": "Teavitused",
+        "link": "Vaadake rohkem \u00fcksikasju",
+        "createdPlural": "oleme integreerinud %{provider} lahenduse",
+        "createdSingular": "oleme integreerinud %{provider} lahenduse",
+        "updatedPlural": "oleme uuendanud %{provider} lahenduse",
+        "updatedSingular": "oleme uuendanud %{provider} lahenduse"
+    },
+    "report": {
+        "favorite": {
+            "title": "Lemmikraportid"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "DairyComp raportid",
+            "menu": {
+                "reproduction": "Taastootmine",
+                "transition": "Siirdamine",
+                "mastitis": "Udarap\u00f5letik",
+                "production": "Tootmine",
+                "lameness": "Lonkamine"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "21 p\u00e4evane innats\u00fckkel",
+                        "bredElig": "# Bred Elig.",
+                        "bred": "# Bred",
+                        "bredRisk": "Bred Risk %",
+                        "pregElig": "# Preg Elig.",
+                        "preg": "# Tiinus",
+                        "pregRisk": "Tiinuse risk %",
+                        "pregLoss": "# Tiinuse kaotus"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "Esimese seemendamise Dim",
+                        "headCount": "Loomade arv"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "Tehnik",
+                        "95Percentage": "95% usaldusnivoo",
+                        "risk": "Usaldusv\u00e4\u00e4rsuse %",
+                        "preg": "# Tiinus",
+                        "open": "# Avatud",
+                        "other": "# Muud",
+                        "pregLoss": "# Tiinuse kadu",
+                        "breeding": "# Aretus",
+                        "breedingPercentage": "% seemendus",
+                        "spc": "Spc",
+                        "bottomReference": "* Rohkem kui 10% tulemustest on teadmata"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "FeedComp raportid",
+            "menu": {
+                "feederPerformance": "S\u00f6\u00f6turi j\u00f5udlus",
+                "feedingBasics": "S\u00f6\u00f6tmise p\u00f5hit\u00f5ed",
+                "intake": "Tarbimine",
+                "inventory": "Inventar",
+                "usage": "Kasutus",
+                "economics": "Majandus"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "Kuup\u00e4ev",
+                        "avgPenCount": "Keskm. sulgude loendus",
+                        "dropped": "# Langenud",
+                        "avgDropped": "Keskm. langenud",
+                        "weighBacks": "# S\u00f6\u00f6daj\u00e4\u00e4k",
+                        "avgWeighBacks": "Keskm. s\u00f6\u00f6daj\u00e4\u00e4k",
+                        "dm": "# DM",
+                        "avgDmAnimal": "keskm. Dm\/looma kohta",
+                        "pen": "SULG",
+                        "noPen": "Puudub sulg, mida kuvada."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "ParlorComp raportid",
+            "menu": {
+                "tankWatch": "Tankwatch",
+                "milkingSummaries": "L\u00fcpsmise kokkuv\u00f5tted",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "Mahuti",
+                        "route": "Tee",
+                        "date": "Kuup\u00e4ev",
+                        "weight": "Kaal (LB)",
+                        "volume": "Maht (GAL)",
+                        "fat": "Rasv (%)",
+                        "protein": "Proteiin (%)",
+                        "lactose": "Laktoos (%)",
+                        "solids": "Kuivaine %",
+                        "totals": "10 p\u00e4eva keskm. summad",
+                        "tankAverages": "10 p\u00e4eva keskmised"
+                    }
+                }
+            }
+        },
+        "backToReports": "Tagasi raportitesse",
+        "addToFavorites": "Lisa lemmikutesse",
+        "tableView": "Tabelivaade",
+        "graphView": "Graafiline vaade"
+    },
+    "landing": {
+        "configureDairy": "Konfigureeri piimafarmi",
+        "dairyTeammates": "Piimafarmi t\u00f6\u00f6tajad",
+        "searchUser": "Kasutaja otsimine",
+        "displayName": "Kuva nimi",
+        "userType": "Kasutaja t\u00fc\u00fcp",
+        "zones": "Tsoonid",
+        "downloadZOF": "ZOF allalaadimine",
+        "activeRecords": "Aktiivsed salvestused",
+        "cows": "Lehmi",
+        "heifers": "Mullikaid",
+        "bulls": "Pulle",
+        "inactiveRecords": "Mitteaktiivsed salvestused",
+        "died": "Surnud",
+        "sold": "M\u00fc\u00fcdud",
+        "supportedBy": "Toetatud",
+        "cowSearch": "Looma otsimine",
+        "acceptInvite": "Kinnita kutse",
+        "declineInvite": "Keeldu kutsest",
+        "accessRequested": "Taotleti ligip\u00e4\u00e4su",
+        "cancelAccessRequested": "T\u00fchista ligip\u00e4\u00e4su taotlus",
+        "requestAccess": "Taotle ligip\u00e4\u00e4su"
+    },
+    "errorPage": {
+        "isoLogoAlt": "VAS-platvormi logo",
+        "returnHome": "P\u00f6\u00f6rdu koju"
+    },
+    "error400Page": {
+        "title": "Lehte ei leitud",
+        "description": [
+            "Sisestus, mida proovite vaadata, ei ole saadaval.",
+            "Palun minge tagasi ja proovige uuesti."
+        ]
+    },
+    "error403Page": {
+        "title": "Ligip\u00e4\u00e4s keelatud",
+        "description": [
+            "Teil puudub ligip\u00e4\u00e4s sellele lehele.",
+            "Vajadusel v\u00f5tke \u00fchendust piimafarmi juhiga."
+        ]
+    },
+    "error404Page": {
+        "title": "Lehte ei leitud",
+        "description": [
+            "Kahjuks ei ole teie poolt otsitav leht leitav.",
+            "V\u00f5ib-olla proovite minna tagasi kodulehele?"
+        ]
+    },
+    "error500Page": {
+        "title": "Oh, ei! Meil on probleem.",
+        "description": [
+            "Tekkis serveri viga ja me p\u00fc\u00fcame probleemi lahendada!",
+            "Oleme varsti j\u00e4lle t\u00f6\u00f6korras."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "Vabandame!",
+        "description": [
+            "Rakenduses ilmnes ootamatu viga.",
+            "Palun proovige hiljem uuesti, meie tugir\u00fchm tegeleb probleemiga."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "Ei leitud",
+        "description": [
+            "Sisestus, millele proovite ligi p\u00e4\u00e4seda, ei ole saadaval.",
+            "Palun minge tagasi ja proovige uuesti."
+        ]
+    },
+    "pagination": {
+        "first": "Esimene",
+        "last": "Viimane",
+        "view": "Vaade",
+        "rowsPerPage": "rida lehek\u00fclje kohta",
+        "records": {
+            "singular": "Record",
+            "plural": "Records"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "T\u00fchistate ligip\u00e4\u00e4su taotluse",
+        "confirmCancelPart2": ". Kas kinnitate?",
+        "confirmedCancel": "Ligip\u00e4\u00e4su taotlus t\u00fchistatud."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Show more info",
+                "hideInfo": "Show less info",
+                "references": "Viited",
+                "updated": "Uuendatud",
+                "noData": {
+                    "title": "Andmeid pole",
+                    "description": "Sellele raportile pole piisavalt andmeid."
+                },
+                "integrationPending": {
+                    "title": "integreerimine on vajalik",
+                    "description": "Inegratsiooni l\u00f5petamiseks v\u00f5tke \u00fchendust: {vasSupport}",
+                    "linkText": "VAS tugiteenus"
+                }
+            },
+            "error": {
+                "ohNo": "Oh, ei!",
+                "errorLoadingWidget": "Selle vidina laadimisel tekkis viga.",
+                "tryAgainLater": "Palun proovige hiljem uuesti."
+            },
+            "cowStats": {
+                "title": "Lehmade statistika",
+                "info": "Viimased 30 p\u00e4eva",
+                "allMilkingCows": "K\u00f5ik l\u00fcpsilehmad",
+                "fresh": "V\u00e4rske",
+                "dueDry": "Ahtruse t\u00f5ttu",
+                "toTank": "Mahutisse",
+                "hospital": "Kliinik",
+                "allDryCows": "K\u00f5ik ahtrad lehmad",
+                "closeUp": "L\u00e4hedal",
+                "farOff": "Kaugel",
+                "allHeifers": "K\u00f5ik mullikad",
+                "closeUpHeifers": "Mullikad l\u00e4hedal"
+            },
+            "companyCowStats": {
+                "title": "LEHMADE STATISTIKA - k\u00f5ik ettev\u00f5tte piimafarmid",
+                "milkingCows": "L\u00fcpsilehmi",
+                "dryCows": "Ahtraid lehmi",
+                "heifers": "Mullikaid",
+                "toTank": "Mahutisse",
+                "dueDry": "Ahtruse t\u00f5ttu",
+                "freshCows": "V\u00e4rske",
+                "hospital": "Kliinik",
+                "closeupCows": "L\u00e4hedal",
+                "farOffCows": "Kaugel",
+                "closeupHeifers": "L\u00e4hedal",
+                "notCloseupHeifers": "Ei ole l\u00e4hedal"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "Mullikaid",
+                    "dryCows": "Ahtrad lehmad",
+                    "milkingCows": "L\u00fcpsilehmi",
+                    "toTank": "Mahutisse",
+                    "hospital": "Kliinik",
+                    "fresh": "V\u00e4rske",
+                    "dueDry": "Ahtruse t\u00f5ttu",
+                    "closeUp": "L\u00e4hedal",
+                    "farOff": "Kaugel",
+                    "closeUpHeifers": "L\u00e4hedal"
+                },
+                "labels": {
+                    "xAxis": "Loomade arv"
+                }
+            },
+            "events": {
+                "events": "S\u00fcndmused",
+                "total": "Kokku",
+                "days": {
+                    "monday": "Esm",
+                    "tuesday": "Teisip",
+                    "wednesday": "Kolmap",
+                    "thursday": "Neljap",
+                    "friday": "Reede",
+                    "saturday": "Laup",
+                    "sunday": "P\u00fchap"
+                }
+            },
+            "econIR": {
+                "toFreshen": "Siirdamiseks",
+                "cows": "Lehmi",
+                "heifers": "Mullikaid",
+                "toDry": "Ahtraks",
+                "toCull": "Tapale",
+                "milkingVsDry": "L\u00fcpsvad vs ahtrad",
+                "milkingCows": "Lehmade l\u00fcpsmine",
+                "dryCows": "Ahtrad lehmad",
+                "estimatedFemalesBorn": "Hinnanguline s\u00fcndinud emasloomade arv",
+                "lactGt1": "Lakt > 1",
+                "lactEq1": "Lakt = 1"
+            },
+            "heiferCountByAge": {
+                "total": "KOKKU",
+                "subtotal": "VAHESUMMA",
+                "ageSuffix": "(Aasta-kuu)",
+                "age": "Vanuse j\u00e4rgi",
+                "pct": "PCT",
+                "count": "loendus"
+            },
+            "calfReport": {
+                "alive": "Elus",
+                "birthsLabel": "Kokku vasikate s\u00fcnnid soo j\u00e4rgi",
+                "dead": "Surnud",
+                "stillBirthsLabel": "Surnults\u00fcnnid laktatsiooni j\u00e4rgi",
+                "calves": "Vasikad",
+                "allSexes": "M\u00f5lemast soost",
+                "females": "Emaseid",
+                "males": "Isaseid",
+                "lactationGroup": "LGRP"
+            },
+            "conceptionRate": {
+                "bredNumber": "Seem. number",
+                "percent": "Protsent",
+                "labels": {
+                    "ci95": "95% CI",
+                    "conceptionRisk": "% Kontseptsiooni risk",
+                    "manyRebreeds": "Palju kordusseemendusi",
+                    "manyOpens": "Hoiatus! Palju avatud",
+                    "manyUnknownBredOutcomes": "Palju tundmatuid aretustulemusi"
+                },
+                "table": {
+                    "conceptionPercent": "%C usaldusv",
+                    "pregnant": "#Tiinus",
+                    "open": "#Avatud",
+                    "other": "Muud",
+                    "abort": "Abort",
+                    "total": "Kokku",
+                    "totPercent": "%KOKKU",
+                    "spc": "SPC"
+                },
+                "showMoreInfo": "N\u00e4ita andmetabelit",
+                "hideMoreInfo": "Sulge andmetabel"
+            },
+            "pregnancyRisk": {
+                "date": "KUUP\u00c4EV",
+                "percent": "PROTSENT",
+                "viewDataTable": "N\u00c4ITA ANDMETABELIT",
+                "closeDataTable": "PEIDA ANDMETABEL",
+                "labels": {
+                    "info": "Ootamisperiood %{value} p\u00e4eva",
+                    "percentage95ci": "PR 95% CI",
+                    "inseminationRisk": "Seemenduse risk",
+                    "pregnancyRisk": "Tiinuse risk",
+                    "pregnantEligible": "Kokku",
+                    "totalPregnant": "Tiine",
+                    "percentage95ciFull": "Tiinuse risk 95% CI"
+                },
+                "table": {
+                    "ci95": "95% CI",
+                    "brElegible": "Seem. valmis",
+                    "bred": "Seemendus",
+                    "pct": "PCT",
+                    "pgElegible": "PCT valmis",
+                    "pregnant": "Tiine",
+                    "abort": "Abordid"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "Hinnanguline piimatootmine",
+                "pounds": "Naela",
+                "poundsInHundreds": "Naela sadades",
+                "references": "Viited",
+                "perDayPerCow": "P\u00e4evas lehma kohta",
+                "perDay": "P\u00e4evas",
+                "closeDataTable": "SULGE ANDMETABEL"
+            },
+            "dmiByPenType": {
+                "DMI": "DMI"
+            },
+            "weather": {
+                "today": "T\u00e4na",
+                "currently": "Hetkel",
+                "min": "Min",
+                "max": "Max",
+                "humidityAbbr": "H",
+                "currentConditions": "Praegused tingimused",
+                "pressure": "R\u00f5hk",
+                "visibility": "N\u00e4htavus",
+                "humidity": "Niiskus",
+                "wind": "Tuul"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "N\u00e4ita keelatud seadmeid",
+                "noDisabledEquipment": "Puuduvad keelatud seadmed, mida n\u00e4idata",
+                "noEnableEquipmentToShow": "Puuduvad keelatud seadmed, mida n\u00e4idata",
+                "noEquipmentToShow": "Puuduvad seadmed, mida n\u00e4idata",
+                "previousLoad": "Eelmine laadung",
+                "nextLoad": "J\u00e4rgmine laadung",
+                "targetLoad": "Laadungi eesm\u00e4rk",
+                "actualQty": "Tegelik kogus",
+                "loadBar": {
+                    "target": "Eesm\u00e4rk",
+                    "actual": "Tegelik"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "ECM",
+                "fatCorrectedMilk": "FCM",
+                "averageMilk": {
+                    "labelForDay": "Eelmise p\u00e4eva keskmine",
+                    "labelForDays": "Viimaste %{days} p\u00e4evade keskmine"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "N\u00e4ita andmetabelit",
+                "closeDataTable": "Peida andmetabel",
+                "table": {
+                    "chemical": "Kemikaal",
+                    "current": "Kehtiv",
+                    "average": "Keskmine",
+                    "tankCapacity": "Mahuti mahutavus"
+                },
+                "chart": {
+                    "chemicalData": "Kemikaali andmed",
+                    "percent": "Protsent",
+                    "available": "Olemasolev",
+                    "remaining": "Allesj\u00e4\u00e4nud",
+                    "tank": "Mahuti",
+                    "percentChemical": "Kemikaali %"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "Tegelik",
+                "target": "Eesm\u00e4rk",
+                "tons": "V\u00e4\u00e4rtused tonnides",
+                "tonne": "V\u00e4\u00e4rtused tonnis",
+                "allIngredientsLoaded": "K\u00f5ik koostisosad on korralikult laetud"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "DairyComp \u00fclevaade",
+            "zoneFilters": {
+                "all": "K\u00f5ik tsoonid"
+            },
+            "widgets": {
+                "notReady": "Vidin ei ole valmis."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "ParlorComp \u00fclevaade",
+            "zoneFilters": {
+                "all": "K\u00f5ik tsoonid"
+            },
+            "widgets": {
+                "notReady": "Vidin ei ole valmis."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "FeedComp \u00fclevaade",
+            "zoneFilters": {
+                "all": "K\u00f5ik tsoonid"
+            },
+            "widgets": {
+                "notReady": "Vidin ei ole valmis."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "Piimafarm",
+        "dashboard": "T\u00f6\u00f6laud",
+        "pens": "Sulud",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "\u00dclevaade",
+            "pens": "Sulud",
+            "worklists": "Avatud t\u00f6\u00f6de loendid",
+            "embryoInventory": "Embryo Inventory"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "\u00dclevaade",
+            "pens": "Sulud",
+            "ingredients": "Koostisosad",
+            "recipes": "Retseptid",
+            "inventoryProjections": "Varud ja prognoosid",
+            "dmAdjustments": "DM% asukoha seadistamine",
+            "bunkScoring": "Punkri hindamine"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "\u00dclevaade",
+            "pens": "Sulud",
+            "reports": "Ooteruumi raportid"
+        },
+        "configureCompany": {
+            "configureCompany": "Configure Company",
+            "userManagement": "User Management"
+        },
+        "configureDairy": {
+            "configureDairy": "Konfigureeri piimafarmi",
+            "dairyConfiguration": "Piimafarmi konfiguratsioon",
+            "userManagement": "Kasutajate haldus"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "%{contextName} T\u00f6\u00f6laud",
+        "customization": "Kohandamine",
+        "dashboardCustomization": "Kohanda seda lehte",
+        "dashboardCustomizeCurrent": "Customize Current Dashboard",
+        "dashboardCreate": "Create New Dashboard",
+        "dragAndDropHint": "Lohista seda vidinat",
+        "dashboardSaved": "%{dashboard_name} on edukalt kohandatud.",
+        "dashboardErrorSaving": "Ilmnes viga. Proovige m\u00f5ne minuti p\u00e4rast uuesti.",
+        "dashboardMobileCustomization": "Logige lehe kohandamiseks sisse t\u00f6\u00f6laua seadmest."
+    },
+    "dashboardCustomization": {
+        "newDashboard": "New Dashboard",
+        "panelTitle": "Lehek\u00fclje kohandamine",
+        "emptyList": {
+            "company": {
+                "line1": "No widgets are available at this time",
+                "line2": "We are working to add new widgets in future releases. Please check back soon!"
+            },
+            "dairy": {
+                "line1": "There are no widgets to display",
+                "line2": "You can download widgets for this section in Widget Gallery."
+            }
+        },
+        "emptyLine1": "Click on a widget from the list to preview it here",
+        "emptyLine2": "To save this dashboard, you must add at least one widget.",
+        "selectWidgetsTitle": "Sisestage vidinad",
+        "widgetLayoutDetail": "J\u00e4rjekorra muutmiseks lohistage vidinaid",
+        "selectWidgetsDescription": "Valige vidinad, mida soovite sellele lehele sisestada.",
+        "widgetsLayoutDescription": " J\u00e4rjekorra muutmiseks lohistage vidinaid",
+        "unsavedChanges": "Teil on salvestamata muudatusi. T\u00fchistan sellegipoolest?",
+        "allWidgets": "All Widgets",
+        "dairyWidgets": "Dairy Widgets",
+        "widgetTitles": {
+            "general": "\u00dcldine",
+            "herd": "Kari",
+            "feed": "S\u00f6\u00f6t",
+            "parlor": "Ooteruum"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "Vidinate galerii",
+            "installedSuccess": "Vidin %{title} on n\u00fc\u00fcd teie loendis",
+            "installedFailure": "Ilmnes viga. Proovige m\u00f5ne minuti p\u00e4rast uuesti.",
+            "title": "Vidinate galerii",
+            "line1": "Kl\u00f5psake vidina ADD nupule, et lisada see VAS-platvormi lisavalikute hulka.",
+            "line2": "Siin saate neid sisestada t\u00f6\u00f6lauale ja \u00fclevaate lehtedele.",
+            "installLabel": "Lisa",
+            "installedLabel": "Lisatud",
+            "recentlyInstalledBadge": "Just lisatud",
+            "seeRequirements": "Vt n\u00f5udeid",
+            "integrationRequired": "Integreerimine on vajalik",
+            "requirements": "N\u00f5uded",
+            "contactSupport": "Tugiteenuse kontakt",
+            "goBack": "Tagasi"
+        },
+        "deleteModalConfirmation": "Delete this dashboard?"
+    },
+    "agreements": {
+        "pageTitle": "L\u00d5PPKASUTAJA LIITUMISLEPING JA PRIVAATSUSPOLIITIKA",
+        "pleaseReview": "Vaadake allpool toodud l\u00f5ppkasutaja liitumislepingut ja privaatsuspoliitikat.",
+        "readAndAgree": "Teenuse kasutamiseks n\u00f5uame, et loeksite ja n\u00f5ustuksite nende tingimustega:",
+        "endUserSuscriptionAgreement": "L\u00d5PPKASUTAJA LIITUMISLEPING",
+        "privacyPolicy": "PRIVAATSUSPOLIITIKA",
+        "readAndAgreedSubscription": "Olen lugenud l\u00f5ppkasutaja liitumislepingut ja n\u00f5ustun nende tingimustega.",
+        "readAndAgreedPolicy": "Olen lugenud privaatsuspoliitikat ja n\u00f5ustun nende tingimustega.",
+        "cancel": "T\u00dcHISTA",
+        "agreeAndContinue": "KINNITA JA J\u00c4TKA",
+        "notificationConfirmCancel": "Kas olete kindel, et soovite loobuda? Teenuse kasutamiseks n\u00f5uame, et te loeksite neid tingimusi ja ja n\u00f5ustuksite nendega."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "Mobiilne mikser",
+            "stationaryMixer": "Statsionaarne mikser",
+            "deliveryTruck": "Veoauto",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "Koostisosad",
+            "location": "Asukoht",
+            "locations": "Asukohad",
+            "dmPercent": "DM%",
+            "afCostTon": "AF hind\/tonn",
+            "afCostMetricTon": "AF Hind\/tonn",
+            "currentOnHandAF": "Praegune AF",
+            "daysLeft": "P\u00e4evi j\u00e4\u00e4nud",
+            "inRecipe": "Retseptis",
+            "trackingEnabled": "J\u00e4lgimine lubatud",
+            "notTracked": "Ei j\u00e4lgita",
+            "dailyAf": "Igap\u00e4evane AF",
+            "weighback": "S\u00f6\u00f6daj\u00e4\u00e4k",
+            "allowed": "Lubatud",
+            "notAllowed": "Ei ole lubatud",
+            "afProjections": "AF prognoosid",
+            "days": "P\u00e4evad",
+            "currentAf": "Praegune AF",
+            "afCost": "AF maksumus",
+            "dmCost": "DM maksumus",
+            "dmPercentage": "DM protsent",
+            "lastDmHistory": "Viimane DM% ajalugu",
+            "filter": "Filter",
+            "filterApplied": "kasutatud filter",
+            "filtersApplied": "kasutatud filtrid",
+            "clear": "Puhasta",
+            "type": "T\u00fc\u00fcp",
+            "premix": "Eelsegu",
+            "optionSelected": "valitud valik",
+            "optionsSelected": "valitud valikud",
+            "lastInventoryMovements": {
+                "title": "Viimased varude liikumised",
+                "date": "Kuup\u00e4ev",
+                "type": "T\u00fc\u00fcp",
+                "afTons": "AF (tonni)",
+                "runningTotal": "Kogu t\u00f6\u00f6aeg (tonni)",
+                "inventoryTypes": {
+                    "delivery": "Tarnimine",
+                    "sale": "M\u00fc\u00fck",
+                    "adjustment": "Seadistamine",
+                    "usage": "Kasutamine",
+                    "initialInventory": "Esmane inventuur",
+                    "transferIn": "Sisse",
+                    "transforOut": "V\u00e4lja"
+                }
+            },
+            "filterOptions": {
+                "all": "K\u00f5ik",
+                "inRecipes": "Ainult retseptides",
+                "notInRecipes": "Mitte retseptides",
+                "onlyPremixes": "Ainult eelsegus",
+                "notPremixes": "Mitte eelsegus"
+            },
+            "recipes": {
+                "title": "%{ingredientName} kasutamine retseptides",
+                "recipeName": "Retsepti nimi",
+                "DM": "DM KOGUS \/HD",
+                "AF": "AF KOGUS \/HD",
+                "pens": "Sulgude s\u00f6\u00f6t selle retseptiga",
+                "animalsFed": "Loomi s\u00f6\u00f6detud",
+                "dailyAFUsage": "Igap\u00e4evane AF kasutus",
+                "placeholderLine1": "Seda koostisosa ei kasutata",
+                "placeholderLine2": "\u00fcheski retseptis."
+            }
+        },
+        "dmAdjustments": {
+            "title": "DM% asukoha seadistamine",
+            "name": "Koostisosa nimi",
+            "type": "T\u00fc\u00fcp",
+            "location": "Asukoht",
+            "lastChange": "Viimane muudatus",
+            "responsible": "Vastutav",
+            "dmPercent": "DM%",
+            "lastDmHistory": "Viimane DM% ajalugu",
+            "noDmHistory": "DM% ajalugu ei ole saadaval",
+            "validation": {
+                "dmPercent": "V\u00e4\u00e4rtused peavad olema alla 100%",
+                "percentChange": "Muudatus suurem kui 5%"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "DM% muudatus",
+                    "message": "Muudatus on suurem kui (+\/-) 5%, kas olete kindel, et soovite seda teha?",
+                    "confirmLabel": "Jah"
+                },
+                "cancelChanges": {
+                    "title": "T\u00fchistan salvestamata muudatused?",
+                    "confirmLabel": "Loobu"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "Retseptid",
+            "activeRecipes": "Aktiivsed retseptid",
+            "otherRecipes": "Teised retseptid",
+            "recipeDm": "Retsept DM %",
+            "densityFactor": "Tihedusfaktor",
+            "afCostTon": "AF hind\/tonn",
+            "currentlyReplacing": "Hetkel asendab",
+            "premix": "eelsegu",
+            "alternativeRecipe": "Alternatiivne retsept",
+            "animalsFed": "Loomi s\u00f6\u00f6detud",
+            "pensFed": "Sulgusid s\u00f6\u00f6detud",
+            "list": "Retseptide loend",
+            "inRecipe": "RETSEPTIS",
+            "dmhd": "DM \/ HD",
+            "afhd": "AF \/ HD",
+            "dm": "DM",
+            "dmPercent": "DM %",
+            "afCostHd": "af hind\/hd",
+            "active": "aktiivne",
+            "replaced": "asendatud",
+            "activeAlternative": "Aktiivne alternatiiv",
+            "seeMore": "vt rohkem",
+            "directions": "Retsepti juhised",
+            "sequence": "J\u00e4rj.",
+            "ingredient": "Koostisosa",
+            "location": "Asukoht",
+            "af": "AF",
+            "afPercent": "AF",
+            "pensUsing": "Sulg, mis sisaldab seda retsepti",
+            "total": "Kokku",
+            "recipeComposition": "Retsepti koostis",
+            "alternate": "Alternatiiv",
+            "instructions": {
+                "saveSequenceSuccess": "Sequence successfully edited!",
+                "reorderHint": "Use the arrows on the left or drag and drop an ingredient to reorder the sequence.",
+                "validation": {
+                    "quantity": "Quantity must be greater than zero",
+                    "required": "Value must exist"
+                }
+            },
+            "pens": {
+                "pen": "Sulg",
+                "type": "T\u00fc\u00fcp",
+                "use": "Kasuta",
+                "description": "Kirjeldus"
+            }
+        },
+        "inventory": {
+            "title": "Varud",
+            "projections": {
+                "title": "Varud ja prognoosid",
+                "name": "Nimi",
+                "type": "T\u00fc\u00fcp",
+                "location": "Asukoht",
+                "afQty": "AF kogus",
+                "afCost": "AF hind",
+                "dailyAf": "Igap\u00e4evane AF",
+                "nextDays": "J\u00e4rgmised %{day} p\u00e4eva (%{unit})",
+                "daysLeft": "P\u00e4evi j\u00e4\u00e4nud",
+                "all": "K\u00f5ik",
+                "notTracked": "Ei j\u00e4lgita",
+                "youreRunningOutOf": "L\u00f5ppemas on:"
+            }
+        },
+        "bunkScoring": {
+            "title": "Punkri hindamine",
+            "animalsToFeed": "Loomi s\u00f6\u00f6ta",
+            "targetDmHd": "Eesm\u00e4rk DM\/HD (%{unit})",
+            "feeding": "S\u00f6\u00f6tmine",
+            "active": "Aktiivne",
+            "inactive": "Ei ole aktiivne",
+            "lastDaysFeedings": "Viimase %{days} p\u00e4eva s\u00f6\u00f6tmine",
+            "filter": "Filter",
+            "all": "K\u00f5ik",
+            "clear": "Puhasta",
+            "lastUpdated": "Viimati uuendatud",
+            "modal": {
+                "title": "S\u00f6\u00f6tmise muutmine",
+                "bodyText": "Olete kindel, et soovite %{state} s\u00f6\u00f6tmist sulus %{penNumber}",
+                "confirmLabel": "Jah, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "LOHISTAGE PILT SIIA",
+        "line2": "Kasutage JPG- v\u00f5i PNG-faili",
+        "addImage": "LISA PILT",
+        "changeImage": "MUUDA PILTI"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "Ooteruumi olek",
+        "milk": {
+            "name": "Piim",
+            "currentShift": "Praegune vahetus",
+            "currentPen": "Praegune sulg",
+            "currentFlow": {
+                "title": "Praegune l\u00e4bivool",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "Lehmi sulus",
+            "currentPenTotalMilk": {
+                "title": "Praeguse sulu kogupiim",
+                "value": "%{value} GAL"
+            },
+            "currentShiftTotalMilk": {
+                "title": "Praeguse vahetuse kogupiim",
+                "value": "%{value} GAL"
+            },
+            "totalTime": {
+                "title": "Koguaeg",
+                "value": "%{value} MIN"
+            },
+            "secStall": "Sekts\/Laut",
+            "rotary": {
+                "title": "Viimase p\u00f6\u00f6ramise andmed",
+                "name": "P\u00f6\u00f6rlev",
+                "minsTurn": "Min\/p\u00f6\u00f6re",
+                "secStall": "Sekts\/Laut",
+                "cowsHour": "Lehmi\/t",
+                "turnsHour": "P\u00f6\u00f6ret\/tund",
+                "statistic": {
+                    "fastest": "Kiireim",
+                    "average": "Keskmine",
+                    "effective": "T\u00f5husus"
+                }
+            },
+            "currentTask": {
+                "title": "Praegused \u00fclesanded",
+                "task": "\u00dclesanne",
+                "cows": "Lehmad"
+            }
+        },
+        "wash": {
+            "name": "Pesu",
+            "minTemp": "Min temp",
+            "currentWashCycle": "Praegune pesuts\u00fckkel",
+            "currentFlow": {
+                "title": "Praegune l\u00e4bivool",
+                "value": "%{value} GAL"
+            },
+            "currentWashTotal": {
+                "title": "Praegune pesu kokku",
+                "value": "%{value} GAL"
+            },
+            "washCycle": {
+                "rinse": "Loputus",
+                "wash": "Pesu",
+                "acid": "Hape"
+            }
+        },
+        "currentTemp": {
+            "title": "Kehtiv temp"
+        },
+        "minTemp": {
+            "title": "Min temp"
+        },
+        "maxTemp": {
+            "title": "Maks temp"
+        },
+        "tempAlarm": {
+            "title": "Temp alarm",
+            "values": {
+                "none": "Puudub",
+                "high": "K\u00f5rge temp"
+            }
+        },
+        "lastWashStatus": {
+            "title": "Viimase pesu olek",
+            "values": {
+                "good": "Hea",
+                "bad": "Halb"
+            }
+        },
+        "washAlarm": {
+            "title": "Pesu alarm",
+            "values": {
+                "none": "Puudub",
+                "lowTemp": "Madal temp"
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "Kaardid",
+        "title": {
+            "line1": "Puudub %{type}",
+            "line2": "kuvada",
+            "line3": "koos nende filtritega",
+            "line4": "selles"
+        },
+        "types": {
+            "lists": "loendid",
+            "error": "Ilmnes ootamatu viga"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "Ooteruumi raportid",
+            "noParlorToShow": "Puuduvad ooteruumid, mida kuvada",
+            "typeOfParlor": "Ooteruumi t\u00fc\u00fcp",
+            "manufacturer": "Tootja",
+            "stalls": "Laudad",
+            "currentShift": "Praegune vahetus",
+            "currentPen": "Praegune sulg",
+            "parlorTitle": "ooteruum",
+            "parlorTypes": {
+                "herringbone": "Kalasaba",
+                "parallel": "Paralleelne",
+                "rotary": "P\u00f6\u00f6rlev"
+            },
+            "lastMilkingsReports": {
+                "title": "Viimase l\u00fcpsmise raportid",
+                "milkings": {
+                    "pen": "Sulg",
+                    "totalMilk": "Kogu piim",
+                    "milkHr": "Piim\/t",
+                    "milkCow": "Piim\/lehm",
+                    "cows": "lehmi",
+                    "cowsHr": "Lehmi\/t",
+                    "totalTime": "Koguaeg",
+                    "startTime": "K\u00e4ivitusaeg",
+                    "stopTime": "Peatamisaeg",
+                    "penGap": "Sulu vahe",
+                    "maxTemp": "Maks temp",
+                    "penDev": "Sulu kalle",
+                    "totalAvg": "Kokku\/keskm",
+                    "total": "kokku"
+                },
+                "washings": {
+                    "washupPhase": "Pesemisfaas",
+                    "totalFlow": "kogu l\u00e4bivool",
+                    "totalTime": "kogu aeg",
+                    "startTime": "k\u00e4ivitusaeg",
+                    "stopTime": "peatamisaeg",
+                    "minTemp": "Min temp",
+                    "maxTemp": "Maks temp",
+                    "flowMin": "L\u00e4bivool\/min",
+                    "rinse": "Loputus",
+                    "wash": "Pesu",
+                    "acid": "Hape",
+                    "init": "Initsialiseeri",
+                    "washAcid": "Pesu ja hape",
+                    "idle": "Tegevuseta"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "Viimase l\u00fcpsmise statistika",
+                "barGraphView": "Ribagraafiku vaade",
+                "tableView": "Tabeli vaade",
+                "totalMilk": "Kogu piim",
+                "averageMilkPerHour": "Keskm. piim\/t",
+                "averageDuration": "Keskm. kestus",
+                "averageCowsPerHour": "Keskm. lehmi\/t",
+                "milking": "L\u00fcpsmine",
+                "milkPerHour": "Piim\/t",
+                "duration": "Kestus",
+                "cowsPerHour": "Lehmi\/t",
+                "hours": "t",
+                "minutes": "min",
+                "totalAverage": "Kokku\/keskm."
+            },
+            "lastRotaryData": {
+                "title": "Viimase p\u00f6\u00f6ramise andmed"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Teadaanne"
+    },
+    "embryoInventory": {
+        "title": "Embryo Inventory"
+    },
+    "frozenEmbryos": {
+        "title": "frozen"
+    },
+    "freshEmbryos": {
+        "title": "fresh"
+    },
+    "transferredEmbryos": {
+        "title": "transferred"
+    },
+    "Embryo": {
+        "title": "Embryos",
+        "from": "From",
+        "to": "To",
+        "stage": "Stage",
+        "grade": "Grade",
+        "status": "Storage",
+        "type": "Type",
+        "clear": "Clear",
+        "recipient": "Recipient",
+        "date": "Date",
+        "sire": "Sire",
+        "donor": "Donor",
+        "tech": "Tech",
+        "brCode": "BRCode",
+        "breedingCode": "Breeding Code",
+        "storage": "Storage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Embryo Breed",
+        "eage": "Eage",
+        "embryoAge": "Embryo Age",
+        "tank": "Tank",
+        "cane": "Cane",
+        "straw": "Straw",
+        "frozenAt": "Frozen @",
+        "method": "Method",
+        "incubator": "Incubator",
+        "strawVial": "Straw\/Vial",
+        "stageOpts": {
+            "1": "Unfertilized",
+            "2": "Simple Celled",
+            "3": "Early Morula",
+            "4": "Morula",
+            "5": "Early Blastocyst",
+            "6": "Blastocyst",
+            "7": "Expanded Blastocyst",
+            "8": "Hatched Blastocyst",
+            "9": "Expanded Hatched Blastocyst"
+        },
+        "methods": {
+            "unknown": "Unknown",
+            "slow": "Slow",
+            "dt": "DT"
+        },
+        "gradeOpts": {
+            "1": "Unspecified",
+            "2": "Good",
+            "3": "Fair",
+            "4": "Poor",
+            "5": "Dead"
+        },
+        "storageType": {
+            "fresh": "Fresh",
+            "frozen": "Frozen"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Other"
+        }
+    }
+}

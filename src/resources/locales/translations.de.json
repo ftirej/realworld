@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "Email",
+        "error": "Fehler",
+        "password": "Passwort",
+        "confirm": "Best\u00e4tigen",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "delete": "L\u00f6schen",
+        "close": "Schlie\u00dfen",
+        "done": "Fertig",
+        "refresh": "Aktualisieren",
+        "loading": "Lade...",
+        "edit": "Bearbeiten",
+        "editCard": "Karte bearbeiten",
+        "hide": "Verbergen",
+        "hideCard": "Karte verbergen",
+        "yes": "Ja",
+        "yes_discard": "Ja, Verwerfen",
+        "no": "Nein",
+        "cancelMessage": "Sie haben nicht gespeicherte \u00c4nderungen. Trotzdem abbrechen?",
+        "changesSavedSuccessfully": "\u00c4nderungen erfolgreich gespeichert!",
+        "changesSavedError": "W\u00e4hrend des Speichervorgangs ist ein Fehler aufgetreten. Bitte versuchen Sie es in einigen Minuten erneut.",
+        "unknownError": "Unbekannter Fehler.",
+        "tableView": "Tabellenansicht",
+        "graphView": "Grafische Darstellung",
+        "ok": "ok",
+        "requiredFields": "Ben\u00f6tigte Felder",
+        "clear": "L\u00f6schen",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "disabled": "Ausgeschaltet",
+        "view": "Ansicht",
+        "doConfirm": "Wollen Sie best\u00e4tigen?",
+        "enable": "Einschalten",
+        "disable": "Ausschalten",
+        "acceptMessage": "Dieser Prozess kann nicht ausgef\u00fchrt werden.",
+        "welcome": "Willkommen",
+        "passwordHelp": "Brauchen Sie Hilfe mit Ihrem Passwort?",
+        "next": "Weiter",
+        "back": "Zur\u00fcck",
+        "successfullyUpdated": "Update erfolgreich.",
+        "vasPlatformLogo": "VAS Plattform Logo",
+        "learnMore": "Mehr erfahren",
+        "accountHome": "Hauptkonto",
+        "comingSoon": "Demn\u00e4chst verf\u00fcgbar!",
+        "notDefined": "Nicht definiert",
+        "current": "Aktuell",
+        "previous": "Vorherige",
+        "clearAll": "Alles l\u00f6schen",
+        "preview": "Vorschau",
+        "leave": "Verlassen",
+        "undefined": "Undefiniert",
+        "backToTop": "Zur\u00fcck ich oben",
+        "activate": "aktivieren",
+        "deactivate": "deaktivieren",
+        "days": {
+            "monday": "Montag",
+            "tuesday": "Dienstag",
+            "wednesday": "Mittwoch",
+            "thursday": "Donnerstag",
+            "friday": "Freitag",
+            "saturday": "Samstag",
+            "sunday": "Sonntag"
+        },
+        "monthsShort": {
+            "jan": "Januar",
+            "feb": "Februar",
+            "mar": "M\u00e4rz",
+            "apr": "April",
+            "may": "Mai",
+            "jun": "Juni",
+            "jul": "Juli",
+            "aug": "August",
+            "sep": "September",
+            "oct": "Oktober",
+            "nov": "November",
+            "dec": "Dezember"
+        },
+        "months": {
+            "jan": "Januar",
+            "feb": "Februar",
+            "mar": "M\u00e4rz",
+            "apr": "April",
+            "may": "Mai",
+            "jun": "Juni",
+            "jul": "Juli",
+            "aug": "August",
+            "sep": "September",
+            "oct": "Oktober",
+            "nov": "November",
+            "dec": "Dezember"
+        },
+        "today": "Heute",
+        "yesterday": "Gestern",
+        "help": {
+            "tag": "brauchen Sie Hilfe?",
+            "learnMore": "Mehr erfahren",
+            "about": " \u00dcber",
+            "labels": {
+                "worklists": "Arbeitslisten!",
+                "commands": {
+                    "platform": "Platformbefehle!",
+                    "list": "die LIST-befehle",
+                    "sum": "der SUM Befehl!",
+                    "count": "der COUNT Befehl!"
+                }
+            }
+        },
+        "animals": {
+            "singular": "Tier",
+            "plural": "Tiere"
+        }
+    },
+    "unitSystems": {
+        "metric": "Metrisches (Ma\u00df-)System",
+        "imperial": "Englisches Ma\u00dfsystem"
+    },
+    "unitSystemsLabels": {
+        "metric": "Kilogramm, Liter, Celsius, Milligramm",
+        "imperial": "Pfund, Gallonen, Fahrenheit, Unzen"
+    },
+    "recentCommands": {
+        "title": "Letzte Befehle",
+        "edit": "\u00c4ndern",
+        "noCommands": "Es sind keine zuletzt verwendete \nBefehle vorhanden",
+        "viewResults": "Ergebnisse anzeigen"
+    },
+    "units": {
+        "inHundreds": "%{unit} in Hunderten",
+        "pounds": "Pfund",
+        "inPounds": "%{value}pfd",
+        "kilograms": "Kilogramm",
+        "inKilograms": "%{value}kg",
+        "gallons": "Gallonen",
+        "inGallons": "%{value}Gal",
+        "inGallonsPerMinute": "%{value} GPM",
+        "inLitres": "%{value} L",
+        "inLitresPerMinute": "%{value} LPM",
+        "hg": "Zoll",
+        "inHg": "%{value}Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "Meilen",
+        "inMiles": "%{value}mi",
+        "inKilometers": "%{value} km",
+        "mph": "Meilen pro Stunde",
+        "inKph": "%{value} km\/h",
+        "inMph": "%{value}mph",
+        "inOunces": "%{value}oz",
+        "inGrams": "%{value}g",
+        "inTons": "%{value}t",
+        "inTonne": "%{value}T",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "Tonnen",
+        "metricTons": "t",
+        "ton": "Tonne",
+        "metricTon": "t",
+        "lbs": "LBs",
+        "kg": "kg",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "lbs",
+                "singular": "Pfund",
+                "plural": "Pfund"
+            },
+            "metric": {
+                "symbol": "kg",
+                "singular": "Kilogramm",
+                "plural": "Kilogramm"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "t",
+                "singular": "Tonne",
+                "plural": "Tonnen"
+            },
+            "metric": {
+                "symbol": "T",
+                "singular": "Tonne",
+                "plural": "Tonnen"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "oz",
+                "singular": "Unzen",
+                "plural": "Unzen"
+            },
+            "metric": {
+                "symbol": "gr",
+                "singular": "Gramm",
+                "plural": "Gramm"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "gal",
+                "singular": "Gallone",
+                "plural": "Gallonen"
+            },
+            "metric": {
+                "symbol": "l",
+                "singular": "Liter",
+                "plural": "Liter"
+            },
+            "singular": {
+                "metric": "l",
+                "imperial": "gal"
+            },
+            "plural": {
+                "metric": "l",
+                "imperial": "gal"
+            }
+        }
+    },
+    "dates": {
+        "day": "Tag",
+        "month": "Monat",
+        "year": "Jahr"
+    },
+    "login": {
+        "forgotPassword": "Passwort vergessen?",
+        "login": "Anmelden",
+        "signIn": "Bitte anmelden",
+        "signInHere": "Hier anmelden",
+        "sessionExpired": "Sitzung abgelaufen\n",
+        "rememberMe": "Angemeldet bleiben",
+        "sessionExpiredMessage": "Ihre Sitzung ist durch Inaktivit\u00e4t abgelaufen, bitte melden Sie sich erneut an, um fortzufahren.",
+        "invalidCredentials": "Email oder Passwort ist falsch. Versuchen Sie es erneut.",
+        "sessionClosedByChangedPassword": "Passwort erneuert",
+        "sessionClosedByChangedPasswordMessage": "Ihr Passwort wurde erfolgreich ge\u00e4ndert. Bitte loggen Sie sich erneut ein, um fortzufahren."
+    },
+    "keto": {
+        "graphDesc": "Vorhergesagte Ketose \/ getestet",
+        "references": "Referenzen",
+        "tableTitle": "Ketoseh\u00e4ufigkeit",
+        "tableDesc": "Vorhergesagte Ketose \/ getestete Tiere",
+        "yAxis": "Level der H\u00e4ufigkeit in %",
+        "allAnimals": "Alle Tiere",
+        "earlyFresh": "Fr\u00fch Frische H\u00e4ufigkeit",
+        "firstLact": "1st Laktation",
+        "secondLact": "2nd Laktation",
+        "secondPlusLact": "2nd+ Lakatationen",
+        "target": "Ziel",
+        "overall": "5 bis 20 Tage in Milch (DIM)",
+        "early": "5 bis 11 Tage in Milch (DIM)",
+        "animals": "Tiere",
+        "earlyFreshDim": "zu fr\u00fch (5-11 tage in Milch (DIM)"
+    },
+    "commandLine": {
+        "title": "Befehl",
+        "execute": "Ausf\u00fchren",
+        "placeholder": "Schreibe ein Befehl",
+        "invalid": "ung\u00fcltiger Befehl",
+        "unsupported": "Befehl nicht unterst\u00fctzt",
+        "results": {
+            "title": "Befehlsergebnisse",
+            "executed": "Ausf\u00fchren",
+            "loading": "Laden",
+            "print": "Drucken",
+            "export": "ausf\u00fchren",
+            "showGraph": "Zeige Grafik",
+            "hideGraph": "Grafik verbergen",
+            "noMatch": "keine \u00dcbereinstimmung gefunden"
+        },
+        "sum": {
+            "by": "nach",
+            "pct": "Pzt %",
+            "count": "Z\u00e4hlen",
+            "field": "%{modifier} %{field}",
+            "total": "Gesamt",
+            "sum": "Posten",
+            "childrenBy": "%{child} IN %{parent}",
+            "noByOrSum": "{amount} Tiere in dieser Gruppe",
+            "range": "Reichweite",
+            "standardDeviation": "Standartabweichung"
+        },
+        "count": {
+            "inGroup": "Tiere in dieser Gruppe"
+        }
+    },
+    "signup": {
+        "setupAccount": "Erstellen Sie Ihr Konto",
+        "tokenExpired": "Der Anmelde-Link ist abgelaufen. Bitte geben Sie Ihre E-Mail-Adresse erneut ein",
+        "errorFetchingToken": "Beim Versuch, den Anmelde-Link zu \u00fcberpr\u00fcfen, ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut",
+        "setPassword": "Legen Sie Ihr Passwort fest",
+        "signup": "Anmeldung",
+        "email": "Email",
+        "profile": "Profil",
+        "password": "Passwort",
+        "firstStepThanksMessage": "Danke f\u00fcr Ihr Interesse an der VAS Platform.",
+        "needEmail": "Wir brauchen Ihr Email-Adresse, um Ihr Konto zu erstellen.",
+        "haveAccount": "Haben Sie bereits ein Konto?",
+        "emptyEmail": "Bitte geben Sie Ihre Email-Adresse ein.",
+        "invalidEmail": "Bitte geben Sie eine funktionierende Email-Adresse ein.",
+        "defaultError": "Bei Ihrer Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es sp\u00e4ter erneut.",
+        "emailExists": "Ihre Email-Adresse existiert bereits in der VAS Platform.",
+        "emailSent": "Eine Email wurde an die folgende Email-Adresse gesendet ",
+        "checkInbox": "Bitte \u00fcberpr\u00fcfen Sie Ihren Posteingang auf eine Email von uns, um Ihre Registrierung abzuschlie\u00dfen.",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "country": "Land",
+        "state": "Staat",
+        "city": "Stadt",
+        "postalCode": "Postleitzahl",
+        "enterPassword": "Passwort eingeben",
+        "reEnterPassword": "Passwort erneut eingeben",
+        "allSet": "Fertig!",
+        "accountCreated": "Ihr Konto wurde erfolgreich erstellt.",
+        "continueToAgreements": "Klicken Sie unten, um die Verbraucherinformationen zur Lizenzvereinbarung und die Datenschutzerkl\u00e4rung einzusehen und starten Sie dann mit der VAS Platform.",
+        "continue": "Fortfahren",
+        "gotMobile": "Haben Sie ein Mobilger\u00e4t?",
+        "tryVasInMobile": "Testen Sie die VAS Platform auf Ihrem mobilen Ger\u00e4t.",
+        "addProfilePicture": "Foto",
+        "error": {
+            "firstName": "Bitte geben Sie Ihren Vornamen ein.",
+            "lastName": "Bitte geben Sie Ihren Nachnamen ein.",
+            "country": "Land ist eine Pflichtangabe.",
+            "state": "Staat ist eine Pflichtangabe.",
+            "city": "Stadt ist eine Pflichtangabe.",
+            "postalCode": "Postleitzahl ist eine Pflichtangabe.",
+            "passwordIsEmpty": "Bitte geben Sie ein Passwort ein.",
+            "passwordMinimumRequirements": "Das Passwort ist zu unsicher.",
+            "passwordNotMatch": "Die Passw\u00f6rter stimmen nicht \u00fcberein.",
+            "rePasswordEmpty": "Bitte geben Sie Ihr Passwort erneut ein.",
+            "signingUp": "Bei der Anmeldung ist ein Fehler aufgetreten. Versuchen Sie es sp\u00e4ter erneut."
+        }
+    },
+    "expiredToken": {
+        "title": "entschuldigung",
+        "type": {
+            "signup": "Vervollst\u00e4ndige die Anmeldung",
+            "reset": "Passwort zur\u00fccksetzen"
+        },
+        "line1": "Deine Zeit bis %{type} ist abgelaufen!",
+        "line2": "Bitte geben Sie Ihre E-Mail-Adresse erneut ein, um einen neuen Link zu erhalten.",
+        "send": "senden"
+    },
+    "forgotPassword": {
+        "forgotPassword": "Passwort vergessen?",
+        "subtitle_": "Bitte geben Sie Ihre Email-Adresse und Ihr neues Passwort ein",
+        "_subtitle": "Instruktionen werden Ihnen zugesandt.",
+        "titleMessage": "\u00dcberpr\u00fcfen Sie Ihr Email.",
+        "description_": "Wenn das Konto \u00fcbereinstimmt",
+        "_description": "sollten Sie eine Email mit dem Link zum ersetzen des alten Passwortes erhalten.",
+        "continueSignup": "Eine E-Mail wurde an %{email} gesendet. Bitte pr\u00fcfen Sie Ihren E-Mail-Eingang, um die Anmeldung fortzusetzen",
+        "backToLogin": "Zur\u00fcck zum Login"
+    },
+    "passwordReset": {
+        "setNewPassword": "legen Sie ein neues Passwort an!",
+        "tokenExpired": "Der Link zum Zur\u00fccksetzen des Passworts ist abgelaufen. Geben Sie Ihre E-Mail-Adresse erneut ein"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/de-de\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/de\/firefox\/new\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/www.apple.com\/de\/safari\/",
+        "unsupported": {
+            "title": "Ihr Browser wird nicht unterst\u00fctzt",
+            "line1": "Um die VAS Platform zu nutzen m\u00fcssen Sie einen dieser",
+            "line2": "unterst\u00fctzen Browser verwenden.",
+            "line3": "(Klicken, um herunterzuladen)"
+        }
+    },
+    "chart": {
+        "charts": "Tabellen",
+        "rechart": "Neu zeichnen - EinfachesLiniendiagramm",
+        "rechartArea": "Neu zeichnen - EinfachesFl\u00e4chendiagramm",
+        "slider": "Schieberegler",
+        "sliderValue": "Schiebereglerwert",
+        "rcSlider": "rc-Schieberegler",
+        "gauge": "Ma\u00df",
+        "liquidGauge": "Fl\u00fcssigkeitsma\u00df",
+        "tempGauge": "Temperaturma\u00df",
+        "emptyPlaceholder": {
+            "title": "Noch keine Daten vorhanden",
+            "description": "Es sind noch nicht gen\u00fcgend Daten vorhanden, um diese Grafik darzustellen."
+        }
+    },
+    "filter": {
+        "results": "Ergebnisse durchsuchen",
+        "label": "Filter nach",
+        "clearFilter": "Auswahl l\u00f6schen",
+        "clearFilters": "Clear filters",
+        "dateError": "Das Enddatum darf nicht vor dem Startdatum liegen",
+        "type": {
+            "pen": "Gruppe"
+        },
+        "placeholder": {
+            "pen": "Gruppennummer"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "Grabstein",
+            "parentage": "Abstammung",
+            "currentLactation": "Aktuelle Laktation",
+            "milkInfo": "Melkinformationen",
+            "matings": "Anpaarungen",
+            "scanning": "Scannen",
+            "offspring": "Nachzucht",
+            "vet": "Vet",
+            "event": {
+                "events": "Ereignisse",
+                "eventsBar": "Ereignisse der Kuhkarte",
+                "dualTable": "Bin\u00e4re Tabelle",
+                "singleTable": "Einfache Tabelle",
+                "details": "Details",
+                "responsible": "Verantwortlich",
+                "pen": "Gruppe",
+                "date": "Datum",
+                "event": "Ereignis",
+                "remarks": "Anmerkungen",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "Es sind keine Ereignisdaten vorhanden."
+            },
+            "lactation": {
+                "lactation": "LAKTATION",
+                "dairyLactation": "Balkendiagramm der t\u00e4glichen Milchmengen",
+                "dairyLactationWithParams": "Balkendiagramm der t\u00e4glichen Milchmengen von %{dateFor} bis %{dateTo}",
+                "weeklyLactationLineChart": "Liniendiagramm f\u00fcr w\u00f6chentliche Milchmengen",
+                "noLactations": "Es sind keine Laktationsdaten vorhanden.",
+                "barGraph": "Balkendiagramm",
+                "lineGraph": "Liniendiagramm"
+            },
+            "lactations": {
+                "noLactations": "Es sind keine Laktationen zum Darstellen vorhanden.",
+                "summary": "Zusammenfassung der Laktationen",
+                "prevLactsGraphic": "W\u00f6chentliche Milchproduktion nach Laktation",
+                "age": "ALTER",
+                "dim": "DIM",
+                "lactationNumber": "Laktationsnummer"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "Es sind keine t\u00e4glichen Milchdaten f\u00fcr die Darstellung vorhanden.",
+                "dimTooltip": "DIM",
+                "milking": "melken",
+                "today": "Heute",
+                "average": "Durchschnitt",
+                "avg": "DURCHSCHN.",
+                "expected": "Erwartet",
+                "exp": "Erw.",
+                "deviation": "Abweichung",
+                "total": "GESAMT",
+                "estimatedMilk": "Gesch\u00e4tzte Milchgewichte"
+            },
+            "overview": {
+                "statusItems": "Status Items",
+                "recentEvents": "Aktuelle Ereignisse",
+                "moreEvents": "Mehr Ereignisse",
+                "recentTestdays": "Aktuelle Milchkontrollen",
+                "moreTestdays": "Mehr Milchkontrollen",
+                "moreItems": "Mehr Items",
+                "dailyRecentProduction": "Aktuelle Tagesproduktion"
+            },
+            "testDays": {
+                "noTests": "Es sind keine Milchkontrollinformationen f\u00fcr eine Darstellung vorhanden.",
+                "date": "Datum",
+                "milk": "Milch",
+                "dim": "DIM",
+                "pen": "Gruppe"
+            },
+            "statusGroup": {
+                "noItems": "Es sind keine Item-Daten f\u00fcr eine Darstelllung vorhanden."
+            },
+            "pedigree": {
+                "pedigree": "Abstammung",
+                "graphicView": "Graphic View",
+                "PDFView": "PDF Ansicht"
+            },
+            "penChange": {
+                "penChanges": "Gruppenwechsel",
+                "noPenChanges": "Es sind keine Gruppenwechsel zur Darstellung vorhanden.",
+                "date": "Datum",
+                "daysInPen": "Tage in der Gruppe",
+                "movedToPen": "In die Gruppe bewegt",
+                "PremiseId": "Vorausgesetzte ID",
+                "fromTo": "Von - Bis",
+                "dim": "DIM",
+                "source": "Quelle",
+                "testday": "MILCHKONTROLLE",
+                "responsible": "Verantwortlich",
+                "penTransfer": {
+                    "in": "IN"
+                }
+            },
+            "sensor": {
+                "sensors": "Sensoren",
+                "accordionTitle": "SCR Aktivit\u00e4ts und - Wiederkaudaten"
+            },
+            "testDay": {
+                "testDays": "Milchkontrollen",
+                "testDaysResults": "Ergebnisse der Milchkontrolle",
+                "yAxisLayers": "REFERENZEN",
+                "productionGraphByTestday": "Produktionsgrafik nach Milchkontrolle",
+                "testDaysToolTipTitle": "Milchkontrolle #"
+            },
+            "productionMilk": {
+                "noItems": "Es sind keine Milchproduktionsdaten zur Darstellung vorhanden."
+            },
+            "type": {
+                "adultCow": "KUH",
+                "bull": "BULLE",
+                "calf": "KALB",
+                "heifer": "RIND"
+            },
+            "farmName": "FNAME",
+            "cowName": "BNAME",
+            "pen": "Gruppe",
+            "lact": "Lakt",
+            "rpro": "Rpro",
+            "dim": "DIM",
+            "dslh": "Dslh",
+            "dcc": "Dcc",
+            "due": "Due",
+            "ardat": "ARDAT",
+            "milkWithhold": "Milchsperre",
+            "meatWithhold": "Fleischsperre",
+            "reproductionCode": {
+                "heiferCalf": "KUHKALB",
+                "noBred": "ZU",
+                "fresh": "FRISCH",
+                "ok": "OK\/ Offen",
+                "bred": "BESAMT",
+                "preg": "TRAGEND",
+                "dry": "TROCKEN",
+                "sld": "VERKAUFT\/TOT",
+                "bull": "BULLENKALB"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "Item-Liste bearbeiten",
+                    "cardsPreview": "Vorschau Registerkarte",
+                    "dragAndDropReorder": "Ziehen und Loslassen, um Items neu anzuordnen",
+                    "addItems": "Items hinzuf\u00fcgen",
+                    "cardName": "Name der Registerkarte",
+                    "searchSpecificCowItem": "Nach einem bestimmten Item suchen...",
+                    "cancelMessage": "Sie haben nicht gespeicherte \u00c4nderungen. Trotzdem abbrechen?",
+                    "validation": "Bitte f\u00fcgen Sie mindestens ein Item zur Kuhkarte hinzu, bevor Sie speichern.",
+                    "noItems": "Bitte f\u00fcgen Sie mindestens ein Item zur Kuhkarte hinzu, bevor Sie die Vorschau verwenden k\u00f6nnen.",
+                    "isMobile": "In der mobilen App anzeigen"
+                },
+                "add": {
+                    "itemBoxTitle": "Registerkarte f\u00fcr Items hinzuf\u00fcgen",
+                    "error": "Entschuldigung, es gab einen unerwarteten Fehler. Bitte versuchen Sie erneut eine Registerkarte hinzuzuf\u00fcgen.",
+                    "newItemsCard": "Neue Item-Registerkarte"
+                },
+                "hide": {
+                    "title": "Item-Registerkarte verbergen?",
+                    "line1": "Sie k\u00f6nnen verborgene Registerkarten wieder in den Vordergrund holen durch ",
+                    "line2": "das Klicken auf \"Verborgene Registerkarte wieder herstellen\".",
+                    "confirm": "ja, verbergen"
+                },
+                "restoreCard": "Verborgene Registerkarte wiederherstellen",
+                "addCard": "Neue Registerkarte hinzuf\u00fcgen",
+                "restore": {
+                    "boxTitle": "Wiederherstellen verborgener Registerkarten",
+                    "edition": {
+                        "title": "Registerkarte ausw\u00e4hlen",
+                        "subTitle": "K\u00fcrzlich verborgene Registerkarten k\u00f6nnen hier hinzugef\u00fcgt werden."
+                    },
+                    "noHiddenCardTitle": "Registerkartenname",
+                    "error": "Entschuldigung, ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie noch einmal eine verborgene Registerkarte hinzuzuf\u00fcgen.",
+                    "noItems": "Bitte klicken Sie auf eine Item-Registerkarte von der Liste, um die Vorschau zu sehen."
+                },
+                "successUpdate": "wurde erfolgreich aktualisiert",
+                "notSuccessUpdate": "Beim Speichern ist ein Fehler aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut",
+                "itemCard": "Item-Registerkarte",
+                "itemCardSuccessfullyAdded": "erfolgreich hinzugef\u00fcgt",
+                "itemCardSuccessfullyRestored": "Items erfolgreich wiederhergestellt",
+                "itemCardSuccessfullyHidden": "Item-Registerkarte erfolgreich verborgen",
+                "itemCardColorPaletteLabel": "Farbe",
+                "itemCardColorPaletteDefault": "Standardfarbe",
+                "itemCardBackgroundColorPickerLabel": "Hintergrundfarbe",
+                "itemCardForegroundColorPickerLabel": "Textfarbe"
+            },
+            "subMenu": {
+                "overview": "\u00dcbersicht",
+                "items": "Items",
+                "events": "Ereignisse",
+                "testDays": "Milchkontrollen",
+                "lactations": "Laktationen",
+                "dailyMilk": "T\u00e4gliche Milch",
+                "penChanges": "Gruppenwechsel",
+                "pedigree": "Stammbaum",
+                "partners": "Partner"
+            },
+            "recentProduction": {
+                "milking": "Melkung #"
+            },
+            "dead": "TOT",
+            "alive": "LEBEND",
+            "sold": "VERKAUFT",
+            "placeholder": {
+                "title": "Es sind keine Items zum Anzeigen vorhanden",
+                "description": "Richten Sie Ihre Items-Registerkarte ein, um diese hier zu sehen."
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "Geburtsdatum",
+                        "weanDateTitle": "Absetzdatum",
+                        "sexTitle": "Geschlecht",
+                        "breedTitle": "Rasse",
+                        "didTitle": "Stallnummer der Mutter",
+                        "sidTitle": "DHV-Nummer Vater",
+                        "agedyTitle": "\u00e4rgerlich",
+                        "title": "Eigenschaften der K\u00e4lberaufzucht",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{",
+                            "prepositionUntil": "bis",
+                            "prepositionPast": "Vergangenheit",
+                            "projected": "vorhergesagt",
+                            "weaned": "abgesetzte",
+                            "weaning": "Absetzen"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 Tage",
+                        "todayTitle": "heute",
+                        "averageDailyGainTitle": "Tageszunahme",
+                        "title": "Gewicht",
+                        "perDay": "d",
+                        "popover": "Wenn Ihr Betrieb mit einer F\u00f6rster-Halbk\u00f6rperwaage ausgestattet ist, ist dies ein tats\u00e4chliches Tiergewicht. Wenn nicht, wird dieses Gewicht basierend auf dem Kalbsalter gesch\u00e4tzt.\n\n"
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "Milch",
+                        "concentrationTitle": "Zusammenfassung",
+                        "additiveTitle": "Zusatz",
+                        "title": "Gesamtverbrauch",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Toleranzverh\u00e4ltnis",
+                        "dipsMilkIntake": "dips Milchaufnahme",
+                        "avgBreaksDay": "Avg breaks \/day",
+                        "avgDailySteps": "Avg daily steps",
+                        "daysOnPrescription": "Tage am protokoll"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Trinkgeschwindigkeit",
+                        "speed": "Geschwindingkeit",
+                        "timeUnit": "m",
+                        "day": "Tag"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Trinkverhalten",
+                        "milk": "milch"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Milchkonsum",
+                        "consumption": "Konsum",
+                        "lastTwoDays": "letzten 2 Tage",
+                        "visitNumber": "besuchen %{number}",
+                        "visitRange": "Visits %{from} to %{to}",
+                        "visit": "besuchen",
+                        "withoutFeeding": "w\/o feeding",
+                        "additive": "additive",
+                        "total": "Total",
+                        "yesterdayTarget": "gestriges Ziel",
+                        "todayEntitlement": "heutiger Anspruch",
+                        "timeRange": "%{from} to %{to}"
+                    },
+                    "common": {
+                        "amount": "Menge",
+                        "entitlement": "Anspruch",
+                        "today": "Heute",
+                        "yesterday": "Gestern",
+                        "now": "jetzt",
+                        "widgetNotFound": "Es sind keine %{name} -Daten f\u00fcr dieses Tier vorhanden\n\n",
+                        "widgetCommunicationError": "Kommunikationsfehler"
+                    }
+                },
+                "table": {
+                    "message": "Nachricht",
+                    "dateAndTime": "Datum und Uhrzeit",
+                    "observations": "Beobachtungen"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "Temperatur",
+                        "ph": "PH",
+                        "activity": "Aktivit\u00e4t"
+                    },
+                    "views": {
+                        "view": "Ansicht",
+                        "last24hs": "Letzte 24\u00a0Std.",
+                        "last7days": "Letzte 7 Tage",
+                        "last30days": "Letzte 30 Tage"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "Ungen\u00fcgende Wasseraufnahme",
+                    "health102": "Zunahme der Trinkzyklen",
+                    "health103": "Reduzierte Trinkzyklen",
+                    "health104": "Temeraturanstieg",
+                    "health106": "Temeraturabfall",
+                    "health601": "THI \u2265 72 Hitzestress",
+                    "health602": "THI \u2265 78 Hitzestress",
+                    "health603": "THI \u2265 82 Hitzestress",
+                    "health703": "Abfall der Aktivit\u00e4t",
+                    "fertility105": "Anzeichen bevorstehender Kalbung",
+                    "fertility702": "Brunst",
+                    "feeding201": "F\u00fctterungseffizienz",
+                    "feeding202": "Azidosegefahr",
+                    "feeding203": "Anstieg des durchschnittlichen pH-Werts",
+                    "feeding204": "Abfall des durchschnittlichen pH-Werts",
+                    "feeding205": "Anstieg des 12-Std-pH-Werts",
+                    "feeding206": "Abfall des 12-Std-pH-Werts",
+                    "actincrease701": "Anstieg der Aktivit\u00e4t",
+                    "actincrease704": "Anstieg der Aktivit\u00e4t",
+                    "heat": "Hitze festgestellt",
+                    "insemination": "Besamung eines Tieres",
+                    "pregnancyResult": "Ein positives oder negatives Schwangerschaftsergebnis",
+                    "calvingDetection": "Kalbung festgestellt",
+                    "dryOff": "Abtrocknung",
+                    "calvingConfirmation": "Best\u00e4tigung der Kalbung"
+                },
+                "selectPartner": "Partner:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "Es sind keine SmaXtec-Sensordaten f\u00fcr dieses Tier verf\u00fcgbar"
+            }
+        },
+        "overview": {
+            "page": "Herden\u00fcbersicht"
+        },
+        "pens": {
+            "penList": "Gruppenliste",
+            "animalCost": "Tierkosten",
+            "space": "Leerstelle",
+            "capacity": "Kapazit\u00e4t",
+            "count": "Anzahl",
+            "extra": "Extra",
+            "feed": "Futter",
+            "feedingHdCount": "F\u00fctterungs-HD-Anzahl",
+            "feedingCount": "Feeding Count",
+            "herd": "Herde",
+            "label": "Beschreibung",
+            "pen": "Gruppe",
+            "penCost": "Gruppenkosten",
+            "penCount": "Gruppenz\u00e4hlung",
+            "pens": "Gruppen",
+            "penType": "Gruppentyp",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "Betriebs-ID",
+            "targetDmHd": "Ziel DM\/HD",
+            "costPerHd": "Cost\/HD",
+            "type": "Art",
+            "view": "Ansicht",
+            "zone": "Bereich",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "Alle Gruppenarten",
+                "isArtificialInseminationPen": "KB",
+                "isBullPen": "Deckbullengruppe",
+                "isCalfPen": "Kalb",
+                "isDryPen": "Trocken",
+                "isHospitalPen": "Krankengruppe",
+                "isMilkingPen": "Melkend",
+                "isUserPen": "Benutzerdefiniert",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "Arbeitslisten",
+            "todayTitle": "Heute",
+            "upcomingTitle": "Bevorstehend",
+            "lastDaysTitle": "Letzte drei Tage",
+            "accordionTitle": "Listen",
+            "time": {
+                "week": "vor einer Woche",
+                "yesterday": "gestern",
+                "today": "heute"
+            },
+            "help": {
+                "tag": "brauchen Sie Hilfe?",
+                "link": "lerne mehr \u00fcber Arbeitslisten"
+            },
+            "tableHead": {
+                "name": "Name",
+                "listDate": "Listendatum",
+                "listType": "Listentyp",
+                "status": "Status",
+                "progress": "Fortschritt",
+                "description": "Beschreibung",
+                "ondone": "Bei Fertigstellung",
+                "postProcess": "Nachbearbeitung"
+            },
+            "progress": {
+                "animals": "Tiere",
+                "toBeProcessed": "zu verarbeiten",
+                "filterNoResults": "F\u00fcr diesen Filter sind auf dieser Seite keine Tiere zum Anzeigen vorhanden."
+            },
+            "status": {
+                "open": "Offen",
+                "closed": "Geschlossen",
+                "delivered": "Ausgeliefert",
+                "todo": "Zu tun",
+                "pending": "Ausstehend",
+                "inProgress": "In Bearbeitung",
+                "queued": "In Warteschlange",
+                "processed": "Verarbeitet"
+            },
+            "changeStatus": {
+                "todo": "zu erledigen",
+                "done": "fertig",
+                "completed": "Abgeschlossen",
+                "processed": "Verarbeitet",
+                "toBeProcessed": "zu verarbeiten"
+            },
+            "identificationType": {
+                "unknown": "unbekannt",
+                "tap": "eingegeben",
+                "scan": "gescannt",
+                "voice": "Stimme"
+            },
+            "tableColumns": {
+                "method": "Methode",
+                "doneBy": "ereldigt von",
+                "updatedAt": "gebrauchte Zeit",
+                "changeStatus": "Status"
+            },
+            "noItems": "Keine Listen zum Anzeigen",
+            "listDetailsPageTitle": "Listendetails",
+            "tabs": {
+                "todo": "zu erledigen",
+                "done": "fertig"
+            },
+            "details": {
+                "table": {
+                    "id": "ID",
+                    "pen": "GRUPPE",
+                    "lact": "LAKT",
+                    "rprod": "PROD",
+                    "dim": "DIM",
+                    "dcc": "DCC",
+                    "milk": "MILCH",
+                    "all": "alle"
+                }
+            },
+            "listTypes": {
+                "todolist": "Zu-Erledigen-Liste"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Posten Definition",
+            "name": "Name",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Art",
+            "description": "Beschreibung",
+            "standardItemNumber": "Standard Posten #",
+            "filterPlaceholder": "Name, # or Description"
+        },
+        "eventDefinitions": {
+            "title": "Ereignisdefinition",
+            "number": "Nummer",
+            "eventName": "Ereignisname",
+            "standardEventCode": "Standart #",
+            "team": "Team",
+            "gap": "Spalt",
+            "command": "Befehl",
+            "filterPlaceholder": "Event Name, # or Command"
+        },
+        "protocols": {
+            "title": "Protokolle",
+            "number": "P#",
+            "event": "Ereignis",
+            "protocol": "Protokol",
+            "remark": "Anmerkung",
+            "goToPen": "gehe zur Gruppe",
+            "milkWithold": "Milchsperre",
+            "meatWithold": "Fleischsperre",
+            "timeOnProtocol": "Tage am Protokol",
+            "adult": "Erwachsen",
+            "heifer": "F\u00e4rse",
+            "team": "Team",
+            "recheck": "erneute \u00dcberpr\u00fcfung",
+            "order": "Ordner",
+            "prompt": "P",
+            "days": {
+                "singular": "Tag",
+                "plural": "Tage"
+            },
+            "showInactive": "inaktiv anzeigen",
+            "details": "Protokoldeatails",
+            "hasPrompt": "Eingabeaufforderung: Ja\n\n"
+        }
+    },
+    "home": {
+        "home": "Home",
+        "title": "VAS Platform",
+        "searchboxPlaceholder": "Suche ein Tier",
+        "selectContext": "W\u00e4hlen ein %{context}",
+        "context": {
+            "dairy": "Milchviehbetrieb",
+            "company": "Unternehmen",
+            "companyOrDairy": "Unternehmen oder Milchviehbetrieb",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Verbinden Sie sich mit Ihrem ersten Betrieb von Ihrem",
+                "myHome": "Meine Startseite",
+                "pendingInvitationPreppend": "Sie haben eine ausstehende Einladung.\nGehe zu",
+                "pendingInvitationAppend": "annehmen"
+            }
+        },
+        "dairyProfile": "Betriebsprofil",
+        "selectDairy": "W\u00e4hlen Sie einen Betrieb",
+        "search": {
+            "noResults": "Kein Betrieb, der dieser Suche entspricht"
+        }
+    },
+    "validation": {
+        "invalidName": "Bitte geben Sie einen richtigen Namen ein.",
+        "invalidEmail": "Bitte geben Sie eine funktionierende Email-Adresse ein.",
+        "emptyEmail": "Bitte geben Sie Ire Email-Adresse ein.",
+        "invalidPassword": "Passwort muss mindestens 6 Zeichen haben.",
+        "emptyPassword": "Bitte geben Sie Ihr Passwort ein.",
+        "passwordNotMatch": "Passwort stimmt nicht.",
+        "retypePassword": "Bitte geben Sie Ihr Passwort erneut ein.",
+        "passwordMinimumRequirements": "Das Passwort entspricht nicht den Mindestanforderungen.",
+        "invalidCardName": "Namen von Item-Registerkarten m\u00fcssen mindestens 6 Buchstaben haben.",
+        "emptyCardName": "Bitte geben Sie den Namen der Item-Registerkarte ein.",
+        "changePassword": {
+            "emptyCurrentPassword": "Bitte geben Sie Ihr aktuelles Passwort ein.",
+            "emptyNewPassword": "Bitte geben Sie Ihr neues Passwort ein.",
+            "emptyConfirmNewPassword": "Bitte neues Passwort best\u00e4tigen."
+        },
+        "address": {
+            "emptyCountry": "Bitte w\u00e4hlen Sie ein Land aus.",
+            "emptyStateProvince": "Bitte %{action} ein Bundesland",
+            "selectStateProvince": "ausw\u00e4hlen",
+            "enterStateProvince": "eingeben",
+            "emptyCity": "Bitte geben Sie eine Stadt ein.",
+            "emptyPostalCode": "Bitte geben Sie eine Postleitzahl ein."
+        },
+        "dairy": {
+            "emptyName": "Bitte geben Sie einen Betriebsnamen ein."
+        },
+        "invalidMobilePhoneNumber": "Bitte geben Sie eine funktionierende Mobiltelefonnummer an. Stellen Sie sicher, dass Sie nur Zahlen, keine Leerstellen, eingeben.",
+        "invalidPhoneNumber": "Bitte geben Sie eine funktionierende Telefonnummer an. Stellen Sie sicher, dass Sie nur Zahlen, keine Leerstellen, eingeben.",
+        "limitCharacters": "Sie haben die maximale Zeichenanzahl f\u00fcr diese Feld erreicht.",
+        "accountSettings": {
+            "firstName": "Bitte geben Sie Ihren Vornamen ein.",
+            "lastName": "Bitte geben Sie Ihren Nachnamen ein."
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404 nicht gefunden",
+            "line1": "Entschuldigen Sie, die Seite die Sie aufrufen m\u00f6chten ist nicht verf\u00fcgbar.",
+            "line2": "Bitte versuchen Sie es erneut, oder gehen Sie zu"
+        },
+        "tokenInvalid": "Der Code zum Wiederherstellen des Passwortes ist nicht korrekt.",
+        "unableChange": "Das Passwort kann nicht ge\u00e4ndert werden.",
+        "401": "Nicht autorisiert",
+        "500": "Interner Serverfehler",
+        "passwordInvalid": "Das aktuelle Passwort ist nicht korrekt."
+    },
+    "password": {
+        "passwordCreated": "Neues Passwort erstellt",
+        "passwordSuccessfullyCreated": "Ihr Passwort wurde erfolgreich erstellt.",
+        "passwordUpdated": "Passwort erneuert",
+        "passwordSuccessfullyChanged": "Ihr Passwort wurde erfolgreich ge\u00e4ndert.",
+        "continueToHome": "Weiter zur Startseite",
+        "enterPassword": "Geben Sie Ihr Passwort ein",
+        "savePassword": "Passwort speichern",
+        "passwordRequirements": "Bedingungen f\u00fcr Passw\u00f6rter",
+        "unableToChange": "Das Passwort kann nicht ge\u00e4ndert werden.",
+        "setPassword": "Legen Sie Ihr Passwort fest.",
+        "invalidToken": {
+            "invalidToken": "Ung\u00fcltiger Code.",
+            "title_line1": "Ihre Einladung zur",
+            "title_line2": "VAS Platform ist abgelaufen ",
+            "line1": "Bitte senden Sie uns eine Email an ",
+            "line2": "oder rufen Sie uns an ",
+            "line3": "um eine neue Einladung zu erhalten."
+        },
+        "ValidPassword": {
+            "minLength": "Mindestl\u00e4nge von sechs ( 6 ) Zeichen.",
+            "numbersAndLetters": "Muss eine Kombination aus Buchstaben und Zahlen enthalten.",
+            "lowerUpperCases": "Muss sowohl Klein- als auch Gro\u00dfbuchstaben enthalten."
+        }
+    },
+    "breadcrumb": {
+        "operations": "Betriebszweige",
+        "herd": "Herde",
+        "cows": "K\u00fche",
+        "pens": "Gruppen",
+        "ID": "ID",
+        "overview": "\u00dcbersicht",
+        "company": "Unternehmen",
+        "dairy": "Betrieb",
+        "dairyComp": "DairyComp",
+        "dashboard": "Dashboard",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "Arbeitslisten",
+        "messageCenter": "Nachrichten Center"
+    },
+    "footer": {
+        "title": "VAS Platform"
+    },
+    "search": {
+        "searchHistory": "Archiv durchsuchen",
+        "searchResults": "Ergebnisse durchsuchen",
+        "noResults": "Kein Tier passt zu dieser Suche",
+        "searchForCow": "Suche ein Tier",
+        "firstResult": "Erste Ergebnisse",
+        "thirdResult": "Dritte Ergebnisse"
+    },
+    "dairy": {
+        "noDairiesConnected": "Keine Betriebe verbunden",
+        "noDairiesText_": "Verbinden Sie sich mit Ihrem ersten Betrieb von Ihrem",
+        "requestAccessSuccess": "Zugangsanfrage erfolgreich gesendet an"
+    },
+    "menu": {
+        "myHome": "Meine Startseite",
+        "impersonationLabel": "Admin als",
+        "dairyManager": "Betriebsleiter",
+        "accountSettings": "Kontoeinstellungen",
+        "logOut": "Ausloggen",
+        "reports": "Berichte",
+        "favorites": "Favoriten",
+        "favoriteReports": "Beliebteste Berichte",
+        "dairyInformation": "Betriebsinformationen",
+        "dairyConfiguration": "Betriebseinstellungen",
+        "operations": "Betriebszweige",
+        "userManagement": "Nutzermanager",
+        "messageCenter": "Nachrichten Center"
+    },
+    "accountSettings": {
+        "account": "Konto",
+        "myAccount": "Mein Konto",
+        "userProfile": "Benutzerprofil",
+        "changeMyPassword": "Mein Passwort \u00e4ndern",
+        "password": "Passwort",
+        "mobilePhoneNumber": "Mobilfunknummer",
+        "phoneNumberValidationOnlyNumbers": "Geben Sie nur Zahlen in das Feld f\u00fcr die Mobilfunknummer ein.",
+        "phoneNumberValidationExtensionNumbers": "Bitte nutzen Sie keine Nummererweiterungen.",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "dateFormat": "Datumsformat",
+        "timeFormat": "Zeitformat",
+        "howYouPreferSeeDates": "Welches Datumsformat bevorzugen Sie in der Anwendung",
+        "howYouPreferSeeTimes": "Welches Zeitformat bevorzugen Sie in der Anwendung",
+        "address": "Adresse",
+        "units": "Einheiten",
+        "chooseDisplayUnits": "W\u00e4hlen Sie Ihre Lieblingsansicht f\u00fcr Einheiten",
+        "language": "Sprache",
+        "languageToDisplay": "Die anzuzeigende Sprache in der VAS Platform",
+        "aboutMe": "\u00dcber Mich",
+        "amIDiscoverable": "Wer kann mich finden?",
+        "isDiscoverable": "Ist auffindbar",
+        "youCanBeContacted": "Andere Nutzer dieser Anwendung k\u00f6nnen Sie kontaktieren",
+        "youWantYourDairyFound": "M\u00f6chten Sie, dass andere Nutzer Ihren Betrieb finden k\u00f6nnen?",
+        "country": "Land",
+        "state": "Staat",
+        "city": "Stadt",
+        "addressLine1": "Adresszeile 1",
+        "addressLine2": "Adresszeile 2",
+        "addressEmail": "E-Mail-Adresse",
+        "phoneNumber": "Telefonnummer",
+        "email": "Email",
+        "web": "Web",
+        "currentPassword": "Aktuelles Passwort",
+        "newPassword": "Neues Passwort",
+        "confirmNewPassword": "Neues Passwort best\u00e4tigen",
+        "physicalAddress": "Wohnanschrift",
+        "billingAddress": "Rechnungsanschrift",
+        "theEmailGravatarDescription_line1": "Die Email-Adresse mit der Sie sich einloggen.",
+        "theEmailGravatarDescription_line2_part1": "Nutzen Sie ",
+        "theEmailGravatarDescription_line2_part2": " als Anbieter f\u00fcr Ihr Profilbild, die Aktualisierung wird einige Zeit dauern nach dem Update.",
+        "profileSettings": "PROFILEINSTELLUNGEN",
+        "postalCode": "Postleitzahl",
+        "profilePicture": {
+            "title": "F\u00dcGEN SIE IHR PROFILBILD HINZU",
+            "line1": "Bewegen Sie ein Bild auf der Linken Seite via Ziehen und Loslassen oder w\u00e4hlen Sie ein Bild aus unserer Bibliothek, um Ihr Profilbild festzulegen.",
+            "line2": "Sie k\u00f6nnen Die Bildgr\u00f6\u00dfe und die Position nach dem Hochladen anpassen.",
+            "condition1": "Nutzen Sie das JPG oder PNG Format f\u00fcr Ihr Bild.",
+            "condition2": "Die maximale Bildgr\u00f6\u00dfe betr\u00e4gt 150k",
+            "condition3": "Unterst\u00fctzte Bildgr\u00f6\u00dfeen: 32x32, 100x100 oder 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "Ank\u00fcndigungen",
+            "whatsNewDetails": "Willkommen auf der VAS-Plattform. Hier finden Sie Mitteilungen.",
+            "myDairies": "Meine Betriebe",
+            "search": {
+                "placeholder": "Einen neuen Betrieb finden und sich mit ihm verbinden"
+            }
+        },
+        "myDairies": {
+            "noDairies": "Sie haben keine anzuzeigenden Betriebe",
+            "dairyColumnTitle": "Milchviehbetrieb",
+            "locationColumnTitle": "Standort",
+            "statusColumnTitle": "Status",
+            "invitationText": "Sie wurden eingeladen zu",
+            "requestAccessText": "Sie haben eine Zugangsanfrage gestellt f\u00fcr",
+            "viewDairyPage": " Seite des Betriebes ansehen ",
+            "acceptAction": "Annehmen",
+            "declineAction": "Ablehnen",
+            "cancelAction": "Anfrage l\u00f6schen",
+            "leaveDairy": "Betrieb verlassen",
+            "status": {
+                "invited": "Eingeladen",
+                "requested": "Warten auf Best\u00e4tigung",
+                "connected": "Verbunden"
+            }
+        },
+        "myConnections": {
+            "title": "Meine Verbindungen",
+            "noConnections": "Es k\u00f6nnen keine Verbindungen angezeigt werden",
+            "connect": "Mit neuem Betrieb verbinden",
+            "viewList": "Verbindungsliste anzeigen"
+        },
+        "dairiesFilterPlaceholder": "Betrieb suchen",
+        "connectionInvite": {
+            "accepted": "Einladung wurde akzeptiert von",
+            "confirmDeclinePart1": "Die Einladung wird abgelehnt von",
+            "confirmDeclinePart2": "Best\u00e4tigen Sie?",
+            "declined": "Abgelehnte Einladung von",
+            "notFound": "Die Daten die Sie sich erneut ansehen m\u00f6chten, sind nicht mehr verf\u00fcgbar."
+        },
+        "connectionLeave": {
+            "confirmed": "Die Verbindung wurde erfolgreich getrennt von",
+            "confirmLeave": "Sind Sie sicher, dass Sie gehen wollen",
+            "errorDairyLeaving": "Beim Verlassen des Betriebes ist ein Fehler aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.\n\n",
+            "errorCompanyLeaving": "Beim Verlassen der Seite ist ein Fehler aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.",
+            "errorDairyLeavingOnlyOwner": "Sie k\u00f6nnen diesen Betrieb nicht verlassen, da Sie derzeit der einzige mit Benutzerverwaltungsberechtigungen sind. Weisen Sie diese Berechtigung mindestens einem anderen Benutzer zu und versuchen Sie es erneut.",
+            "errorCompanyLeavingOnlyOwner": "Sie k\u00f6nnen dieses Unternehmen nicht verlassen, da Sie derzeit der einzige mit Benutzerverwaltungsberechtigungen sind. Weisen Sie diese Berechtigung mindestens einem anderen Benutzer zu und versuchen Sie es erneut."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " Unternehmensseite anschauen",
+            "leaveCompany": "Unternehmen verlassen"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "Nachrichten Center",
+        "view": "Ansicht",
+        "noMessages": "Nachrichten",
+        "filters": {
+            "all": "alle Bemerkungen",
+            "info": "Info",
+            "news": "News",
+            "alert": "Alarm",
+            "warning": "Warnung",
+            "announcement": "Ank\u00fcndigungen",
+            "system": "System Bemerkungen",
+            "unread": "ungelesen",
+            "worklists": "update der Arbeitslisten"
+        },
+        "actions": {
+            "markAsRead": "als gelesen markieren",
+            "showMore": "Mehr Details anzeigen"
+        }
+    },
+    "discoverability": {
+        "yes": "ja",
+        "no": "nein",
+        "dairy": {
+            "yesDetail": "Ja, der Betrieb ist f\u00fcr andere Nutzer sichtbar",
+            "noDetail": "Nein, der Betrieb ist f\u00fcr andere Nutzer nicht sichtbar"
+        },
+        "account": {
+            "yesDetail": "Ja, ich m\u00f6chte f\u00fcr andere Nutzer sichtbar sein",
+            "noDetail": "Nein, ich m\u00f6chte nicht f\u00fcr andere Nutzer sichtbar sein"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Betriebskonfiguration",
+        "userManagement": {
+            "title": "Nutzermanager",
+            "fromCompany": "von diesem Betrieb",
+            "userRemovedSuccess": "erfolgreich von diesem Betrieb entfernt.",
+            "inviteUserModal": {
+                "existingUser": "Die eingegebene Email-Adresse geh\u00f6rt zu einem anderen Benutzer dieses Betriebes.",
+                "confirmButton": "Einladen",
+                "noPlatformUser": "Die eingegebene E-Mail geh\u00f6rt keinem vorhandenen Benutzer in VAS Plattform. Sie k\u00f6nnen nur registrierte Benutzer hinzuf\u00fcgen."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "Betriebseinstellungen",
+        "dairyInformation": "Betriebsinformationen",
+        "dairyInfo": "Betriebsinfo",
+        "address": "Adresse",
+        "dairyName": "Betriebsname",
+        "dairyType": "Betriebsart",
+        "dairyMainActivity": "Hauptaktivit\u00e4ten des Betriebes",
+        "changesSavedError": "Entschuldung, es ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie Ihre Betriebseinstellungen erneut zu bearbeiten.",
+        "dairySettings": "BETRIEBS EINSTELLUNGEN",
+        "userManagement": "Nutzermanagement",
+        "dairyImage": "Bild des Betriebes",
+        "description": "Beschreibung",
+        "timezone": "Zeitzone"
+    },
+    "userManagement": {
+        "users": "Benutzer",
+        "roles": "Funktionen",
+        "role": "Funktion",
+        "assignRoles": "Weisen Sie Funktionen zu, nachdem Sie die Zugriffsanforderung genehmigt haben.",
+        "removeUserMessage": "Sie entfernen einen Benutzer",
+        "fromDairy": "von diesem Betrieb",
+        "userRemovedSuccess": "erfolgreich von diesem Betrieb entfernt.",
+        "confirmRemove": "Ja",
+        "permission": "Genehmigung",
+        "permissions": "Genehmigungen",
+        "removeUser": "Entfernen",
+        "noUsers": "Es gibt keine \u00fcbereinstimmenden Ergebnisse.",
+        "accessPending": {
+            "title": "Zugang ausstehend",
+            "declineRequestMessageFistPart": "Sie verweigern den Zugang zu ",
+            "declineRequestMessageSecondPart": "Ist das korrekt?",
+            "confirmDeclineRequestMessageFistPart": "Zugriffsanfrage zu ",
+            "confirmDeclineRequestMessageSecondPart": "verweigert.",
+            "accessRequestTo": "Zugriffsanfrage zu ",
+            "confirmApproveRequestMessage": "zugestimmt"
+        },
+        "user": "Nutzer",
+        "editRoles": "Funktionen bearbeiten",
+        "status": "Status",
+        "updated": "Aktualisiert",
+        "sent": "Gesendet",
+        "noAccessPending": "Momentan gibt es keine ausstehenden Zugriffanfragen oder Einladungen.",
+        "addRole": "Funktion hinzuf\u00fcgen",
+        "addNewRole": "Neue Funktion hinzuf\u00fcgen",
+        "editRole": "bearbeiten Sie Funktionsberechtigungen",
+        "editUserRoles": "Bearbeiten Sie Nutzerfunktionen",
+        "assignedRoles": "Zugeteilte Funktionen",
+        "assignedRolesHintMessage": "Teilen Sie Nutzern Funktionen zu, durch Auswahl von der Liste auf der linken Seite.",
+        "inviteUser": "Neuen Nutzer hinzuf\u00fcgen",
+        "roleEdition": {
+            "roleName": "Name der Funktion",
+            "roleDescription": "Beschreibung der Funktion",
+            "errorOnlyOwner": "\u00c4nderungen f\u00fcr %{user} k\u00f6nnen nicht gespeichert werden, da diese Person die einzige mit Benutzerverwaltungsberechtigung ist. Weisen Sie diese Berechtigung mindestens einem anderen Benutzer zu und versuchen Sie es erneut.",
+            "errorOnlyRole": "\u00c4nderungen f\u00fcr %{role} k\u00f6nnen nicht gespeichert werden, da sie die einzige mit Benutzerverwaltungsberechtigung ist. Weisen Sie diese Berechtigung mindestens einer anderen Rolle zu und versuchen Sie es erneut.",
+            "permissionType": {
+                "dairy": "Betrieb",
+                "herd": "Herde",
+                "feed": "Futter",
+                "parlor": "Melkstand"
+            },
+            "permissionsAddLabel": "W\u00e4hlen Sie die Berechtigungen aus, die f\u00fcr die neue Funktion erteilt wurden.",
+            "permissionsEditLabel": "W\u00e4hlen Sie die Berechtigungen aus, die f\u00fcr diese Funktion erteilt wurden.",
+            "editZonesHelpMessagePermission": "schreiben",
+            "editZonesHelpMessage": "Wenn Sie dieser Rolle %{permission} Berechtigungen zugewiesen haben und mehrere Zonen in Ihrem Betrieb haben, m\u00fcssen Sie ausw\u00e4hlen, f\u00fcr welche Zonen sie gelten sollen.",
+            "editZonesHintMessage": "Dieses Bedienfeld verwaltet die Schreibrechte nach Bereich, falls der Nutzer diese Berechtigung besitzt.",
+            "permissionsMessage": "Betriebsbereiche mit Schreibrechten.",
+            "allRolesFilter": "Alle Funktionen",
+            "noUsers": "Es gibt keine \u00fcbereinstimmenden Ergebnisse."
+        },
+        "accessPendingStatus": {
+            "invited": "Eingeladen",
+            "requested": "Anfrage gestellt",
+            "inviteDeclined": "Einladung abgelehnt",
+            "accessRequestDeclined": "Zugriffsanfrage abgelehnt",
+            "cancelInvite": "Einladung abbrechen",
+            "resendInvite": "Einladung erneut senden",
+            "editInvite": "Einladung bearbeiten",
+            "approve": "Zustimmen",
+            "decline": "Ablehnen"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "Funktionen",
+            "availableRolesHintMessage": "W\u00e4hlen Sie die Funktionen, die der Benutzer ausf\u00fcllen soll. Dies hat direkten Einfluss auf die zugeteilten Berechtigungen. ",
+            "assignedRoles": "Zugeteilte Funktionen",
+            "confirmButtonLabel": "Benutzer einladen",
+            "assignedRolesHintMessage": "Teilen Sie einem Benutzer Funktionen durch Ausw\u00e4hlen von der Liste auf der linken Seite zu",
+            "existingUser": "Die eingegebene Email-Adresse geh\u00f6rt zu einem anderen Benutzer dieses Betriebes.",
+            "invitationSent": "Benutzer erfolgreich hinzugef\u00fcgt. Eine Einladung wurde erfolgreich versendet.",
+            "previewUserText": " Hier klicken, f\u00fcr eine Benutzervorschau  ",
+            "editRoles": "Funktionen bearbeiten",
+            "existingPlatformUser": "Die eingegebene Email-Adresse existiert bereits. Sie geh\u00f6rt zu einem anderen Benutzer der VAS Platform.",
+            "confirmUserLine1": "Best\u00e4tigen und ",
+            "confirmUserLine2": "Funktionen zuteilen",
+            "exisitingUserConfirmed": "Best\u00e4tigt",
+            "invitePendingUser": "Die eingegebene Email-Adresse geh\u00f6rt zu einem anderen Benutzer, der eingeladen wurde, aber noch nicht geantwortet hat."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "Aktualisieren der zugeteilten Funktionen eines Benutzers. Dies hat direkten Einfluss auf die zugeteilten Berechtigungen.",
+            "availableRolesTitle": "Verf\u00fcgbare Funktionen",
+            "rolesUpdated": "Funktionen erfolgreich aktualisiert."
+        },
+        "resendInvite": {
+            "successfullySent": "Eine neue Einladung wurde gesendet an "
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "Sie sind dabei die Einladung f\u00fcr %{user} zu l\u00f6schen. Ist das korrekt?",
+            "cancelConfirmationMessage": "Zugriffseinladung f\u00fcr %{dairyName} gel\u00f6scht "
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "Funktionen erfolgreich aktualisiert."
+        },
+        "confirmDisableRole": "Wenn Sie diese Funktion deaktivieren, wird der Zugriff auf die Anwendung f\u00fcr %{userCount} Benutzer ge\u00e4ndert. Ist das korrekt?",
+        "disableRoleConfirmed": "Die Funktion ist nun deaktiviert",
+        "disableOnlyRoleError": "\u00c4nderungen f\u00fcr %{role} k\u00f6nnen nicht gespeichert werden, da sie die einzige mit Benutzerverwaltungsberechtigung ist. Weisen Sie diese Berechtigung mindestens einer anderen Rolle zu und versuchen Sie es erneut.",
+        "confirmEnableRole": "Wenn Sie diese Funktion aktivieren bekommen %{userCount} Benutzer weitere Zugriffsm\u00f6glichkeiten innerhalb der Anwendung. Ist das korrekt?",
+        "enableRoleConfirmed": "Die Funktion wurde aktiviert",
+        "customizeNewRole": "Passen Sie die neue Funktion an",
+        "writerPermissionRequireZone": "Bitte w\u00e4hlen Sie mindestens einen Bereich, auf den die Zugriffserlaubnis zutrifft.",
+        "roleAddedSuccessfully": "%{roleName} als Funktion hinzugef\u00fcgt.",
+        "errors": {
+            "userAlreadyHasPendingRequest": "Benutzer %{email} hat bereits eine ausstehende Zugriffsanfrage f\u00fcr den Betrieb %{dairyName} bekommen."
+        },
+        "addNewUser": "Neuen Benutzer hinzuf\u00fcgen"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "Zugriffsstatus",
+            "notification": "Bemerkungen",
+            "help": "Hilfe"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "Helfen Sie uns, besser zu werden"
+        },
+        "modal": {
+            "formTitle": "Helfen Sie uns, besser zu werden",
+            "formContent": "Wir sind st\u00e4ndig bestrebt die VAS Platform zu verbessern. Aus dem Grund freuen wir uns, wenn Sie Ihre Erfahrungen mit uns teilen und uns Ihre Anregungen zur Verbesserung mitteilen.",
+            "inputLabel": "Schreiben Sie hier Ihre Kommentare und W\u00fcnsche",
+            "inputRequiredMessage": "Bitte schreiben Sie Ihre Bemerkungen",
+            "submitLabel": "Kommentar senden",
+            "defaultErrorMessage": "Oops, da ist etwas schief gelaufen. Bitte versuchen Sie es erneut.",
+            "successCaption": "Vielen Dank, dass Sie sich die Zeit genommen haben!",
+            "successContent": "Das VAS Platform Team hat Ihr Feedback erhalten. Wir freuen uns \u00fcber Ihr Feedback. Danke, dass Sie uns helfen unsere Produkte zum Nutzen aller zu verbessern!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "Zugriffsstatus",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "Warten, um Daten zu empfangen.",
+            "Bitte schauen Sie bald wieder rein."
+        ],
+        "lastSync": "Letzte Synchronisation:",
+        "integrationRequired": "Integration erforderlich ",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "DairyComp Status",
+            "disabledModuleText": "Modernes Herdenmanagement und akkurate Datenverarbeitung.",
+            "communicationStatus": {
+                "title": "Kommunikationsstatus",
+                "healthy": "Gesund",
+                "notHealthy": "Nicht Gesund",
+                "lastBeat": "Letzte Aktivit\u00e4t:"
+            },
+            "processingStatus": {
+                "title": "Letzte Datensynchronisation",
+                "dataValid": "Daten g\u00fcltig seit:",
+                "problemEncountered": "Entschuldigung, wir haben Probleme beim Darstellen Ihrer aktuellsten Daten. Wir arbeiten gerade an der L\u00f6sung des Problems."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "Der FeedComp-Zugang ist demn\u00e4chst verf\u00fcgbar.",
+            "disabledModuleText": "Verfolgen Sie die F\u00fctterungseffizienz und \u00fcberwachen Sie Income Over Feed Costs (IOFC).",
+            "processingStatus": {
+                "title": "Letzte Datensynchronisation",
+                "lastSync": "Letzte Datensynchronisation:",
+                "problemEncountered": "Entschuldigung, wir haben Probleme beim Darstellen Ihrer aktuellsten Daten. Wir arbeiten gerade an der L\u00f6sung des Problems."
+            },
+            "feedWatchServiceStatus": {
+                "title": "FeedWatch Service",
+                "serviceStatus": "Servicestatus",
+                "isRunning": "in Bearbeitung",
+                "notRunning": "Nicht in Bearbeitung"
+            },
+            "scheduledTaskStatus": {
+                "title": "Aufgabenplanung",
+                "lastRan": "Letzte Aktivit\u00e4t:"
+            },
+            "dairyCompImportStatus": {
+                "title": "Letzter DairyComp-Import",
+                "penCount": "Gruppenz\u00e4hlung",
+                "itemData": "Item-Daten"
+            },
+            "sendEquipmentExport": {
+                "title": "Export an Equipment anfordern",
+                "sendExport": "sende Export"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "ParlorComp Status",
+            "availableSoon": "ParlorComp-Zugriff ist demn\u00e4chst verf\u00fcgbar.",
+            "disabledModuleText": "\u00dcberwachen Sie die Melkstandleistung und managen Sie wirkungsvoll die Produktion."
+        }
+    },
+    "notifications": {
+        "title": "Benachrichtigungen",
+        "link": "Mehr Details anzeigen",
+        "createdPlural": "wurden von der %{provider}integration  erstellt",
+        "createdSingular": "ist von der%{provider} integration erstellt",
+        "updatedPlural": "wurden durch die Integration von %{provider}aktualisiert",
+        "updatedSingular": "ist durch die Integration von %{provider}aktualisiert"
+    },
+    "report": {
+        "favorite": {
+            "title": "Beliebte Berichte"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "DairyComp Betrichte",
+            "menu": {
+                "reproduction": "Reproduktion",
+                "transition": "Transition",
+                "mastitis": "Mastitis",
+                "production": "Produktion",
+                "lameness": "Lahmheit"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "21-Tage-Intervall",
+                        "bredElig": "# Besamungsf\u00e4hig",
+                        "bred": "# Besamt",
+                        "bredRisk": "Brunsterkennungsrate %",
+                        "pregElig": "# Tr\u00e4chtigkeitsf\u00e4hig",
+                        "preg": "# Tragend",
+                        "pregRisk": "Preg Rate %",
+                        "pregLoss": "# Abort"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "Dim (Tage in Milch) bei 1. Besamung",
+                        "headCount": "Gesamtzahl"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "Techniker",
+                        "95Percentage": "95% Konfidenzintervall",
+                        "risk": "Konzeptionsrate %",
+                        "preg": "# Tragend",
+                        "open": "# Nicht tragend",
+                        "other": "# Unbekannt",
+                        "pregLoss": "# Abort",
+                        "breeding": "# Besamungen",
+                        "breedingPercentage": "% Beamungen",
+                        "spc": "BI",
+                        "bottomReference": "*Mehr als 10% der Ergebnisse sind unbekannt"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "FeedComp Berichte",
+            "menu": {
+                "feederPerformance": "Leistung des F\u00fctterers",
+                "feedingBasics": "F\u00fctterungsgrundlagen",
+                "intake": "Aufnahme",
+                "inventory": "Inventar",
+                "usage": "Verbrauch",
+                "economics": "\u00d6konomie"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "Datum",
+                        "avgPenCount": "Durchschnittliche Gruppengr\u00f6\u00dfe",
+                        "dropped": "# Verloren",
+                        "avgDropped": "DSN Verloren",
+                        "weighBacks": "# R\u00fcckwiegungen",
+                        "avgWeighBacks": "DSN R\u00fcckwiegungen",
+                        "dm": "# Trockenmasse (TM)",
+                        "avgDmAnimal": "DSN TM\/Tier",
+                        "pen": "Gruppe",
+                        "noPen": "Es gibt keine Gruppe f\u00fcr die Darstellung."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "ParlorComp Berichte",
+            "menu": {
+                "tankWatch": "TankWatch",
+                "milkingSummaries": "Melkzusammenfassungen",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "Tank",
+                        "route": "Route",
+                        "date": "Datum",
+                        "weight": "Gewicht (LB)",
+                        "volume": "Volumen (GAL)",
+                        "fat": "Fett (%)",
+                        "protein": "Protein (%)",
+                        "lactose": "Laktose (%)",
+                        "solids": "Feststoffe (%)",
+                        "totals": "10-Tagesdurchschnitt gesamt",
+                        "tankAverages": "10 Tagesdurchschnitt"
+                    }
+                }
+            }
+        },
+        "backToReports": "Zur\u00fcck zu den Berichten",
+        "addToFavorites": "Zu Favoriten hinzuf\u00fcgen",
+        "tableView": "Tabellenansicht",
+        "graphView": "Grafische Ansicht"
+    },
+    "landing": {
+        "configureDairy": "Betrieb konfigurieren",
+        "dairyTeammates": "Teammitglieder des Betriebs",
+        "searchUser": "Nach einem Benutzer suchen",
+        "displayName": "Name anzeigen",
+        "userType": "Benutzertyp",
+        "zones": "Bereiche",
+        "downloadZOF": "Datensicherung Herunterladen",
+        "activeRecords": "Aktive Datens\u00e4tze",
+        "cows": "K\u00fche",
+        "heifers": "Rinder",
+        "bulls": "Bullen",
+        "inactiveRecords": "Inaktive Datens\u00e4tze",
+        "died": "Tot",
+        "sold": "Verkauft",
+        "supportedBy": "Unterst\u00fctzt durch",
+        "cowSearch": "Suche ein Tier",
+        "acceptInvite": "Einladung annehmen",
+        "declineInvite": "Einladung ablehnen",
+        "accessRequested": "Zugriffsanfrage gestellt",
+        "cancelAccessRequested": "Zugriffsanfrage abbrechen",
+        "requestAccess": "Zugriffsanfrage stellen"
+    },
+    "errorPage": {
+        "isoLogoAlt": "VAS Platform Logo",
+        "returnHome": "Zur\u00fcck zur Startseite"
+    },
+    "error400Page": {
+        "title": "Seite nicht gefunden",
+        "description": [
+            "Die Daten auf die Sie zugreifen m\u00f6chten sind nicht verf\u00fcgbar.",
+            "Bitte gehen Sie zur\u00fcck und versuchen Sie es erneut."
+        ]
+    },
+    "error403Page": {
+        "title": "Zugang verweigert",
+        "description": [
+            "Sie haben keine Berechtigung f\u00fcr den Zugriff auf diese Seite.",
+            "Bitte kontaktieren Sie Ihren Betriebsleiter, wenn Sie meinen, sie sollten Zugang haben."
+        ]
+    },
+    "error404Page": {
+        "title": "Seite nicht gefunden",
+        "description": [
+            "Entschuldigung, wir k\u00f6nnen die Seite nach der Sie suchen nicht finden.",
+            "Vielleicht sollten Sie versuchen zur Startseite zur\u00fcckzukehren?"
+        ]
+    },
+    "error500Page": {
+        "title": "Oh nein, es ist ein Problem aufgetreten.",
+        "description": [
+            "Es ist ei Problem mit dem Server aufgetreten und wir sind gerade dabei das Problem zu l\u00f6sen!",
+            "Wir sind in K\u00fcrze wieder verf\u00fcgbar."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "Bitte entschuldigen Sie!",
+        "description": [
+            "Die Anwendung hat ein unerwartetes Problem festgestellt.",
+            "Bitte versuchen Sie es sp\u00e4ter erneut. Unser Support-Team wird das Problem untersuchen."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "Nicht gefunden",
+        "description": [
+            "Die Daten, die Sie sehen m\u00f6chten sind nicht verf\u00fcgbar.",
+            "Bitte gehen Sie zur\u00fcck und versuchen Sie es erneut."
+        ]
+    },
+    "pagination": {
+        "first": "Erste",
+        "last": "Letzte",
+        "view": "Ansicht",
+        "rowsPerPage": "Zeilen pro Seite",
+        "records": {
+            "singular": "Aufzeichnung",
+            "plural": "DATEN"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "Sie sind dabei die Zugriffsanfrage zu l\u00f6schen zu",
+        "confirmCancelPart2": ". Ist das korrekt?",
+        "confirmedCancel": "Zugriffsanfrage gel\u00f6scht."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Zeiege mehr Informationen",
+                "hideInfo": "Weniger Infos anzeigen",
+                "references": "Referenzen",
+                "updated": "Aktualisiert",
+                "noData": {
+                    "title": "Keine Daten",
+                    "description": "F\u00fcr diesen Bericht liegen keine Daten vor."
+                },
+                "integrationPending": {
+                    "title": "Integration erforderlich",
+                    "description": "Kontaktiere {vasSupport} um Integration abzuschlie\u00dfen",
+                    "linkText": "VAS Support"
+                }
+            },
+            "error": {
+                "ohNo": "On nein!",
+                "errorLoadingWidget": "Es gab einen Fehler beim Laden der Anwendung.",
+                "tryAgainLater": "Bitte versuchen Sie es sp\u00e4ter erneut."
+            },
+            "cowStats": {
+                "title": "Kuhstatus",
+                "info": "Letzten 30 Tage",
+                "allMilkingCows": "Alle melkenden K\u00fche",
+                "fresh": "Frisch",
+                "dueDry": "Zuk\u00fcnftiges Trockenstelldatum",
+                "toTank": "In den Tank",
+                "hospital": "Hospital",
+                "allDryCows": "Alle trockenen K\u00fche",
+                "closeUp": "Anf\u00fctterung",
+                "farOff": "Fr\u00fchtrockensteher",
+                "allHeifers": "Alle Rinder",
+                "closeUpHeifers": "Rinder in der Anf\u00fctterung"
+            },
+            "companyCowStats": {
+                "title": "COW STATS- Summe aller gemeldeten Betriebe",
+                "milkingCows": "melkende K\u00fche",
+                "dryCows": "trockene K\u00fche",
+                "heifers": "F\u00e4rsen",
+                "toTank": "in den Tank",
+                "dueDry": "zuk\u00fcnftiges Trockenstelldatum",
+                "freshCows": "FRISCH",
+                "hospital": "Hospital",
+                "closeupCows": "Anf\u00fctterung",
+                "farOffCows": "Fr\u00fchtrockensteher",
+                "closeupHeifers": "Close Up",
+                "notCloseupHeifers": "keine Anf\u00fctterung"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "F\u00e4rsen",
+                    "dryCows": "trockene K\u00fche",
+                    "milkingCows": "melkende K\u00fche",
+                    "toTank": "tanken",
+                    "hospital": "Krankenhaus",
+                    "fresh": "Frisch",
+                    "dueDry": "muss Trocken",
+                    "closeUp": "Anf\u00fctterung",
+                    "farOff": "Far Off",
+                    "closeUpHeifers": "Close Up"
+                },
+                "labels": {
+                    "xAxis": "Anzahl von Tieren"
+                }
+            },
+            "events": {
+                "events": "Ereignisse",
+                "total": "Gesamt",
+                "days": {
+                    "monday": "Mo",
+                    "tuesday": "Di",
+                    "wednesday": "Mi",
+                    "thursday": "Do",
+                    "friday": "Fr",
+                    "saturday": "Sa",
+                    "sunday": "So"
+                }
+            },
+            "econIR": {
+                "toFreshen": "Demn\u00e4chst zur Abkalbung",
+                "cows": "K\u00fche",
+                "heifers": "Rinder",
+                "toDry": "Zum Trockenstellen",
+                "toCull": "Schlachtk\u00fche",
+                "milkingVsDry": "Melkend vs Trocken",
+                "milkingCows": "Melkende K\u00fche",
+                "dryCows": "Trockene K\u00fche",
+                "estimatedFemalesBorn": "Sch\u00e4tzung der lebendgeborenen F\u00e4rsen",
+                "lactGt1": "Lact > 1",
+                "lactEq1": "Lact = 1"
+            },
+            "heiferCountByAge": {
+                "total": "Gesamt",
+                "subtotal": "Zwischensumme",
+                "ageSuffix": "(Jahr-Monat)",
+                "age": "Nach Alter",
+                "pct": "PROZ.",
+                "count": "Anzahl"
+            },
+            "calfReport": {
+                "alive": "Lebend",
+                "birthsLabel": "Gesamtzahl K\u00e4lber mit Geschlecht nach Laktationsgruppe",
+                "dead": "Tot",
+                "stillBirthsLabel": "Prozent Totgeburten nach Laktationsgruppe",
+                "calves": "K\u00e4lber",
+                "allSexes": "Alle Geschlechter",
+                "females": "Weibliche",
+                "males": "M\u00e4nnliche",
+                "lactationGroup": "Laktationsgruppe (LGRP)"
+            },
+            "conceptionRate": {
+                "bredNumber": "Anzahl Besamt",
+                "percent": "Prozent",
+                "labels": {
+                    "ci95": "95% CI",
+                    "conceptionRisk": "% Konzeptionsrate",
+                    "manyRebreeds": "Viele Wiederbesamungen",
+                    "manyOpens": "Achtung! Viele nicht tragend",
+                    "manyUnknownBredOutcomes": "Viele unbekannte Besamungsergebnisse"
+                },
+                "table": {
+                    "conceptionPercent": "%Conc",
+                    "pregnant": "#Tragend",
+                    "open": "#Offen",
+                    "other": "Andere",
+                    "abort": "Abbrechen",
+                    "total": "Gesamt",
+                    "totPercent": "% GES",
+                    "spc": "BI"
+                },
+                "showMoreInfo": "Datentabelle anzeigen",
+                "hideMoreInfo": "Datentabelle ausblenden"
+            },
+            "pregnancyRisk": {
+                "date": "DATUM",
+                "percent": "PROZENT",
+                "viewDataTable": "DATENTABELLE ANZEIGEN",
+                "closeDataTable": "DATENTABELLE AUSBLENDEN",
+                "labels": {
+                    "info": "Wartezeit %{value} Tage",
+                    "percentage95ci": "PR 95% CI",
+                    "inseminationRisk": "Brunstnutzungsrate",
+                    "pregnancyRisk": "Pregnancy Rate",
+                    "pregnantEligible": "Gesamt",
+                    "totalPregnant": "Tragend",
+                    "percentage95ciFull": "Pregnancy Rate 95% CI"
+                },
+                "table": {
+                    "ci95": "95\u00a0% CI",
+                    "brElegible": "Besamungsf\u00e4hig",
+                    "bred": "Besamt",
+                    "pct": "PROZ.",
+                    "pgElegible": "Tr\u00e4chtigkeitsf\u00e4hig",
+                    "pregnant": "Tragend",
+                    "abort": "Abbr\u00fcche"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "Gesch\u00e4tzte Milchproduktion",
+                "pounds": "Pfund",
+                "poundsInHundreds": "Pfund je Hundert",
+                "references": "Referenzen",
+                "perDayPerCow": "Pro Kuh pro Tag",
+                "perDay": "Pro Tag",
+                "closeDataTable": "TABELLENDATEN SCHLIE\u00dfEN"
+            },
+            "dmiByPenType": {
+                "DMI": "TMA"
+            },
+            "weather": {
+                "today": "Heute",
+                "currently": "Aktuell",
+                "min": "Min.",
+                "max": "Max.",
+                "humidityAbbr": "H",
+                "currentConditions": "Aktuelle Bedingungen",
+                "pressure": "Durck",
+                "visibility": "Sichtbarkeit",
+                "humidity": "Feuchtigkeit",
+                "wind": "Wind"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "Deaktivierte Werkzeuge anzeigen",
+                "noDisabledEquipment": "Kein deaktiviertes Werkzeug darstellbar",
+                "noEnableEquipmentToShow": "Kein aktiviertes Werkzeug darstellbar",
+                "noEquipmentToShow": "Kein Werkzeug darstellbar",
+                "previousLoad": "Vorige Ladung",
+                "nextLoad": "N\u00e4chste Ladung",
+                "targetLoad": "Ziel-Ladung",
+                "actualQty": "Aktuelle Menge",
+                "loadBar": {
+                    "target": "Ziel",
+                    "actual": "Aktuell"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "ECM",
+                "fatCorrectedMilk": "FCM",
+                "averageMilk": {
+                    "labelForDay": "Durchschnitt des letzten Tages",
+                    "labelForDays": "Durchschnitt f\u00fcr die letzten %{days} Tage"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "Datentabelle anzeigen",
+                "closeDataTable": "Datentabelle ausblenden",
+                "table": {
+                    "chemical": "Chemisch",
+                    "current": "Aktuell",
+                    "average": "Durchschnitt",
+                    "tankCapacity": "Tankkapazit\u00e4t"
+                },
+                "chart": {
+                    "chemicalData": "Chemische Daten",
+                    "percent": "Prozent",
+                    "available": "Verf\u00fcgbar",
+                    "remaining": "Verbleibend",
+                    "tank": "Tank",
+                    "percentChemical": "% Chemisch"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "Aktuell",
+                "target": "Ziel",
+                "tons": "Werte in Tonnen",
+                "tonne": "Werte in Tonnen",
+                "allIngredientsLoaded": "Alle Zutaten sind ordnungsgem\u00e4\u00df geladen"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "DairyComp \u00dcbersicht",
+            "zoneFilters": {
+                "all": "Alle Bereiche"
+            },
+            "widgets": {
+                "notReady": "Anwendung nicht bereit."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "ParlorComp \u00dcbersicht",
+            "zoneFilters": {
+                "all": "Alle Bereiche"
+            },
+            "widgets": {
+                "notReady": "Anwendung nicht bereit."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "FeedComp \u00dcbersicht",
+            "zoneFilters": {
+                "all": "Alle Bereiche"
+            },
+            "widgets": {
+                "notReady": "Anwendung nicht bereit."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "Betrieb",
+        "dashboard": "Dashboard",
+        "pens": "Gruppen",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "\u00dcbersicht",
+            "pens": "Gruppen",
+            "worklists": "\u00f6ffne Arbeitsliste",
+            "embryoInventory": "Embryo Inventory"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "\u00dcbersicht",
+            "pens": "Gruppen",
+            "ingredients": "Zutaten",
+            "recipes": "Rezepte",
+            "inventoryProjections": "Inventar & Prognosen",
+            "dmAdjustments": "\u00d6rtliche DM%-Anpassungen",
+            "bunkScoring": "Fressbereich-Bewertung"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "\u00dcbersicht",
+            "pens": "Gruppen",
+            "reports": "Melkstandberichte"
+        },
+        "configureCompany": {
+            "configureCompany": "Betrieb konfigurieren",
+            "userManagement": "Nutzermanager"
+        },
+        "configureDairy": {
+            "configureDairy": "Betrieb konfigurieren",
+            "dairyConfiguration": "Betriebskonfiguration",
+            "userManagement": "Benutzerverwaltung"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "%{contextName} Dashboard",
+        "customization": "Anpassen",
+        "dashboardCustomization": "Anpassen",
+        "dashboardCustomizeCurrent": "Aktuelles Dashboard anpassen",
+        "dashboardCreate": "Neues Dashboard erstellen",
+        "dragAndDropHint": "Ziehen und Loslassen dieser Anwendung",
+        "dashboardSaved": "%{dashboard_name} wurde erfolgreich angepasst.",
+        "dashboardErrorSaving": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.",
+        "dashboardMobileCustomization": "Melden Sie sich vom Desktop aus an, um diese Seite anzupassen"
+    },
+    "dashboardCustomization": {
+        "newDashboard": "Neues Dashboard",
+        "panelTitle": "Seitenanpassung",
+        "emptyList": {
+            "company": {
+                "line1": "Momentan sind keine Widgets verf\u00fcgbar",
+                "line2": "Wir arbeiten daran, in zuk\u00fcnftigen Versionen neue Bereiche hinzuzuf\u00fcgen. Bitte probieren Sie es sp\u00e4ter noch einmal!"
+            },
+            "dairy": {
+                "line1": "Es sind keine Module zur Darstellung vorhanden.",
+                "line2": "Sie k\u00f6nnen neue Module downloaden aus der Auswertungs Gallerie"
+            }
+        },
+        "emptyLine1": "Klicken Sie f\u00fcr eine Vorschau auf eine Anwendung in der Liste.",
+        "emptyLine2": "Um dieses Dashboard zu speichern, m\u00fcssen sie mindestens ein Modul hinzuf\u00fcgen",
+        "selectWidgetsTitle": "Anwendung einf\u00fcgen",
+        "widgetLayoutDetail": "Ziehen und Loslassen der Anwendung, um diese neu zu organisieren",
+        "selectWidgetsDescription": "W\u00e4hlen Sie die Anwendungen, die Sie auf dieser Seite integrieren wollen.",
+        "widgetsLayoutDescription": " Ziehen und Loslassen der Anwendung, um diese neu zu organisieren ",
+        "unsavedChanges": "Sie haben nicht gespeicherte \u00c4nderungen. Sind Sie sich das Sie abbrechen wollen?",
+        "allWidgets": "Alle Module",
+        "dairyWidgets": "Milchvieh Module",
+        "widgetTitles": {
+            "general": "Allgemein",
+            "herd": "Herde",
+            "feed": "Futter",
+            "parlor": "Melkstand"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "Anwendungsgallerie",
+            "installedSuccess": "Die %{title} Anwendung ist jetzt in Ihrer Liste",
+            "installedFailure": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.",
+            "title": "Anwendungsgallerie",
+            "line1": "Klicken Sie auf HINZUF\u00dcGEN auf den Anwendungen unten, um diese als verf\u00fcgbare Option in der VAS Platform auszuw\u00e4hlen.",
+            "line2": "Von dort aus k\u00f6nnen Sie diese zu Ihrem Dashboard und den \u00dcbersichtsseiten hinzuf\u00fcgen.",
+            "installLabel": "Hinzuf\u00fcgen",
+            "installedLabel": "Hinzugef\u00fcgt",
+            "recentlyInstalledBadge": "Gerade hinzugef\u00fcgt",
+            "seeRequirements": "siehe Anforderungen",
+            "integrationRequired": "Integration erforderlich",
+            "requirements": "Bedarf",
+            "contactSupport": "kontaktiere Support",
+            "goBack": "geh zur\u00fcck"
+        },
+        "deleteModalConfirmation": "Das Dashboard l\u00f6schen?"
+    },
+    "agreements": {
+        "pageTitle": "ENDBENUTZERVEREINBARUNG & DATENSCHUTZRICHTLINIE",
+        "pleaseReview": "Bitte lesen Sie die folgende Endbenutzervereinbarung & Datenschutzrichtlinie.",
+        "readAndAgree": "Um den Service zu nutzen, m\u00fcssen Sie die Bedingungen lesen und ihnen zustimmen:",
+        "endUserSuscriptionAgreement": "ENDBENUTZERVEREINBARUNG",
+        "privacyPolicy": "DATENSCHUTZRICHTLINIE",
+        "readAndAgreedSubscription": "Ich habe die Endbenutzervereinbarung gelesen und stimme dieser zu.",
+        "readAndAgreedPolicy": "Ich habe die Datenschutzrichtlinie gelesen und stimme zu.",
+        "cancel": "Abbrechen",
+        "agreeAndContinue": "ZUSTIMMEN UND FORTFAHREN",
+        "notificationConfirmCancel": "Sind Sie sicher, dass Sie nicht zustimmen wollen? Um den Service nutzen zu k\u00f6nnen, m\u00fcssen Sie die Bedingungen lesen und ihnen zustimmen."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "Mobiler Mixer",
+            "stationaryMixer": "Stationsmixer",
+            "deliveryTruck": "Liefer-LKW",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "Zutaten",
+            "location": "Ort",
+            "locations": "Orte",
+            "dmPercent": "TM%",
+            "afCostTon": "AF-Kosten\/Tonne",
+            "afCostMetricTon": "AF-Kosten\/metrische Tonne",
+            "currentOnHandAF": "AF aktuell vorr\u00e4tig",
+            "daysLeft": "Tage \u00fcbrig",
+            "inRecipe": "In Rezept",
+            "trackingEnabled": "Verlaufskontrolle eingeschaltet",
+            "notTracked": "Nicht \u00fcberwacht",
+            "dailyAf": "T\u00e4glicher AF",
+            "weighback": "R\u00fcckwiegung",
+            "allowed": "Erlaubt",
+            "notAllowed": "Nicht erlaubt",
+            "afProjections": "AF-Prognosen",
+            "days": "Tage",
+            "currentAf": "Aktueller AF",
+            "afCost": "AF-Kosten",
+            "dmCost": "DM-Kosten",
+            "dmPercentage": "DM-Prozentsatz",
+            "lastDmHistory": "Letzter DM%-Verlauf",
+            "filter": "Filter",
+            "filterApplied": "Filter angewendet",
+            "filtersApplied": "Filter angewendet",
+            "clear": "Entfernen",
+            "type": "Typ",
+            "premix": "Vormischung",
+            "optionSelected": "Option ausgew\u00e4hlt",
+            "optionsSelected": "Optionen ausgew\u00e4hlt",
+            "lastInventoryMovements": {
+                "title": "Letzte Inventarbewegungen",
+                "date": "Datum",
+                "type": "Typ",
+                "afTons": "AF (Tonnen)",
+                "runningTotal": "Laufende Summe (Tonnen)",
+                "inventoryTypes": {
+                    "delivery": "Lieferung",
+                    "sale": "Verkauf",
+                    "adjustment": "Anpassung",
+                    "usage": "Verbrauch",
+                    "initialInventory": "Ursprungsinventar",
+                    "transferIn": "Transfer Eingang",
+                    "transforOut": "Transfer Ausgang"
+                }
+            },
+            "filterOptions": {
+                "all": "Alle",
+                "inRecipes": "Nur in Rezepten",
+                "notInRecipes": "Nicht in Rezepten",
+                "onlyPremixes": "Nur Vormischungen",
+                "notPremixes": "Keine Vormischungen"
+            },
+            "recipes": {
+                "title": "%{ingredientName}-Verbrauch nach Rezepten",
+                "recipeName": "Rezeptname",
+                "DM": "DM-MENGE \/HD",
+                "AF": "AF-MENGE \/HD",
+                "pens": "Gruppen, die mit diesem Rezept gef\u00fcttert werden",
+                "animalsFed": "Gef\u00fctterte Tiere",
+                "dailyAFUsage": "T\u00e4glicher AF-Verbrauch",
+                "placeholderLine1": "Aktuelle Zutat wird nicht",
+                "placeholderLine2": "in einem Rezept verwendet."
+            }
+        },
+        "dmAdjustments": {
+            "title": "\u00d6rtliche DM%-Anpassungen",
+            "name": "Benutzername",
+            "type": "Typ",
+            "location": "Ort",
+            "lastChange": "Letzte \u00c4nderung",
+            "responsible": "Verantwortlich",
+            "dmPercent": "DM%",
+            "lastDmHistory": "Letzter DM%-Verlauf",
+            "noDmHistory": "Kein DM%-Verlauf verf\u00fcgbar",
+            "validation": {
+                "dmPercent": "Werte m\u00fcssen unter 100% liegen",
+                "percentChange": "Mehr als 5% \u00c4nderung "
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "\u00e4ndern in DM%",
+                    "message": "Die Ver\u00e4nderung liegt \u00fcber (+\/-) 5%. Sind Sie sicher, dass Sie es schaffen wollen?\n\n",
+                    "confirmLabel": "ja"
+                },
+                "cancelChanges": {
+                    "title": "nicht gespeicherte \u00c4nderungen verwerfen?",
+                    "confirmLabel": "Verwerfen"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "Rezepte",
+            "activeRecipes": "Aktive Rezepte",
+            "otherRecipes": "Andere Rezepte",
+            "recipeDm": "Rezept-DM\u00a0%",
+            "densityFactor": "Dichtefaktor",
+            "afCostTon": "AF-Kosten\/Tonne",
+            "currentlyReplacing": "Wird derzeit ersetzt",
+            "premix": "Vormischung",
+            "alternativeRecipe": "Alternatives Rezept",
+            "animalsFed": "Gef\u00fctterte Tiere",
+            "pensFed": "Gef\u00fctterte Gruppen",
+            "list": "Rezeptliste",
+            "inRecipe": "IN REZEPT",
+            "dmhd": "DM \/ HD",
+            "afhd": "AF \/ HD",
+            "dm": "DM",
+            "dmPercent": "DM %",
+            "afCostHd": "af-Kosten\/hd",
+            "active": "aktiv",
+            "replaced": "ersetzt",
+            "activeAlternative": "Aktive Alternative",
+            "seeMore": "mehr anzeigen",
+            "directions": "Rezeptanleitung",
+            "sequence": "Seq",
+            "ingredient": "Zutat",
+            "location": "Ort",
+            "af": "AF %",
+            "afPercent": "AF %",
+            "pensUsing": "Gruppen, die dieses Rezept verwenden",
+            "total": "Gesamt",
+            "recipeComposition": "Rezeptzusammensetzung",
+            "alternate": "Ersatz",
+            "instructions": {
+                "saveSequenceSuccess": "Die Reihenfolge wurde erfolgreich ge\u00e4ndert",
+                "reorderHint": "Verwenden Sie die Pfeile links oder ziehen Sie einen Posten und legen Sie ihn ab, um die Reihenfolge zu \u00e4ndern.",
+                "validation": {
+                    "quantity": "Die Menge muss gr\u00f6\u00dfer als null sein",
+                    "required": "Ein Wert muss vorhanden sein"
+                }
+            },
+            "pens": {
+                "pen": "Gruppe",
+                "type": "Typ",
+                "use": "Verwendung",
+                "description": "Beschreibung"
+            }
+        },
+        "inventory": {
+            "title": "Inventar",
+            "projections": {
+                "title": "Inventar & Prognosen",
+                "name": "Name",
+                "type": "Typ",
+                "location": "Ort",
+                "afQty": "AF-Menge",
+                "afCost": "AF-Kosten",
+                "dailyAf": "T\u00e4glicher AF",
+                "nextDays": "N\u00e4chste %{day} Tage (%{unit})",
+                "daysLeft": "Tage verbleibend",
+                "all": "Alle",
+                "notTracked": "Nicht \u00fcberwacht",
+                "youreRunningOutOf": "Geht Ihnen aus:"
+            }
+        },
+        "bunkScoring": {
+            "title": "Fressbereich-Bewertung",
+            "animalsToFeed": "Zu f\u00fctternde Tiere",
+            "targetDmHd": "Ziel DM\/HD (%{unit})",
+            "feeding": "F\u00fctterung",
+            "active": "Aktiv",
+            "inactive": "Inaktiv",
+            "lastDaysFeedings": "F\u00fctterungen der letzten %{days} Tage",
+            "filter": "Filter",
+            "all": "Alle",
+            "clear": "L\u00f6schen",
+            "lastUpdated": "letzte Update",
+            "modal": {
+                "title": "Ver\u00e4nderungen in der F\u00fctterung",
+                "bodyText": "Sind sie sicher, das sie %{state} F\u00fctterung in Gruppen %{penNumber}",
+                "confirmLabel": "Yes, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "HIER ZIEHEN UND LOSLASSEN EINES BILDES",
+        "line2": "Nutzen Sie JPG oder PNG",
+        "addImage": "BILD HINZUF\u00dcGEN",
+        "changeImage": "BILD \u00c4NDERN"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "Melkstand-Status",
+        "milk": {
+            "name": "Milch",
+            "currentShift": "Aktuelle Schicht",
+            "currentPen": "Aktuelle Gruppe",
+            "currentFlow": {
+                "title": "Aktueller Durchfluss",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "K\u00fche in Gruppe",
+            "currentPenTotalMilk": {
+                "title": "Aktuelle Gesamte Gruppenmilch",
+                "value": "%{value} GAL"
+            },
+            "currentShiftTotalMilk": {
+                "title": "Aktuelle Gesamtmilchmenge in dieser Schicht",
+                "value": "%{value} GAL"
+            },
+            "totalTime": {
+                "title": "Gesamtzeit",
+                "value": "%{value} MIN"
+            },
+            "secStall": "Sek\/Platz",
+            "rotary": {
+                "title": "Letzte Karussell-Daten",
+                "name": "Karussell",
+                "minsTurn": "Min\/Drehung",
+                "secStall": "Sek\/Platz",
+                "cowsHour": "K\u00fche\/Stunde",
+                "turnsHour": "Drehungen\/Stunde",
+                "statistic": {
+                    "fastest": "Schnellste",
+                    "average": "Durchschnitt",
+                    "effective": "Effektiv"
+                }
+            },
+            "currentTask": {
+                "title": "Aktuelle Aufgaben",
+                "task": "Aufgabe",
+                "cows": "K\u00fche"
+            }
+        },
+        "wash": {
+            "name": "Waschen",
+            "minTemp": "Min Temp",
+            "currentWashCycle": "Aktueller Waschzyklus",
+            "currentFlow": {
+                "title": "Aktueller Durchfluss",
+                "value": "%{value} GAL"
+            },
+            "currentWashTotal": {
+                "title": "Aktueller Waschgang Gesamt",
+                "value": "%{value} GAL"
+            },
+            "washCycle": {
+                "rinse": "Sp\u00fclung",
+                "wash": "Waschen",
+                "acid": "S\u00e4ure"
+            }
+        },
+        "currentTemp": {
+            "title": "Aktuelle Temperatur"
+        },
+        "minTemp": {
+            "title": "Min Temp"
+        },
+        "maxTemp": {
+            "title": "Max Temp"
+        },
+        "tempAlarm": {
+            "title": "Temp Alarm",
+            "values": {
+                "none": "Nichts",
+                "high": "Hohe Temp"
+            }
+        },
+        "lastWashStatus": {
+            "title": "Letzter Waschstatus",
+            "values": {
+                "good": "Gut",
+                "bad": "Schlecht"
+            }
+        },
+        "washAlarm": {
+            "title": "Waschalarm",
+            "values": {
+                "none": "Nichts",
+                "lowTemp": "Niedrige Temp"
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "Karten",
+        "title": {
+            "line1": "Es gibt keine %{type}",
+            "line2": "darzustellen",
+            "line3": "mit diesen angewendeten Filtern",
+            "line4": "in diesem"
+        },
+        "types": {
+            "lists": "listen",
+            "error": "Ein unerwarteter Fehler ist aufgetreten"
+        }
+    },
+    "parlor": {
+        "title": "MelkstandComp",
+        "reports": {
+            "title": "Keine Melkst\u00e4nde zum Anzeigen",
+            "noParlorToShow": "Es sind keine anzeigbaren Melkst\u00e4nde vorhanden",
+            "typeOfParlor": "Melkstandtyp",
+            "manufacturer": "Hersteller",
+            "stalls": "Pl\u00e4tze",
+            "currentShift": "Aktuelle Schicht",
+            "currentPen": "Aktuelle Gruppe",
+            "parlorTitle": "Melkstand",
+            "parlorTypes": {
+                "herringbone": "Fischgr\u00e4te",
+                "parallel": "Parallel",
+                "rotary": "Karussell"
+            },
+            "lastMilkingsReports": {
+                "title": "Letzte Melkberichte",
+                "milkings": {
+                    "pen": "Melkstand",
+                    "totalMilk": "Milch gesamt",
+                    "milkHr": "Milch \/h",
+                    "milkCow": "Milch \/Kuh",
+                    "cows": "K\u00fche",
+                    "cowsHr": "K\u00fche \/h",
+                    "totalTime": "Gesamtzeit",
+                    "startTime": "Anfangszeit",
+                    "stopTime": "Endzeit",
+                    "penGap": "Gruppenabstand",
+                    "maxTemp": "Max. Temp.",
+                    "penDev": "Gruppenabw.",
+                    "totalAvg": "Gesamt\/Durchschn.",
+                    "total": "gesamt"
+                },
+                "washings": {
+                    "washupPhase": "Waschphase",
+                    "totalFlow": "Gesamtdurchfluss",
+                    "totalTime": "Gesamtzeit",
+                    "startTime": "Anfangszeit",
+                    "stopTime": "Endzeit",
+                    "minTemp": "Min. Temp.",
+                    "maxTemp": "Max. Temp.",
+                    "flowMin": "Durchfluss\/Min",
+                    "rinse": "Sp\u00fclen",
+                    "wash": "Waschen",
+                    "acid": "S\u00e4ure",
+                    "init": "Initialisieren",
+                    "washAcid": "Waschen und S\u00e4ure",
+                    "idle": "m\u00fc\u00dfig"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "Letzte Melkstatistiken",
+                "barGraphView": "Balkendiagrammansicht",
+                "tableView": "Tabellenansicht",
+                "totalMilk": "Milch gesamt",
+                "averageMilkPerHour": "Durchschn. Milch\/h",
+                "averageDuration": "Durchsch. Dauer",
+                "averageCowsPerHour": "Durchschn. K\u00fche\/h",
+                "milking": "Melken",
+                "milkPerHour": "Milch\/h",
+                "duration": "Dauer",
+                "cowsPerHour": "K\u00fche\/h",
+                "hours": "Std",
+                "minutes": "Min",
+                "totalAverage": "Gesamt\/Durchschn."
+            },
+            "lastRotaryData": {
+                "title": "Letzte Karussell-Daten"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Mitteilung "
+    },
+    "embryoInventory": {
+        "title": "Embryo Inventory"
+    },
+    "frozenEmbryos": {
+        "title": "frozen"
+    },
+    "freshEmbryos": {
+        "title": "fresh"
+    },
+    "transferredEmbryos": {
+        "title": "Embryo - Transfer"
+    },
+    "Embryo": {
+        "title": "Embryos",
+        "from": "From",
+        "to": "To",
+        "stage": "Stage",
+        "grade": "Grade",
+        "status": "Storage",
+        "type": "Type",
+        "clear": "Clear",
+        "recipient": "Recipient",
+        "date": "Date",
+        "sire": "Sire",
+        "donor": "Donor",
+        "tech": "Tech",
+        "brCode": "BRCode",
+        "breedingCode": "Breeding Code",
+        "storage": "Storage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Embryo Breed",
+        "eage": "Eage",
+        "embryoAge": "Embryo Age",
+        "tank": "Tank",
+        "cane": "Cane",
+        "straw": "Straw",
+        "frozenAt": "Frozen @",
+        "method": "Method",
+        "incubator": "Incubator",
+        "strawVial": "Straw\/Vial",
+        "stageOpts": {
+            "1": "Unfertilized",
+            "2": "Simple Celled",
+            "3": "Early Morula",
+            "4": "Morula",
+            "5": "Early Blastocyst",
+            "6": "Blastocyst",
+            "7": "Expanded Blastocyst",
+            "8": "Hatched Blastocyst",
+            "9": "Expanded Hatched Blastocyst"
+        },
+        "methods": {
+            "unknown": "Unknown",
+            "slow": "Slow",
+            "dt": "DT"
+        },
+        "gradeOpts": {
+            "1": "Unspecified",
+            "2": "Good",
+            "3": "Fair",
+            "4": "Poor",
+            "5": "Dead"
+        },
+        "storageType": {
+            "fresh": "Fresh",
+            "frozen": "Frozen"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Other"
+        }
+    }
+}

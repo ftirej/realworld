@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "\u042d\u043b. \u043f\u043e\u0447\u0442\u0430",
+        "error": "\u041e\u0448\u0438\u0431\u043a\u0430",
+        "password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+        "confirm": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c",
+        "cancel": "\u041e\u0442\u043c\u0435\u043d\u0430",
+        "save": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c",
+        "delete": "Delete",
+        "close": "\u0417\u0430\u043a\u0440\u044b\u0442\u044c",
+        "done": "\u0413\u043e\u0442\u043e\u0432\u043e",
+        "refresh": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c",
+        "loading": "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...",
+        "edit": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c",
+        "editCard": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443",
+        "hide": "\u0421\u043a\u0440\u044b\u0442\u044c",
+        "hideCard": "\u0421\u043a\u0440\u044b\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443",
+        "yes": "\u0414\u0430",
+        "yes_discard": "\u0414\u0430, \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c",
+        "no": "\u041d\u0435\u0442",
+        "cancelMessage": "\u0423 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u0412\u0441\u0451 \u0440\u0430\u0432\u043d\u043e \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c?",
+        "changesSavedSuccessfully": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u044b!",
+        "changesSavedError": "\u041f\u0440\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0438\u043d\u0443\u0442.",
+        "unknownError": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430.",
+        "tableView": "\u0412 \u0432\u0438\u0434\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+        "graphView": "\u0412 \u0432\u0438\u0434\u0435 \u0433\u0440\u0430\u0444\u0438\u043a\u0430",
+        "ok": "\u043e\u043a",
+        "requiredFields": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043f\u043e\u043b\u044f",
+        "clear": "\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+        "active": "\u0410\u043a\u0442\u0438\u0432\u043d\u043e",
+        "inactive": "\u041d\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u043e",
+        "disabled": "\u041e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u043e",
+        "view": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440",
+        "doConfirm": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+        "enable": "\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c",
+        "disable": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u044c",
+        "acceptMessage": "\u041d\u0435\u043b\u044c\u0437\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0438\u0442\u044c \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u044e.",
+        "welcome": "\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c",
+        "passwordHelp": "\u041d\u0443\u0436\u043d\u0430 \u043f\u043e\u043c\u043e\u0449\u044c \u0441 \u043f\u0430\u0440\u043e\u043b\u0435\u043c?",
+        "next": "\u0421\u043b\u0435\u0434.",
+        "back": "\u041d\u0430\u0437\u0430\u0434",
+        "successfullyUpdated": "\u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043e.",
+        "vasPlatformLogo": "\u041b\u043e\u0433\u043e\u0442\u0438\u043f VAS Platform",
+        "learnMore": "\u0423\u0437\u043d\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435",
+        "accountHome": "\u0433\u043b. \u044d\u043a\u0440\u0430\u043d \u0443\u0447. \u0437\u0430\u043f\u0438\u0441\u0438",
+        "comingSoon": "\u0421\u043a\u043e\u0440\u043e!",
+        "notDefined": "\u041d\u0435 \u0437\u0430\u0434\u0430\u043d\u043e",
+        "current": "\u0422\u0435\u043a\u0443\u0449.",
+        "previous": "\u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449.",
+        "clearAll": "\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u044c \u0432\u0441\u0435",
+        "preview": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440",
+        "leave": "\u0412\u044b\u0439\u0442\u0438",
+        "undefined": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043e",
+        "backToTop": "\u0412\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u043d\u0430\u0432\u0435\u0440\u0445",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "days": {
+            "monday": "Mo",
+            "tuesday": "Tu",
+            "wednesday": "We",
+            "thursday": "Th",
+            "friday": "Fr",
+            "saturday": "Sa",
+            "sunday": "Su"
+        },
+        "monthsShort": {
+            "jan": "Jan",
+            "feb": "Feb",
+            "mar": "Mar",
+            "apr": "Apr",
+            "may": "May",
+            "jun": "Jun",
+            "jul": "Jul",
+            "aug": "Aug",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Dec"
+        },
+        "months": {
+            "jan": "January",
+            "feb": "February",
+            "mar": "March",
+            "apr": "April",
+            "may": "May",
+            "jun": "June",
+            "jul": "July",
+            "aug": "August",
+            "sep": "September",
+            "oct": "October",
+            "nov": "November",
+            "dec": "December"
+        },
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "help": {
+            "tag": "Need Help?",
+            "learnMore": "Learn More",
+            "about": " About",
+            "labels": {
+                "worklists": "Worklists!",
+                "commands": {
+                    "platform": "Platform Commands!",
+                    "list": "the LIST Command!",
+                    "sum": "the SUM Command!",
+                    "count": "the COUNT Command!"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animals"
+        }
+    },
+    "unitSystems": {
+        "metric": "\u041c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430",
+        "imperial": "\u0418\u043c\u043f\u0435\u0440\u0441\u043a\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430"
+    },
+    "unitSystemsLabels": {
+        "metric": "\u041a\u0438\u043b\u043e\u0433\u0440\u0430\u043c\u043c\u044b, \u043b\u0438\u0442\u0440\u044b, \u0426\u0435\u043b\u044c\u0441\u0438\u0439, \u043c\u0438\u043b\u043b\u0438\u0433\u0440\u0430\u043c\u043c\u044b",
+        "imperial": "\u0424\u0443\u043d\u0442\u044b, \u0433\u0430\u043b\u043b\u043e\u043d\u044b, \u0424\u0430\u0440\u0435\u043d\u0433\u0435\u0439\u0442, \u0443\u043d\u0446\u0438\u0438"
+    },
+    "recentCommands": {
+        "title": "Recent Commands",
+        "edit": "EDIT",
+        "noCommands": "There are no Recent\nCommands",
+        "viewResults": "View Results"
+    },
+    "units": {
+        "inHundreds": "%{unit}, \u0441\u043e\u0442\u043d\u0438",
+        "pounds": "\u0424\u0443\u043d\u0442.",
+        "inPounds": "%{value} \u0444\u0443\u043d\u0442.",
+        "kilograms": "\u041a\u0438\u043b\u043e\u0433\u0440\u0430\u043c\u043c\u044b",
+        "inKilograms": "%{value} \u043a\u0433",
+        "gallons": "\u0413\u0430\u043b\u043b\u043e\u043d\u044b",
+        "inGallons": "%{value} \u0433\u0430\u043b",
+        "inGallonsPerMinute": "%{value} \u0413\/\u041c",
+        "inLitres": "%{value} \u043b",
+        "inLitresPerMinute": "%{value} \u041b\/\u041c",
+        "hg": "\u0414\u044e\u0439\u043c\u044b \u0440\u0442\u0443\u0442\u043d\u043e\u0433\u043e \u0441\u0442\u043e\u043b\u0431\u0430",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value} hPa",
+        "miles": "\u041c\u0438\u043b\u0438",
+        "inMiles": "%{value} \u043c\u0438\u043b.",
+        "inKilometers": "%{value} \u043a\u043c",
+        "mph": "\u041c\u0438\u043b\u0438 \u0432 \u0447\u0430\u0441",
+        "inKph": "%{value} \u043a\u043c\/\u0447",
+        "inMph": "%{value} \u043c\u0438\u043b\u044c\/\u0447",
+        "inOunces": "%{value} \u0443\u043d\u0446.",
+        "inGrams": "%{value} \u0433",
+        "inTons": "%{value} \u0442",
+        "inTonne": "%{value} \u0422.",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "\u0442\u043e\u043d\u043d(\u044b)",
+        "metricTons": "\u0442",
+        "ton": "\u0442\u043e\u043d\u043d\u0430",
+        "metricTon": "\u0442",
+        "lbs": "\u0444\u043d\u0442",
+        "kg": "\u043a\u0433",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "\u0444\u043d\u0442",
+                "singular": "\u0444\u0443\u043d\u0442",
+                "plural": "\u0444\u0443\u043d\u0442\u044b"
+            },
+            "metric": {
+                "symbol": "\u043a\u0433",
+                "singular": "\u043a\u0438\u043b\u043e\u0433\u0440\u0430\u043c\u043c",
+                "plural": "\u043a\u0438\u043b\u043e\u0433\u0440\u0430\u043c\u043c(\u0430)"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "\u0442",
+                "singular": "\u0442\u043e\u043d\u043d\u0430",
+                "plural": "\u0442\u043e\u043d\u043d(\u044b)"
+            },
+            "metric": {
+                "symbol": "\u0422",
+                "singular": "\u0442\u043e\u043d\u043d\u0430",
+                "plural": "\u0442\u043e\u043d\u043d(\u044b)"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "\u0443\u043d\u0446.",
+                "singular": "\u0443\u043d\u0446\u0438\u0438(-\u0439)",
+                "plural": "\u0443\u043d\u0446\u0438\u0438(-\u0439)"
+            },
+            "metric": {
+                "symbol": "\u0433",
+                "singular": "\u0433\u0440\u0430\u043c\u043c",
+                "plural": "\u0433\u0440\u0430\u043c\u043c"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "\u0433\u0430\u043b.",
+                "singular": "\u0433\u0430\u043b\u043b\u043e\u043d",
+                "plural": "\u0433\u0430\u043b\u043b\u043e\u043d\u0430(-\u043e\u0432)"
+            },
+            "metric": {
+                "symbol": "\u043b",
+                "singular": "\u043b\u0438\u0442\u0440",
+                "plural": "\u043b\u0438\u0442\u0440\u0430(-\u043e\u0432)"
+            },
+            "singular": {
+                "metric": "\u043b",
+                "imperial": "\u0433\u0430\u043b."
+            },
+            "plural": {
+                "metric": "\u043b",
+                "imperial": "\u0433\u0430\u043b."
+            }
+        }
+    },
+    "dates": {
+        "day": "\u0414\u0435\u043d\u044c",
+        "month": "\u041c\u0435\u0441\u044f\u0446",
+        "year": "\u0413\u043e\u0434"
+    },
+    "login": {
+        "forgotPassword": "\u0417\u0430\u0431\u044b\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c?",
+        "login": "\u0412\u0445\u043e\u0434",
+        "signIn": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443",
+        "signInHere": "\u0412\u043e\u0439\u0434\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044c",
+        "sessionExpired": "\u0412\u0440\u0435\u043c\u044f \u0441\u0435\u0430\u043d\u0441\u0430 \u0438\u0441\u0442\u0435\u043a\u043b\u043e",
+        "rememberMe": "\u0417\u0430\u043f\u043e\u043c\u043d\u0438\u0442\u0435 \u043c\u0435\u043d\u044f",
+        "sessionExpiredMessage": "\u0421\u0435\u0430\u043d\u0441 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d \u0438\u0437-\u0437\u0430 \u043d\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438. \u0414\u043b\u044f \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0435\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0432\u043e\u0439\u0434\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0437\u0430\u043d\u043e\u0432\u043e.",
+        "invalidCredentials": "\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u0438\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437.",
+        "sessionClosedByChangedPassword": "\u041f\u0430\u0440\u043e\u043b\u044c \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d",
+        "sessionClosedByChangedPasswordMessage": "\u0412\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d. \u0412\u043e\u0439\u0434\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0437\u0430\u043d\u043e\u0432\u043e, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0443"
+    },
+    "keto": {
+        "graphDesc": "Pred. Ketosis\/Tested",
+        "references": "REFERENCES",
+        "tableTitle": "Ketosis Prevalence",
+        "tableDesc": "Predicted Ketosis\/ Tested Animals",
+        "yAxis": "Prevalence Level %",
+        "allAnimals": "ALL ANIMALS",
+        "earlyFresh": "EARLY FRESH PREVALENCES",
+        "firstLact": "1st LACT",
+        "secondLact": "2nd LACT",
+        "secondPlusLact": "2nd+ LACT",
+        "target": "TARGET",
+        "overall": "(5 to 20 DIM)",
+        "early": "(5 to 11 DIM)",
+        "animals": "Animals",
+        "earlyFreshDim": "EARLY FRESH (5-11 DIM)"
+    },
+    "commandLine": {
+        "title": "COMMAND",
+        "execute": "EXECUTE",
+        "placeholder": "Type a command",
+        "invalid": "Invalid Command",
+        "unsupported": "Command not supported",
+        "results": {
+            "title": "Command Results",
+            "executed": "Executed:",
+            "loading": "Loading",
+            "print": "Print",
+            "export": "Export",
+            "showGraph": "Show Graph",
+            "hideGraph": "Hide Graph",
+            "noMatch": "No Matches Found"
+        },
+        "sum": {
+            "by": "By",
+            "pct": "PCT %",
+            "count": "Count",
+            "field": "%{modifier} %{field}",
+            "total": "Total",
+            "sum": "Item",
+            "childrenBy": "BY %{child} IN %{parent}",
+            "noByOrSum": "{amount} animals in this group",
+            "range": "Range",
+            "standardDeviation": "Standard Deviation"
+        },
+        "count": {
+            "inGroup": "Animals in this group"
+        }
+    },
+    "signup": {
+        "setupAccount": "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u043c \u0432\u0430\u0448\u0443 \u0443\u0447\u0435\u0442\u043d\u0443\u044e \u0437\u0430\u043f\u0438\u0441\u044c",
+        "tokenExpired": "\u0421\u0441\u044b\u043b\u043a\u0430 \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0438\u0441\u0442\u0435\u043a\u043b\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u0435\u0449\u0435 \u0440\u0430\u0437",
+        "errorFetchingToken": "\u041f\u0440\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437",
+        "setPassword": "\u0417\u0430\u0434\u0430\u0439\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "signup": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f",
+        "email": "\u042d\u043b. \u043f\u043e\u0447\u0442\u0430",
+        "profile": "\u041f\u0440\u043e\u0444\u0438\u043b\u044c",
+        "password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+        "firstStepThanksMessage": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448 \u0438\u043d\u0442\u0435\u0440\u0435\u0441 \u043a VAS Platform.",
+        "needEmail": "\u0427\u0442\u043e\u0431\u044b \u043d\u0430\u0447\u0430\u0442\u044c, \u043d\u0430\u043c \u043d\u0443\u0436\u0435\u043d \u0430\u0434\u0440\u0435\u0441 \u0432\u0430\u0448\u0435\u0439 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b.",
+        "haveAccount": "\u0423 \u0432\u0430\u0441 \u0443\u0436\u0435 \u0435\u0441\u0442\u044c \u0443\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c?",
+        "emptyEmail": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b.",
+        "invalidEmail": "\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b.",
+        "defaultError": "\u0412\u043e \u0432\u0440\u0435\u043c\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u0432\u043e\u0437\u043d\u0438\u043a\u043b\u0430 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430. \u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u043f\u043e\u0437\u0436\u0435.",
+        "emailExists": "\u0412\u0430\u0448 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u0443\u0436\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u043d\u0430 VAS Platform.",
+        "emailSent": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043d\u0430 ",
+        "checkInbox": "\u041f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0441\u0432\u043e\u044e \u043f\u043e\u0447\u0442\u0443, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044e.",
+        "firstName": "\u0418\u043c\u044f",
+        "lastName": "\u0424\u0430\u043c\u0438\u043b\u0438\u044f",
+        "country": "\u0421\u0442\u0440\u0430\u043d\u0430",
+        "state": "\u0428\u0442\u0430\u0442",
+        "city": "\u0413\u043e\u0440\u043e\u0434",
+        "postalCode": "\u0418\u043d\u0434\u0435\u043a\u0441",
+        "enterPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "reEnterPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c \u0435\u0449\u0435 \u0440\u0430\u0437",
+        "allSet": "\u0412\u0441\u0451 \u0433\u043e\u0442\u043e\u0432\u043e!",
+        "accountCreated": "\u0423\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u0441\u043e\u0437\u0434\u0430\u043d\u0430.",
+        "continueToAgreements": "\u041d\u0430\u0436\u043c\u0438\u0442\u0435 \u043d\u0438\u0436\u0435, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0435 \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043e \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0435 \u0438 \u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0443 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0438 \u043d\u0430\u0447\u0430\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f VAS Platform.",
+        "continue": "\u041f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c",
+        "gotMobile": "\u0425\u043e\u0442\u0438\u0442\u0435 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u0438?",
+        "tryVasInMobile": "\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 VAS Platform \u043d\u0430 \u0432\u0430\u0448\u0435\u043c \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435.",
+        "addProfilePicture": "\u0418\u0417\u041e\u0411\u0420\u0410\u0416\u0415\u041d\u0418\u0415",
+        "error": {
+            "firstName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0435 \u0438\u043c\u044f.",
+            "lastName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u044e \u0444\u0430\u043c\u0438\u043b\u0438\u044e.",
+            "country": "\u041d\u0443\u0436\u043d\u043e \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443.",
+            "state": "\u041d\u0443\u0436\u043d\u043e \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u0448\u0442\u0430\u0442.",
+            "city": "\u041d\u0443\u0436\u043d\u043e \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u0433\u043e\u0440\u043e\u0434.",
+            "postalCode": "\u041d\u0443\u0436\u043d\u043e \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u0438\u043d\u0434\u0435\u043a\u0441.",
+            "passwordIsEmpty": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c.",
+            "passwordMinimumRequirements": "\u041f\u0430\u0440\u043e\u043b\u044c \u043d\u0435 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c.",
+            "passwordNotMatch": "\u041f\u0430\u0440\u043e\u043b\u044c \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442.",
+            "rePasswordEmpty": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c \u0437\u0430\u043d\u043e\u0432\u043e.",
+            "signingUp": "\u041f\u0440\u0438 \u043f\u043e\u043f\u044b\u0442\u043a\u0435 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u043f\u043e\u0437\u0436\u0435."
+        }
+    },
+    "expiredToken": {
+        "title": "We're sorry!",
+        "type": {
+            "signup": "complete the registration",
+            "reset": "reset your password"
+        },
+        "line1": "Your time to %{type} has expired!",
+        "line2": "Please re-enter your email address in order to receive a new link.",
+        "send": "Send"
+    },
+    "forgotPassword": {
+        "forgotPassword": "\u0417\u0430\u0431\u044b\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c?",
+        "subtitle_": "\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b, \u0438 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043f\u043e \u0441\u0431\u0440\u043e\u0441\u0443",
+        "_subtitle": "\u043f\u0430\u0440\u043e\u043b\u044f \u0431\u0443\u0434\u0443\u0442 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u044b \u043d\u0430 \u043d\u0435\u0433\u043e.",
+        "titleMessage": "\u041f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0441\u0432\u043e\u044e \u044d\u043b. \u043f\u043e\u0447\u0442\u0443.",
+        "description_": "\u0415\u0441\u043b\u0438 \u0443\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442,",
+        "_description": "\u0432\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e \u0441\u043e \u0441\u0441\u044b\u043b\u043a\u043e\u0439 \u0434\u043b\u044f \u0441\u0431\u0440\u043e\u0441\u0430 \u043f\u0430\u0440\u043e\u043b\u044f.",
+        "continueSignup": "\u041d\u0430 \u0430\u0434\u0440\u0435\u0441 %{email} \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u044d\u043b. \u043f\u0438\u0441\u044c\u043c\u043e. \u041f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0441\u0432\u043e\u044e \u043f\u043e\u0447\u0442\u0443, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044e",
+        "backToLogin": "\u041d\u0430\u0437\u0430\u0434 \u043a \u0444\u043e\u0440\u043c\u0435 \u0432\u0445\u043e\u0434\u0430"
+    },
+    "passwordReset": {
+        "setNewPassword": "Set new password",
+        "tokenExpired": "The reset password link has expired, please enter your email again"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "\u0412\u0430\u0448 \u0431\u0440\u0430\u0443\u0437\u0435\u0440 \u043d\u0435 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044f",
+            "line1": "\u0414\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0441 VAS Platform \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043e\u0434\u0438\u043d \u0438\u0437 \u044d\u0442\u0438\u0445",
+            "line2": "\u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u0432.",
+            "line3": "(\u041d\u0430\u0436\u043c\u0438\u0442\u0435 \u0434\u043b\u044f \u0441\u043a\u0430\u0447\u0438\u0432\u0430\u043d\u0438\u044f)"
+        }
+    },
+    "chart": {
+        "charts": "\u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u044b",
+        "rechart": "Rechart - SimpleLineChart",
+        "rechartArea": "Rechart - SimpleAreaChart",
+        "slider": "\u041f\u043e\u043b\u0437\u0443\u043d\u043e\u043a",
+        "sliderValue": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u0437\u0443\u043d\u043a\u0430",
+        "rcSlider": "rc-slider",
+        "gauge": "\u0414\u0430\u0442\u0447\u0438\u043a",
+        "liquidGauge": "\u0414\u0430\u0442\u0447\u0438\u043a \u0436\u0438\u0434\u043a\u043e\u0441\u0442\u0438",
+        "tempGauge": "\u0414\u0430\u0442\u0447\u0438\u043a \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b",
+        "emptyPlaceholder": {
+            "title": "\u0414\u0430\u043d\u043d\u044b\u0445 \u043f\u043e\u043a\u0430 \u043d\u0435\u0442",
+            "description": "\u041d\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0440\u0438\u0441\u043e\u0432\u0430\u0442\u044c \u0433\u0440\u0430\u0444\u0438\u043a \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043e\u0442\u0447\u0435\u0442\u0430."
+        }
+    },
+    "filter": {
+        "results": "Search Results",
+        "label": "Filter by",
+        "clearFilter": "Clear filter",
+        "clearFilters": "Clear filters",
+        "dateError": "End date can't be before start date",
+        "type": {
+            "pen": "Pen"
+        },
+        "placeholder": {
+            "pen": "Pen Number"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "\u041d\u0430\u0434\u0433\u0440\u043e\u0431\u0438\u0435",
+            "parentage": "\u041f\u0440\u043e\u0438\u0441\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435",
+            "currentLactation": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u044f",
+            "milkInfo": "\u041e \u043c\u043e\u043b\u043e\u043a\u0435",
+            "matings": "\u0412\u044f\u0437\u043a\u0438",
+            "scanning": "\u0421\u043a\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+            "offspring": "\u041f\u043e\u0442\u043e\u043c\u0441\u0442\u0432\u043e",
+            "vet": "\u0412\u0435\u0442.",
+            "event": {
+                "events": "\u0421\u043e\u0431\u044b\u0442\u0438\u044f",
+                "eventsBar": "\u0428\u043a\u0430\u043b\u0430 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 \u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a \u043a\u043e\u0440\u043e\u0432",
+                "dualTable": "\u0434\u0432\u043e\u0439\u043d\u0430\u044f \u0442\u0430\u0431\u043b\u0438\u0446\u0430",
+                "singleTable": "\u043e\u0434\u043d\u0430 \u0442\u0430\u0431\u043b\u0438\u0446\u0430",
+                "details": "\u0414\u0435\u0442\u0430\u043b\u0438",
+                "responsible": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+                "pen": "\u0417\u0430\u0433\u043e\u043d",
+                "date": "\u0414\u0430\u0442\u0430",
+                "event": "\u0421\u043e\u0431\u044b\u0442\u0438\u0435",
+                "remarks": "\u0417\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u0441\u043e\u0431\u044b\u0442\u0438\u044f\u043c \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f."
+            },
+            "lactation": {
+                "lactation": "\u041b\u0410\u041a\u0422\u0410\u0426\u0418\u042f",
+                "dairyLactation": "\u0413\u0438\u0441\u0442\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438",
+                "dairyLactationWithParams": "\u0413\u0438\u0441\u0442\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438 \u0441 %{dateFor} \u043f\u043e %{dateTo}",
+                "weeklyLactationLineChart": "\u041d\u0435\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0433\u0440\u0430\u0444\u0438\u043a \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438",
+                "noLactations": "\u041d\u0435\u0442 \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.",
+                "barGraph": "\u0413\u0438\u0441\u0442\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
+                "lineGraph": "\u041b\u0438\u043d\u0435\u0439\u043d\u044b\u0439 \u0433\u0440\u0430\u0444\u0438\u043a"
+            },
+            "lactations": {
+                "noLactations": "\u041d\u0435\u0442 \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0439 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.",
+                "summary": "\u041e\u0431\u0437\u043e\u0440 \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0439",
+                "prevLactsGraphic": "\u041d\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043c\u043e\u043b\u043e\u043a\u0430 \u043f\u043e \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u044f\u043c",
+                "age": "\u0412\u041e\u0417\u0420\u0410\u0421\u0422",
+                "dim": "DIM",
+                "lactationNumber": "Lactation number"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "\u041d\u0435\u0442 \u043c\u043e\u043b\u043e\u043a\u0430 \u0437\u0430 \u0434\u0435\u043d\u044c \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.",
+                "dimTooltip": "DIM",
+                "milking": "\u0434\u043e\u0435\u043d\u0438\u0435",
+                "today": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+                "average": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+                "avg": "\u0421\u0420",
+                "expected": "\u041e\u0436\u0438\u0434\u0430\u0435\u043c\u044b\u0439",
+                "exp": "\u041e\u0436\u0438\u0434",
+                "deviation": "\u041e\u0442\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+                "total": "\u0412\u0421\u0415\u0413\u041e",
+                "estimatedMilk": "\u0420\u0430\u0441\u0447\u0435\u0442\u043d\u044b\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u043c\u0430\u0441\u0441\u044b \u043c\u043e\u043b\u043e\u043a\u0430"
+            },
+            "overview": {
+                "statusItems": "\u041e\u0431\u044a\u0435\u043a\u0442\u044b \u0441\u0442\u0430\u0442\u0443\u0441\u0430",
+                "recentEvents": "\u041d\u0435\u0434\u0430\u0432\u043d\u0438\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f",
+                "moreEvents": "\u0411\u043e\u043b\u044c\u0448\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u0439",
+                "recentTestdays": "\u041d\u0435\u0434\u0430\u0432\u043d\u0438\u0435 \u0434\u043d\u0438 \u0442\u0435\u0441\u0442\u0430",
+                "moreTestdays": "\u0411\u043e\u043b\u044c\u0448\u0435 \u0434\u043d\u0435\u0439 \u0442\u0435\u0441\u0442\u0430",
+                "moreItems": "\u0411\u043e\u043b\u044c\u0448\u0435 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432",
+                "dailyRecentProduction": "\u041d\u0435\u0434\u0430\u0432\u043d\u0435\u0435 \u0435\u0436\u0435\u0434\u043d. \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e"
+            },
+            "testDays": {
+                "noTests": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u0434\u043d\u044f\u043c \u0442\u0435\u0441\u0442\u0430 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.",
+                "date": "\u0414\u0430\u0442\u0430",
+                "milk": "\u041c\u043e\u043b\u043e\u043a\u043e",
+                "dim": "DIM",
+                "pen": "\u0417\u0410\u0413\u041e\u041d"
+            },
+            "statusGroup": {
+                "noItems": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f."
+            },
+            "pedigree": {
+                "pedigree": "\u0420\u043e\u0434\u043e\u0441\u043b\u043e\u0432\u043d\u0430\u044f",
+                "graphicView": "Graphic View",
+                "PDFView": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 PDF"
+            },
+            "penChange": {
+                "penChanges": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u0433\u043e\u043d\u0430",
+                "noPenChanges": "\u041d\u0435\u0442 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0437\u0430\u0433\u043e\u043d\u0430 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.",
+                "date": "\u0414\u0430\u0442\u0430",
+                "daysInPen": "\u0414\u043d\u0435\u0439 \u0432 \u0437\u0430\u0433\u043e\u043d\u0435",
+                "movedToPen": "\u041f\u0435\u0440\u0435\u043c\u0435\u0449. \u0432 \u0437\u0430\u0433\u043e\u043d",
+                "PremiseId": "ID \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u044f",
+                "fromTo": "\u0421 - \u043f\u043e",
+                "dim": "DIM",
+                "source": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+                "testday": "\u0414\u0415\u041d\u042c \u0422\u0415\u0421\u0422\u0410",
+                "responsible": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+                "penTransfer": {
+                    "in": "\u0412"
+                }
+            },
+            "sensor": {
+                "sensors": "\u0414\u0430\u0442\u0447\u0438\u043a\u0438",
+                "accordionTitle": "\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c SCR - \u0434\u0430\u043d\u043d\u044b\u0435 \u0441 \u0434\u0430\u0442\u0447\u0438\u043a\u0430 \u043e \u0436\u0435\u0432\u0430\u043d\u0438\u0438"
+            },
+            "testDay": {
+                "testDays": "\u0414\u043d\u0438 \u0442\u0435\u0441\u0442\u0430",
+                "testDaysResults": "\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0434\u043d\u044f \u0442\u0435\u0441\u0442\u0430",
+                "yAxisLayers": "\u0421\u0421\u042b\u041b\u041a\u0418",
+                "productionGraphByTestday": "\u0413\u0440\u0430\u0444\u0438\u043a \u043f\u0440-\u0432\u0430 \u043f\u043e \u0434\u043d\u044f\u043c \u0442\u0435\u0441\u0442\u0430",
+                "testDaysToolTipTitle": "\u0414\u0435\u043d\u044c \u0442\u0435\u0441\u0442\u0430 #"
+            },
+            "productionMilk": {
+                "noItems": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0443 \u043c\u043e\u043b\u043e\u043a\u0430 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f."
+            },
+            "type": {
+                "adultCow": "\u041a\u041e\u0420\u041e\u0412\u0410",
+                "bull": "\u0411\u042b\u041a",
+                "calf": "\u0422\u0415\u041b\u0415\u041d\u041e\u041a",
+                "heifer": "\u0422\u0415\u041b\u041a\u0410"
+            },
+            "farmName": "\u0418\u041c\u042f\u0424",
+            "cowName": "BNAME",
+            "pen": "\u0417\u0430\u0433\u043e\u043d",
+            "lact": "\u041b\u0430\u043a\u0442",
+            "rpro": "Rpro",
+            "dim": "DIM",
+            "dslh": "Dslh",
+            "dcc": "Dcc",
+            "due": "\u0420\u043e\u0434\u044b",
+            "ardat": "ARDAT",
+            "milkWithhold": "\u0423\u0434\u0435\u0440\u0436\u043a\u0430 \u043c\u043e\u043b\u043e\u043a\u0430",
+            "meatWithhold": "\u0423\u0434\u0435\u0440\u0436\u043a\u0430 \u043c\u044f\u0441\u0430",
+            "reproductionCode": {
+                "heiferCalf": "\u0422\u0415\u041b\u041e\u0427\u041a\u0410",
+                "noBred": "\u041d\u0415 \u0412\u042f\u0417.",
+                "fresh": "\u041d\u041e\u0412\u041e\u0422\u0415\u041b.",
+                "ok": "\u041e\u041a\/\u041e\u0422\u041a\u0420\u042b\u0422\u041e",
+                "bred": "\u041f\u041e\u0412\u042f\u0417.",
+                "preg": "\u0411\u0415\u0420\u0415\u041c.",
+                "dry": "\u0421\u0423\u0425\u041e\u0421\u0422.",
+                "sld": "\u041f\u0420\u041e\u0414\u0410\u041d(\u0410)\/\u0423\u041c\u0415\u0420(\u041b\u0410)",
+                "bull": "\u0411\u042b\u0427\u041e\u041a"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+                    "cardsPreview": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+                    "dragAndDropReorder": "\u041c\u0435\u043d\u044f\u0439\u0442\u0435 \u043f\u043e\u0440\u044f\u0434\u043e\u043a \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 \u043f\u0435\u0440\u0435\u0442\u0430\u0441\u043a\u0438\u0432\u0430\u043d\u0438\u0435\u043c",
+                    "addItems": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043e\u0431\u044a\u0435\u043a\u0442\u044b",
+                    "cardName": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+                    "searchSpecificCowItem": "\u0418\u0441\u043a\u0430\u0442\u044c \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442-\u043a\u043e\u0440\u043e\u0432\u0443...",
+                    "cancelMessage": "\u0423 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u0412\u0441\u0451 \u0440\u0430\u0432\u043d\u043e \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c?",
+                    "validation": "\u0414\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u043a \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u0438\u043d \u043e\u0431\u044a\u0435\u043a\u0442 \u043f\u0435\u0440\u0435\u0434 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c.",
+                    "noItems": "\u0414\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u0438\u043d \u043e\u0431\u044a\u0435\u043a\u0442 \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u043d\u043e\u0432\u043e\u0439 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438.",
+                    "isMobile": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0432 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438"
+                },
+                "add": {
+                    "itemBoxTitle": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+                    "error": "\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043d\u0435\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u043d\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u0437\u0430\u043d\u043e\u0432\u043e.",
+                    "newItemsCard": "\u041d\u043e\u0432\u0430\u044f \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u0430"
+                },
+                "hide": {
+                    "title": "\u0421\u043a\u0440\u044b\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u043e\u0431\u044a\u0435\u043a\u0442\u0430?",
+                    "line1": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u044b\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438, ",
+                    "line2": "\u043d\u0430\u0436\u0430\u0432 \u043d\u0430 \u00ab\u0412\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u0443\u044e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443\u00bb.",
+                    "confirm": "\u0414\u0430, \u0441\u043a\u0440\u044b\u0442\u044c"
+                },
+                "restoreCard": "\u0412\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u0443\u044e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443",
+                "addCard": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443",
+                "restore": {
+                    "boxTitle": "\u0412\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u044b\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+                    "edition": {
+                        "title": "\u0412\u044b\u0431\u0440\u0430\u0442\u044c \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+                        "subTitle": "\u041d\u0430 \u044d\u0442\u043e\u043c \u044d\u043a\u0440\u0430\u043d\u0435 \u043c\u043e\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u044b\u0435 \u0440\u0430\u043d\u0435\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438."
+                    },
+                    "noHiddenCardTitle": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+                    "error": "\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043d\u0435\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u043d\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0441\u043a\u0440\u044b\u0442\u0443\u044e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u0437\u0430\u043d\u043e\u0432\u043e.",
+                    "noItems": "\u041d\u0430\u0436\u043c\u0438\u0442\u0435 \u043d\u0430 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0443 \u043e\u0431\u044a\u0435\u043a\u0442\u0430 \u0432 \u0441\u043f\u0438\u0441\u043a\u0435 \u0434\u043b\u044f \u0435\u0435 \u043e\u0431\u0437\u043e\u0440\u0430."
+                },
+                "successUpdate": "\u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0430",
+                "notSuccessUpdate": "\u041f\u0440\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0438\u043d\u0443\u0442",
+                "itemCard": "\u041a\u0430\u0440\u0442\u043e\u0447\u043a\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u0430",
+                "itemCardSuccessfullyAdded": "\u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0430",
+                "itemCardSuccessfullyRestored": "\u041e\u0431\u044a\u0435\u043a\u0442\u044b \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u044b",
+                "itemCardSuccessfullyHidden": "\u041a\u0430\u0440\u0442\u043e\u0447\u043a\u0430 \u043e\u0431\u044a\u0435\u043a\u0442\u0430 \u0441\u043a\u0440\u044b\u0442\u0430",
+                "itemCardColorPaletteLabel": "\u0426\u0432\u0435\u0442",
+                "itemCardColorPaletteDefault": "\u0426\u0432\u0435\u0442 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e",
+                "itemCardBackgroundColorPickerLabel": "\u0426\u0432\u0435\u0442 \u0444\u043e\u043d\u0430",
+                "itemCardForegroundColorPickerLabel": "\u0426\u0432\u0435\u0442 \u0442\u0435\u043a\u0441\u0442\u0430"
+            },
+            "subMenu": {
+                "overview": "\u041e\u0431\u0437\u043e\u0440",
+                "items": "\u041e\u0431\u044a\u0435\u043a\u0442\u044b",
+                "events": "\u0421\u043e\u0431\u044b\u0442\u0438\u044f",
+                "testDays": "\u0414\u043d\u0438 \u0442\u0435\u0441\u0442\u0430",
+                "lactations": "\u041b\u0430\u043a\u0442\u0430\u0446\u0438\u0438",
+                "dailyMilk": "\u041c\u043e\u043b\u043e\u043a\u043e \u0437\u0430 \u0434\u0435\u043d\u044c",
+                "penChanges": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u0433\u043e\u043d\u0430",
+                "pedigree": "Pedigree",
+                "partners": "\u041f\u0430\u0440\u0442\u043d\u0435\u0440\u044b"
+            },
+            "recentProduction": {
+                "milking": "\u0414\u043e\u0435\u043d\u0438\u0435 #"
+            },
+            "dead": "\u041c\u0415\u0420\u0422\u0412.",
+            "alive": "\u0416\u0418\u0412.",
+            "sold": "\u041f\u0420\u041e\u0414\u0410\u041d.",
+            "placeholder": {
+                "title": "\u041d\u0435\u0442 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f",
+                "description": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u0442\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438 \u043e\u0431\u044a\u0435\u043a\u0442\u043e\u0432 \u0434\u043b\u044f \u0438\u0445 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430 \u0437\u0434\u0435\u0441\u044c."
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "bdate",
+                        "weanDateTitle": "wean date",
+                        "sexTitle": "sex",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Calf Rearing Characteristics",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} days %{preposition} expected wean date",
+                            "prepositionUntil": "until",
+                            "prepositionPast": "past",
+                            "projected": "PROJECTED",
+                            "weaned": "weaned",
+                            "weaning": "weaning"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 days",
+                        "todayTitle": "today",
+                        "averageDailyGainTitle": "adg",
+                        "title": "Weight",
+                        "perDay": "d",
+                        "popover": "If your dairy is equipped with a F\u00f6rster half-body scale, this is an actual animal weight. If not, this weight is estimated based on calf age."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "milk",
+                        "concentrationTitle": "concentration",
+                        "additiveTitle": "Additive",
+                        "title": "Total Consumption",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Allowance Ratio",
+                        "dipsMilkIntake": "# dips milk intake",
+                        "avgBreaksDay": "Avg breaks \/day",
+                        "avgDailySteps": "Avg daily steps",
+                        "daysOnPrescription": "days on prescription"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Drinking Speed",
+                        "speed": "speed",
+                        "timeUnit": "m",
+                        "day": "Day"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Drinking Behavior",
+                        "milk": "milk"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Milk Consumption",
+                        "consumption": "Consumption",
+                        "lastTwoDays": "last 2 days",
+                        "visitNumber": "Visit %{number}",
+                        "visitRange": "Visits %{from} to %{to}",
+                        "visit": "visit",
+                        "withoutFeeding": "w\/o feeding",
+                        "additive": "additive",
+                        "total": "total",
+                        "yesterdayTarget": "yesterday's target",
+                        "todayEntitlement": "today's entitlement",
+                        "timeRange": "%{from} to %{to}"
+                    },
+                    "common": {
+                        "amount": "amount",
+                        "entitlement": "entitlement",
+                        "today": "Today",
+                        "yesterday": "Yesterday",
+                        "now": "now",
+                        "widgetNotFound": "There is no %{name} data to display for this animal",
+                        "widgetCommunicationError": "Communication Error"
+                    }
+                },
+                "table": {
+                    "message": "\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435",
+                    "dateAndTime": "\u0414\u0430\u0442\u0430 \u0438 \u0432\u0440\u0435\u043c\u044f",
+                    "observations": "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+                        "ph": "\u0443\u0440\u043e\u0432\u0435\u043d\u044c ph",
+                        "activity": "\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c"
+                    },
+                    "views": {
+                        "view": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440",
+                        "last24hs": "\u0417\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 24 \u0447\u0430\u0441\u0430",
+                        "last7days": "\u0417\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 7 \u0434\u043d\u0435\u0439",
+                        "last30days": "\u0417\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 30 \u0434\u043d\u0435\u0439"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439 \u043f\u0440\u0438\u0435\u043c \u0432\u043e\u0434\u044b",
+                    "health102": "\u0423\u0434\u043b\u0438\u043d\u0435\u043d\u0438\u0435 \u043f\u0438\u0442\u044c\u0435\u0432\u044b\u0445 \u0446\u0438\u043a\u043b\u043e\u0432",
+                    "health103": "\u0421\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435 \u043f\u0438\u0442\u044c\u0435\u0432\u044b\u0445 \u0446\u0438\u043a\u043b\u043e\u0432",
+                    "health104": "\u0420\u043e\u0441\u0442 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b",
+                    "health106": "\u041f\u0430\u0434\u0435\u043d\u0438\u0435 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b",
+                    "health601": "THI \u2265 72 \u0422\u0435\u043f\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0440\u0435\u0441\u0441",
+                    "health602": "THI \u2265 78 \u0422\u0435\u043f\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0440\u0435\u0441\u0441",
+                    "health603": "THI \u2265 82 \u0422\u0435\u043f\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0440\u0435\u0441\u0441",
+                    "health703": "\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+                    "fertility105": "\u041f\u0440\u0438\u0437\u043d\u0430\u043a \u0431\u043b\u0438\u0437\u043a\u043e\u0433\u043e \u043e\u0442\u0435\u043b\u0430",
+                    "fertility702": "\u042d\u0441\u0442\u0440\u0443\u0441",
+                    "feeding201": "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u043f\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "feeding202": "\u0420\u0438\u0441\u043a \u0430\u0446\u0438\u0434\u043e\u0437\u0430",
+                    "feeding203": "\u0420\u043e\u0441\u0442 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f ph",
+                    "feeding204": "\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f ph",
+                    "feeding205": "\u0420\u043e\u0441\u0442 12-\u0447\u0430\u0441\u043e\u0432\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f ph",
+                    "feeding206": "\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 12-\u0447\u0430\u0441\u043e\u0432\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f pH",
+                    "actincrease701": "\u0420\u043e\u0441\u0442 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+                    "actincrease704": "\u0420\u043e\u0441\u0442 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+                    "heat": "\u041e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u0442\u0435\u043f\u043b\u0430",
+                    "insemination": "\u041e\u0441\u0435\u043c\u0435\u043d\u0435\u043d\u043d\u0430\u044f \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u043c",
+                    "pregnancyResult": "\u041f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0438\u043b\u0438 \u043e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0431\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438",
+                    "calvingDetection": "\u041e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u0438\u0435 \u043e\u0442\u0435\u043b\u0430",
+                    "dryOff": "\u0421\u0443\u0448\u0438\u0442\u044c",
+                    "calvingConfirmation": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043e\u0442\u0435\u043b\u0430"
+                },
+                "selectPartner": "Partner:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "\u041f\u043e \u044d\u0442\u043e\u043c\u0443 \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u043c\u0443 \u043d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u0441\u0435\u043d\u0441\u043e\u0440\u0430 SmaXtec \u0434\u043b\u044f \u043f\u043e\u043a\u0430\u0437\u0430"
+            }
+        },
+        "overview": {
+            "page": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043e\u0431\u0437\u043e\u0440\u0430 \u0441\u0442\u0430\u0434\u0430"
+        },
+        "pens": {
+            "penList": "\u0421\u043f\u0438\u0441\u043e\u043a \u0437\u0430\u0433\u043e\u043d\u043e\u0432",
+            "animalCost": "\u0420\u0430\u0441\u0445\u043e\u0434\u044b \u043d\u0430 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445",
+            "space": "\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e",
+            "capacity": "\u0415\u043c\u043a\u043e\u0441\u0442\u044c",
+            "count": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e",
+            "extra": "\u042d\u043a\u0441\u0442\u0440\u0430",
+            "feed": "\u041a\u043e\u0440\u043c",
+            "feedingHdCount": "\u041d\u0430\u043a\u043e\u0440\u043c\u0438\u0442\u044c, \u0433\u043e\u043b\u043e\u0432",
+            "feedingCount": "Feeding Count",
+            "herd": "\u0421\u0442\u0430\u0434\u043e",
+            "label": "\u042f\u0440\u043b\u044b\u043a",
+            "pen": "\u0417\u0430\u0433\u043e\u043d",
+            "penCost": "\u0420\u0430\u0441\u0445\u043e\u0434\u044b \u043d\u0430 \u0437\u0430\u0433\u043e\u043d",
+            "penCount": "\u0413\u043e\u043b\u043e\u0432 \u0432 \u0437\u0430\u0433\u043e\u043d\u0435",
+            "pens": "\u0417\u0430\u0433\u043e\u043d\u044b",
+            "penType": "\u0422\u0438\u043f \u0437\u0430\u0433\u043e\u043d\u0430",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "ID \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u044f",
+            "targetDmHd": "\u0426\u0435\u043b\u044c \u043f\u043e \u0421\u0412\/\u0433\u043e\u043b.",
+            "costPerHd": "Cost\/HD",
+            "type": "\u0422\u0438\u043f",
+            "view": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440",
+            "zone": "\u0417\u043e\u043d\u0430",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "\u0412\u0441\u0435 \u0442\u0438\u043f\u044b \u0437\u0430\u0433\u043e\u043d\u043e\u0432",
+                "isArtificialInseminationPen": "\u0418\u041e",
+                "isBullPen": "\u0417\u0430\u0433\u043e\u043d \u0441 \u0431\u044b\u043a\u0430\u043c\u0438",
+                "isCalfPen": "\u0422\u0435\u043b\u0435\u043d\u043e\u043a",
+                "isDryPen": "\u0421\u0443\u0445\u043e\u0441\u0442.",
+                "isHospitalPen": "\u041b\u0435\u0447\u0435\u0431\u043d\u0438\u0446\u0430",
+                "isMilkingPen": "\u0414\u043e\u0435\u043d\u0438\u0435",
+                "isUserPen": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "\u0420\u0430\u0431\u043e\u0447\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0438",
+            "todayTitle": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+            "upcomingTitle": "\u0421\u043a\u043e\u0440\u043e",
+            "lastDaysTitle": "\u041f\u043e\u0441\u043b. \u0442\u0440\u0438 \u0434\u043d\u044f",
+            "accordionTitle": "Lists",
+            "time": {
+                "week": "A Week Ago",
+                "yesterday": "Yesterday's",
+                "today": "Today's"
+            },
+            "help": {
+                "tag": "Need Help?",
+                "link": "Learn more about Worklists!"
+            },
+            "tableHead": {
+                "name": "\u0418\u043c\u044f",
+                "listDate": "\u0414\u0430\u0442\u0430 \u0441\u043f\u0438\u0441\u043a\u0430",
+                "listType": "\u0422\u0438\u043f \u0441\u043f\u0438\u0441\u043a\u0430",
+                "status": "\u0421\u0442\u0430\u0442\u0443\u0441",
+                "progress": "\u041f\u0440\u043e\u0433\u0440\u0435\u0441\u0441",
+                "description": "Description",
+                "ondone": "\u0415\u0441\u043b\u0438 \u00ab\u0433\u043e\u0442\u043e\u0432\u043e\u00bb",
+                "postProcess": "\u041f\u043e\u0441\u0442-\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430"
+            },
+            "progress": {
+                "animals": "\u0416\u0438\u0432\u043e\u0442\u043d\u044b\u0435",
+                "toBeProcessed": "\u0434\u043b\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438",
+                "filterNoResults": "There are no animals to display in this tab for this filter."
+            },
+            "status": {
+                "open": "\u041e\u0442\u043a\u0440\u044b\u0442\u043e",
+                "closed": "\u0417\u0430\u043a\u0440\u044b\u0442\u043e",
+                "delivered": "\u0414\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043e",
+                "todo": "\u0421\u0434\u0435\u043b\u0430\u0442\u044c",
+                "pending": "\u041e\u0436\u0438\u0434\u0430\u0435\u0442",
+                "inProgress": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435",
+                "queued": "\u0412 \u043e\u0447\u0435\u0440\u0435\u0434\u0438",
+                "processed": "\u0412 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435"
+            },
+            "changeStatus": {
+                "todo": "\u0441\u0434\u0435\u043b\u0430\u0442\u044c",
+                "done": "\u0433\u043e\u0442\u043e\u0432\u043e",
+                "completed": "Completed",
+                "processed": "Processed",
+                "toBeProcessed": "To Be Processed"
+            },
+            "identificationType": {
+                "unknown": "\u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439",
+                "tap": "\u0432\u0432\u0435\u0434\u0435\u043d\u043e \u043d\u0430\u0436\u0430\u0442\u0438\u0435\u043c",
+                "scan": "\u043e\u0442\u0441\u043a\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043e",
+                "voice": "\u0433\u043e\u043b\u043e\u0441"
+            },
+            "tableColumns": {
+                "method": "Method",
+                "doneBy": "Done By",
+                "updatedAt": "Done Time",
+                "changeStatus": "Status"
+            },
+            "noItems": "\u041d\u0435\u0442 \u0441\u043f\u0438\u0441\u043a\u043e\u0432",
+            "listDetailsPageTitle": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0441\u043f\u0438\u0441\u043a\u0430",
+            "tabs": {
+                "todo": "\u0441\u0434\u0435\u043b\u0430\u0442\u044c",
+                "done": "\u0433\u043e\u0442\u043e\u0432\u043e"
+            },
+            "details": {
+                "table": {
+                    "id": "\u0418\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440",
+                    "pen": "\u0417\u0410\u0413\u041e\u041d",
+                    "lact": "\u041b\u0410\u041a\u0422",
+                    "rprod": "\u0412\u041e\u0421\u041f\u0420",
+                    "dim": "DIM",
+                    "dcc": "DCC",
+                    "milk": "\u041c\u041e\u041b\u041e\u041a\u041e",
+                    "all": "\u0432\u0441\u0435"
+                }
+            },
+            "listTypes": {
+                "todolist": "\u0441\u043f\u0438\u0441\u043e\u043a \u0434\u0435\u043b"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Item Definitions",
+            "name": "Name",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Type",
+            "description": "Description",
+            "standardItemNumber": "Standard #",
+            "filterPlaceholder": "Name, # or Description"
+        },
+        "eventDefinitions": {
+            "title": "Event Definitions",
+            "number": "Number",
+            "eventName": "Event Name",
+            "standardEventCode": "Standard #",
+            "team": "Team",
+            "gap": "Gap",
+            "command": "Command",
+            "filterPlaceholder": "Event Name, # or Command"
+        },
+        "protocols": {
+            "title": "Protocols",
+            "number": "P#",
+            "event": "Event",
+            "protocol": "Protocol",
+            "remark": "Remark",
+            "goToPen": "Go To Pen",
+            "milkWithold": "Milk Withhold",
+            "meatWithold": "Meat Withhold",
+            "timeOnProtocol": "Time On Protocol",
+            "adult": "Adult",
+            "heifer": "Heifer",
+            "team": "Team",
+            "recheck": "Recheck",
+            "order": "Order",
+            "prompt": "P",
+            "days": {
+                "singular": "day",
+                "plural": "days"
+            },
+            "showInactive": "Show Inactive",
+            "details": "Protocol Details",
+            "hasPrompt": "Prompt: Yes"
+        }
+    },
+    "home": {
+        "home": "\u041d\u0430 \u0433\u043b\u0430\u0432\u043d\u0443\u044e",
+        "title": "VAS Platform",
+        "searchboxPlaceholder": "\u041f\u043e\u0438\u0441\u043a ID \u043a\u043e\u0440\u043e\u0432\u044b",
+        "selectContext": "Select a %{context}",
+        "context": {
+            "dairy": "Dairy",
+            "company": "Company",
+            "companyOrDairy": "Company or Dairy",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Connect with your first dairy from",
+                "myHome": "My Home",
+                "pendingInvitationPreppend": "You have a pending invitation. \nGo to",
+                "pendingInvitationAppend": "to accept."
+            }
+        },
+        "dairyProfile": "\u043f\u0440\u043e\u0444\u0438\u043b\u044c \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "selectDairy": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0444\u0430\u0431\u0440\u0438\u043a\u0443",
+        "search": {
+            "noResults": "No dairy matching this search"
+        }
+    },
+    "validation": {
+        "invalidName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u043e\u0435 \u0438\u043c\u044f.",
+        "invalidEmail": "\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b.",
+        "emptyEmail": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b.",
+        "invalidPassword": "\u0412 \u043f\u0430\u0440\u043e\u043b\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u0431\u044b\u0442\u044c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 6 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.",
+        "emptyPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c.",
+        "passwordNotMatch": "\u041f\u0430\u0440\u043e\u043b\u044c \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442.",
+        "retypePassword": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c.",
+        "passwordMinimumRequirements": "\u041f\u0430\u0440\u043e\u043b\u044c \u043d\u0435 \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c.",
+        "invalidCardName": "\u0412 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438 \u043e\u0431\u044a\u0435\u043a\u0442\u0430 \u0434\u043e\u043b\u0436\u043d\u043e \u0431\u044b\u0442\u044c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 6 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.",
+        "emptyCardName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438 \u043e\u0431\u044a\u0435\u043a\u0442\u0430.",
+        "changePassword": {
+            "emptyCurrentPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0442\u0435\u043a\u0443\u0449\u0438\u0439 \u043f\u0430\u0440\u043e\u043b\u044c.",
+            "emptyNewPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u043e\u0432\u044b\u0439 \u043f\u0430\u0440\u043e\u043b\u044c.",
+            "emptyConfirmNewPassword": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u043d\u043e\u0432\u044b\u0439 \u043f\u0430\u0440\u043e\u043b\u044c."
+        },
+        "address": {
+            "emptyCountry": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u043d\u0443.",
+            "emptyStateProvince": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0448\u0442\u0430\u0442.",
+            "selectStateProvince": "select",
+            "enterStateProvince": "enter",
+            "emptyCity": "\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0433\u043e\u0440\u043e\u0434.",
+            "emptyPostalCode": "\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0438\u043d\u0434\u0435\u043a\u0441."
+        },
+        "dairy": {
+            "emptyName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438."
+        },
+        "invalidMobilePhoneNumber": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430. \u0412\u0432\u043e\u0434\u0438\u0442\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0446\u0438\u0444\u0440\u044b \u0431\u0435\u0437 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432.",
+        "invalidPhoneNumber": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430. \u0412\u0432\u043e\u0434\u0438\u0442\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0446\u0438\u0444\u0440\u044b \u0431\u0435\u0437 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432.",
+        "limitCharacters": "\u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.",
+        "accountSettings": {
+            "firstName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0435 \u0438\u043c\u044f",
+            "lastName": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u044e \u0444\u0430\u043c\u0438\u043b\u0438\u044e"
+        }
+    },
+    "error": {
+        "404": {
+            "title": "\u041e\u0448\u0438\u0431\u043a\u0430 404",
+            "line1": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u0438\u0441\u043a\u0430\u043b\u0438, \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430.",
+            "line2": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043a"
+        },
+        "tokenInvalid": "\u041d\u0435\u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0439 \u043c\u0430\u0440\u043a\u0435\u0440 \u0441\u0431\u0440\u043e\u0441\u0430 \u043f\u0430\u0440\u043e\u043b\u044f.",
+        "unableChange": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0441\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c.",
+        "401": "\u041d\u0435\u0442 \u043f\u0440\u0430\u0432 \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+        "500": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u043e\u0448\u0438\u0431\u043a\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0430",
+        "passwordInvalid": "\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0442\u0435\u043a\u0443\u0449\u0438\u0439 \u043f\u0430\u0440\u043e\u043b\u044c."
+    },
+    "password": {
+        "passwordCreated": "\u041f\u0430\u0440\u043e\u043b\u044c \u0441\u043e\u0437\u0434\u0430\u043d",
+        "passwordSuccessfullyCreated": "\u0412\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c \u0441\u043e\u0437\u0434\u0430\u043d.",
+        "passwordUpdated": "\u041f\u0430\u0440\u043e\u043b\u044c \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d",
+        "passwordSuccessfullyChanged": "\u0412\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d.",
+        "continueToHome": "\u0414\u0430\u043b\u044c\u0448\u0435 \u043d\u0430 \u0433\u043b\u0430\u0432\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d",
+        "enterPassword": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "savePassword": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c",
+        "passwordRequirements": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u043f\u0430\u0440\u043e\u043b\u044e",
+        "unableToChange": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0441\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c.",
+        "setPassword": "\u0417\u0430\u0434\u0430\u0439\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "invalidToken": {
+            "invalidToken": "\u041d\u0435\u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0439 \u043c\u0430\u0440\u043a\u0435\u0440.",
+            "title_line1": "\u0412\u0430\u0448\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043d\u0430:",
+            "title_line2": "\u0418\u0441\u0442\u0435\u043a \u0441\u0440\u043e\u043a \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f VAS Platform",
+            "line1": "\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u043d\u0430\u043c \u043d\u0430",
+            "line2": "\u0438\u043b\u0438 \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442\u0435 \u043f\u043e \u043d\u043e\u043c\u0435\u0440\u0443",
+            "line3": ", \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043d\u043e\u0432\u043e\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435."
+        },
+        "ValidPassword": {
+            "minLength": "\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0434\u043b\u0438\u043d\u0430 \u2014 \u0448\u0435\u0441\u0442\u044c (6) \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.",
+            "numbersAndLetters": "\u041f\u0430\u0440\u043e\u043b\u044c \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u0431\u0443\u043a\u0432\u044b \u0438 \u0446\u0438\u0444\u0440\u044b.",
+            "lowerUpperCases": "\u0414\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u0441\u0442\u0440\u043e\u0447\u043d\u044b\u0435 \u0438 \u043f\u0440\u043e\u043f\u0438\u0441\u043d\u044b\u0435 \u0431\u0443\u043a\u0432\u044b."
+        }
+    },
+    "breadcrumb": {
+        "operations": "\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u0438",
+        "herd": "\u0421\u0442\u0430\u0434\u043e",
+        "cows": "\u041a\u043e\u0440\u043e\u0432\u044b",
+        "pens": "Pens",
+        "ID": "ID",
+        "overview": "\u041e\u0431\u0437\u043e\u0440",
+        "company": "Company",
+        "dairy": "Dairy",
+        "dairyComp": "DairyComp",
+        "dashboard": "\u041f\u0430\u043d\u0435\u043b\u044c",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "\u0420\u0430\u0431\u043e\u0447\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0438",
+        "messageCenter": "Message Center"
+    },
+    "footer": {
+        "title": "VAS Platform"
+    },
+    "search": {
+        "searchHistory": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u043f\u043e\u0438\u0441\u043a\u0430",
+        "searchResults": "\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u043e\u0438\u0441\u043a\u0430",
+        "noResults": "\u041d\u0438 \u043e\u0434\u043d\u043e \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u043f\u043e \u044d\u0442\u043e\u043c\u0443 \u0437\u0430\u043f\u0440\u043e\u0441\u0443",
+        "searchForCow": "\u041f\u043e\u0438\u0441\u043a ID \u043a\u043e\u0440\u043e\u0432\u044b",
+        "firstResult": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+        "thirdResult": "\u0422\u0440\u0435\u0442\u0438\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442"
+    },
+    "dairy": {
+        "noDairiesConnected": "\u041d\u0435\u0442 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0445 \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a",
+        "noDairiesText_": "\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u0435\u0441\u044c \u043a \u0441\u0432\u043e\u0435\u0439 \u043f\u0435\u0440\u0432\u043e\u0439 \u0444\u0430\u0431\u0440\u0438\u043a\u0435 \u0441",
+        "requestAccessSuccess": "\u0423\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u043f\u0440\u043e\u0448\u0435\u043d \u0434\u043e\u0441\u0442\u0443\u043f \u043a:"
+    },
+    "menu": {
+        "myHome": "\u041c\u043e\u0439 \u0433\u043b. \u044d\u043a\u0440\u0430\u043d",
+        "impersonationLabel": "\u0410\u0434\u043c\u0438\u043d \u043a\u0430\u043a",
+        "dairyManager": "\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0438\u0439 \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "accountSettings": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438",
+        "logOut": "\u0412\u044b\u0445\u043e\u0434",
+        "reports": "\u041e\u0442\u0447\u0435\u0442\u044b",
+        "favorites": "\u0418\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0435",
+        "favoriteReports": "\u0418\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u043e\u0442\u0447\u0435\u0442\u044b",
+        "dairyInformation": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
+        "dairyConfiguration": "\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "operations": "\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u0438",
+        "userManagement": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438",
+        "messageCenter": "Message Center"
+    },
+    "accountSettings": {
+        "account": "\u0423\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c",
+        "myAccount": "\u041c\u043e\u044f \u0443\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c",
+        "userProfile": "\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "changeMyPassword": "\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043c\u043e\u0439 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+        "mobilePhoneNumber": "\u041d\u043e\u043c\u0435\u0440 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430",
+        "phoneNumberValidationOnlyNumbers": "\u0412 \u043f\u043e\u043b\u0435 \u00ab\u043d\u043e\u043c\u0435\u0440 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430\u00bb \u043c\u043e\u0436\u043d\u043e \u0432\u0432\u043e\u0434\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0447\u0438\u0441\u043b\u0430.",
+        "phoneNumberValidationExtensionNumbers": "\u041d\u0435 \u0432\u043a\u043b\u044e\u0447\u0430\u0439\u0442\u0435 \u0434\u043e\u0431\u0430\u0432\u043e\u0447\u043d\u044b\u0435 \u043d\u043e\u043c\u0435\u0440\u0430.",
+        "firstName": "\u0418\u043c\u044f",
+        "lastName": "\u0424\u0430\u043c\u0438\u043b\u0438\u044f",
+        "dateFormat": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0434\u0430\u0442\u044b",
+        "timeFormat": "\u0424\u043e\u0440\u043c\u0430\u0442 \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+        "howYouPreferSeeDates": "\u041a\u0430\u043a \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u0438\u0434\u0435\u0442\u044c \u0434\u0430\u0442\u044b \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438",
+        "howYouPreferSeeTimes": "\u041a\u0430\u043a \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u0438\u0434\u0435\u0442\u044c \u0432\u0440\u0435\u043c\u044f \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438",
+        "address": "\u0410\u0434\u0440\u0435\u0441",
+        "units": "\u0415\u0434\u0438\u043d\u0438\u0446\u044b",
+        "chooseDisplayUnits": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435, \u043a\u0430\u043a\u0438\u0435 \u0435\u0434\u0438\u043d\u0438\u0446\u044b \u0434\u043b\u044f \u0432\u0430\u0441 \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u0443\u0434\u043e\u0431\u043d\u044b",
+        "language": "\u042f\u0437\u044b\u043a",
+        "languageToDisplay": "\u042f\u0437\u044b\u043a \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f VAS Platform",
+        "aboutMe": "\u041e\u0431\u043e \u043c\u043d\u0435",
+        "amIDiscoverable": "\u041c\u0435\u043d\u044f \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0439\u0442\u0438?",
+        "isDiscoverable": "\u041c\u043e\u0436\u043d\u043e \u043d\u0430\u0439\u0442\u0438",
+        "youCanBeContacted": "\u0412\u0430\u043c \u043c\u043e\u0433\u0443\u0442 \u043f\u0438\u0441\u0430\u0442\u044c \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+        "youWantYourDairyFound": "\u0425\u043e\u0442\u0438\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0432\u0438\u0434\u0435\u043b\u0438 \u0432\u0430\u0448\u0443 \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0443?",
+        "country": "\u0421\u0442\u0440\u0430\u043d\u0430",
+        "state": "\u0428\u0442\u0430\u0442",
+        "city": "\u0413\u043e\u0440\u043e\u0434",
+        "addressLine1": "\u0410\u0434\u0440\u0435\u0441 \u2013 \u0441\u0442\u0440\u043e\u043a\u0430 1",
+        "addressLine2": "\u0410\u0434\u0440\u0435\u0441 \u2013 \u0441\u0442\u0440\u043e\u043a\u0430 2",
+        "addressEmail": "Address Email",
+        "phoneNumber": "\u041d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430",
+        "email": "\u042d\u043b. \u043f\u043e\u0447\u0442\u0430",
+        "web": "\u0412\u0435\u0431",
+        "currentPassword": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "newPassword": "\u041d\u043e\u0432\u044b\u0439 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "confirmNewPassword": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c \u043d\u043e\u0432\u044b\u0439 \u043f\u0430\u0440\u043e\u043b\u044c",
+        "physicalAddress": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u0434\u0440\u0435\u0441",
+        "billingAddress": "\u0410\u0434\u0440\u0435\u0441 \u0434\u043b\u044f \u0432\u044b\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0447\u0435\u0442\u0430",
+        "theEmailGravatarDescription_line1": "\u0410\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u0434\u043b\u044f \u0432\u0445\u043e\u0434\u0430.",
+        "theEmailGravatarDescription_line2_part1": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c ",
+        "theEmailGravatarDescription_line2_part2": " \u043a\u0430\u043a \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0434\u043b\u044f \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0432 \u0432\u0430\u0448\u0435\u043c \u043f\u0440\u043e\u0444\u0438\u043b\u0435. \u041c\u043e\u0436\u0435\u0442 \u0437\u0430\u043d\u044f\u0442\u044c \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u043f\u043e\u0441\u043b\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f.",
+        "profileSettings": "\u041f\u0410\u0420\u0410\u041c\u0415\u0422\u0420\u042b \u041f\u0420\u041e\u0424\u0418\u041b\u042f",
+        "postalCode": "\u0418\u043d\u0434\u0435\u043a\u0441",
+        "profilePicture": {
+            "title": "\u0414\u041e\u0411\u0410\u0412\u042c\u0422\u0415 \u0424\u041e\u0422\u041e\u0413\u0420\u0410\u0424\u0418\u042e \u0412 \u041f\u0420\u041e\u0424\u0418\u041b\u042c",
+            "line1": "\u041f\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0441\u043b\u0435\u0432\u0430 \u0438\u043b\u0438 \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0438\u0437 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438, \u0447\u0442\u043e\u0431\u044b \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0432 \u043f\u0440\u043e\u0444\u0438\u043b\u044c.",
+            "line2": "\u041f\u043e\u0441\u043b\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u043c\u043e\u0436\u043d\u043e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0440\u0430\u0437\u043c\u0435\u0440 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0438 \u0435\u0433\u043e \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435.",
+            "condition1": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0444\u0430\u0439\u043b \u0444\u043e\u0440\u043c\u0430\u0442\u0430 JPG \u0438\u043b\u0438 PNG.",
+            "condition2": "\u041c\u0430\u043a\u0441. \u0440\u0430\u0437\u043c\u0435\u0440 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u2014 150 \u043a\u0431",
+            "condition3": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0440\u0430\u0437\u043c\u0435\u0440\u044b \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f: 32x32, 100x100 \u0438 150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "\u041e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f",
+            "whatsNewDetails": "\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u043d\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0443 VAS, \u0447\u0438\u0442\u0430\u0439\u0442\u0435 \u0437\u0434\u0435\u0441\u044c \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0438 \u043d\u043e\u0432\u0443\u044e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e.",
+            "myDairies": "\u041c\u043e\u0438 \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+            "search": {
+                "placeholder": "\u041d\u0430\u0439\u0442\u0438 \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a \u043d\u043e\u0432\u043e\u0439 \u0444\u0430\u0431\u0440\u0438\u043a\u0435"
+            }
+        },
+        "myDairies": {
+            "noDairies": "\u041d\u0435\u0442 \u0444\u0430\u0431\u0440\u0438\u043a \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f",
+            "dairyColumnTitle": "\u041c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0430",
+            "locationColumnTitle": "\u041c\u0435\u0441\u0442\u043e",
+            "statusColumnTitle": "\u0421\u0442\u0430\u0442\u0443\u0441",
+            "invitationText": "\u0412\u0430\u0441 \u043f\u0440\u0438\u0433\u043b\u0430\u0441\u0438\u043b\u0438 \u043d\u0430:",
+            "requestAccessText": "\u0412\u044b \u0437\u0430\u043f\u0440\u043e\u0441\u0438\u043b\u0438 \u0434\u043e\u0441\u0442\u0443\u043f \u043a:",
+            "viewDairyPage": " \u0421\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+            "acceptAction": "\u041f\u0440\u0438\u043d\u044f\u0442\u044c",
+            "declineAction": "\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c",
+            "cancelAction": "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441",
+            "leaveDairy": "\u0412\u044b\u0439\u0442\u0438 \u0441 \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+            "status": {
+                "invited": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d(\u0430)",
+                "requested": "\u0416\u0434\u0435\u0442 \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f",
+                "connected": "\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d(\u0430)"
+            }
+        },
+        "myConnections": {
+            "title": "My Connections",
+            "noConnections": "There are no connections to show",
+            "connect": "Connect to new dairy",
+            "viewList": "View Connections List"
+        },
+        "dairiesFilterPlaceholder": "\u041d\u0430\u0439\u0442\u0438 \u0444\u0430\u0431\u0440\u0438\u043a\u0443",
+        "connectionInvite": {
+            "accepted": "Accepted invite to",
+            "confirmDeclinePart1": "You are declining your invite to",
+            "confirmDeclinePart2": ". Do you confirm?",
+            "declined": "Declined invite to",
+            "notFound": "The record you are trying to review is no longer available."
+        },
+        "connectionLeave": {
+            "confirmed": "You are successfully disconnected from",
+            "confirmLeave": "Are you sure you want to leave",
+            "errorDairyLeaving": "An error occurred while leaving the dairy. Please try again in a few minutes.",
+            "errorCompanyLeaving": "An error occurred while leaving the company. Please try again in a few minutes.",
+            "errorDairyLeavingOnlyOwner": "You cannot leave this dairy because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again.",
+            "errorCompanyLeavingOnlyOwner": "You cannot leave this company because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " View Company Page",
+            "leaveCompany": "Leave Company"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "Message Center",
+        "view": "View",
+        "noMessages": "Messages",
+        "filters": {
+            "all": "All notifications",
+            "info": "Info",
+            "news": "News",
+            "alert": "Alert",
+            "warning": "Warning",
+            "announcement": "Announcements",
+            "system": "System Notifications",
+            "unread": "Unread",
+            "worklists": "Worklists updates"
+        },
+        "actions": {
+            "markAsRead": "Mark as read",
+            "showMore": "See More Details"
+        }
+    },
+    "discoverability": {
+        "yes": "\u0434\u0430",
+        "no": "\u043d\u0435\u0442",
+        "dairy": {
+            "yesDetail": "\u0414\u0430, \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0432\u0438\u0434\u044f\u0442 \u0444\u0430\u0431\u0440\u0438\u043a\u0443",
+            "noDetail": "\u041d\u0435\u0442, \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u043d\u0435 \u0432\u0438\u0434\u044f\u0442 \u0444\u0430\u0431\u0440\u0438\u043a\u0443"
+        },
+        "account": {
+            "yesDetail": "\u0414\u0430, \u044f \u0445\u043e\u0447\u0443, \u0447\u0442\u043e\u0431\u044b \u043c\u0435\u043d\u044f \u0432\u0438\u0434\u0435\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438",
+            "noDetail": "\u041d\u0435\u0442, \u044f \u043d\u0435 \u0445\u043e\u0447\u0443, \u0447\u0442\u043e\u0431\u044b \u043c\u0435\u043d\u044f \u0432\u0438\u0434\u0435\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Company Configuration",
+        "userManagement": {
+            "title": "User Management",
+            "fromCompany": "from this company",
+            "userRemovedSuccess": "successfully removed from the company.",
+            "inviteUserModal": {
+                "existingUser": "The email entered belongs to an existing user in this company.",
+                "confirmButton": "Invite",
+                "noPlatformUser": "The email entered does not belong to an existing user in VAS Platform. You can only add registered users."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "dairyInformation": "\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
+        "dairyInfo": "\u041e \u0444\u0430\u0431\u0440\u0438\u043a\u0435",
+        "address": "\u0410\u0434\u0440\u0435\u0441",
+        "dairyName": "\u0418\u043c\u044f \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "dairyType": "\u0422\u0438\u043f \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "dairyMainActivity": "\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "changesSavedError": "\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043d\u0435\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u043d\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044e \u0444\u0430\u0431\u0440\u0438\u043a\u0438.",
+        "dairySettings": "\u041f\u0410\u0420\u0410\u041c\u0415\u0422\u0420\u042b \u0424\u0410\u0411\u0420\u0418\u041a\u0418",
+        "userManagement": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438",
+        "dairyImage": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+        "timezone": "\u0427\u0430\u0441\u043e\u0432\u043e\u0439 \u043f\u043e\u044f\u0441"
+    },
+    "userManagement": {
+        "users": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438",
+        "roles": "\u0420\u043e\u043b\u0438",
+        "role": "\u0420\u043e\u043b\u044c",
+        "assignRoles": "\u041d\u0430\u0437\u043d\u0430\u0447\u0438\u0442\u044c \u0440\u043e\u043b\u0438 \u043f\u043e\u0441\u043b\u0435 \u043e\u0434\u043e\u0431\u0440\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f.",
+        "removeUserMessage": "\u0412\u044b \u0443\u0434\u0430\u043b\u044f\u0435\u0442\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "fromDairy": "\u0441 \u044d\u0442\u043e\u0439 \u0444\u0430\u0431\u0440\u0438\u043a\u0438.",
+        "userRemovedSuccess": "\u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0443\u0434\u0430\u043b\u0435\u043d(\u0430) \u0441 \u0444\u0430\u0431\u0440\u0438\u043a\u0438.",
+        "confirmRemove": "\u0414\u0430",
+        "permission": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435",
+        "permissions": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f",
+        "removeUser": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c",
+        "noUsers": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
+        "accessPending": {
+            "title": "\u0414\u043e\u0441\u0442\u0443\u043f \u043d\u0430 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440.",
+            "declineRequestMessageFistPart": "\u0412\u044b \u043e\u0442\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0435 \u0432 \u0434\u043e\u0441\u0442\u0443\u043f\u0435 \u043a:",
+            "declineRequestMessageSecondPart": ". \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+            "confirmDeclineRequestMessageFistPart": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043a ",
+            "confirmDeclineRequestMessageSecondPart": "\u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d.",
+            "accessRequestTo": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043a",
+            "confirmApproveRequestMessage": "\u043e\u0434\u043e\u0431\u0440\u0435\u043d."
+        },
+        "user": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c",
+        "editRoles": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0440\u043e\u043b\u0438",
+        "status": "\u0421\u0442\u0430\u0442\u0443\u0441",
+        "updated": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043e",
+        "sent": "\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e",
+        "noAccessPending": "\u041d\u0435\u0442 \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0438\u043b\u0438 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0430\u0434\u043e \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c.",
+        "addRole": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0440\u043e\u043b\u044c",
+        "addNewRole": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0440\u043e\u043b\u044c",
+        "editRole": "\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f \u043f\u043e \u0440\u043e\u043b\u044f\u043c",
+        "editUserRoles": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0440\u043e\u043b\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439",
+        "assignedRoles": "\u0420\u043e\u043b\u0438 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u044b",
+        "assignedRolesHintMessage": "\u041d\u0430\u0437\u043d\u0430\u0447\u044c\u0442\u0435 \u0440\u043e\u043b\u0438 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f, \u0432\u044b\u0431\u0440\u0430\u0432 \u0438\u0445 \u0438\u0437 \u0441\u043f\u0438\u0441\u043a\u0430 \u0441\u043b\u0435\u0432\u0430",
+        "inviteUser": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "roleEdition": {
+            "roleName": "\u0418\u043c\u044f \u0440\u043e\u043b\u0438",
+            "roleDescription": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0440\u043e\u043b\u0438",
+            "errorOnlyOwner": "\u041d\u0435\u043b\u044c\u0437\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0434\u043b\u044f %{User}; \u044d\u0442\u043e \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438. \u041d\u0430\u0437\u043d\u0430\u0447\u044c\u0442\u0435 \u044d\u0442\u043e \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u043d\u043e\u043c\u0443 \u0434\u0440\u0443\u0433\u043e\u043c\u0443 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443.",
+            "errorOnlyRole": "\u041d\u0435\u043b\u044c\u0437\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0434\u043b\u044f %{role}; \u044d\u0442\u043e \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0440\u043e\u043b\u044c \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438. \u041d\u0430\u0437\u043d\u0430\u0447\u044c\u0442\u0435 \u044d\u0442\u043e \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u043d\u043e\u0439 \u0434\u0440\u0443\u0433\u043e\u0439 \u0440\u043e\u043b\u0438 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443.",
+            "permissionType": {
+                "dairy": "\u041c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0430",
+                "herd": "\u0421\u0442\u0430\u0434\u043e",
+                "feed": "\u041a\u043e\u0440\u043c",
+                "parlor": "\u0414\u043e\u0438\u043b\u044c\u043d\u044b\u0439 \u0437\u0430\u043b"
+            },
+            "permissionsAddLabel": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043d\u0430\u0431\u043e\u0440 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u043d\u043e\u0432\u043e\u0439 \u0440\u043e\u043b\u0438.",
+            "permissionsEditLabel": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043d\u0430\u0431\u043e\u0440 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u044d\u0442\u043e\u0439 \u0440\u043e\u043b\u0438.",
+            "editZonesHelpMessagePermission": "write",
+            "editZonesHelpMessage": "If you assigned %{permission} permissions to this role, and have multiple zones in your dairy, you must select to which zones it will apply.",
+            "editZonesHintMessage": "\u041d\u0430 \u043f\u0430\u043d\u0435\u043b\u0438 \u043c\u043e\u0436\u043d\u043e \u0440\u0430\u0437\u0434\u0430\u0442\u044c \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f \u043d\u0430 \u0437\u0430\u043f\u0438\u0441\u044c \u043f\u043e \u0437\u043e\u043d\u0430\u043c, \u0435\u0441\u043b\u0438 \u0443 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u0435\u0441\u0442\u044c \u0442\u0430\u043a\u043e\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435.",
+            "permissionsMessage": "\u0417\u043e\u043d\u044b \u0444\u0430\u0431\u0440\u0438\u043a\u0438 \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f\u043c\u0438 \u043d\u0430 \u0437\u0430\u043f\u0438\u0441\u044c",
+            "allRolesFilter": "\u0412\u0441\u0435 \u0440\u043e\u043b\u0438",
+            "noUsers": "\u041d\u0435\u0442 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432."
+        },
+        "accessPendingStatus": {
+            "invited": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d(\u0430)",
+            "requested": "\u0417\u0430\u043f\u0440\u043e\u0448\u0435\u043d\u043e",
+            "inviteDeclined": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d\u043e",
+            "accessRequestDeclined": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d",
+            "cancelInvite": "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+            "resendInvite": "\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437",
+            "editInvite": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+            "approve": "\u041e\u0434\u043e\u0431\u0440\u0438\u0442\u044c",
+            "decline": "\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "\u0420\u043e\u043b\u0438",
+            "availableRolesHintMessage": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0440\u043e\u043b\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0431\u0443\u0434\u0435\u0442 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c. \u042d\u0442\u043e \u043f\u043e\u0432\u043b\u0438\u044f\u0435\u0442 \u043d\u0430 \u0435\u0433\u043e \u043d\u0430\u0431\u043e\u0440 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0439.",
+            "assignedRoles": "\u0420\u043e\u043b\u0438 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u044b",
+            "confirmButtonLabel": "\u041f\u0440\u0438\u0433\u043b\u0430\u0441\u0438\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+            "assignedRolesHintMessage": "\u041d\u0430\u0437\u043d\u0430\u0447\u044c\u0442\u0435 \u0440\u043e\u043b\u0438 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f, \u0432\u044b\u0431\u0440\u0430\u0432 \u0438\u0445 \u0438\u0437 \u0441\u043f\u0438\u0441\u043a\u0430 \u0441\u043b\u0435\u0432\u0430",
+            "existingUser": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432\u0430\u043c\u0438 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u043f\u0440\u0438\u043d\u0430\u0434\u043b\u0435\u0436\u0438\u0442 \u0434\u0440\u0443\u0433\u043e\u043c\u0443 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u0444\u0430\u0431\u0440\u0438\u043a\u0438.",
+            "invitationSent": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d. \u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e.",
+            "previewUserText": " \u041d\u0430\u0436\u043c\u0438\u0442\u0435 \u0441\u044e\u0434\u0430, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+            "editRoles": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0440\u043e\u043b\u0438",
+            "existingPlatformUser": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0432\u0430\u043c\u0438 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u043f\u0440\u0438\u043d\u0430\u0434\u043b\u0435\u0436\u0438\u0442 \u0434\u0440\u0443\u0433\u043e\u043c\u0443 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e VAS Platform.",
+            "confirmUserLine1": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c \u0438",
+            "confirmUserLine2": "\u041d\u0430\u0437\u043d\u0430\u0447\u0438\u0442\u044c \u0440\u043e\u043b\u0438",
+            "exisitingUserConfirmed": "\u041f\u041e\u0414\u0422\u0412\u0415\u0420\u0416\u0414\u0415\u041d\u041e",
+            "invitePendingUser": "\u0423\u043a\u0430\u0437\u0430\u043d \u0430\u0434\u0440\u0435\u0441 \u044d\u043b. \u043f\u043e\u0447\u0442\u044b \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u043d\u043e\u0433\u043e \u0438 \u043d\u0435 \u043e\u0442\u0432\u0435\u0442\u0438\u0432\u0448\u0435\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f."
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u0440\u043e\u043b\u0438. \u042d\u0442\u043e \u043f\u043e\u0432\u043b\u0438\u044f\u0435\u0442 \u043d\u0430 \u0435\u0433\u043e \u043d\u0430\u0431\u043e\u0440 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0439.",
+            "availableRolesTitle": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0435 \u0440\u043e\u043b\u0438",
+            "rolesUpdated": "\u0420\u043e\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u044b."
+        },
+        "resendInvite": {
+            "successfullySent": "\u041d\u043e\u0432\u043e\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u0434\u043b\u044f:"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "\u0412\u044b \u043e\u0442\u043c\u0435\u043d\u044f\u0435\u0442\u0435 \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f %{user}. \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+            "cancelConfirmationMessage": "\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043a %{dairyName} \u043e\u0442\u043c\u0435\u043d\u0435\u043d\u043e"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "\u0420\u043e\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u044b."
+        },
+        "confirmDisableRole": "\u041e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0440\u043e\u043b\u0438 \u0438\u0437\u043c\u0435\u043d\u0438\u0442 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044e \u0434\u043b\u044f %{userCount} \u043f\u043e\u043b\u044c\u0437. \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+        "disableRoleConfirmed": "\u0440\u043e\u043b\u044c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0430",
+        "disableOnlyRoleError": "\u041d\u0435\u043b\u044c\u0437\u044f \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0434\u043b\u044f %{role}; \u044d\u0442\u043e \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0440\u043e\u043b\u044c \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438. \u041d\u0430\u0437\u043d\u0430\u0447\u044c\u0442\u0435 \u044d\u0442\u043e \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u043d\u043e\u0439 \u0434\u0440\u0443\u0433\u043e\u0439 \u0440\u043e\u043b\u0438 \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443.",
+        "confirmEnableRole": "\u0412\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0440\u043e\u043b\u0438 \u0434\u0430\u0441\u0442 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044e \u0434\u043b\u044f %{userCount} \u043f\u043e\u043b\u044c\u0437. \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+        "enableRoleConfirmed": "\u0440\u043e\u043b\u044c \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430",
+        "customizeNewRole": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043d\u043e\u0432\u043e\u0439 \u0440\u043e\u043b\u0438",
+        "writerPermissionRequireZone": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0445\u043e\u0442\u044f \u0431\u044b \u043e\u0434\u043d\u0443 \u0437\u043e\u043d\u0443, \u0433\u0434\u0435 \u0431\u0443\u0434\u0443\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043d\u0430 \u0437\u0430\u043f\u0438\u0441\u044c.",
+        "roleAddedSuccessfully": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0430 \u0440\u043e\u043b\u044c %{roleName}.",
+        "errors": {
+            "userAlreadyHasPendingRequest": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f %{email} \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0444\u0430\u0431\u0440\u0438\u043a\u0435 %{dairyName} \u0443\u0436\u0435 \u043d\u0430 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0438\u0438."
+        },
+        "addNewUser": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+            "notification": "\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+            "help": "\u041f\u043e\u043c\u043e\u0449\u044c"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "\u041f\u043e\u043c\u043e\u0433\u0438\u0442\u0435 \u043d\u0430\u043c \u0441\u0442\u0430\u0442\u044c \u043b\u0443\u0447\u0448\u0435"
+        },
+        "modal": {
+            "formTitle": "\u041f\u043e\u043c\u043e\u0433\u0438\u0442\u0435 \u043d\u0430\u043c \u0441\u0442\u0430\u0442\u044c \u043b\u0443\u0447\u0448\u0435",
+            "formContent": "\u041c\u044b \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u043d\u0430\u0434 VAS Platform, \u0438 \u043c\u044b \u0432\u0441\u0435\u0433\u0434\u0430 \u0440\u0430\u0434\u044b \u0443\u0441\u043b\u044b\u0448\u0430\u0442\u044c \u043e\u0442 \u0432\u0430\u0441, \u0447\u0442\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0445\u043e\u0440\u043e\u0448\u043e, \u0430 \u0447\u0442\u043e \u043c\u044b \u043c\u043e\u0436\u0435\u043c \u0443\u043b\u0443\u0447\u0448\u0438\u0442\u044c.",
+            "inputLabel": "\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044c \u0441\u0432\u043e\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
+            "inputRequiredMessage": "\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
+            "submitLabel": "\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439",
+            "defaultErrorMessage": "\u041e\u0439-\u043e\u0439-\u043e\u0439. \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437.",
+            "successCaption": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448\u0435 \u0432\u0440\u0435\u043c\u044f!",
+            "successContent": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 VAS Platform \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u043e\u0442\u0437\u044b\u0432, \u043e\u043d \u043e\u0447\u0435\u043d\u044c \u0432\u0430\u0436\u0435\u043d \u0434\u043b\u044f \u043d\u0430\u0441. \u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0447\u0442\u043e \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442\u0435 \u043d\u0430\u043c \u0443\u043b\u0443\u0447\u0448\u0430\u0442\u044c \u043d\u0430\u0448 \u043f\u0440\u043e\u0434\u0443\u043a\u0442!"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u0438",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "\u041e\u0436\u0438\u0434\u0430\u0435\u043c \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445.",
+            "\u0417\u0430\u0445\u043e\u0434\u0438\u0442\u0435 \u043f\u043e\u0437\u0436\u0435."
+        ],
+        "lastSync": "\u041f\u043e\u0441\u043b. \u0441\u0438\u043d\u0445\u0440.:",
+        "integrationRequired": "integration required",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "\u0421\u0442\u0430\u0442\u0443\u0441 DairyComp",
+            "disabledModuleText": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u044b\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u043f\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e \u0441\u0442\u0430\u0434\u0430\u043c\u0438 \u0438 \u0442\u043e\u0447\u043d\u044b\u0439 \u0443\u0447\u0435\u0442 \u043a\u043e\u0440\u043e\u0432.",
+            "communicationStatus": {
+                "title": "\u0421\u0442\u0430\u0442\u0443\u0441 \u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0438",
+                "healthy": "\u0417\u0434\u043e\u0440\u043e\u0432(\u0430)",
+                "notHealthy": "\u041d\u0435 \u0437\u0434\u043e\u0440\u043e\u0432(\u0430)",
+                "lastBeat": "\u041f\u043e\u0441\u043b. \u0441\u0432\u044f\u0437\u044c:"
+            },
+            "processingStatus": {
+                "title": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0441\u0438\u043d\u0445\u0440. \u0434\u0430\u043d\u043d\u044b\u0445",
+                "dataValid": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b \u043d\u0430:",
+                "problemEncountered": "\u0412\u043e\u0437\u043d\u0438\u043a\u043b\u0430 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \u043f\u0440\u0438 \u043f\u043e\u043f\u044b\u0442\u043a\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0432\u0430\u043c \u043d\u043e\u0432\u0435\u0439\u0448\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0435. \u041c\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u043d\u0430\u0434 \u0435\u0435 \u0443\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "\u0421\u043a\u043e\u0440\u043e \u0431\u0443\u0434\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 FeedComp.",
+            "disabledModuleText": "\u0421\u043b\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c\u044e \u043a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u0438 \u043f\u0440\u0438\u0431\u044b\u043b\u044c\u044e \u043a \u043a\u043e\u0440\u043c\u0443",
+            "processingStatus": {
+                "title": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0441\u0438\u043d\u0445\u0440. \u0434\u0430\u043d\u043d\u044b\u0445",
+                "lastSync": "\u041f\u043e\u0441\u043b. \u0441\u0438\u043d\u0445\u0440.:",
+                "problemEncountered": "\u0412\u043e\u0437\u043d\u0438\u043a\u043b\u0430 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430 \u043f\u0440\u0438 \u043f\u043e\u043f\u044b\u0442\u043a\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0432\u0430\u043c \u043d\u043e\u0432\u0435\u0439\u0448\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0435. \u041c\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u043d\u0430\u0434 \u0435\u0435 \u0443\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c."
+            },
+            "feedWatchServiceStatus": {
+                "title": "\u0421\u043b\u0443\u0436\u0431\u0430 FeedWatch",
+                "serviceStatus": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u0441\u043b\u0443\u0436\u0431\u044b",
+                "isRunning": "\u0417\u0430\u043f\u0443\u0449\u0435\u043d\u0430",
+                "notRunning": "\u041d\u0435 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430"
+            },
+            "scheduledTaskStatus": {
+                "title": "\u0417\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u0434\u0430\u0447\u0438",
+                "lastRan": "\u041f\u043e\u0441\u043b. \u0437\u0430\u043f\u0443\u0441\u043a:"
+            },
+            "dairyCompImportStatus": {
+                "title": "\u041f\u043e\u0441\u043b. \u0438\u043c\u043f\u043e\u0440\u0442 DC305",
+                "penCount": "\u0413\u043e\u043b\u043e\u0432 \u0432 \u0437\u0430\u0433\u043e\u043d\u0435",
+                "itemData": "\u0414\u0430\u043d\u043d\u044b\u0435 \u043f\u043e \u043e\u0431\u044a\u0435\u043a\u0442\u0443"
+            },
+            "sendEquipmentExport": {
+                "title": "Request Export to Equipment",
+                "sendExport": "Send Export"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "\u0421\u0442\u0430\u0442\u0443\u0441 ParlorComp",
+            "availableSoon": "\u0421\u043a\u043e\u0440\u043e \u0431\u0443\u0434\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u0438\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0438\u044f \u0441 ParlorComp.",
+            "disabledModuleText": "\u0421\u043b\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u043c\u0438 \u0434\u043e\u0438\u043b\u044c\u043d\u044b\u0445 \u0437\u0430\u043b\u043e\u0432 \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0439\u0442\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c."
+        }
+    },
+    "notifications": {
+        "title": "\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+        "link": "\u0421\u043c. \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e",
+        "createdPlural": "were created by the %{provider} integration",
+        "createdSingular": "was created by the %{provider} integration",
+        "updatedPlural": "were updated by the %{provider} integration",
+        "updatedSingular": "was updated by the %{provider} integration"
+    },
+    "report": {
+        "favorite": {
+            "title": "\u0418\u0437\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u043e\u0442\u0447\u0435\u0442\u044b"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "\u041e\u0442\u0447\u0435\u0442\u044b DairyComp",
+            "menu": {
+                "reproduction": "\u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+                "transition": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434",
+                "mastitis": "\u041c\u0430\u0441\u0442\u0438\u0442",
+                "production": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e",
+                "lameness": "\u0425\u0440\u043e\u043c\u043e\u0442\u0430"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "\u0418\u043d\u0442. 21 \u0434\u0435\u043d\u044c",
+                        "bredElig": "# \u041c\u043e\u0436\u043d\u043e \u0432\u044f\u0437.",
+                        "bred": "# \u041f\u043e\u0432\u044f\u0437.",
+                        "bredRisk": "\u0420\u0438\u0441\u043a \u0432\u044f\u0437\u043a\u0438 %",
+                        "pregElig": "# \u041c\u043e\u0436\u043d\u043e \u0431\u0435\u0440\u0435\u043c.",
+                        "preg": "# \u0411\u0435\u0440\u0435\u043c.",
+                        "pregRisk": "\u0420\u0438\u0441\u043a \u0431\u0435\u0440\u0435\u043c %",
+                        "pregLoss": "# \u041f\u043e\u0442\u0435\u0440\u0438 \u043f\u043b\u043e\u0434\u043e\u0432"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "\u041c\u043e\u043b. \u0434\u043d\u0435\u0439 \u043a 1 \u0432\u044f\u0437\u043a\u0435",
+                        "headCount": "\u0427\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u044c"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "\u0422\u0435\u0445\u043d\u0438\u043a",
+                        "95Percentage": "95% \u0434\u043e\u0432. \u0438\u043d\u0442.",
+                        "risk": "\u0417\u0430\u0447\u0430\u0442. \u0420\u0438\u0441\u043a%",
+                        "preg": "# \u0411\u0435\u0440\u0435\u043c.",
+                        "open": "# \u041e\u0442\u043a\u0440.",
+                        "other": "# \u041f\u0440\u043e\u0447\u0435\u0435",
+                        "pregLoss": "# \u041f\u043e\u0442\u0435\u0440\u0438 \u043f\u043b\u043e\u0434\u043e\u0432",
+                        "breeding": "# \u0412\u044f\u0437\u043a\u0430",
+                        "breedingPercentage": "% \u0432\u044f\u0437\u043a\u0438",
+                        "spc": "Spc",
+                        "bottomReference": "* \u0411\u043e\u043b\u0435\u0435 10% \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u043e\u0432 \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "\u041e\u0442\u0447\u0435\u0442\u044b FeedComp",
+            "menu": {
+                "feederPerformance": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434-\u0442\u044c \u0444\u0438\u0434\u0435\u0440\u0430",
+                "feedingBasics": "\u041e\u0441\u043d\u043e\u0432\u044b \u043a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f",
+                "intake": "\u041f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435",
+                "inventory": "\u0417\u0430\u043f\u0430\u0441\u044b",
+                "usage": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+                "economics": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "\u0414\u0430\u0442\u0430",
+                        "avgPenCount": "\u0413\u043e\u043b\u043e\u0432 \u0432 \u0437\u0430\u0433\u043e\u043d\u0435, \u0441\u0440.",
+                        "dropped": "# \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u043e",
+                        "avgDropped": "\u0421\u0440. \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u043e",
+                        "weighBacks": "# \u041e\u0441\u0442\u0430\u0442\u043a\u0438",
+                        "avgWeighBacks": "\u0421\u0440\u0435\u0434. \u043e\u0441\u0442\u0430\u0442\u043a\u0438",
+                        "dm": "# \u0421\u0412",
+                        "avgDmAnimal": "\u0441\u0440. \u0421\u0412\/\u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435",
+                        "pen": "\u0417\u0410\u0413\u041e\u041d",
+                        "noPen": "\u041d\u0435\u0442 \u0437\u0430\u0433\u043e\u043d\u043e\u0432 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f."
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "\u041e\u0442\u0447\u0435\u0442\u044b ParlorComp",
+            "menu": {
+                "tankWatch": "Tankwatch",
+                "milkingSummaries": "\u041e\u0431\u0437\u043e\u0440 \u043f\u043e \u0434\u043e\u0435\u043d\u0438\u044e",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "\u0411\u0430\u043a",
+                        "route": "\u041c\u0430\u0440\u0448\u0440\u0443\u0442",
+                        "date": "\u0414\u0430\u0442\u0430",
+                        "weight": "\u0412\u0435\u0441 (\u0444\u0443\u043d\u0442.)",
+                        "volume": "\u041e\u0431\u044a\u0435\u043c (\u0413\u0410\u041b.)",
+                        "fat": "\u0416\u0438\u0440 (%)",
+                        "protein": "\u0411\u0435\u043b\u043e\u043a (%)",
+                        "lactose": "\u041b\u0430\u043a\u0442\u043e\u0437\u0430 (%)",
+                        "solids": "\u0422\u0432\u0435\u0440\u0434\u044b\u0435 \u0432\u0435\u0449-\u0432\u0430 (%)",
+                        "totals": "\u0421\u0440\u0435\u0434\u043d\u0438\u0435 \u0438\u0442\u043e\u0433\u0438 \u0437\u0430 10 \u0434\u043d.",
+                        "tankAverages": "\u0421\u0440\u0435\u0434\u043d\u0435\u0435 \u0437\u0430 10 \u0434\u043d\u0435\u0439"
+                    }
+                }
+            }
+        },
+        "backToReports": "\u041d\u0430\u0437\u0430\u0434 \u043a \u043e\u0442\u0447\u0435\u0442\u0430\u043c",
+        "addToFavorites": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0435",
+        "tableView": "\u0412 \u0432\u0438\u0434\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+        "graphView": "\u0412 \u0432\u0438\u0434\u0435 \u0433\u0440\u0430\u0444\u0438\u043a\u0430"
+    },
+    "landing": {
+        "configureDairy": "\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0444\u0430\u0431\u0440\u0438\u043a\u0443",
+        "dairyTeammates": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "searchUser": "\u0418\u0441\u043a\u0430\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "displayName": "\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u043c\u043e\u0435 \u0438\u043c\u044f",
+        "userType": "\u0422\u0438\u043f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "zones": "\u0417\u043e\u043d\u044b",
+        "downloadZOF": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c ZOF",
+        "activeRecords": "\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438",
+        "cows": "\u041a\u043e\u0440\u043e\u0432\u044b",
+        "heifers": "\u0422\u0435\u043b\u043a\u0438",
+        "bulls": "\u0411\u044b\u043a\u0438",
+        "inactiveRecords": "\u041d\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438",
+        "died": "\u0423\u043c\u0435\u0440(\u043b\u0430)",
+        "sold": "\u041f\u0440\u043e\u0434\u0430\u043d(\u0430)",
+        "supportedBy": "\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430:",
+        "cowSearch": "\u0418\u0441\u043a\u0430\u0442\u044c \u043a\u043e\u0440\u043e\u0432\u0443",
+        "acceptInvite": "\u041f\u0440\u0438\u043d\u044f\u0442\u044c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+        "declineInvite": "\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c \u043f\u0440\u0438\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435",
+        "accessRequested": "\u0414\u043e\u0441\u0442\u0443\u043f \u0437\u0430\u043f\u0440\u043e\u0448\u0435\u043d",
+        "cancelAccessRequested": "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f",
+        "requestAccess": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f"
+    },
+    "errorPage": {
+        "isoLogoAlt": "\u041b\u043e\u0433\u043e\u0442\u0438\u043f VAS Platform",
+        "returnHome": "\u041d\u0430 \u0433\u043b\u0430\u0432\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d"
+    },
+    "error400Page": {
+        "title": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430",
+        "description": [
+            "\u0417\u0430\u043f\u0438\u0441\u044c, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c, \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430.",
+            "\u0412\u0435\u0440\u043d\u0438\u0442\u0435\u0441\u044c \u043d\u0430\u0437\u0430\u0434 \u0438 \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437."
+        ]
+    },
+    "error403Page": {
+        "title": "\u0414\u043e\u0441\u0442\u0443\u043f \u0437\u0430\u043f\u0440\u0435\u0449\u0435\u043d",
+        "description": [
+            "\u0423 \u0432\u0430\u0441 \u043d\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435.",
+            "\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435\u0441\u044c \u043a \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u043c\u0443 \u0444\u0430\u0431\u0440\u0438\u043a\u043e\u0439, \u0435\u0441\u043b\u0438 \u0432\u044b \u0434\u0443\u043c\u0430\u0435\u0442\u0435, \u0447\u0442\u043e \u044d\u0442\u043e \u043e\u0448\u0438\u0431\u043a\u0430."
+        ]
+    },
+    "error404Page": {
+        "title": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430",
+        "description": [
+            "\u041c\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u043c \u043d\u0430\u0439\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u0438\u0449\u0435\u0442\u0435.",
+            "\u041c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c, \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u043d\u0430 \u0433\u043b\u0430\u0432\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d?"
+        ]
+    },
+    "error500Page": {
+        "title": "\u041e \u043d\u0435\u0442! \u0423 \u043d\u0430\u0441 \u0432\u043e\u0437\u043d\u0438\u043a\u043b\u0430 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430.",
+        "description": [
+            "\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0430, \u0438 \u043c\u044b \u043f\u044b\u0442\u0430\u0435\u043c\u0441\u044f \u0441 \u043d\u0435\u0439 \u0441\u043f\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f!",
+            "\u0421\u043a\u043e\u0440\u043e \u0432\u0441\u0451 \u0437\u0430\u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442."
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435!",
+        "description": [
+            "\u0412 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043d\u0435\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u043d\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430.",
+            "\u0421\u0432\u044f\u0436\u0438\u0442\u0435\u0441\u044c \u0435\u0449\u0451 \u0440\u0430\u0437 \u0441\u043e \u0441\u043b\u0443\u0436\u0431\u043e\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438, \u0447\u0442\u043e\u0431\u044b \u043c\u044b \u043c\u043e\u0433\u043b\u0438 \u0440\u0430\u0437\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f \u0432 \u044d\u0442\u043e\u0439 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0435."
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "\u041d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e",
+        "description": [
+            "\u0417\u0430\u043f\u0438\u0441\u044c, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u0432\u044b \u043f\u044b\u0442\u0430\u0435\u0442\u0435\u0441\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c, \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430.",
+            "\u0412\u0435\u0440\u043d\u0438\u0442\u0435\u0441\u044c \u043d\u0430\u0437\u0430\u0434 \u0438 \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437."
+        ]
+    },
+    "pagination": {
+        "first": "\u041f\u0435\u0440\u0432.",
+        "last": "\u041f\u043e\u0441\u043b.",
+        "view": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440",
+        "rowsPerPage": "\u0441\u0442\u0440\u043e\u043a \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435",
+        "records": {
+            "singular": "Record",
+            "plural": "Records"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "\u0412\u044b \u043e\u0442\u043c\u0435\u043d\u044f\u0435\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043a",
+        "confirmCancelPart2": ". \u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0435?",
+        "confirmedCancel": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0434\u043e\u0441\u0442\u0443\u043f \u043e\u0442\u043c\u0435\u043d\u0435\u043d."
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Show more info",
+                "hideInfo": "Show less info",
+                "references": "\u0421\u0441\u044b\u043b\u043a\u0438",
+                "updated": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043e",
+                "noData": {
+                    "title": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445",
+                    "description": "\u041d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043e\u0442\u0447\u0435\u0442\u0430."
+                },
+                "integrationPending": {
+                    "title": "Integration Required",
+                    "description": "Contact {vasSupport} to complete the integration",
+                    "linkText": "VAS Support"
+                }
+            },
+            "error": {
+                "ohNo": "\u041e \u043d\u0435\u0442!",
+                "errorLoadingWidget": "\u041f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 \u0432\u0438\u0434\u0436\u0435\u0442\u0430 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430.",
+                "tryAgainLater": "\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435."
+            },
+            "cowStats": {
+                "title": "\u0421\u0442\u0430\u0442. \u043f\u043e \u043a\u043e\u0440\u043e\u0432\u0430\u043c",
+                "info": "\u041f\u043e\u0441\u043b. 30 \u0434\u043d\u0435\u0439",
+                "allMilkingCows": "\u0412\u0441\u0435 \u0434\u043e\u0439\u043d\u044b\u0435 \u043a\u043e\u0440\u043e\u0432\u044b",
+                "fresh": "\u041d\u043e\u0432\u043e\u0442\u0435\u043b.",
+                "dueDry": "\u0412 \u0441\u0443\u0445\u043e\u0441\u0442.",
+                "toTank": "\u0412 \u0431\u0430\u043a",
+                "hospital": "\u041b\u0435\u0447\u0435\u0431\u043d\u0438\u0446\u0430",
+                "allDryCows": "\u0412\u0441\u0435 \u0441\u0443\u0445\u043e\u0441\u0442. \u043a\u043e\u0440\u043e\u0432\u044b",
+                "closeUp": "\u0411\u043b\u0438\u0437\u043a\u043e",
+                "farOff": "\u0414\u0430\u043b\u0435\u043a\u043e",
+                "allHeifers": "\u0412\u0441\u0435 \u0442\u0435\u043b\u043a\u0438",
+                "closeUpHeifers": "\u0422\u0435\u043b\u043a\u0438 \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e"
+            },
+            "companyCowStats": {
+                "title": "COWS STATS - Totals for All Company Dairies",
+                "milkingCows": "Milking Cows",
+                "dryCows": "Dry Cows",
+                "heifers": "Heifers",
+                "toTank": "To Tank",
+                "dueDry": "Due Dry",
+                "freshCows": "Fresh",
+                "hospital": "Hospital",
+                "closeupCows": "Close Up",
+                "farOffCows": "Far Off",
+                "closeupHeifers": "Close Up",
+                "notCloseupHeifers": "Not Close Up"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "Heifers",
+                    "dryCows": "Dry Cows",
+                    "milkingCows": "Milking Cows",
+                    "toTank": "To Tank",
+                    "hospital": "Hospital",
+                    "fresh": "Fresh",
+                    "dueDry": "Due Dry",
+                    "closeUp": "Close Up",
+                    "farOff": "Far Off",
+                    "closeUpHeifers": "Close Up"
+                },
+                "labels": {
+                    "xAxis": "Number of Animals"
+                }
+            },
+            "events": {
+                "events": "\u0421\u043e\u0431\u044b\u0442\u0438\u044f",
+                "total": "\u0412\u0441\u0435\u0433\u043e",
+                "days": {
+                    "monday": "\u041f\u043d",
+                    "tuesday": "\u0412\u0442",
+                    "wednesday": "\u0421\u0440",
+                    "thursday": "\u0427\u0442",
+                    "friday": "\u041f\u0442",
+                    "saturday": "\u0421\u0431",
+                    "sunday": "\u0412\u0441"
+                }
+            },
+            "econIR": {
+                "toFreshen": "\u0412 \u043d\u043e\u0432\u043e\u0442\u0435\u043b.",
+                "cows": "\u041a\u043e\u0440\u043e\u0432\u044b",
+                "heifers": "\u0422\u0435\u043b\u043a\u0438",
+                "toDry": "\u0412 \u0441\u0443\u0445\u043e\u0441\u0442.",
+                "toCull": "\u0412 \u0431\u0440\u0430\u043a",
+                "milkingVsDry": "\u0414\u043e\u0439\u043d\u044b\u0435 vs \u0421\u0443\u0445\u043e\u0441\u0442.",
+                "milkingCows": "\u0414\u043e\u0439\u043d\u044b\u0435 \u043a\u043e\u0440\u043e\u0432\u044b",
+                "dryCows": "\u0421\u0443\u0445\u043e\u0441\u0442. \u043a\u043e\u0440\u043e\u0432\u044b",
+                "estimatedFemalesBorn": "\u041e\u0446\u0435\u043d\u043a\u0430 \u043f\u043e \u0440\u043e\u0436\u0434. \u0436\u0438\u0432\u044b\u043c \u0441\u0430\u043c\u043a\u0430\u043c",
+                "lactGt1": "\u041b\u0430\u043a\u0442 > 1",
+                "lactEq1": "\u041b\u0430\u043a\u0442 = 1"
+            },
+            "heiferCountByAge": {
+                "total": "\u0412\u0421\u0415\u0413\u041e",
+                "subtotal": "\u041f\u041e\u0414\u042b\u0422\u041e\u0413",
+                "ageSuffix": "(\u0413\u043e\u0434 - \u041c\u0435\u0441)",
+                "age": "\u041f\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0443",
+                "pct": "PCT",
+                "count": "\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e"
+            },
+            "calfReport": {
+                "alive": "\u0416\u0438\u0432.",
+                "birthsLabel": "\u041f\u043e\u043b \u043d\u043e\u0432\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u043d\u044b\u0445 \u043f\u043e \u0433\u0440\u0443\u043f\u043f\u0430\u043c \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438",
+                "dead": "\u041c\u0435\u0440\u0442\u0432.",
+                "stillBirthsLabel": "\u041f\u0440\u043e\u0446\u0435\u043d\u0442 \u043c\u0435\u0440\u0442\u0432\u043e\u0440\u043e\u0440\u0436\u0434. \u043f\u043e \u0433\u0440\u0443\u043f\u043f\u0430\u043c \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438",
+                "calves": "\u0422\u0435\u043b\u044f\u0442\u0430",
+                "allSexes": "\u041e\u0431\u0430 \u043f\u043e\u043b\u0430",
+                "females": "\u0421\u0430\u043c\u043a\u0438",
+                "males": "\u0421\u0430\u043c\u0446\u044b",
+                "lactationGroup": "LGRP"
+            },
+            "conceptionRate": {
+                "bredNumber": "\u0427\u0438\u0441\u043b\u043e \u043f\u043e\u0432\u044f\u0437.",
+                "percent": "\u041f\u0440\u043e\u0446\u0435\u043d\u0442",
+                "labels": {
+                    "ci95": "95% \u0414\u0418",
+                    "conceptionRisk": "\u0420\u0438\u0441\u043a \u0437\u0430\u0447\u0430\u0442\u0438\u044f %",
+                    "manyRebreeds": "\u041c\u043d\u043e\u0433\u043e \u043f\u043e\u0432\u0442. \u0432\u044f\u0437\u043e\u043a",
+                    "manyOpens": "\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435! \u041c\u043d\u043e\u0433\u043e \u043e\u0442\u043a\u0440.",
+                    "manyUnknownBredOutcomes": "\u041c\u043d\u043e\u0433\u043e \u043d\u0435\u0438\u0437\u0432. \u0440\u0435\u0437-\u0442\u043e\u0432 \u0432\u044f\u0437\u043a\u0438"
+                },
+                "table": {
+                    "conceptionPercent": "%Conc",
+                    "pregnant": "# \u0431\u0435\u0440\u0435\u043c.",
+                    "open": "# \u043e\u0442\u043a\u0440.",
+                    "other": "\u041f\u0440\u043e\u0447\u0438\u0435",
+                    "abort": "\u0410\u0431\u043e\u0440\u0442",
+                    "total": "\u0412\u0441\u0435\u0433\u043e",
+                    "totPercent": "% \u043e\u0442 \u043e\u0431\u0449. \u043a\u043e\u043b-\u0432\u0430",
+                    "spc": "SPC"
+                },
+                "showMoreInfo": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0446\u0443 \u0434\u0430\u043d\u043d\u044b\u0445",
+                "hideMoreInfo": "\u0421\u043a\u0440\u044b\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0446\u0443 \u0434\u0430\u043d\u043d\u044b\u0445"
+            },
+            "pregnancyRisk": {
+                "date": "\u0414\u0410\u0422\u0410",
+                "percent": "\u041f\u0420\u041e\u0426\u0415\u041d\u0422",
+                "viewDataTable": "\u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c \u0422\u0410\u0411\u041b\u0418\u0426\u0423 \u0414\u0410\u041d\u041d\u042b\u0425",
+                "closeDataTable": "\u0421\u041a\u0420\u042b\u0422\u042c \u0422\u0410\u0411\u041b\u0418\u0426\u0423 \u0414\u0410\u041d\u041d\u042b\u0425",
+                "labels": {
+                    "info": "\u041f\u043e\u0434\u043e\u0436\u0434\u0430\u0442\u044c %{value} \u0434.",
+                    "percentage95ci": "\u0420\u0411 95% \u0414\u0418",
+                    "inseminationRisk": "\u0420\u0438\u0441\u043a \u043e\u0441\u0435\u043c\u0435\u043d\u0435\u043d\u0438\u044f",
+                    "pregnancyRisk": "\u0420\u0438\u0441\u043a \u0431\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438",
+                    "pregnantEligible": "\u0418\u0442\u043e\u0433\u043e",
+                    "totalPregnant": "\u0411\u0435\u0440\u0435\u043c.",
+                    "percentage95ciFull": "\u0420\u0438\u0441\u043a \u0431\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 95% \u0414\u0418"
+                },
+                "table": {
+                    "ci95": "95% \u0414\u0418",
+                    "brElegible": "\u041c\u043e\u0436\u043d\u043e \u0432\u044f\u0437.",
+                    "bred": "\u041f\u043e\u0432\u044f\u0437\u0430\u0442\u044c",
+                    "pct": "PCT",
+                    "pgElegible": "\u041f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u0431\u0435\u0440\u0435\u043c",
+                    "pregnant": "\u0411\u0435\u0440\u0435\u043c",
+                    "abort": "\u0410\u0431\u043e\u0440\u0442\u044b"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "\u041e\u0446\u0435\u043d\u043a\u0430 \u043f\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0443 \u043c\u043e\u043b\u043e\u043a\u0430",
+                "pounds": "\u0424\u0443\u043d\u0442.",
+                "poundsInHundreds": "\u0424\u0443\u043d\u0442\u043e\u0432, \u0441\u043e\u0442\u043d\u0438",
+                "references": "\u0421\u0441\u044b\u043b\u043a\u0438",
+                "perDayPerCow": "\u0412 \u0441\u0443\u0442\u043a\u0438 \u043d\u0430 \u043a\u043e\u0440\u043e\u0432\u0443",
+                "perDay": "\u0412 \u0441\u0443\u0442\u043a\u0438",
+                "closeDataTable": "\u0417\u0410\u041a\u0420\u042b\u0422\u042c \u0422\u0410\u0411\u041b\u0418\u0426\u0423 \u0414\u0410\u041d\u041d\u042b\u0425"
+            },
+            "dmiByPenType": {
+                "DMI": "DMI"
+            },
+            "weather": {
+                "today": "\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+                "currently": "\u0421\u0435\u0439\u0447\u0430\u0441",
+                "min": "\u041c\u0438\u043d.",
+                "max": "\u041c\u0430\u043a\u0441.",
+                "humidityAbbr": "\u0427.",
+                "currentConditions": "\u0422\u0435\u043a\u0443\u0449\u0438\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f",
+                "pressure": "\u0414\u0430\u0432\u043b\u0435\u043d\u0438\u0435",
+                "visibility": "\u0412\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u044c",
+                "humidity": "\u0412\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c",
+                "wind": "\u0412\u0435\u0442\u0435\u0440"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u043e\u0435 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435",
+                "noDisabledEquipment": "\u041d\u0435\u0442 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043f\u043e\u043a\u0430\u0437\u0430",
+                "noEnableEquipmentToShow": "\u041d\u0435\u0442 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043f\u043e\u043a\u0430\u0437\u0430",
+                "noEquipmentToShow": "\u041d\u0435\u0442 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043f\u043e\u043a\u0430\u0437\u0430",
+                "previousLoad": "\u041f\u0440\u0435\u0434. \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+                "nextLoad": "\u0421\u043b\u0435\u0434. \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+                "targetLoad": "\u0426\u0435\u043b\u0435\u0432\u0430\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430",
+                "actualQty": "\u0424\u0430\u043a\u0442. \u043a\u043e\u043b-\u0432\u043e",
+                "loadBar": {
+                    "target": "\u0426\u0435\u043b\u044c",
+                    "actual": "\u0424\u0430\u043a\u0442"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "3,5%\u0436",
+                "fatCorrectedMilk": "4%\u0436",
+                "averageMilk": {
+                    "labelForDay": "\u0421\u0440\u0435\u0434\u043d\u0435\u0435 \u0437\u0430 \u043f\u043e\u0441\u043b. \u0434\u0435\u043d\u044c",
+                    "labelForDays": "\u0421\u0440\u0435\u0434\u043d\u0435\u0435 \u0437\u0430 \u043f\u043e\u0441\u043b. %{days} \u0434."
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0446\u0443 \u0434\u0430\u043d\u043d\u044b\u0445",
+                "closeDataTable": "\u0421\u043a\u0440\u044b\u0442\u044c \u0442\u0430\u0431\u043b\u0438\u0446\u0443 \u0434\u0430\u043d\u043d\u044b\u0445",
+                "table": {
+                    "chemical": "\u0425\u0438\u043c.",
+                    "current": "\u0422\u0435\u043a\u0443\u0449.",
+                    "average": "\u0421\u0440\u0435\u0434\u043d.",
+                    "tankCapacity": "\u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0431\u0430\u043a\u0430"
+                },
+                "chart": {
+                    "chemicalData": "\u0425\u0438\u043c. \u0434\u0430\u043d\u043d\u044b\u0435",
+                    "percent": "\u041f\u0440\u043e\u0446\u0435\u043d\u0442",
+                    "available": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u043e",
+                    "remaining": "\u041e\u0441\u0442\u0430\u043b\u043e\u0441\u044c",
+                    "tank": "\u0411\u0430\u043a",
+                    "percentChemical": "% \u0445\u0438\u043c."
+                }
+            },
+            "ingredientUsage": {
+                "actual": "\u0424\u0430\u043a\u0442",
+                "target": "\u0426\u0435\u043b\u044c",
+                "tons": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0432 \u0442\u043e\u043d\u043d\u0430\u0445",
+                "tonne": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0432 \u0442\u043e\u043d\u043d\u0430\u0445",
+                "allIngredientsLoaded": "\u0412\u0441\u0435 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u044b \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u044b \u043a\u0430\u043a \u043d\u0430\u0434\u043e"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "\u041e\u0431\u0437\u043e\u0440 DairyComp",
+            "zoneFilters": {
+                "all": "\u0412\u0441\u0435 \u0437\u043e\u043d\u044b"
+            },
+            "widgets": {
+                "notReady": "\u0412\u0438\u0434\u0436\u0435\u0442 \u043d\u0435 \u0433\u043e\u0442\u043e\u0432."
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "\u041e\u0431\u0437\u043e\u0440 ParlorComp",
+            "zoneFilters": {
+                "all": "\u0412\u0441\u0435 \u0437\u043e\u043d\u044b"
+            },
+            "widgets": {
+                "notReady": "\u0412\u0438\u0434\u0436\u0435\u0442 \u043d\u0435 \u0433\u043e\u0442\u043e\u0432."
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "\u041e\u0431\u0437\u043e\u0440 FeedComp",
+            "zoneFilters": {
+                "all": "\u0412\u0441\u0435 \u0437\u043e\u043d\u044b"
+            },
+            "widgets": {
+                "notReady": "\u0412\u0438\u0434\u0436\u0435\u0442 \u043d\u0435 \u0433\u043e\u0442\u043e\u0432."
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "\u041c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0430",
+        "dashboard": "\u041f\u0430\u043d\u0435\u043b\u044c",
+        "pens": "\u0417\u0430\u0433\u043e\u043d\u044b",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "\u041e\u0431\u0437\u043e\u0440",
+            "pens": "\u0417\u0430\u0433\u043e\u043d\u044b",
+            "worklists": "Open Worklists",
+            "embryoInventory": "Embryo Inventory"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "\u041e\u0431\u0437\u043e\u0440",
+            "pens": "\u0417\u0430\u0433\u043e\u043d\u044b",
+            "ingredients": "\u0418\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u044b",
+            "recipes": "\u0420\u0435\u0446\u0435\u043f\u0442\u044b",
+            "inventoryProjections": "\u0417\u0430\u043f\u0430\u0441\u044b \u0438 \u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b",
+            "dmAdjustments": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0421\u0412%",
+            "bunkScoring": "\u041e\u0446\u0435\u043d\u043a\u0430 \u043a\u043e\u0440\u043c\u0443\u0448\u0435\u043a"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "\u041e\u0431\u0437\u043e\u0440",
+            "pens": "\u0417\u0430\u0433\u043e\u043d\u044b",
+            "reports": "\u041e\u0442\u0447\u0435\u0442\u044b \u043f\u043e \u0437\u0430\u043b\u0430\u043c"
+        },
+        "configureCompany": {
+            "configureCompany": "Configure Company",
+            "userManagement": "User Management"
+        },
+        "configureDairy": {
+            "configureDairy": "\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0444\u0430\u0431\u0440\u0438\u043a\u0443",
+            "dairyConfiguration": "\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f \u043c\u043e\u043b\u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+            "userManagement": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c\u0438"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "\u041f\u0430\u043d\u0435\u043b\u044c \u0444\u0430\u0431\u0440\u0438\u043a\u0438",
+        "customization": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430",
+        "dashboardCustomization": "\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443",
+        "dashboardCustomizeCurrent": "Customize Current Dashboard",
+        "dashboardCreate": "Create New Dashboard",
+        "dragAndDropHint": "\u041f\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u044c \u0432\u0438\u0434\u0436\u0435\u0442",
+        "dashboardSaved": "%{dashboard_name} \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u0430.",
+        "dashboardErrorSaving": "\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0438\u043d\u0443\u0442",
+        "dashboardMobileCustomization": "Sign in from a desktop device to customize this page."
+    },
+    "dashboardCustomization": {
+        "newDashboard": "New Dashboard",
+        "panelTitle": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b",
+        "emptyList": {
+            "company": {
+                "line1": "No widgets are available at this time",
+                "line2": "We are working to add new widgets in future releases. Please check back soon!"
+            },
+            "dairy": {
+                "line1": "There are no widgets to display",
+                "line2": "You can download widgets for this section in Widget Gallery."
+            }
+        },
+        "emptyLine1": "Click on a widget from the list to preview it here",
+        "emptyLine2": "To save this dashboard, you must add at least one widget.",
+        "selectWidgetsTitle": "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0432\u0438\u0434\u0436\u0435\u0442\u044b",
+        "widgetLayoutDetail": "\u041c\u0435\u043d\u044f\u0439\u0442\u0435 \u043f\u043e\u0440\u044f\u0434\u043e\u043a \u0432\u0438\u0434\u0436\u0435\u0442\u043e\u0432 \u043f\u0435\u0440\u0435\u0442\u0430\u0441\u043a\u0438\u0432\u0430\u043d\u0438\u0435\u043c",
+        "selectWidgetsDescription": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0438\u0434\u0436\u0435\u0442\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043d\u0430 \u044d\u0442\u0443 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443.",
+        "widgetsLayoutDescription": " \u041c\u0435\u043d\u044f\u0439\u0442\u0435 \u043f\u043e\u0440\u044f\u0434\u043e\u043a \u0432\u0438\u0434\u0436\u0435\u0442\u043e\u0432 \u043f\u0435\u0440\u0435\u0442\u0430\u0441\u043a\u0438\u0432\u0430\u043d\u0438\u0435\u043c",
+        "unsavedChanges": "\u0423 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u0412\u044b \u0442\u043e\u0447\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c?",
+        "allWidgets": "All Widgets",
+        "dairyWidgets": "Dairy Widgets",
+        "widgetTitles": {
+            "general": "\u041e\u0431\u0449\u0438\u0435",
+            "herd": "\u0421\u0442\u0430\u0434\u043e",
+            "feed": "\u041a\u043e\u0440\u043c",
+            "parlor": "\u0414\u043e\u0438\u043b\u044c\u043d\u044b\u0439 \u0437\u0430\u043b"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "\u0413\u0430\u043b\u0435\u0440\u0435\u044f \u0432\u0438\u0434\u0436\u0435\u0442\u043e\u0432",
+            "installedSuccess": "\u0412\u0438\u0434\u0436\u0435\u0442 %{title} \u0442\u0435\u043f\u0435\u0440\u044c \u0432 \u0432\u0430\u0448\u0435\u043c \u0441\u043f\u0438\u0441\u043a\u0435",
+            "installedFailure": "\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0438\u043d\u0443\u0442",
+            "title": "\u0413\u0430\u043b\u0435\u0440\u0435\u044f \u0432\u0438\u0434\u0436\u0435\u0442\u043e\u0432",
+            "line1": "\u041d\u0430\u0436\u0438\u043c\u0430\u0439\u0442\u0435 \u043d\u0430 \u043a\u043d\u043e\u043f\u043a\u0443 \u00ab\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c\u00bb \u043d\u0430 \u0432\u0438\u0434\u0436\u0435\u0442\u0430\u0445 \u043d\u0438\u0436\u0435, \u0447\u0442\u043e\u0431\u044b \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0438\u0445 \u043a\u0430\u043a \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0435 \u0434\u043b\u044f \u0432\u044b\u0431\u043e\u0440\u0430 \u0432 VAS Platform.",
+            "line2": "\u041e\u0442\u0442\u0443\u0434\u0430 \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b \u00ab\u041f\u0430\u043d\u0435\u043b\u044c\u00bb \u0438 \u00ab\u041e\u0431\u0437\u043e\u0440\u00bb.",
+            "installLabel": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c",
+            "installedLabel": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043e",
+            "recentlyInstalledBadge": "\u0422\u043e\u043b\u044c\u043a\u043e \u0447\u0442\u043e \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u043e",
+            "seeRequirements": "See Requirements",
+            "integrationRequired": "Integration required",
+            "requirements": "Requirements",
+            "contactSupport": "Contact Support",
+            "goBack": "Go Back"
+        },
+        "deleteModalConfirmation": "Delete this dashboard?"
+    },
+    "agreements": {
+        "pageTitle": "\u041f\u041e\u041b\u042c\u0417\u041e\u0412\u0410\u0422\u0415\u041b\u042c\u0421\u041a\u041e\u0415 \u0421\u041e\u0413\u041b\u0410\u0428\u0415\u041d\u0418\u0415 \u041e \u041f\u041e\u0414\u041f\u0418\u0421\u041a\u0415 \u0418 \u041f\u041e\u041b\u0418\u0422\u0418\u041a\u0410 \u041a\u041e\u041d\u0424\u0418\u0414\u0415\u041d\u0426\u0418\u0410\u041b\u042c\u041d\u041e\u0421\u0422\u0418",
+        "pleaseReview": "\u041e\u0437\u043d\u0430\u043a\u043e\u043c\u044c\u0442\u0435\u0441\u044c \u0441 \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u043c \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435\u043c \u043e \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0435 \u0438 \u041f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+        "readAndAgree": "\u0427\u0442\u043e\u0431\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043b\u0443\u0436\u0431\u0443, \u0432\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u0438 \u043f\u0440\u0438\u043d\u044f\u0442\u044c \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f:",
+        "endUserSuscriptionAgreement": "\u041f\u041e\u041b\u042c\u0417\u041e\u0412\u0410\u0422\u0415\u041b\u042c\u0421\u041a\u041e\u0415 \u0421\u041e\u0413\u041b\u0410\u0428\u0415\u041d\u0418\u0415 \u041e \u041f\u041e\u0414\u041f\u0418\u0421\u041a\u0415",
+        "privacyPolicy": "\u041f\u041e\u041b\u0418\u0422\u0418\u041a\u0410 \u041a\u041e\u041d\u0424\u0418\u0414\u0415\u041d\u0426\u0418\u0410\u041b\u042c\u041d\u041e\u0421\u0422\u0418",
+        "readAndAgreedSubscription": "\u042f \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b(\u0430) \u0438 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0435 \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u043e \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0435.",
+        "readAndAgreedPolicy": "\u042f \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b(\u0430) \u0438 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e \u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0443 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+        "cancel": "\u041e\u0422\u041c\u0415\u041d\u0410",
+        "agreeAndContinue": "\u041f\u0420\u0418\u041d\u042f\u0422\u042c \u0418 \u041f\u0420\u041e\u0414\u041e\u041b\u0416\u0418\u0422\u042c",
+        "notificationConfirmCancel": "\u0412\u044b \u0442\u043e\u0447\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c? \u0427\u0442\u043e\u0431\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043b\u0443\u0436\u0431\u0443, \u0432\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u0442\u044c \u0438 \u043f\u0440\u0438\u043d\u044f\u0442\u044c \u044d\u0442\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u044f."
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "\u041c\u043e\u0431. \u0441\u043c\u0435\u0441\u0438\u0442\u0435\u043b\u044c",
+            "stationaryMixer": "\u0421\u0442\u0430\u0446. \u0441\u043c\u0435\u0441\u0438\u0442\u0435\u043b\u044c",
+            "deliveryTruck": "\u0413\u0440\u0443\u0437\u043e\u0432\u0438\u043a \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "\u0418\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u044b",
+            "location": "\u041c\u0435\u0441\u0442\u043e",
+            "locations": "\u041c\u0435\u0441\u0442\u0430",
+            "dmPercent": "\u0421\u0412%",
+            "afCostTon": "\u0421\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430\/\u0442\u043e\u043d\u043d\u0430",
+            "afCostMetricTon": "\u0421\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430\/\u043c\u0435\u0442\u0440. \u0442\u043e\u043d\u043d\u0430",
+            "currentOnHandAF": "\u0422\u0435\u043a. \u0437\u0430\u043f\u0430\u0441 \u043a\u043e\u0440\u043c\u0430",
+            "daysLeft": "\u041e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u0434\u043d\u0435\u0439",
+            "inRecipe": "\u0412 \u0440\u0435\u0446\u0435\u043f\u0442\u0435",
+            "trackingEnabled": "\u041e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u043e",
+            "notTracked": "\u041d\u0435 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044f",
+            "dailyAf": "\u0415\u0436\u0435\u0434\u043d. \u043a\u043e\u0440\u043c",
+            "weighback": "\u041e\u0441\u0442\u0430\u0442\u043e\u043a",
+            "allowed": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043e",
+            "notAllowed": "\u041d\u0435 \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u0435\u0442\u0441\u044f",
+            "afProjections": "\u041f\u0440\u043e\u0433\u043d\u043e\u0437 \u043f\u043e \u043a\u043e\u0440\u043c\u0443",
+            "days": "\u0414\u043d.",
+            "currentAf": "\u0422\u0435\u043a. \u043a\u043e\u0440\u043c",
+            "afCost": "\u0421\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430",
+            "dmCost": "\u0421\u0442-\u0442\u044c \u0421\u0412",
+            "dmPercentage": "\u041f\u0440\u043e\u0446\u0435\u043d\u0442 \u0421\u0412",
+            "lastDmHistory": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0421\u0412%",
+            "filter": "\u0424\u0438\u043b\u044c\u0442\u0440",
+            "filterApplied": "\u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d \u0444\u0438\u043b\u044c\u0442\u0440",
+            "filtersApplied": "\u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u044b \u0444\u0438\u043b\u044c\u0442\u0440\u044b",
+            "clear": "\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+            "type": "\u0422\u0438\u043f",
+            "premix": "\u0413\u043e\u0442\u043e\u0432\u0430\u044f \u0441\u043c\u0435\u0441\u044c",
+            "optionSelected": "\u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442",
+            "optionsSelected": "\u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b",
+            "lastInventoryMovements": {
+                "title": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0430\u0441\u0430",
+                "date": "\u0414\u0430\u0442\u0430",
+                "type": "\u0422\u0438\u043f",
+                "afTons": "\u041a\u043e\u0440\u043c (\u0432 \u0442\u043e\u043d\u043d\u0430\u0445)",
+                "runningTotal": "\u041d\u0430\u0440\u0430\u0441\u0442\u0430\u044e\u0449\u0438\u043c \u0438\u0442\u043e\u0433\u043e\u043c (\u0432 \u0442\u043e\u043d\u043d\u0430\u0445)",
+                "inventoryTypes": {
+                    "delivery": "\u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430",
+                    "sale": "\u041f\u0440\u043e\u0434\u0430\u0436\u0430",
+                    "adjustment": "\u041a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0430",
+                    "usage": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+                    "initialInventory": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0437\u0430\u043f\u0430\u0441",
+                    "transferIn": "\u041f\u0435\u0440\u0435\u0434\u0430\u0447\u0430 \u0432",
+                    "transforOut": "\u041f\u0435\u0440\u0435\u0434\u0430\u0447\u0430 \u0438\u0437"
+                }
+            },
+            "filterOptions": {
+                "all": "\u0412\u0441\u0435",
+                "inRecipes": "\u0422\u043e\u043b\u044c\u043a\u043e \u0432 \u0440\u0435\u0446\u0435\u043f\u0442\u0430\u0445",
+                "notInRecipes": "\u041d\u0435 \u0432 \u0440\u0435\u0446\u0435\u043f\u0442\u0430\u0445",
+                "onlyPremixes": "\u0422\u043e\u043b\u044c\u043a\u043e \u0433\u043e\u0442\u043e\u0432\u044b\u0435 \u0441\u043c\u0435\u0441\u0438",
+                "notPremixes": "\u0411\u0435\u0437 \u0433\u043e\u0442\u043e\u0432\u044b\u0445 \u0441\u043c\u0435\u0441\u0435\u0439"
+            },
+            "recipes": {
+                "title": "%{ingredientName} \u0432 \u0440\u0435\u0446\u0435\u043f\u0442\u0430\u0445",
+                "recipeName": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0440\u0435\u0446\u0435\u043f\u0442\u0430",
+                "DM": "\u041a\u041e\u041b-\u0412\u041e \u0421\u0412\/\u0413\u041e\u041b.",
+                "AF": "\u041a\u041e\u041b-\u0412\u041e \u041a\u041e\u0420\u041c\/\u0413\u041e\u041b.",
+                "pens": "\u0417\u0430\u0433\u043e\u043d\u044b \u043f\u043e \u044d\u0442\u043e\u043c\u0443 \u0440\u0435\u0446\u0435\u043f\u0442\u0443",
+                "animalsFed": "\u041d\u0430\u043a\u043e\u0440\u043c\u043b. \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435",
+                "dailyAFUsage": "\u0415\u0436\u0435\u0434\u043d. \u0438\u0441\u043f-\u0435 \u043a\u043e\u0440\u043c\u0430",
+                "placeholderLine1": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442 \u043d\u0435",
+                "placeholderLine2": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0432 \u0440\u0435\u0446\u0435\u043f\u0442\u0430\u0445."
+            }
+        },
+        "dmAdjustments": {
+            "title": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0421\u0412%",
+            "name": "\u0418\u043c\u044f",
+            "type": "\u0422\u0438\u043f",
+            "location": "\u041c\u0435\u0441\u0442\u043e",
+            "lastChange": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u043e",
+            "responsible": "\u041e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+            "dmPercent": "\u0421\u0412%",
+            "lastDmHistory": "\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0421\u0412%",
+            "noDmHistory": "\u041d\u0435\u0442 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0421\u0412%",
+            "validation": {
+                "dmPercent": "Values have to be below 100%",
+                "percentChange": "More than 5% change"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "Change in DM%",
+                    "message": "Change is over (+\/-) 5%, are you sure you want to make it?",
+                    "confirmLabel": "Yes"
+                },
+                "cancelChanges": {
+                    "title": "Discard unsaved changes?",
+                    "confirmLabel": "Discard"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "\u0420\u0435\u0446\u0435\u043f\u0442\u044b",
+            "activeRecipes": "\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0440\u0435\u0446\u0435\u043f\u0442\u044b",
+            "otherRecipes": "\u0414\u0440\u0443\u0433\u0438\u0435 \u0440\u0435\u0446\u0435\u043f\u0442\u044b",
+            "recipeDm": "\u0420\u0435\u0446\u0435\u043f\u0442 \u0421\u0412%",
+            "densityFactor": "\u0424\u0430\u043a\u0442\u043e\u0440 \u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u0438",
+            "afCostTon": "\u0421\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430\/\u0442\u043e\u043d\u043d\u0430",
+            "currentlyReplacing": "\u0421\u0435\u0439\u0447\u0430\u0441 \u0437\u0430\u043c\u0435\u043d\u044f\u0435\u0442",
+            "premix": "\u0433\u043e\u0442\u043e\u0432\u0443\u044e \u0441\u043c\u0435\u0441\u044c",
+            "alternativeRecipe": "\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0440\u0435\u0446\u0435\u043f\u0442",
+            "animalsFed": "\u041d\u0430\u043a\u043e\u0440\u043c\u043b. \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435",
+            "pensFed": "\u041d\u0430\u043a\u043e\u0440\u043c\u043b. \u0437\u0430\u0433\u043e\u043d\u044b",
+            "list": "\u0421\u043f\u0438\u0441\u043e\u043a \u0440\u0435\u0446\u0435\u043f\u0442\u043e\u0432",
+            "inRecipe": "\u0412 \u0420\u0415\u0426\u0415\u041f\u0422\u0415",
+            "dmhd": "\u0421\u0412\/\u0413\u041e\u041b.",
+            "afhd": "\u041a\u041e\u0420\u041c\/\u0413\u041e\u041b.",
+            "dm": "\u0421\u0412",
+            "dmPercent": "\u0421\u0412 %",
+            "afCostHd": "\u0441\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430\/\u0433\u043e\u043b.",
+            "active": "\u0430\u043a\u0442\u0438\u0432\u043d\u043e",
+            "replaced": "\u0437\u0430\u043c\u0435\u043d\u0435\u043d\u043e",
+            "activeAlternative": "\u0410\u043a\u0442\u0438\u0432\u043d\u0430\u044f \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u0430",
+            "seeMore": "\u0441\u043c. \u0434\u0440\u0443\u0433\u0438\u0435",
+            "directions": "\u0423\u043a\u0430\u0437\u0430\u043d\u0438\u044f \u043f\u043e \u0440\u0435\u0446\u0435\u043f\u0442\u0430\u043c",
+            "sequence": "\u0428\u0430\u0433\u0438",
+            "ingredient": "\u0418\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442",
+            "location": "\u041c\u0435\u0441\u0442\u043e",
+            "af": "\u041a\u043e\u0440\u043c",
+            "afPercent": "\u041a\u043e\u0440\u043c %",
+            "pensUsing": "\u0417\u0430\u0433\u043e\u043d\u044b \u043f\u043e \u044d\u0442\u043e\u043c\u0443 \u0440\u0435\u0446\u0435\u043f\u0442\u0443",
+            "total": "\u0412\u0441\u0435\u0433\u043e",
+            "recipeComposition": "\u0421\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u0435\u0446\u0435\u043f\u0442\u0430",
+            "alternate": "\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442.",
+            "instructions": {
+                "saveSequenceSuccess": "Sequence successfully edited!",
+                "reorderHint": "Use the arrows on the left or drag and drop an ingredient to reorder the sequence.",
+                "validation": {
+                    "quantity": "Quantity must be greater than zero",
+                    "required": "Value must exist"
+                }
+            },
+            "pens": {
+                "pen": "\u0417\u0430\u0433\u043e\u043d",
+                "type": "\u0422\u0438\u043f",
+                "use": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c",
+                "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435"
+            }
+        },
+        "inventory": {
+            "title": "\u0417\u0430\u043f\u0430\u0441\u044b",
+            "projections": {
+                "title": "\u0417\u0430\u043f\u0430\u0441\u044b \u0438 \u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b",
+                "name": "\u0418\u043c\u044f",
+                "type": "\u0422\u0438\u043f",
+                "location": "\u041c\u0435\u0441\u0442\u043e",
+                "afQty": "\u041a\u043e\u043b-\u0432\u043e \u043a\u043e\u0440\u043c\u0430",
+                "afCost": "\u0421\u0442-\u0442\u044c \u043a\u043e\u0440\u043c\u0430",
+                "dailyAf": "\u0415\u0436\u0435\u0434\u043d. \u043a\u043e\u0440\u043c",
+                "nextDays": "\u0421\u043b\u0435\u0434. %{day} \u0434\u043d. (%{unit})",
+                "daysLeft": "\u041e\u0441\u0442\u0430\u043b\u043e\u0441\u044c \u0434\u043d\u0435\u0439",
+                "all": "\u0412\u0441\u0435",
+                "notTracked": "\u041d\u0435 \u043e\u0442\u0441\u043b\u0435\u0436.",
+                "youreRunningOutOf": "\u0423 \u0432\u0430\u0441 \u043a\u043e\u043d\u0447\u0430\u0435\u0442\u0441\u044f:"
+            }
+        },
+        "bunkScoring": {
+            "title": "\u041e\u0446\u0435\u043d\u043a\u0430 \u043a\u043e\u0440\u043c\u0443\u0448\u0435\u043a",
+            "animalsToFeed": "\u0416\u0438\u0432\u043e\u0442\u043d\u044b\u0435 \u0434\u043b\u044f \u043a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f",
+            "targetDmHd": "\u0426\u0435\u043b\u044c \u043f\u043e \u0421\u0412\/\u0433\u043e\u043b.  (\u0432 \u0444\u0443\u043d\u0442\u0430\u0445)",
+            "feeding": "\u041a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+            "active": "\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+            "inactive": "\u041d\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439",
+            "lastDaysFeedings": "\u041a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 %{days} \u0434\u043d\u0435\u0439",
+            "filter": "\u0424\u0438\u043b\u044c\u0442\u0440",
+            "all": "\u0412\u0441\u0435",
+            "clear": "\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u044c",
+            "lastUpdated": "Last Updated",
+            "modal": {
+                "title": "Change In Feeding",
+                "bodyText": "Are you sure you want to %{state} Feeding in PEN %{penNumber}",
+                "confirmLabel": "Yes, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "\u041f\u0415\u0420\u0415\u0422\u0410\u0429\u0418\u0422\u0415 \u0418\u0417\u041e\u0411\u0420\u0410\u0416\u0415\u041d\u0418\u0415 \u0421\u042e\u0414\u0410",
+        "line2": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 JPG \u0438\u043b\u0438 PNG",
+        "addImage": "\u0414\u041e\u0411\u0410\u0412\u0418\u0422\u042c \u0418\u0417\u041e\u0411\u0420\u0410\u0416\u0415\u041d\u0418\u0415",
+        "changeImage": "C\u041c\u0415\u041d\u0418\u0422\u042c \u0418\u0417\u041e\u0411\u0420\u0410\u0416\u0415\u041d\u0418\u0415"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043b\u0430",
+        "milk": {
+            "name": "\u041c\u043e\u043b\u043e\u043a\u043e",
+            "currentShift": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u0441\u043c\u0435\u043d\u0430",
+            "currentPen": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0437\u0430\u0433\u043e\u043d",
+            "currentFlow": {
+                "title": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u043f\u043e\u0442\u043e\u043a",
+                "value": "%{value} \u0413\/\u041c"
+            },
+            "cowsInPen": "\u041a\u043e\u0440\u043e\u0432\u044b \u0432 \u0437\u0430\u0433\u043e\u043d\u0435",
+            "currentPenTotalMilk": {
+                "title": "\u0412\u0441\u0435\u0433\u043e \u043c\u043e\u043b\u043e\u043a\u0430 \u043f\u043e \u0442\u0435\u043a. \u0437\u0430\u0433\u043e\u043d\u0443",
+                "value": "%{value} \u0413\u0410\u041b"
+            },
+            "currentShiftTotalMilk": {
+                "title": "\u0412\u0441\u0435\u0433\u043e \u043c\u043e\u043b\u043e\u043a\u0430 \u043f\u043e \u0442\u0435\u043a. \u0441\u043c\u0435\u043d\u0435",
+                "value": "%{value} \u0413\u0410\u041b"
+            },
+            "totalTime": {
+                "title": "\u041e\u0431\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f",
+                "value": "%{value} \u041c\u0418\u041d"
+            },
+            "secStall": "\u0421\u0435\u043a\/\u0441\u0442\u043e\u0439\u043b\u043e",
+            "rotary": {
+                "title": "\u041f\u043e\u0441\u043b. \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e \u0431\u0430\u0440\u0430\u0431.",
+                "name": "\u0411\u0430\u0440\u0430\u0431\u0430\u043d",
+                "minsTurn": "\u041c\u0438\u043d\/\u043e\u0431\u043e\u0440\u043e\u0442",
+                "secStall": "\u0421\u0435\u043a\/\u0441\u0442\u043e\u0439\u043b\u043e",
+                "cowsHour": "\u041a\u043e\u0440\u043e\u0432\u044b\/\u0447\u0430\u0441",
+                "turnsHour": "\u041e\u0431\u043e\u0440\u043e\u0442\u044b\/\u0447\u0430\u0441",
+                "statistic": {
+                    "fastest": "\u0411\u044b\u0441\u0442\u0440\u0435\u0439\u0448.",
+                    "average": "\u0421\u0440\u0435\u0434\u043d.",
+                    "effective": "\u042d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e"
+                }
+            },
+            "currentTask": {
+                "title": "\u0422\u0435\u043a\u0443\u0449\u0438\u0435 \u0437\u0430\u0434\u0430\u0447\u0438",
+                "task": "\u0417\u0430\u0434\u0430\u0447\u0430",
+                "cows": "\u041a\u043e\u0440\u043e\u0432\u044b"
+            }
+        },
+        "wash": {
+            "name": "\u041c\u043e\u0439\u043a\u0430",
+            "minTemp": "\u041c\u0438\u043d. \u0442\u0435\u043c\u043f.",
+            "currentWashCycle": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0446\u0438\u043a\u043b \u043c\u043e\u0439\u043a\u0438",
+            "currentFlow": {
+                "title": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u043f\u043e\u0442\u043e\u043a",
+                "value": "%{value} \u0413\u0410\u041b"
+            },
+            "currentWashTotal": {
+                "title": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043c\u043e\u0439\u043a\u0430 \u0432\u0441\u0435\u0433\u043e",
+                "value": "%{value} \u0413\u0410\u041b"
+            },
+            "washCycle": {
+                "rinse": "\u041f\u043e\u043b\u043e\u0441\u043a\u0430\u043d\u0438\u0435",
+                "wash": "\u041c\u043e\u0439\u043a\u0430",
+                "acid": "\u041a\u0438\u0441\u043b\u043e\u0442\u0430"
+            }
+        },
+        "currentTemp": {
+            "title": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u0442\u0435\u043c\u043f."
+        },
+        "minTemp": {
+            "title": "\u041c\u0438\u043d. \u0442\u0435\u043c\u043f."
+        },
+        "maxTemp": {
+            "title": "\u041c\u0430\u043a\u0441. \u0442\u0435\u043c\u043f."
+        },
+        "tempAlarm": {
+            "title": "\u0421\u0438\u0433\u043d\u0430\u043b \u043f\u043e \u0442\u0435\u043c\u043f.",
+            "values": {
+                "none": "\u041d\u0435\u0442",
+                "high": "\u0412\u044b\u0441. \u0442\u0435\u043c\u043f."
+            }
+        },
+        "lastWashStatus": {
+            "title": "\u041f\u043e\u0441\u043b. \u0441\u0442\u0430\u0442\u0443\u0441 \u043f\u043e \u043c\u043e\u0439\u043a\u0435",
+            "values": {
+                "good": "\u0425\u043e\u0440\u043e\u0448\u043e",
+                "bad": "\u041f\u043b\u043e\u0445\u043e"
+            }
+        },
+        "washAlarm": {
+            "title": "\u0421\u0438\u0433\u043d\u0430\u043b \u043f\u043e \u043c\u043e\u0439\u043a\u0435",
+            "values": {
+                "none": "\u041d\u0435\u0442",
+                "lowTemp": "\u041d\u0438\u0437\u043a. \u0442\u0435\u043c\u043f."
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "\u041a\u0430\u0440\u0442\u043e\u0447\u043a\u0438",
+        "title": {
+            "line1": "\u041d\u0435\u0442 \u0442\u0438\u043f\u0430 %{type}",
+            "line2": "\u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f",
+            "line3": "\u0441 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u043d\u044b\u043c\u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u043c\u0438",
+            "line4": "in this"
+        },
+        "types": {
+            "lists": "lists",
+            "error": "An unexpected error ocurred"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "\u041e\u0442\u0447\u0435\u0442\u044b \u043f\u043e \u0437\u0430\u043b\u0430\u043c",
+            "noParlorToShow": "\u041d\u0435\u0442 \u0437\u0430\u043b\u043e\u0432 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f",
+            "typeOfParlor": "\u0422\u0438\u043f \u0437\u0430\u043b\u0430",
+            "manufacturer": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c",
+            "stalls": "\u0421\u0442\u043e\u0439\u043b\u0430",
+            "currentShift": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u0441\u043c\u0435\u043d\u0430",
+            "currentPen": "\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0437\u0430\u0433\u043e\u043d",
+            "parlorTitle": "\u0434\u043e\u0438\u043b\u044c\u043d\u044b\u0439 \u0437\u0430\u043b",
+            "parlorTypes": {
+                "herringbone": "\u0415\u043b\u043e\u0447\u043a\u0430",
+                "parallel": "\u041f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c",
+                "rotary": "\u041a\u0430\u0440\u0443\u0441\u0435\u043b\u044c"
+            },
+            "lastMilkingsReports": {
+                "title": "\u041e\u0442\u0447\u0435\u0442\u044b \u043f\u043e \u043f\u043e\u0441\u043b. \u0434\u043e\u0435\u043d\u0438\u044f\u043c",
+                "milkings": {
+                    "pen": "\u0417\u0430\u0433\u043e\u043d",
+                    "totalMilk": "\u0412\u0441\u0435\u0433\u043e \u043c\u043e\u043b\u043e\u043a\u0430",
+                    "milkHr": "\u041c\u043e\u043b\u043e\u043a\u043e\/\u0447",
+                    "milkCow": "\u041c\u043e\u043b\u043e\u043a\u043e\/\u043a\u043e\u0440.",
+                    "cows": "\u043a\u043e\u0440\u043e\u0432",
+                    "cowsHr": "\u041a\u043e\u0440\u043e\u0432\u044b\/\u0447",
+                    "totalTime": "\u041e\u0431\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f",
+                    "startTime": "\u0412\u0440\u0435\u043c\u044f \u043d\u0430\u0447\u0430\u043b\u0430",
+                    "stopTime": "\u0412\u0440\u0435\u043c\u044f \u043e\u043a\u043e\u043d\u0447.",
+                    "penGap": "\u041f\u0435\u0440\u0435\u0440\u044b\u0432 \u043f\u043e \u0437\u0430\u0433\u043e\u043d\u0443",
+                    "maxTemp": "\u041c\u0430\u043a\u0441. \u0442\u0435\u043c\u043f.",
+                    "penDev": "\u041e\u0442\u043a\u043b\u043e\u043d. \u043f\u043e \u0437\u0430\u0433\u043e\u043d\u0443",
+                    "totalAvg": "\u0412\u0441\u0435\u0433\u043e\/\u0421\u0420.",
+                    "total": "\u0432\u0441\u0435\u0433\u043e"
+                },
+                "washings": {
+                    "washupPhase": "\u0424\u0430\u0437\u0430 \u043c\u043e\u0439\u043a\u0438",
+                    "totalFlow": "\u041e\u0431\u0449\u0438\u0439 \u043f\u043e\u0442\u043e\u043a",
+                    "totalTime": "\u043e\u0431\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f",
+                    "startTime": "\u0432\u0440\u0435\u043c\u044f \u043d\u0430\u0447\u0430\u043b\u0430",
+                    "stopTime": "\u0432\u0440\u0435\u043c\u044f \u043e\u043a\u043e\u043d\u0447.",
+                    "minTemp": "\u041c\u0438\u043d. \u0442\u0435\u043c\u043f.",
+                    "maxTemp": "\u041c\u0430\u043a\u0441. \u0442\u0435\u043c\u043f.",
+                    "flowMin": "\u041f\u043e\u0442\u043e\u043a\/\u043c\u0438\u043d",
+                    "rinse": "\u041f\u0440\u043e\u043c\u044b\u0432\u043a\u0430",
+                    "wash": "\u041c\u043e\u0439\u043a\u0430",
+                    "acid": "\u041a\u0438\u0441\u043b\u043e\u0442\u0430",
+                    "init": "Initialize",
+                    "washAcid": "Wash & Acid",
+                    "idle": "Idle"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "\u0421\u0442\u0430\u0442. \u043f\u043e \u043f\u043e\u0441\u043b. \u0434\u043e\u0435\u043d\u0438\u044f\u043c",
+                "barGraphView": "\u0412 \u0432\u0438\u0434\u0435 \u0433\u0438\u0441\u0442\u043e\u0433\u0440\u0430\u043c\u043c\u044b",
+                "tableView": "\u0412 \u0432\u0438\u0434\u0435 \u0442\u0430\u0431\u043b\u0438\u0446\u044b",
+                "totalMilk": "\u0412\u0441\u0435\u0433\u043e \u043c\u043e\u043b\u043e\u043a\u0430",
+                "averageMilkPerHour": "\u0421\u0440. \u043c\u043e\u043b\u043e\u043a\u043e\/\u0447",
+                "averageDuration": "\u0421\u0440. \u0434\u043b\u0438\u0442-\u0442\u044c",
+                "averageCowsPerHour": "\u0421\u0440. \u043a\u043e\u0440.\/\u0447",
+                "milking": "\u0414\u043e\u0435\u043d\u0438\u0435",
+                "milkPerHour": "\u041c\u043e\u043b\u043e\u043a\u043e\/\u0447.",
+                "duration": "\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
+                "cowsPerHour": "\u041a\u043e\u0440.\/\u0447",
+                "hours": "\u0447",
+                "minutes": "\u043c\u0438\u043d.",
+                "totalAverage": "\u0412\u0441\u0435\u0433\u043e\/\u0441\u0440."
+            },
+            "lastRotaryData": {
+                "title": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e \u043a\u0430\u0440\u0443\u0441\u0435\u043b\u0438"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "Announcement"
+    },
+    "embryoInventory": {
+        "title": "Embryo Inventory"
+    },
+    "frozenEmbryos": {
+        "title": "frozen"
+    },
+    "freshEmbryos": {
+        "title": "fresh"
+    },
+    "transferredEmbryos": {
+        "title": "transferred"
+    },
+    "Embryo": {
+        "title": "Embryos",
+        "from": "From",
+        "to": "To",
+        "stage": "Stage",
+        "grade": "Grade",
+        "status": "Storage",
+        "type": "Type",
+        "clear": "Clear",
+        "recipient": "Recipient",
+        "date": "Date",
+        "sire": "Sire",
+        "donor": "Donor",
+        "tech": "Tech",
+        "brCode": "BRCode",
+        "breedingCode": "Breeding Code",
+        "storage": "Storage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Embryo Breed",
+        "eage": "Eage",
+        "embryoAge": "Embryo Age",
+        "tank": "Tank",
+        "cane": "Cane",
+        "straw": "Straw",
+        "frozenAt": "Frozen @",
+        "method": "Method",
+        "incubator": "Incubator",
+        "strawVial": "Straw\/Vial",
+        "stageOpts": {
+            "1": "Unfertilized",
+            "2": "Simple Celled",
+            "3": "Early Morula",
+            "4": "Morula",
+            "5": "Early Blastocyst",
+            "6": "Blastocyst",
+            "7": "Expanded Blastocyst",
+            "8": "Hatched Blastocyst",
+            "9": "Expanded Hatched Blastocyst"
+        },
+        "methods": {
+            "unknown": "Unknown",
+            "slow": "Slow",
+            "dt": "DT"
+        },
+        "gradeOpts": {
+            "1": "Unspecified",
+            "2": "Good",
+            "3": "Fair",
+            "4": "Poor",
+            "5": "Dead"
+        },
+        "storageType": {
+            "fresh": "Fresh",
+            "frozen": "Frozen"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Other"
+        }
+    }
+}

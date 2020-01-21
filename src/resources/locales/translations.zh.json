@@ -1,0 +1,2441 @@
+{
+    "common": {
+        "email": "\u90ae\u7bb1",
+        "error": "\u9519\u8bef",
+        "password": "\u5bc6\u7801",
+        "confirm": "\u786e\u8ba4",
+        "cancel": "\u53d6\u6d88",
+        "save": "\u4fdd\u5b58",
+        "delete": "Delete",
+        "close": "\u5173\u95ed",
+        "done": "\u5b8c\u6210",
+        "refresh": "\u5237\u65b0",
+        "loading": "\u6b63\u5728\u52a0\u8f7d\u2026",
+        "edit": "\u7f16\u8f91",
+        "editCard": "\u7f16\u8f91\u5361\u7247",
+        "hide": "\u9690\u85cf",
+        "hideCard": "\u9690\u85cf\u5361\u7247",
+        "yes": "\u662f",
+        "yes_discard": "\u662f\u7684\uff0c\u4e22\u5f03",
+        "no": "\u5426",
+        "cancelMessage": "\u60a8\u6709\u672a\u4fdd\u5b58\u7684\u66f4\u6539\u3002\u4ecd\u7136\u53d6\u6d88\uff1f",
+        "changesSavedSuccessfully": "\u66f4\u6539\u5df2\u4fdd\u5b58\u6210\u529f\uff01",
+        "changesSavedError": "\u4fdd\u5b58\u4fe1\u606f\u65f6\u51fa\u9519\u3002\u8bf7\u7b49\u51e0\u5206\u949f\u540e\u91cd\u8bd5\u3002",
+        "unknownError": "\u672a\u77e5\u9519\u8bef\u3002",
+        "tableView": "\u8868\u683c\u89c6\u56fe",
+        "graphView": "\u56fe\u8868\u89c6\u56fe",
+        "ok": "\u597d",
+        "requiredFields": "\u5fc5\u586b\u5b57\u6bb5",
+        "clear": "\u6e05\u9664",
+        "active": "\u6d3b\u8dc3",
+        "inactive": "\u4e0d\u6d3b\u8dc3",
+        "disabled": "\u5df2\u7981\u7528",
+        "view": "\u89c6\u56fe",
+        "doConfirm": "\u786e\u8ba4\u5417\uff1f",
+        "enable": "\u542f\u7528",
+        "disable": "\u7981\u7528",
+        "acceptMessage": "\u60a8\u4e0d\u80fd\u6267\u884c\u6b64\u64cd\u4f5c\u3002",
+        "welcome": "\u6b22\u8fce",
+        "passwordHelp": "\u9700\u8981\u83b7\u5f97\u5173\u4e8e\u5bc6\u7801\u7684\u5e2e\u52a9\u5417\uff1f",
+        "next": "\u4e0b\u4e00\u6b65",
+        "back": "\u8fd4\u56de",
+        "successfullyUpdated": "\u5df2\u6210\u529f\u66f4\u65b0\u3002",
+        "vasPlatformLogo": "VAS\u5e73\u53f0\u6807\u5fd7",
+        "learnMore": "\u4e86\u89e3\u8be6\u60c5",
+        "accountHome": "\u5e10\u6237\u4e3b\u9875",
+        "comingSoon": "\u5373\u5c06\u63a8\u51fa\uff01",
+        "notDefined": "\u672a\u5b9a\u4e49",
+        "current": "\u5f53\u524d",
+        "previous": "\u4e0a\u4e00\u6b65",
+        "clearAll": "\u6e05\u9664\u5168\u90e8",
+        "preview": "\u9884\u89c8",
+        "leave": "\u9000\u51fa",
+        "undefined": "\u672a\u5b9a\u4e49",
+        "backToTop": "\u56de\u5230\u9876\u90e8",
+        "activate": "\u6fc0\u6d3b",
+        "deactivate": "\u7981\u7528",
+        "days": {
+            "monday": "Mo",
+            "tuesday": "Tu",
+            "wednesday": "We",
+            "thursday": "Th",
+            "friday": "Fr",
+            "saturday": "Sa",
+            "sunday": "Su"
+        },
+        "monthsShort": {
+            "jan": "Jan",
+            "feb": "Feb",
+            "mar": "Mar",
+            "apr": "Apr",
+            "may": "May",
+            "jun": "Jun",
+            "jul": "Jul",
+            "aug": "Aug",
+            "sep": "Sep",
+            "oct": "Oct",
+            "nov": "Nov",
+            "dec": "Dec"
+        },
+        "months": {
+            "jan": "January",
+            "feb": "February",
+            "mar": "March",
+            "apr": "April",
+            "may": "May",
+            "jun": "June",
+            "jul": "July",
+            "aug": "August",
+            "sep": "September",
+            "oct": "October",
+            "nov": "November",
+            "dec": "December"
+        },
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "help": {
+            "tag": "Need Help?",
+            "learnMore": "Learn More",
+            "about": " About",
+            "labels": {
+                "worklists": "Worklists!",
+                "commands": {
+                    "platform": "Platform Commands!",
+                    "list": "the LIST Command!",
+                    "sum": "the SUM Command!",
+                    "count": "the COUNT Command!"
+                }
+            }
+        },
+        "animals": {
+            "singular": "animal",
+            "plural": "animals"
+        }
+    },
+    "unitSystems": {
+        "metric": "\u516c\u5236",
+        "imperial": "\u82f1\u5236"
+    },
+    "unitSystemsLabels": {
+        "metric": "\u5343\u514b\u3001\u5347\u3001\u6444\u6c0f\u5ea6\u3001\u6beb\u514b",
+        "imperial": "\u78c5\u3001\u52a0\u4ed1\u3001\u534e\u6c0f\u5ea6\u3001\u76ce\u53f8"
+    },
+    "recentCommands": {
+        "title": "Recent Commands",
+        "edit": "EDIT",
+        "noCommands": "There are no Recent\nCommands",
+        "viewResults": "View Results"
+    },
+    "units": {
+        "inHundreds": "\u6570\u767e%{unit}",
+        "pounds": "\u78c5",
+        "inPounds": "%{value}\u78c5",
+        "kilograms": "\u5343\u514b",
+        "inKilograms": "%{value}\u5343\u514b",
+        "gallons": "\u52a0\u4ed1",
+        "inGallons": "%{value}\u52a0\u4ed1",
+        "inGallonsPerMinute": "%{value}\u52a0\u4ed1\/\u5206\u949f",
+        "inLitres": "%{value}\u5347",
+        "inLitresPerMinute": "%{value}\u5347\/\u5206\u949f",
+        "hg": "\u82f1\u5bf8\u6c5e\u67f1",
+        "inHg": "%{value} Hg",
+        "inHpa": "%{value}\u767e\u5e15",
+        "miles": "\u82f1\u91cc",
+        "inMiles": "%{value}\u6beb\u5347",
+        "inKilometers": "%{value}\u5343\u7c73",
+        "mph": "\u6bcf\u5c0f\u65f6\u82f1\u91cc\u6570",
+        "inKph": "%{value}\u5343\u7c73\/\u65f6",
+        "inMph": "%{value} mph",
+        "inOunces": "%{value}\u76ce\u53f8",
+        "inGrams": "%{value}\u514b",
+        "inTons": "%{value}\u5428",
+        "inTonne": "%{value}\u516c\u5428",
+        "inFahrenheit": "%{value} \u00b0F",
+        "inCelsius": "%{value} \u00b0C",
+        "tons": "\u5428",
+        "metricTons": "\u5428",
+        "ton": "\u5428",
+        "metricTon": "\u5428",
+        "lbs": "\u78c5",
+        "kg": "\u5343\u514b",
+        "poundsKilograms": {
+            "imperial": {
+                "symbol": "\u78c5",
+                "singular": "\u78c5",
+                "plural": "\u78c5"
+            },
+            "metric": {
+                "symbol": "\u5343\u514b",
+                "singular": "\u5343\u514b",
+                "plural": "\u5343\u514b"
+            }
+        },
+        "tonsTonne": {
+            "imperial": {
+                "symbol": "\u5428",
+                "singular": "\u5428",
+                "plural": "\u5428"
+            },
+            "metric": {
+                "symbol": "\u516c\u5428",
+                "singular": "\u516c\u5428",
+                "plural": "\u516c\u5428"
+            }
+        },
+        "ouncesGrams": {
+            "imperial": {
+                "symbol": "\u76ce\u53f8",
+                "singular": "\u76ce\u53f8",
+                "plural": "\u76ce\u53f8"
+            },
+            "metric": {
+                "symbol": "\u514b",
+                "singular": "\u514b",
+                "plural": "\u514b"
+            }
+        },
+        "gallonsLitres": {
+            "imperial": {
+                "symbol": "\u52a0\u4ed1",
+                "singular": "\u52a0\u4ed1",
+                "plural": "\u52a0\u4ed1"
+            },
+            "metric": {
+                "symbol": "\u5347",
+                "singular": "\u5347",
+                "plural": "\u5347"
+            },
+            "singular": {
+                "metric": "\u5347",
+                "imperial": "\u52a0\u4ed1"
+            },
+            "plural": {
+                "metric": "\u5347",
+                "imperial": "\u52a0\u4ed1"
+            }
+        }
+    },
+    "dates": {
+        "day": "\u5929",
+        "month": "\u6708",
+        "year": "\u5e74"
+    },
+    "login": {
+        "forgotPassword": "\u5bc6\u7801\u5fd8\u4e86\uff1f",
+        "login": "\u767b\u5f55",
+        "signIn": "\u8bf7\u767b\u5f55",
+        "signInHere": "\u5728\u6b64\u767b\u5f55",
+        "sessionExpired": "\u4f1a\u8bdd\u5df2\u8fc7\u671f",
+        "rememberMe": "\u8bb0\u4f4f\u6211",
+        "sessionExpiredMessage": "\u7531\u4e8e\u957f\u65f6\u95f4\u4e0d\u6d3b\u8dc3\uff0c\u60a8\u7684\u4f1a\u8bdd\u5df2\u8fc7\u671f\uff0c\u8bf7\u91cd\u65b0\u767b\u5f55\u4ee5\u7ee7\u7eed\u5de5\u4f5c\u3002",
+        "invalidCredentials": "\u90ae\u7bb1\u6216\u5bc6\u7801\u4e0d\u6b63\u786e\u3002\u8bf7\u91cd\u8bd5\u3002",
+        "sessionClosedByChangedPassword": "\u5bc6\u7801\u5df2\u66f4\u65b0",
+        "sessionClosedByChangedPasswordMessage": "\u60a8\u7684\u5bc6\u7801\u5df2\u6210\u529f\u66f4\u65b0\u3002\u8bf7\u91cd\u65b0\u767b\u5f55\u4ee5\u7ee7\u7eed\u5de5\u4f5c"
+    },
+    "keto": {
+        "graphDesc": "Pred. Ketosis\/Tested",
+        "references": "REFERENCES",
+        "tableTitle": "Ketosis Prevalence",
+        "tableDesc": "Predicted Ketosis\/ Tested Animals",
+        "yAxis": "Prevalence Level %",
+        "allAnimals": "ALL ANIMALS",
+        "earlyFresh": "EARLY FRESH PREVALENCES",
+        "firstLact": "1st LACT",
+        "secondLact": "2nd LACT",
+        "secondPlusLact": "2nd+ LACT",
+        "target": "TARGET",
+        "overall": "(5 to 20 DIM)",
+        "early": "(5 to 11 DIM)",
+        "animals": "Animals",
+        "earlyFreshDim": "EARLY FRESH (5-11 DIM)"
+    },
+    "commandLine": {
+        "title": "COMMAND",
+        "execute": "EXECUTE",
+        "placeholder": "Type a command",
+        "invalid": "Invalid Command",
+        "unsupported": "Command not supported",
+        "results": {
+            "title": "Command Results",
+            "executed": "Executed:",
+            "loading": "Loading",
+            "print": "Print",
+            "export": "Export",
+            "showGraph": "Show Graph",
+            "hideGraph": "Hide Graph",
+            "noMatch": "No Matches Found"
+        },
+        "sum": {
+            "by": "By",
+            "pct": "PCT %",
+            "count": "Count",
+            "field": "%{modifier} %{field}",
+            "total": "Total",
+            "sum": "Item",
+            "childrenBy": "BY %{child} IN %{parent}",
+            "noByOrSum": "{amount} animals in this group",
+            "range": "Range",
+            "standardDeviation": "Standard Deviation"
+        },
+        "count": {
+            "inGroup": "Animals in this group"
+        }
+    },
+    "signup": {
+        "setupAccount": "\u63a5\u4e0b\u6765\u8bbe\u7f6e\u60a8\u7684\u5e10\u6237",
+        "tokenExpired": "\u6ce8\u518c\u94fe\u63a5\u5df2\u5931\u6548\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165\u60a8\u7684\u90ae\u7bb1\u3002",
+        "errorFetchingToken": "\u9a8c\u8bc1\u6ce8\u518c\u94fe\u63a5\u65f6\u51fa\u9519\u3002\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002",
+        "setPassword": "\u8bbe\u7f6e\u60a8\u7684\u5bc6\u7801",
+        "signup": "\u6ce8\u518c",
+        "email": "\u90ae\u7bb1",
+        "profile": "\u6863\u6848",
+        "password": "\u5bc6\u7801",
+        "firstStepThanksMessage": "\u611f\u8c22\u60a8\u5bf9VAS\u5e73\u53f0\u7684\u5174\u8da3\u3002",
+        "needEmail": "\u6211\u4eec\u9700\u8981\u60a8\u7684\u8054\u7cfb\u90ae\u7bb1\u6765\u5e2e\u52a9\u60a8\u5f00\u59cb\u4f53\u9a8c\u3002",
+        "haveAccount": "\u5df2\u6709\u5e10\u6237\uff1f",
+        "emptyEmail": "\u8bf7\u8f93\u5165\u60a8\u7684\u90ae\u7bb1\u5730\u5740\u3002",
+        "invalidEmail": "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u90ae\u7bb1\u5730\u5740\u3002",
+        "defaultError": "\u6ce8\u518c\u65f6\u51fa\u73b0\u95ee\u9898\u3002\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002",
+        "emailExists": "\u60a8\u7684\u90ae\u7bb1\u5730\u5740\u5df2\u7528\u4e8e\u6ce8\u518cVAS\u5e73\u53f0\u3002",
+        "emailSent": "\u4e00\u5c01\u90ae\u4ef6\u5df2\u53d1\u9001\u81f3 ",
+        "checkInbox": "\u8bf7\u5230\u6536\u4ef6\u7bb1\u4e2d\u67e5\u627e\u6211\u4eec\u7684\u90ae\u4ef6\u4ee5\u786e\u8ba4\u548c\u5b8c\u6210\u6ce8\u518c\u3002",
+        "firstName": "\u540d\u5b57",
+        "lastName": "\u59d3\u6c0f",
+        "country": "\u56fd\u5bb6\/\u5730\u533a",
+        "state": "\u5dde\/\u7701\/\u81ea\u6cbb\u533a",
+        "city": "\u57ce\u5e02",
+        "postalCode": "\u90ae\u7f16",
+        "enterPassword": "\u8f93\u5165\u5bc6\u7801",
+        "reEnterPassword": "\u518d\u6b21\u8f93\u5165\u5bc6\u7801",
+        "allSet": "\u4e00\u5207\u5c31\u7eea\uff01",
+        "accountCreated": "\u60a8\u7684\u5e10\u6237\u5df2\u6210\u529f\u521b\u5efa\u3002",
+        "continueToAgreements": "\u70b9\u51fb\u4e0b\u65b9\u67e5\u770b\u6700\u7ec8\u7528\u6237\u8ba2\u9605\u534f\u8bae\u548c\u9690\u79c1\u653f\u7b56\uff0c\u5e76\u5f00\u59cb\u4f7f\u7528VAS\u5e73\u53f0\u3002",
+        "continue": "\u7ee7\u7eed",
+        "gotMobile": "\u6709\u624b\u673a\uff1f",
+        "tryVasInMobile": "\u5728\u8bbe\u5907\u4e0a\u8bd5\u7528VAS\u5e73\u53f0\u3002",
+        "addProfilePicture": "\u56fe\u7247",
+        "error": {
+            "firstName": "\u8bf7\u8f93\u5165\u60a8\u7684\u540d\u5b57\u3002",
+            "lastName": "\u8bf7\u8f93\u5165\u60a8\u7684\u59d3\u6c0f\u3002",
+            "country": "\u56fd\u5bb6\/\u5730\u533a\u662f\u5fc5\u586b\u7684\u3002",
+            "state": "\u5dde\/\u7701\/\u81ea\u6cbb\u533a\u662f\u5fc5\u586b\u7684\u3002",
+            "city": "\u57ce\u5e02\u662f\u5fc5\u586b\u7684\u3002",
+            "postalCode": "\u90ae\u7f16\u662f\u5fc5\u586b\u7684\u3002",
+            "passwordIsEmpty": "\u8bf7\u8f93\u5165\u5bc6\u7801\u3002",
+            "passwordMinimumRequirements": "\u5bc6\u7801\u4e0d\u6ee1\u8db3\u6700\u4f4e\u8981\u6c42\u3002",
+            "passwordNotMatch": "\u5bc6\u7801\u4e0d\u4e00\u81f4\u3002",
+            "rePasswordEmpty": "\u8bf7\u518d\u6b21\u8f93\u5165\u60a8\u7684\u5bc6\u7801\u3002",
+            "signingUp": "\u4e3a\u60a8\u6ce8\u518c\u65f6\u51fa\u9519\u3002\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002"
+        }
+    },
+    "expiredToken": {
+        "title": "\u62b1\u6b49\uff01",
+        "type": {
+            "signup": "\u5b8c\u6210\u6ce8\u518c",
+            "reset": "\u91cd\u7f6e\u60a8\u7684\u5bc6\u7801"
+        },
+        "line1": "\u8f93\u5165 %{type} \u65f6\u95f4\u8fc7\u957f\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165!",
+        "line2": "\u8bf7\u518d\u6b21\u8f93\u5165\u60a8\u7684\u90ae\u7bb1\u5730\u5740\uff0c\u4ee5\u83b7\u53d6\u65b0\u7684\u94fe\u63a5\u3002",
+        "send": "\u53d1\u9001\u81f3"
+    },
+    "forgotPassword": {
+        "forgotPassword": "\u5fd8\u8bb0\u5bc6\u7801\uff1f",
+        "subtitle_": "\u8bf7\u8f93\u5165\u60a8\u7684\u90ae\u7bb1\u5730\u5740\uff0c\u60a8\u5c06\u4f1a\u6536\u5230\u5bc6\u7801\u91cd\u7f6e",
+        "_subtitle": "\u4f7f\u7528\u8bf4\u660e\u5c06\u4f1a\u53d1\u9001\u7ed9\u60a8\u3002",
+        "titleMessage": "\u8bf7\u67e5\u6536\u90ae\u4ef6\u3002",
+        "description_": "\u5982\u679c\u6709\u5339\u914d\u7684\u5e10\u6237",
+        "_description": "\u60a8\u5e94\u8be5\u4f1a\u6536\u5230\u4e00\u5c01\u90ae\u4ef6\uff0c\u5176\u4e2d\u9644\u6709\u91cd\u7f6e\u5bc6\u7801\u7684\u94fe\u63a5\u3002",
+        "continueSignup": "\u4e00\u5c01\u90ae\u4ef6\u5df2\u53d1\u9001\u81f3%{email}\u3002\u8bf7\u67e5\u6536\u90ae\u4ef6\u4ee5\u7ee7\u7eed\u6ce8\u518c",
+        "backToLogin": "\u56de\u5230\u767b\u5f55"
+    },
+    "passwordReset": {
+        "setNewPassword": "\u8bbe\u7f6e\u65b0\u7684\u5bc6\u7801",
+        "tokenExpired": "\u5bc6\u7801\u91cd\u7f6e\u94fe\u63a5\u5931\u6548\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165\u60a8\u7684\u90ae\u7bb1"
+    },
+    "browser": {
+        "chrome": "Google Chrome",
+        "chromeUrl": "https:\/\/www.google.com\/chrome\/",
+        "edge": "Edge",
+        "edgeUrl": "https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge",
+        "firefox": "Mozilla Firefox",
+        "firefoxUrl": "https:\/\/www.mozilla.org\/en-US\/firefox\/",
+        "safari": "Safari (Mac)",
+        "safariUrl": "https:\/\/support.apple.com\/downloads\/safari",
+        "unsupported": {
+            "title": "\u60a8\u7684\u6d4f\u89c8\u5668\u4e0d\u5728\u652f\u6301\u8303\u56f4",
+            "line1": "\u8981\u4f7f\u7528VAS\u5e73\u53f0\uff0c\u60a8\u5fc5\u987b\u4f7f\u7528\u8fd9\u4e9b",
+            "line2": "\u652f\u6301\u8303\u56f4\u5185\u7684\u6d4f\u89c8\u5668\u4e4b\u4e00\u3002",
+            "line3": "\uff08\u70b9\u51fb\u4e0b\u8f7d\uff09"
+        }
+    },
+    "chart": {
+        "charts": "\u56fe\u8868",
+        "rechart": "\u91cd\u65b0\u7ed8\u56fe - \u7b80\u5355\u6298\u7ebf\u56fe",
+        "rechartArea": "\u91cd\u65b0\u7ed8\u56fe - \u7b80\u5355\u9762\u79ef\u56fe",
+        "slider": "\u6ed1\u5757",
+        "sliderValue": "\u6ed1\u5757\u503c",
+        "rcSlider": "rc-slider",
+        "gauge": "\u4eea\u8868",
+        "liquidGauge": "\u6db2\u4f53\u4eea\u8868",
+        "tempGauge": "\u6e29\u5ea6\u4eea\u8868",
+        "emptyPlaceholder": {
+            "title": "\u6682\u65e0\u6570\u636e",
+            "description": "\u6570\u636e\u4e0d\u8db3\uff0c\u65e0\u6cd5\u7ed8\u5236\u6b64\u62a5\u544a\u7684\u56fe\u8868\u3002"
+        }
+    },
+    "filter": {
+        "results": "\u67e5\u8be2\u7ed3\u679c",
+        "label": "\u7b5b\u9009",
+        "clearFilter": "Clear filter",
+        "clearFilters": "Clear filters",
+        "dateError": "End date can't be before start date",
+        "type": {
+            "pen": "\u725b\u820d"
+        },
+        "placeholder": {
+            "pen": "\u725b\u820d\u53f7"
+        }
+    },
+    "herd": {
+        "cowCard": {
+            "tombstone": "\u5893\u7891",
+            "parentage": "\u8840\u7edf",
+            "currentLactation": "\u5f53\u524d\u80ce\u6b21",
+            "milkInfo": "\u725b\u5976\u4fe1\u606f",
+            "matings": "\u4ea4\u914d",
+            "scanning": "\u626b\u63cf",
+            "offspring": "\u540e\u4ee3",
+            "vet": "\u517d\u533b",
+            "event": {
+                "events": "\u6d3b\u52a8",
+                "eventsBar": "\u5976\u725b\u5361\u7247\u6d3b\u52a8\u680f",
+                "dualTable": "\u53cc\u8868\u683c",
+                "singleTable": "\u5355\u8868\u683c",
+                "details": "\u8be6\u60c5",
+                "responsible": "\u8d1f\u8d23\u4eba",
+                "pen": "\u725b\u5708",
+                "date": "\u65e5\u671f",
+                "event": "\u6d3b\u52a8",
+                "remarks": "\u5907\u6ce8",
+                "dim": "DIM"
+            },
+            "recentEvent": {
+                "noEvents": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u6d3b\u52a8\u6570\u636e\u3002"
+            },
+            "lactation": {
+                "lactation": "\u80ce\u6b21",
+                "dairyLactation": "\u6bcf\u5929\u6ccc\u4e73\u6761\u5f62\u56fe",
+                "dairyLactationWithParams": "\u6bcf\u5929\u6ccc\u4e73\u6761\u5f62\u56fe\uff08%{dateFor}\u81f3%{dateTo}\uff09",
+                "weeklyLactationLineChart": "\u6bcf\u5468\u6ccc\u4e73\u6298\u7ebf\u56fe",
+                "noLactations": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u6ccc\u4e73\u3002",
+                "barGraph": "\u6761\u5f62\u56fe",
+                "lineGraph": "\u6298\u7ebf\u56fe"
+            },
+            "lactations": {
+                "noLactations": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u80ce\u6b21\u3002",
+                "summary": "\u6ccc\u4e73\u6458\u8981",
+                "prevLactsGraphic": "\u6309\u6ccc\u4e73\u7edf\u8ba1\u7684\u6bcf\u5468\u4ea7\u5976\u91cf",
+                "age": "\u5e74\u9f84",
+                "dim": "DIM",
+                "lactationNumber": "Lactation number"
+            },
+            "dailyMilk": {
+                "noDailyMilk": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u6bcf\u65e5\u725b\u5976\u3002",
+                "dimTooltip": "DIM",
+                "milking": "\u6324\u5976",
+                "today": "\u4eca\u5929",
+                "average": "\u5e73\u5747\u503c",
+                "avg": "\u5e73\u5747",
+                "expected": "\u9884\u671f",
+                "exp": "\u9884\u671f",
+                "deviation": "\u504f\u5dee",
+                "total": "\u603b\u8ba1",
+                "estimatedMilk": "\u9884\u8ba1\u5976\u91cf"
+            },
+            "overview": {
+                "statusItems": "\u72b6\u6001\u9879\u76ee",
+                "recentEvents": "\u6700\u8fd1\u4e8b\u4ef6",
+                "moreEvents": "\u66f4\u591a\u4e8b\u4ef6",
+                "recentTestdays": "\u6700\u8fd1\u6d4b\u5b9a\u65e5",
+                "moreTestdays": "\u5176\u4ed6\u6d4b\u5b9a\u65e5",
+                "moreItems": "\u5176\u4ed6\u9879\u76ee",
+                "dailyRecentProduction": "\u6700\u8fd1\u7684\u6bcf\u5929\u4ea7\u91cf"
+            },
+            "testDays": {
+                "noTests": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u6d4b\u5b9a\u65e5\u6570\u636e\u3002",
+                "date": "\u65e5\u671f",
+                "milk": "\u725b\u5976",
+                "dim": "DIM",
+                "pen": "\u725b\u5708"
+            },
+            "statusGroup": {
+                "noItems": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u9879\u76ee\u6570\u636e\u3002"
+            },
+            "pedigree": {
+                "pedigree": "\u8840\u7edf",
+                "graphicView": "Graphic View",
+                "PDFView": "PDF\u89c6\u56fe"
+            },
+            "penChange": {
+                "penChanges": "\u725b\u5708\u53d8\u66f4",
+                "noPenChanges": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u725b\u5708\u53d8\u66f4\u3002",
+                "date": "\u65e5\u671f",
+                "daysInPen": "\u725b\u5708\u4e2d\u7684\u5929\u6570",
+                "movedToPen": "\u79fb\u52a8\u81f3\u725b\u5708",
+                "PremiseId": "\u573a\u6240ID",
+                "fromTo": "\u4ece - \u5230",
+                "dim": "DIM",
+                "source": "\u6765\u6e90",
+                "testday": "\u6628\u5929",
+                "responsible": "\u8d1f\u8d23\u4eba",
+                "penTransfer": {
+                    "in": "\u5728"
+                }
+            },
+            "sensor": {
+                "sensors": "\u4f20\u611f\u5668",
+                "accordionTitle": "SCR\u6d3b\u52a8 - \u53cd\u520d\u4f20\u611f\u5668\u6570\u636e"
+            },
+            "testDay": {
+                "testDays": "\u6d4b\u5b9a\u65e5",
+                "testDaysResults": "\u6d4b\u5b9a\u65e5\u7ed3\u679c",
+                "yAxisLayers": "\u53c2\u8003",
+                "productionGraphByTestday": "\u6309\u6d4b\u5b9a\u65e5\u7edf\u8ba1\u7684\u4ea7\u91cf\u56fe\u8868",
+                "testDaysToolTipTitle": "\u6d4b\u5b9a\u65e5 #"
+            },
+            "productionMilk": {
+                "noItems": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u4ea7\u91cf\u725b\u5976\u6570\u636e\u3002"
+            },
+            "type": {
+                "adultCow": "\u5976\u725b",
+                "bull": "\u516c\u725b",
+                "calf": "\u5c0f\u725b",
+                "heifer": "\u540e\u5907\u725b"
+            },
+            "farmName": "\u519c\u573a\u540d\u79f0",
+            "cowName": "\u725b\u820d\u540d\u79f0",
+            "pen": "\u725b\u5708",
+            "lact": "LACT",
+            "rpro": "\u7e41\u80b2\u72b6\u6001",
+            "dim": "DIM",
+            "dslh": "\u914d\u540e\u5929\u6570",
+            "dcc": "\u6000\u5b55\u5929\u6570",
+            "due": "\u9884\u4ea7\u671f",
+            "ardat": "\u5f52\u6863\u65e5\u671f",
+            "milkWithhold": "\u5976\u6b8b\u7559",
+            "meatWithhold": "\u8089\u6b8b\u7559",
+            "reproductionCode": {
+                "heiferCalf": "\u5c0f\u6bcd\u725b",
+                "noBred": "\u7981\u914d",
+                "fresh": "\u65b0\u4ea7",
+                "ok": "\u7a7a\u6000",
+                "bred": "\u5df2\u914d",
+                "preg": "\u6000\u5b55",
+                "dry": "\u5e72\u5976",
+                "sld": "\u51fa\u552e\/\u6b7b\u4ea1",
+                "bull": "\u5c0f\u516c\u725b"
+            },
+            "agedy": "AGEDY",
+            "items": {
+                "edit": {
+                    "itemBoxTitle": "\u7f16\u8f91\u9879\u76ee\u5361\u7247",
+                    "cardsPreview": "\u5361\u7247\u9884\u89c8",
+                    "dragAndDropReorder": "\u901a\u8fc7\u62d6\u653e\u6765\u91cd\u6392\u9879\u76ee",
+                    "addItems": "\u6dfb\u52a0\u9879\u76ee",
+                    "cardName": "\u5361\u7247\u540d\u79f0",
+                    "searchSpecificCowItem": "\u641c\u7d22\u6307\u5b9a\u7684\u5976\u725b\u9879\u76ee\u2026",
+                    "cancelMessage": "\u60a8\u6709\u672a\u4fdd\u5b58\u7684\u66f4\u6539\u3002\u4ecd\u8981\u53d6\u6d88\uff1f",
+                    "validation": "\u8bf7\u4e3a\u5361\u7247\u6dfb\u52a0\u81f3\u5c11\u4e00\u4e2a\u9879\u76ee\u518d\u4fdd\u5b58\u3002",
+                    "noItems": "\u8bf7\u6dfb\u52a0\u81f3\u5c11\u4e00\u4e2a\u9879\u76ee\u518d\u9884\u89c8\u65b0\u5361\u7247\u3002",
+                    "isMobile": "\u5728\u624b\u673a\u5e94\u7528\u4e2d\u663e\u793a"
+                },
+                "add": {
+                    "itemBoxTitle": "\u6dfb\u52a0\u9879\u76ee\u5361\u7247",
+                    "error": "\u62b1\u6b49\uff0c\u53d1\u751f\u4e86\u4e00\u4e2a\u672a\u77e5\u9519\u8bef\u3002\u8bf7\u91cd\u65b0\u6dfb\u52a0\u5361\u7247\u3002",
+                    "newItemsCard": "\u65b0\u9879\u76ee\u5361\u7247"
+                },
+                "hide": {
+                    "title": "\u9690\u85cf\u9879\u76ee\u5361\u7247\uff1f",
+                    "line1": "\u5982\u9700\u6062\u590d\u663e\u793a\u9690\u85cf\u5361\u7247\uff0c\u8bf7 ",
+                    "line2": "\u70b9\u51fb\u201c\u6062\u590d\u9690\u85cf\u5361\u7247\u201d\u3002",
+                    "confirm": "\u662f\u7684\uff0c\u9690\u85cf"
+                },
+                "restoreCard": "\u6062\u590d\u9690\u85cf\u5361\u7247",
+                "addCard": "\u6dfb\u52a0\u65b0\u5361\u7247",
+                "restore": {
+                    "boxTitle": "\u6062\u590d\u9690\u85cf\u5361\u7247",
+                    "edition": {
+                        "title": "\u9009\u62e9\u5361\u7247",
+                        "subTitle": "\u6b64\u524d\u9690\u85cf\u7684\u5361\u7247\u53ef\u5728\u6b64\u9875\u9762\u4e0a\u6dfb\u52a0\u3002"
+                    },
+                    "noHiddenCardTitle": "\u5361\u7247\u540d\u79f0",
+                    "error": "\u62b1\u6b49\uff0c\u53d1\u751f\u4e86\u4e00\u4e2a\u672a\u77e5\u9519\u8bef\u3002\u8bf7\u91cd\u65b0\u6dfb\u52a0\u9690\u85cf\u5361\u7247\u3002",
+                    "noItems": "\u8bf7\u70b9\u51fb\u5217\u8868\u4e2d\u7684\u9879\u76ee\u5361\u7247\u6765\u67e5\u770b\u3002"
+                },
+                "successUpdate": "\u5df2\u6210\u529f\u66f4\u65b0\u3002",
+                "notSuccessUpdate": "\u4fdd\u5b58\u4fe1\u606f\u65f6\u51fa\u9519\u3002\u8bf7\u7b49\u51e0\u5206\u949f\u540e\u91cd\u8bd5\u3002",
+                "itemCard": "\u9879\u76ee\u5361\u7247",
+                "itemCardSuccessfullyAdded": "\u5df2\u6210\u529f\u6dfb\u52a0",
+                "itemCardSuccessfullyRestored": "\u9879\u76ee\u5df2\u6210\u529f\u6062\u590d",
+                "itemCardSuccessfullyHidden": "\u9879\u76ee\u5361\u7247\u5df2\u6210\u529f\u9690\u85cf",
+                "itemCardColorPaletteLabel": "\u989c\u8272",
+                "itemCardColorPaletteDefault": "\u9ed8\u8ba4\u989c\u8272",
+                "itemCardBackgroundColorPickerLabel": "\u80cc\u666f\u989c\u8272",
+                "itemCardForegroundColorPickerLabel": "\u6587\u672c\u989c\u8272"
+            },
+            "subMenu": {
+                "overview": "\u6982\u89c8",
+                "items": "\u9879\u76ee",
+                "events": "\u4e8b\u4ef6",
+                "testDays": "\u6d4b\u5b9a\u65e5",
+                "lactations": "\u6ccc\u4e73",
+                "dailyMilk": "\u65e5\u4ea7\u91cf\n",
+                "penChanges": "\u725b\u5708\u53d8\u66f4",
+                "pedigree": "Pedigree",
+                "partners": "\u5408\u4f5c\u4f19\u4f34"
+            },
+            "recentProduction": {
+                "milking": "\u6324\u5976 #"
+            },
+            "dead": "\u6b7b\u4ea1",
+            "alive": "\u5b58\u6d3b",
+            "sold": "\u5df2\u552e",
+            "placeholder": {
+                "title": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u9879\u76ee",
+                "description": "\u914d\u7f6e\u9879\u76ee\u5361\u7247\u4ee5\u4fbf\u5728\u6b64\u67e5\u770b\u3002"
+            },
+            "partners": {
+                "foerster": {
+                    "characteristics": {
+                        "birthdateTitle": "bdate",
+                        "weanDateTitle": "wean date",
+                        "sexTitle": "sex",
+                        "breedTitle": "cbrd",
+                        "didTitle": "did",
+                        "sidTitle": "sid",
+                        "agedyTitle": "agedy",
+                        "title": "Calf Rearing Characteristics",
+                        "male": "M",
+                        "female": "F",
+                        "weanDate": {
+                            "baseText": "%{diffDays} days %{preposition} expected wean date",
+                            "prepositionUntil": "until",
+                            "prepositionPast": "past",
+                            "projected": "PROJECTED",
+                            "weaned": "weaned",
+                            "weaning": "weaning"
+                        }
+                    },
+                    "weightTable": {
+                        "fourDaysTitle": "4 days",
+                        "todayTitle": "today",
+                        "averageDailyGainTitle": "adg",
+                        "title": "Weight",
+                        "perDay": "d",
+                        "popover": "If your dairy is equipped with a F\u00f6rster half-body scale, this is an actual animal weight. If not, this weight is estimated based on calf age."
+                    },
+                    "totalConsumptionTable": {
+                        "milkTitle": "milk",
+                        "concentrationTitle": "concentration",
+                        "additiveTitle": "Additive",
+                        "title": "Total Consumption",
+                        "unitsTitle": "MR"
+                    },
+                    "generalInformationTable": {
+                        "allowanceRatio": "Allowance Ratio",
+                        "dipsMilkIntake": "# dips milk intake",
+                        "avgBreaksDay": "Avg breaks \/day",
+                        "avgDailySteps": "Avg daily steps",
+                        "daysOnPrescription": "days on prescription"
+                    },
+                    "drinkingSpeed": {
+                        "cardTitle": "Drinking Speed",
+                        "speed": "speed",
+                        "timeUnit": "m",
+                        "day": "Day"
+                    },
+                    "drinkingBehavior": {
+                        "cardTitle": "Drinking Behavior",
+                        "milk": "milk"
+                    },
+                    "milkConsumption": {
+                        "cardTitle": "Milk Consumption",
+                        "consumption": "Consumption",
+                        "lastTwoDays": "last 2 days",
+                        "visitNumber": "Visit %{number}",
+                        "visitRange": "Visits %{from} to %{to}",
+                        "visit": "visit",
+                        "withoutFeeding": "w\/o feeding",
+                        "additive": "additive",
+                        "total": "total",
+                        "yesterdayTarget": "yesterday's target",
+                        "todayEntitlement": "today's entitlement",
+                        "timeRange": "%{from} to %{to}"
+                    },
+                    "common": {
+                        "amount": "amount",
+                        "entitlement": "entitlement",
+                        "today": "Today",
+                        "yesterday": "Yesterday",
+                        "now": "now",
+                        "widgetNotFound": "There is no %{name} data to display for this animal",
+                        "widgetCommunicationError": "Communication Error"
+                    }
+                },
+                "table": {
+                    "message": "\u6d88\u606f",
+                    "dateAndTime": "\u65e5\u671f\u548c\u65f6\u95f4",
+                    "observations": "\u89c2\u5bdf"
+                },
+                "graph": {
+                    "indicators": {
+                        "temperature": "\u6e29\u5ea6",
+                        "ph": "pH",
+                        "activity": "\u6d3b\u52a8"
+                    },
+                    "views": {
+                        "view": "\u89c6\u56fe",
+                        "last24hs": "\u8fc7\u53bb24\u5c0f\u65f6",
+                        "last7days": "\u8fc7\u53bb7\u5929",
+                        "last30days": "\u8fc7\u53bb30\u5929"
+                    }
+                },
+                "eventTypes": {
+                    "health101": "\u6c34\u6444\u5165\u4e0d\u8db3",
+                    "health102": "\u996e\u6c34\u5468\u671f\u589e\u52a0",
+                    "health103": "\u996e\u6c34\u5468\u671f\u51cf\u5c11",
+                    "health104": "\u6e29\u5ea6\u4e0a\u5347",
+                    "health106": "\u6e29\u5ea6\u4e0b\u964d",
+                    "health601": "THI \u2265 72\u70ed\u5e94\u529b",
+                    "health602": "THI \u2265 78\u70ed\u5e94\u529b",
+                    "health603": "THI \u2265 82\u70ed\u5e94\u529b",
+                    "health703": "\u6d3b\u52a8\u4e0b\u964d",
+                    "fertility105": "\u4e34\u4ea7\u5f81\u5146",
+                    "fertility702": "\u53d1\u60c5",
+                    "feeding201": "\u5582\u98df\u6548\u7387",
+                    "feeding202": "\u9178\u4e2d\u6bd2\u98ce\u9669",
+                    "feeding203": "\u5e73\u5747pH\u4e0a\u5347",
+                    "feeding204": "\u5e73\u5747pH\u4e0b\u964d",
+                    "feeding205": "12\u5c0f\u65f6pH\u4e0a\u5347",
+                    "feeding206": "12\u5c0f\u65f6pH\u4e0b\u964d",
+                    "actincrease701": "\u6d3b\u52a8\u589e\u52a0",
+                    "actincrease704": "\u6d3b\u52a8\u589e\u52a0",
+                    "heat": "\u53d1\u60c5\u76d1\u6d4b",
+                    "insemination": "\u4eba\u5de5\u6388\u7cbe",
+                    "pregnancyResult": "\u9633\u6027\u6216\u9634\u6027\u9a8c\u5b55\u7ed3\u679c",
+                    "calvingDetection": "\u68c0\u6d4b\u5230\u4ea7\u728a",
+                    "dryOff": "\u5e72\u5976",
+                    "calvingConfirmation": "\u786e\u8ba4\u4ea7\u728a"
+                },
+                "selectPartner": "Partner:",
+                "help": {
+                    "tag": "SmaXtec"
+                },
+                "placeholder": "\u6b64\u52a8\u7269\u6ca1\u6709\u53ef\u663e\u793a\u7684SmaXtec\u4f20\u611f\u5668\u6570\u636e"
+            }
+        },
+        "overview": {
+            "page": "\u7267\u7fa4\u6982\u89c8\u9875\u9762"
+        },
+        "pens": {
+            "penList": "\u725b\u5708\u5217\u8868",
+            "animalCost": "\u52a8\u7269\u6210\u672c",
+            "space": "\u7a7a\u95f4",
+            "capacity": "\u5bb9\u91cf",
+            "count": "\u6570\u91cf",
+            "extra": "\u989d\u5916",
+            "feed": "\u5582\u98df",
+            "feedingHdCount": "\u5582\u98dfHD\u6570\u91cf",
+            "feedingCount": "Feeding Count",
+            "herd": "\u725b\u7fa4",
+            "label": "\u6807\u7b7e",
+            "pen": "\u725b\u5708",
+            "penCost": "\u725b\u5708\u6210\u672c",
+            "penCount": "\u725b\u5708\u6570\u91cf",
+            "pens": "\u725b\u5708",
+            "penType": "\u725b\u5708\u7c7b\u578b",
+            "penTypesLabel": "Pen Types",
+            "animalCount": "Animal Count",
+            "premiseId": "\u573a\u6240ID",
+            "targetDmHd": "\u52a0\u8f7dDM\/HD",
+            "costPerHd": "Cost\/HD",
+            "type": "\u7c7b\u578b",
+            "view": "\u89c6\u56fe",
+            "zone": "\u533a\u57df",
+            "views": {
+                "table": "Table",
+                "cards": "Cards"
+            },
+            "penTypes": {
+                "allPenTypes": "\u67e5\u770b\u6240\u6709\u7c7b\u578b\u725b\u820d",
+                "isArtificialInseminationPen": "\u53c2\u914d\u5708",
+                "isBullPen": "\u516c\u725b\u5708",
+                "isCalfPen": "\u728a\u725b\u5708",
+                "isDryPen": "\u5e72\u5976\u5708",
+                "isHospitalPen": "\u75c5\u725b\u5708",
+                "isMilkingPen": "\u6ccc\u4e73\u5708",
+                "isUserPen": "\u81ea\u5b9a\u4e49\u5708",
+                "fullName": {
+                    "allPenTypes": "All",
+                    "isArtificialInseminationPen": "AI",
+                    "isBullPen": "Bullpen",
+                    "isCalfPen": "Calf",
+                    "isDryPen": "Dry",
+                    "isHospitalPen": "Hospital",
+                    "isMilkingPen": "Milking",
+                    "isUserPen": "User"
+                }
+            }
+        },
+        "worklists": {
+            "pageTitle": "\u6253\u5f00\u5de5\u4f5c\u5217\u8868",
+            "todayTitle": "\u4eca\u5929",
+            "upcomingTitle": "\u63a5\u4e0b\u6765",
+            "lastDaysTitle": "\u8fc7\u53bb3\u5929",
+            "accordionTitle": "\u6e05\u5355",
+            "time": {
+                "week": "A Week Ago",
+                "yesterday": "Yesterday's",
+                "today": "Today's"
+            },
+            "help": {
+                "tag": "\u9700\u8981\u5e2e\u52a9\uff1f",
+                "link": "\u5173\u4e8e\u5de5\u4f5c\u6e05\u5355\uff0c\u4e86\u89e3\u66f4\u591a\uff01"
+            },
+            "tableHead": {
+                "name": "\u540d\u79f0",
+                "listDate": "\u6e05\u5355\u65e5\u671f",
+                "listType": "\u6e05\u5355\u7c7b\u578b",
+                "status": "\u72b6\u6001",
+                "progress": "\u8fdb\u5ea6",
+                "description": "\u63cf\u8ff0",
+                "ondone": "Ondone",
+                "postProcess": "\u4e0a\u4f20\u66f4\u6539"
+            },
+            "progress": {
+                "animals": "\u52a8\u7269",
+                "toBeProcessed": "\u5f85\u5904\u7406",
+                "filterNoResults": "\u6ca1\u6709\u725b\u53ea\u7b26\u5408\u7b5b\u9009\u6761\u4ef6"
+            },
+            "status": {
+                "open": "\u6253\u5f00",
+                "closed": "\u5173\u95ed",
+                "delivered": "\u5df2\u9001\u8fbe",
+                "todo": "\u5f85\u529e",
+                "pending": "\u5f85\u5904\u7406",
+                "inProgress": "\u8fdb\u884c\u4e2d",
+                "queued": "\u961f\u5217\u4e2d",
+                "processed": "\u5f85\u5904\u7406"
+            },
+            "changeStatus": {
+                "todo": "\u5f85\u529e",
+                "done": "\u5b8c\u6210",
+                "completed": "Completed",
+                "processed": "Processed",
+                "toBeProcessed": "To Be Processed"
+            },
+            "identificationType": {
+                "unknown": "\u672a\u77e5",
+                "tap": "\u624b\u5de5\u8f93\u5165",
+                "scan": "\u626b\u63cf",
+                "voice": "\u8bed\u97f3"
+            },
+            "tableColumns": {
+                "method": "\u65b9\u5f0f",
+                "doneBy": "Done By",
+                "updatedAt": "\u5b8c\u6210\u65f6\u95f4",
+                "changeStatus": "Status"
+            },
+            "noItems": "\u6ca1\u6709\u5217\u8868\u53ef\u663e\u793a",
+            "listDetailsPageTitle": "\u5217\u8868\u8be6\u60c5",
+            "tabs": {
+                "todo": "\u5f85\u529e",
+                "done": "\u5b8c\u6210"
+            },
+            "details": {
+                "table": {
+                    "id": "\u725b\u53f7",
+                    "pen": "\u725b\u5708",
+                    "lact": "\u80ce\u6b21",
+                    "rprod": "\u7e41\u6b96\u72b6\u6001",
+                    "dim": "DIM",
+                    "dcc": "\u6000\u5b55\u5929\u6570",
+                    "milk": "\u725b\u5976",
+                    "all": "\u5168\u90e8"
+                }
+            },
+            "listTypes": {
+                "todolist": "\u4ee3\u529e\u4e8b\u9879\u5217\u8868"
+            }
+        },
+        "itemDefinitions": {
+            "title": "Item Definitions",
+            "name": "Name",
+            "op1": "OP1",
+            "op2": "OP2",
+            "type": "Type",
+            "description": "Description",
+            "standardItemNumber": "Standard #",
+            "filterPlaceholder": "Name, # or Description"
+        },
+        "eventDefinitions": {
+            "title": "Event Definitions",
+            "number": "Number",
+            "eventName": "Event Name",
+            "standardEventCode": "Standard #",
+            "team": "Team",
+            "gap": "Gap",
+            "command": "Command",
+            "filterPlaceholder": "Event Name, # or Command"
+        },
+        "protocols": {
+            "title": "Protocols",
+            "number": "P#",
+            "event": "Event",
+            "protocol": "Protocol",
+            "remark": "Remark",
+            "goToPen": "Go To Pen",
+            "milkWithold": "Milk Withhold",
+            "meatWithold": "Meat Withhold",
+            "timeOnProtocol": "Time On Protocol",
+            "adult": "Adult",
+            "heifer": "Heifer",
+            "team": "Team",
+            "recheck": "Recheck",
+            "order": "Order",
+            "prompt": "P",
+            "days": {
+                "singular": "day",
+                "plural": "days"
+            },
+            "showInactive": "Show Inactive",
+            "details": "Protocol Details",
+            "hasPrompt": "Prompt: Yes"
+        }
+    },
+    "home": {
+        "home": "\u4e3b\u9875",
+        "title": "VAS\u5e73\u53f0",
+        "searchboxPlaceholder": "\u641c\u7d22\u5976\u725bID",
+        "selectContext": "Select a %{context}",
+        "context": {
+            "dairy": "Dairy",
+            "company": "Company",
+            "companyOrDairy": "Company or Dairy",
+            "noConnections": {
+                "connectToFirstDairyPreppend": "Connect with your first dairy from",
+                "myHome": "My Home",
+                "pendingInvitationPreppend": "You have a pending invitation. \nGo to",
+                "pendingInvitationAppend": "to accept."
+            }
+        },
+        "dairyProfile": "\u725b\u5976\u573a\u6863\u6848",
+        "selectDairy": "\u9009\u62e9\u7267\u573a",
+        "search": {
+            "noResults": "\u6ca1\u6709\u7b26\u5408\u6761\u4ef6\u7267\u573a"
+        }
+    },
+    "validation": {
+        "invalidName": "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u540d\u79f0\u3002",
+        "invalidEmail": "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u90ae\u7bb1\u5730\u5740\u3002",
+        "emptyEmail": "\u8bf7\u8f93\u5165\u60a8\u7684\u90ae\u7bb1\u5730\u5740\u3002",
+        "invalidPassword": "\u5bc6\u7801\u5fc5\u987b\u5305\u542b\u81f3\u5c116\u4e2a\u5b57\u7b26\u3002",
+        "emptyPassword": "\u8bf7\u8f93\u5165\u60a8\u7684\u5bc6\u7801\u3002",
+        "passwordNotMatch": "\u5bc6\u7801\u4e0d\u4e00\u81f4\u3002",
+        "retypePassword": "\u8bf7\u518d\u6b21\u8f93\u5165\u60a8\u7684\u5bc6\u7801\u3002",
+        "passwordMinimumRequirements": "\u5bc6\u7801\u4e0d\u6ee1\u8db3\u6700\u4f4e\u8981\u6c42\u3002",
+        "invalidCardName": "\u9879\u76ee\u5361\u7247\u540d\u79f0\u5fc5\u987b\u5305\u542b\u81f3\u5c116\u4e2a\u5b57\u7b26\u3002",
+        "emptyCardName": "\u8bf7\u8f93\u5165\u9879\u76ee\u5361\u7247\u540d\u79f0\u3002",
+        "changePassword": {
+            "emptyCurrentPassword": "\u8bf7\u8f93\u5165\u60a8\u7684\u5f53\u524d\u5bc6\u7801\u3002",
+            "emptyNewPassword": "\u8bf7\u8f93\u5165\u60a8\u7684\u65b0\u5bc6\u7801\u3002",
+            "emptyConfirmNewPassword": "\u8bf7\u786e\u8ba4\u65b0\u5bc6\u7801\u3002"
+        },
+        "address": {
+            "emptyCountry": "\u8bf7\u9009\u62e9\u56fd\u5bb6\/\u5730\u533a\u3002",
+            "emptyStateProvince": "\u8bf7\u9009\u62e9\u5dde\/\u7701\/\u81ea\u6cbb\u533a\u3002",
+            "selectStateProvince": "\u9009\u62e9",
+            "enterStateProvince": "\u8f93\u5165",
+            "emptyCity": "\u8bf7\u8f93\u5165\u57ce\u5e02\u3002",
+            "emptyPostalCode": "\u8bf7\u8f93\u5165\u90ae\u7f16\u3002"
+        },
+        "dairy": {
+            "emptyName": "\u8bf7\u8f93\u5165\u7267\u573a\u540d\u79f0\u3002"
+        },
+        "invalidMobilePhoneNumber": "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u624b\u673a\u53f7\u7801\u3002\u8bf7\u52a1\u5fc5\u4ec5\u8f93\u5165\u6570\u5b57\uff0c\u4e0d\u8981\u52a0\u7a7a\u683c\u3002",
+        "invalidPhoneNumber": "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u7535\u8bdd\u53f7\u7801\u3002\u8bf7\u52a1\u5fc5\u4ec5\u8f93\u5165\u6570\u5b57\uff0c\u4e0d\u8981\u52a0\u7a7a\u683c\u3002",
+        "limitCharacters": "\u60a8\u5df2\u8fbe\u5230\u6b64\u5b57\u6bb5\u7684\u5b57\u7b26\u6570\u91cf\u9650\u5236\u3002",
+        "accountSettings": {
+            "firstName": "\u8bf7\u8f93\u5165\u60a8\u7684\u540d\u5b57",
+            "lastName": "\u8bf7\u8f93\u5165\u60a8\u7684\u59d3\u6c0f"
+        }
+    },
+    "error": {
+        "404": {
+            "title": "404\u627e\u4e0d\u5230\u9875\u9762",
+            "line1": "\u62b1\u6b49\uff0c\u60a8\u8981\u627e\u7684\u9875\u9762\u5df2\u5931\u6548\u3002",
+            "line2": "\u8bf7\u91cd\u8bd5\u6216\u524d\u5f80"
+        },
+        "tokenInvalid": "\u5bc6\u7801\u91cd\u7f6e\u4ee4\u724c\u65e0\u6548\u3002",
+        "unableChange": "\u65e0\u6cd5\u66f4\u6539\u5bc6\u7801\u3002",
+        "401": "\u672a\u6388\u6743",
+        "500": "\u5185\u90e8\u670d\u52a1\u5668\u9519\u8bef",
+        "passwordInvalid": "\u5f53\u524d\u5bc6\u7801\u4e0d\u6b63\u786e\u3002"
+    },
+    "password": {
+        "passwordCreated": "\u5bc6\u7801\u5df2\u521b\u5efa",
+        "passwordSuccessfullyCreated": "\u60a8\u7684\u5bc6\u7801\u5df2\u6210\u529f\u521b\u5efa\u3002",
+        "passwordUpdated": "\u5bc6\u7801\u5df2\u66f4\u65b0",
+        "passwordSuccessfullyChanged": "\u60a8\u7684\u5bc6\u7801\u5df2\u6210\u529f\u66f4\u6539\u3002",
+        "continueToHome": "\u7ee7\u7eed\u524d\u5f80\u4e3b\u9875",
+        "enterPassword": "\u8f93\u5165\u60a8\u7684\u5bc6\u7801",
+        "savePassword": "\u4fdd\u5b58\u5bc6\u7801",
+        "passwordRequirements": "\u5bc6\u7801\u8981\u6c42",
+        "unableToChange": "\u65e0\u6cd5\u66f4\u6539\u5bc6\u7801\u3002",
+        "setPassword": "\u8bbe\u7f6e\u60a8\u7684\u5bc6\u7801",
+        "invalidToken": {
+            "invalidToken": "\u4ee4\u724c\u65e0\u6548\u3002",
+            "title_line1": "\u60a8\u7684",
+            "title_line2": "VAS\u5e73\u53f0\u9080\u8bf7\u5df2\u8fc7\u671f",
+            "line1": "\u8bf7\u53d1\u9001\u90ae\u4ef6\u81f3",
+            "line2": "\u6216\u8005\u81f4\u7535",
+            "line3": "\u4ee5\u83b7\u5f97\u65b0\u7684\u9080\u8bf7\u3002"
+        },
+        "ValidPassword": {
+            "minLength": "\u6700\u5c0f\u957f\u5ea6\u4e3a\u516d\uff086\uff09\u4e2a\u5b57\u7b26\u3002",
+            "numbersAndLetters": "\u5fc5\u987b\u5305\u542b\u5b57\u6bcd\u548c\u6570\u5b57\u3002",
+            "lowerUpperCases": "\u5fc5\u987b\u5305\u542b\u5c0f\u5199\u548c\u5927\u5199\u5b57\u6bcd\u3002"
+        }
+    },
+    "breadcrumb": {
+        "operations": "\u64cd\u4f5c",
+        "herd": "\u725b\u7fa4",
+        "cows": "\u5976\u725b",
+        "pens": "\u725b\u820d",
+        "ID": "ID",
+        "overview": "\u6982\u89c8",
+        "company": "Company",
+        "dairy": "Dairy",
+        "dairyComp": "DairyComp",
+        "dashboard": "\u4eea\u8868\u677f",
+        "feedComp": "FeedComp",
+        "parlorComp": "ParlorComp",
+        "worklists": "\u5de5\u4f5c\u5217\u8868",
+        "messageCenter": "\u6d88\u606f\u4e2d\u5fc3"
+    },
+    "footer": {
+        "title": "VAS\u5e73\u53f0"
+    },
+    "search": {
+        "searchHistory": "\u641c\u7d22\u5386\u53f2",
+        "searchResults": "\u641c\u7d22\u7ed3\u679c",
+        "noResults": "\u6ca1\u6709\u5339\u914d\u6b64\u641c\u7d22\u7684\u52a8\u7269",
+        "searchForCow": "\u641c\u7d22\u5976\u725bID",
+        "firstResult": "\u7b2c\u4e00\u4e2a\u7ed3\u679c",
+        "thirdResult": "\u7b2c\u4e09\u4e2a\u7ed3\u679c"
+    },
+    "dairy": {
+        "noDairiesConnected": "\u6ca1\u6709\u5173\u6ce8\u7684\u7267\u573a",
+        "noDairiesText_": "\u8fde\u63a5\u7b2c\u4e00\u4e2a\u725b\u5976\u573a",
+        "requestAccessSuccess": "\u5df2\u6210\u529f\u7533\u8bf7\u8bbf\u95ee\u6743\u9650\uff1a"
+    },
+    "menu": {
+        "myHome": "\u6211\u7684\u4e3b\u9875",
+        "impersonationLabel": "\u7ba1\u7406\u5458\u4f5c\u4e3a",
+        "dairyManager": "\u725b\u5976\u573a\u7ecf\u7406",
+        "accountSettings": "\u5e10\u6237\u8bbe\u7f6e",
+        "logOut": "\u9000\u51fa",
+        "reports": "\u62a5\u544a",
+        "favorites": "\u6536\u85cf\u5939",
+        "favoriteReports": "\u6536\u85cf\u7684\u62a5\u544a",
+        "dairyInformation": "\u725b\u5976\u573a\u4fe1\u606f",
+        "dairyConfiguration": "\u7267\u573a\u914d\u7f6e",
+        "operations": "\u64cd\u4f5c",
+        "userManagement": "\u7528\u6237\u7ba1\u7406",
+        "messageCenter": "\u4fe1\u606f\u4e2d\u5fc3"
+    },
+    "accountSettings": {
+        "account": "\u5e10\u6237",
+        "myAccount": "\u6211\u7684\u5e10\u6237",
+        "userProfile": "\u7528\u6237\u6863\u6848",
+        "changeMyPassword": "\u66f4\u6539\u6211\u7684\u5bc6\u7801",
+        "password": "\u5bc6\u7801",
+        "mobilePhoneNumber": "\u624b\u673a\u53f7\u7801",
+        "phoneNumberValidationOnlyNumbers": "\u5728\u624b\u673a\u53f7\u7801\u5b57\u6bb5\u4e2d\u4ec5\u8f93\u5165\u6570\u5b57\u3002",
+        "phoneNumberValidationExtensionNumbers": "\u8bf7\u4e0d\u8981\u5305\u542b\u5206\u673a\u53f7\u3002",
+        "firstName": "\u540d\u5b57",
+        "lastName": "\u59d3\u6c0f",
+        "dateFormat": "\u65e5\u671f\u683c\u5f0f",
+        "timeFormat": "\u65f6\u95f4\u683c\u5f0f",
+        "howYouPreferSeeDates": "\u60a8\u9996\u9009\u7684\u5e94\u7528\u5185\u65e5\u671f\u683c\u5f0f",
+        "howYouPreferSeeTimes": "\u60a8\u9996\u9009\u7684\u5e94\u7528\u5185\u65f6\u95f4\u683c\u5f0f",
+        "address": "\u5730\u5740",
+        "units": "\u5355\u4f4d",
+        "chooseDisplayUnits": "\u9009\u62e9\u60a8\u6700\u559c\u6b22\u7684\u5355\u4f4d\u663e\u793a\u65b9\u6cd5",
+        "language": "\u8bed\u8a00",
+        "languageToDisplay": "VAS\u5e73\u53f0\u663e\u793a\u7684\u8bed\u8a00",
+        "aboutMe": "\u5173\u4e8e\u6211",
+        "amIDiscoverable": "\u6211\u53ef\u4ee5\u88ab\u53d1\u73b0\u5417\uff1f",
+        "isDiscoverable": "\u53ef\u88ab\u53d1\u73b0",
+        "youCanBeContacted": "\u60a8\u53ef\u4ee5\u88ab\u5e94\u7528\u7684\u5176\u4ed6\u7528\u6237\u8054\u7cfb",
+        "youWantYourDairyFound": "\u60a8\u5e0c\u671b\u5176\u4ed6\u7528\u6237\u627e\u5230\u60a8\u7684\u7267\u573a\u5417\uff1f",
+        "country": "\u56fd\u5bb6\/\u5730\u533a",
+        "state": "\u5dde\/\u7701\/\u81ea\u6cbb\u533a",
+        "city": "\u57ce\u5e02",
+        "addressLine1": "\u5730\u5740\u884c1",
+        "addressLine2": "\u5730\u5740\u884c2",
+        "addressEmail": "Address Email",
+        "phoneNumber": "\u7535\u8bdd\u53f7\u7801",
+        "email": "\u90ae\u7bb1",
+        "web": "\u7f51\u7ad9",
+        "currentPassword": "\u5f53\u524d\u5bc6\u7801",
+        "newPassword": "\u65b0\u5bc6\u7801",
+        "confirmNewPassword": "\u786e\u8ba4\u65b0\u5bc6\u7801",
+        "physicalAddress": "\u5b9e\u9645\u5730\u5740",
+        "billingAddress": "\u8d26\u5355\u5730\u5740",
+        "theEmailGravatarDescription_line1": "\u60a8\u5c06\u7528\u4e8e\u767b\u5f55\u7684\u90ae\u7bb1\u3002",
+        "theEmailGravatarDescription_line2_part1": "\u4f7f\u7528 ",
+        "theEmailGravatarDescription_line2_part2": " \u4f5c\u4e3a\u60a8\u6863\u6848\u56fe\u7247\u7684\u63d0\u4f9b\u5546\uff0c\u66f4\u65b0\u540e\u53ef\u80fd\u9700\u8981\u4e00\u4e9b\u65f6\u95f4\u624d\u4f1a\u5237\u65b0\u3002",
+        "profileSettings": "\u6863\u6848\u8bbe\u7f6e",
+        "postalCode": "\u90ae\u7f16",
+        "profilePicture": {
+            "title": "\u6dfb\u52a0\u6863\u6848\u56fe\u7247",
+            "line1": "\u5c06\u4e00\u5f20\u56fe\u7247\u62d6\u653e\u81f3\u5de6\u4fa7\uff0c\u6216\u8005\u4ece\u8d44\u6599\u5e93\u9009\u62e9\u4e00\u5f20\u7167\u7247\u4ee5\u8bbe\u7f6e\u60a8\u7684\u6863\u6848\u56fe\u7247\u3002",
+            "line2": "\u4e0a\u4f20\u540e\u60a8\u53ef\u4ee5\u8c03\u8282\u56fe\u7247\u5c3a\u5bf8\u548c\u4f4d\u7f6e\u3002",
+            "condition1": "\u4f7f\u7528JPG\u6216PNG\u6587\u4ef6\u3002",
+            "condition2": "\u56fe\u7247\u5927\u5c0f\u9650\u5236\u4e3a150kb",
+            "condition3": "\u652f\u6301\u7684\u56fe\u7247\u5c3a\u5bf8\uff1a32x32, 100x100, \u6216150x150"
+        }
+    },
+    "myHome": {
+        "cards": {
+            "announcements": "\u516c\u544a",
+            "whatsNewDetails": "\u6b22\u8fce\u6765\u5230VAS\u5e73\u53f0\uff0c\u516c\u544a\u548c\u52a8\u6001\u4fe1\u606f\u5728\u6b64\u5904\u3002",
+            "myDairies": "\u6211\u7684\u7267\u573a",
+            "search": {
+                "placeholder": "\u67e5\u627e\u5e76\u5173\u6ce8\u65b0\u7684\u7267\u573a"
+            }
+        },
+        "myDairies": {
+            "noDairies": "\u6ca1\u6709\u53ef\u4ee5\u663e\u793a\u7684\u725b\u5976\u573a",
+            "dairyColumnTitle": "\u7267\u573a",
+            "locationColumnTitle": "\u4f4d\u7f6e",
+            "statusColumnTitle": "\u72b6\u6001",
+            "invitationText": "\u60a8\u5df2\u53d7\u9080\u8fdb\u5165",
+            "requestAccessText": "\u60a8\u5df2\u7533\u8bf7\u8bbf\u95ee",
+            "viewDairyPage": " \u67e5\u770b\u725b\u5976\u573a\u9875\u9762",
+            "acceptAction": "\u63a5\u53d7",
+            "declineAction": "\u62d2\u7edd",
+            "cancelAction": "\u53d6\u6d88\u7533\u8bf7",
+            "leaveDairy": "\u9000\u51fa\u7267\u573a",
+            "status": {
+                "invited": "\u53d7\u9080",
+                "requested": "\u7b49\u5f85\u6279\u51c6",
+                "connected": "\u5df2\u5173\u6ce8"
+            }
+        },
+        "myConnections": {
+            "title": "My Connections",
+            "noConnections": "There are no connections to show",
+            "connect": "Connect to new dairy",
+            "viewList": "View Connections List"
+        },
+        "dairiesFilterPlaceholder": "\u67e5\u627e\u7267\u573a",
+        "connectionInvite": {
+            "accepted": "Accepted invite to",
+            "confirmDeclinePart1": "You are declining your invite to",
+            "confirmDeclinePart2": ". Do you confirm?",
+            "declined": "Declined invite to",
+            "notFound": "The record you are trying to review is no longer available."
+        },
+        "connectionLeave": {
+            "confirmed": "You are successfully disconnected from",
+            "confirmLeave": "Are you sure you want to leave",
+            "errorDairyLeaving": "An error occurred while leaving the dairy. Please try again in a few minutes.",
+            "errorCompanyLeaving": "An error occurred while leaving the company. Please try again in a few minutes.",
+            "errorDairyLeavingOnlyOwner": "You cannot leave this dairy because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again.",
+            "errorCompanyLeavingOnlyOwner": "You cannot leave this company because you are currently the only one with User Management permissions. Please assign that permission to at least one other user and try again."
+        },
+        "myCompanies": {
+            "viewCompanyPage": " View Company Page",
+            "leaveCompany": "Leave Company"
+        }
+    },
+    "messageCenter": {
+        "pageTitle": "\u6d88\u606f\u4e2d\u5fc3",
+        "view": "\u8bd5\u56fe",
+        "noMessages": "\u6d88\u606f",
+        "filters": {
+            "all": "All notifications",
+            "info": "\u4fe1\u606f",
+            "news": "\u65b0\u95fb",
+            "alert": "\u8b66\u544a",
+            "warning": "\u8b66\u544a",
+            "announcement": "\u58f0\u660e",
+            "system": "\u64cd\u4f5c\u6307\u5357",
+            "unread": "\u672a\u8bfb",
+            "worklists": "Worklists updates"
+        },
+        "actions": {
+            "markAsRead": "\u6807\u8bb0\u4e3a\u5df2\u8bfb",
+            "showMore": "See More Details"
+        }
+    },
+    "discoverability": {
+        "yes": "\u662f",
+        "no": "\u5426",
+        "dairy": {
+            "yesDetail": "\u662f\uff0c\u7267\u573a\u5bf9\u5176\u4ed6\u7528\u6237\u53ef\u89c1",
+            "noDetail": "\u4e0d\uff0c\u7267\u573a\u5bf9\u5176\u4ed6\u7528\u6237\u4e0d\u53ef\u89c1"
+        },
+        "account": {
+            "yesDetail": "\u662f\uff0c\u6211\u60f3\u5bf9\u5176\u4ed6\u7528\u6237\u53ef\u89c1",
+            "noDetail": "\u4e0d\uff0c\u6211\u4e0d\u60f3\u5bf9\u5176\u4ed6\u7528\u6237\u53ef\u89c1"
+        }
+    },
+    "companyConfiguration": {
+        "name": "Company Configuration",
+        "userManagement": {
+            "title": "User Management",
+            "fromCompany": "from this company",
+            "userRemovedSuccess": "successfully removed from the company.",
+            "inviteUserModal": {
+                "existingUser": "The email entered belongs to an existing user in this company.",
+                "confirmButton": "Invite",
+                "noPlatformUser": "The email entered does not belong to an existing user in VAS Platform. You can only add registered users."
+            }
+        }
+    },
+    "dairyConfiguration": {
+        "name": "\u7267\u573a\u914d\u7f6e",
+        "dairyInformation": "\u7267\u573a\u4fe1\u606f",
+        "dairyInfo": "\u7267\u573a\u4fe1\u606f",
+        "address": "\u5730\u5740",
+        "dairyName": "\u7267\u573a\u540d\u79f0",
+        "dairyType": "\u7267\u573a\u7c7b\u578b",
+        "dairyMainActivity": "\u7267\u573a\u7684\u4e3b\u8981\u6d3b\u52a8",
+        "changesSavedError": "\u62b1\u6b49\uff0c\u53d1\u751f\u4e86\u4e00\u4e2a\u672a\u77e5\u9519\u8bef\u3002\u8bf7\u91cd\u65b0\u7f16\u8f91\u60a8\u7684\u725b\u5976\u573a\u914d\u7f6e\u3002",
+        "dairySettings": "\u725b\u5976\u573a\u8bbe\u7f6e",
+        "userManagement": "\u7528\u6237\u7ba1\u7406",
+        "dairyImage": "\u7267\u573a\u56fe\u7247",
+        "description": "\u63cf\u8ff0",
+        "timezone": "\u5e02\u533a"
+    },
+    "userManagement": {
+        "users": "\u7528\u6237",
+        "roles": "\u89d2\u8272",
+        "role": "\u89d2\u8272",
+        "assignRoles": "\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u88ab\u6279\u51c6\u540e\u5206\u914d\u89d2\u8272\u3002",
+        "removeUserMessage": "\u60a8\u5373\u5c06\u79fb\u9664\u7528\u6237",
+        "fromDairy": "\u4ece\u6b64\u725b\u5976\u573a",
+        "userRemovedSuccess": "\u5df2\u6210\u529f\u4ece\u725b\u5976\u573a\u79fb\u9664\u3002",
+        "confirmRemove": "\u662f",
+        "permission": "\u6743\u9650",
+        "permissions": "\u6743\u9650",
+        "removeUser": "\u79fb\u9664",
+        "noUsers": "\u6ca1\u6709\u5339\u914d\u7684\u7ed3\u679c\u3002",
+        "accessPending": {
+            "title": "\u8bbf\u95ee\u6743\u9650\u5f85\u5904\u7406",
+            "declineRequestMessageFistPart": "\u60a8\u5373\u5c06\u62d2\u7edd\u8bbf\u95ee",
+            "declineRequestMessageSecondPart": "\u3002\u786e\u8ba4\u5417\uff1f",
+            "confirmDeclineRequestMessageFistPart": "\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\uff08\u5173\u4e8e ",
+            "confirmDeclineRequestMessageSecondPart": "\uff09\u5df2\u88ab\u62d2\u7edd\u3002",
+            "accessRequestTo": "\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\uff08\u5173\u4e8e",
+            "confirmApproveRequestMessage": "\uff09\u5df2\u88ab\u6279\u51c6"
+        },
+        "user": "\u7528\u6237",
+        "editRoles": "\u7f16\u8f91\u89d2\u8272",
+        "status": "\u72b6\u6001",
+        "updated": "\u5df2\u66f4\u65b0",
+        "sent": "\u5df2\u53d1\u9001",
+        "noAccessPending": "\u76ee\u524d\u6ca1\u6709\u8981\u5904\u7406\u7684\u7528\u6237\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u6216\u9080\u8bf7\u3002",
+        "addRole": "\u6dfb\u52a0\u89d2\u8272",
+        "addNewRole": "\u6dfb\u52a0\u65b0\u89d2\u8272",
+        "editRole": "\u7f16\u8f91\u89d2\u8272\u6743\u9650",
+        "editUserRoles": "\u7f16\u8f91\u7528\u6237\u89d2\u8272",
+        "assignedRoles": "\u89d2\u8272\u5df2\u5206\u914d",
+        "assignedRolesHintMessage": "\u4ece\u5de6\u4fa7\u5217\u8868\u4e2d\u9009\u62e9\u7528\u6237\u5373\u53ef\u4e3a\u4ed6\u4eec\u5206\u914d\u89d2\u8272",
+        "inviteUser": "\u6dfb\u52a0\u65b0\u7528\u6237",
+        "roleEdition": {
+            "roleName": "\u89d2\u8272\u540d\u79f0",
+            "roleDescription": "\u89d2\u8272\u63cf\u8ff0",
+            "errorOnlyOwner": "\u66f4\u6539\u65e0\u6cd5\u4e3a%{user}\u4fdd\u5b58\uff0c\u56e0\u4e3a\u4ed6\u4eec\u76ee\u524d\u662f\u552f\u4e00\u5177\u5907\u7528\u6237\u7ba1\u7406\u6743\u9650\u7684\u3002\u8bf7\u5c06\u8be5\u6743\u9650\u5206\u914d\u7ed9\u81f3\u5c11\u4e00\u4e2a\u5176\u4ed6\u7528\u6237\u5e76\u91cd\u8bd5\u3002",
+            "errorOnlyRole": "\u66f4\u6539\u65e0\u6cd5\u4e3a%{role}\u4fdd\u5b58\uff0c\u56e0\u4e3a\u5b83\u76ee\u524d\u662f\u552f\u4e00\u5177\u5907\u7528\u6237\u7ba1\u7406\u6743\u9650\u7684\u3002\u8bf7\u5c06\u8be5\u6743\u9650\u5206\u914d\u7ed9\u81f3\u5c11\u4e00\u4e2a\u5176\u4ed6\u89d2\u8272\u5e76\u91cd\u8bd5\u3002",
+            "permissionType": {
+                "dairy": "\u725b\u5976\u573a",
+                "herd": "\u725b\u7fa4",
+                "feed": "\u9972\u5582",
+                "parlor": "\u6324\u5976\u5385"
+            },
+            "permissionsAddLabel": "\u9009\u62e9\u8981\u4e3a\u65b0\u89d2\u8272\u6388\u4e88\u7684\u6743\u9650\u7ec4\u5408\u3002",
+            "permissionsEditLabel": "\u9009\u62e9\u8981\u4e3a\u6b64\u89d2\u8272\u6388\u4e88\u7684\u6743\u9650\u7ec4\u5408\u3002",
+            "editZonesHelpMessagePermission": "write",
+            "editZonesHelpMessage": "If you assigned %{permission} permissions to this role, and have multiple zones in your dairy, you must select to which zones it will apply.",
+            "editZonesHintMessage": "\u5982\u679c\u7528\u6237\u5177\u5907\u6b64\u6743\u9650\uff0c\u5219\u6b64\u9762\u677f\u5c06\u5206\u533a\u57df\u5904\u7406\u5199\u6743\u9650\u3002",
+            "permissionsMessage": "\u5177\u5907\u5199\u6743\u9650\u7684\u725b\u5976\u573a\u533a\u57df",
+            "allRolesFilter": "\u5168\u90e8\u89d2\u8272",
+            "noUsers": "\u6ca1\u6709\u5339\u914d\u7684\u7ed3\u679c\u3002"
+        },
+        "accessPendingStatus": {
+            "invited": "\u53d7\u9080",
+            "requested": "\u5df2\u7533\u8bf7",
+            "inviteDeclined": "\u9080\u8bf7\u5df2\u88ab\u62d2\u7edd",
+            "accessRequestDeclined": "\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u5df2\u88ab\u62d2\u7edd",
+            "cancelInvite": "\u53d6\u6d88\u9080\u8bf7",
+            "resendInvite": "\u91cd\u65b0\u53d1\u9001\u9080\u8bf7",
+            "editInvite": "\u7f16\u8f91\u9080\u8bf7",
+            "approve": "\u6279\u51c6",
+            "decline": "\u62d2\u7edd"
+        },
+        "inviteUserModal": {
+            "availableRolesTitle": "\u89d2\u8272",
+            "availableRolesHintMessage": "\u9009\u62e9\u8be5\u7528\u6237\u5c06\u4f1a\u5c65\u884c\u7684\u89d2\u8272\u3002\u8fd9\u5c06\u4f1a\u76f4\u63a5\u5f71\u54cd\u6388\u4e88\u7684\u6743\u9650\u7ec4\u5408\u3002",
+            "assignedRoles": "\u89d2\u8272\u5df2\u5206\u914d",
+            "confirmButtonLabel": "\u9080\u8bf7\u7528\u6237",
+            "assignedRolesHintMessage": "\u4ece\u5de6\u4fa7\u5217\u8868\u4e2d\u9009\u62e9\u7528\u6237\u5373\u53ef\u4e3a\u4ed6\u4eec\u5206\u914d\u89d2\u8272",
+            "existingUser": "\u8f93\u5165\u7684\u90ae\u7bb1\u5c5e\u4e8e\u6b64\u725b\u5976\u573a\u4e2d\u7684\u73b0\u6709\u7528\u6237\u3002",
+            "invitationSent": "\u7528\u6237\u5df2\u6210\u529f\u6dfb\u52a0\u3002\u9080\u8bf7\u5df2\u53d1\u9001\u3002",
+            "previewUserText": " \u70b9\u51fb\u6b64\u5904\u9884\u89c8\u7528\u6237",
+            "editRoles": "\u7f16\u8f91\u89d2\u8272",
+            "existingPlatformUser": "\u8f93\u5165\u7684\u90ae\u7bb1\u5c5e\u4e8eVAS\u5e73\u53f0\u4e2d\u7684\u73b0\u6709\u7528\u6237\u3002",
+            "confirmUserLine1": "\u786e\u8ba4\u5e76",
+            "confirmUserLine2": "\u5206\u914d\u8272",
+            "exisitingUserConfirmed": "\u5df2\u786e\u8ba4",
+            "invitePendingUser": "\u8f93\u5165\u7684\u90ae\u7bb1\u5c5e\u4e8e\u4e00\u4f4d\u5df2\u53d7\u9080\u4f46\u5c1a\u672a\u7b54\u590d\u7684\u7528\u6237\u3002"
+        },
+        "editUserRolesModal": {
+            "editUserRolesHintMessage": "\u66f4\u65b0\u8be5\u7528\u6237\u5df2\u7ecf\u5206\u914d\u7684\u89d2\u8272\u3002\u8fd9\u5c06\u4f1a\u76f4\u63a5\u5f71\u54cd\u6388\u4e88\u7684\u6743\u9650\u7ec4\u5408\u3002",
+            "availableRolesTitle": "\u53ef\u7528\u89d2\u8272",
+            "rolesUpdated": "\u89d2\u8272\u5df2\u66f4\u65b0\u6210\u529f\u3002"
+        },
+        "resendInvite": {
+            "successfullySent": "\u65b0\u9080\u8bf7\u5df2\u53d1\u9001\u81f3"
+        },
+        "cancelInvite": {
+            "confirmCancelQuestion": "\u60a8\u5373\u5c06\u53d6\u6d88%{user}\u7684\u9080\u8bf7\u3002\u786e\u8ba4\u5417\uff1f",
+            "cancelConfirmationMessage": "\u5173\u4e8e%{dairyName}\u7684\u8bbf\u95ee\u6743\u9650\u9080\u8bf7\u5df2\u53d6\u6d88"
+        },
+        "editInviteRolesModal": {
+            "rolesUpdated": "\u89d2\u8272\u5df2\u66f4\u65b0\u6210\u529f\u3002"
+        },
+        "confirmDisableRole": "\u7981\u7528\u6b64\u89d2\u8272\u5c06\u66f4\u6539%{userCount}\u4e2a\u7528\u6237\u5bf9\u5e94\u7528\u7684\u8bbf\u95ee\u6743\u9650\u3002\u786e\u8ba4\u5417\uff1f",
+        "disableRoleConfirmed": "\u89d2\u8272\u73b0\u5df2\u7981\u7528",
+        "disableOnlyRoleError": "\u66f4\u6539\u65e0\u6cd5\u4e3a%{role}\u4fdd\u5b58\uff0c\u56e0\u4e3a\u5b83\u76ee\u524d\u662f\u552f\u4e00\u5177\u5907\u7528\u6237\u7ba1\u7406\u6743\u9650\u7684\u3002\u8bf7\u5c06\u8be5\u6743\u9650\u5206\u914d\u7ed9\u81f3\u5c11\u4e00\u4e2a\u5176\u4ed6\u89d2\u8272\u5e76\u91cd\u8bd5\u3002",
+        "confirmEnableRole": "\u542f\u7528\u6b64\u89d2\u8272\u5c06\u4e3a%{userCount}\u4e2a\u7528\u6237\u589e\u52a0\u5bf9\u5e94\u7528\u7684\u8bbf\u95ee\u6743\u9650\u3002\u786e\u8ba4\u5417\uff1f",
+        "enableRoleConfirmed": "\u89d2\u8272\u5df2\u542f\u7528",
+        "customizeNewRole": "\u81ea\u5b9a\u4e49\u65b0\u89d2\u8272",
+        "writerPermissionRequireZone": "\u8bf7\u9009\u62e9\u81f3\u5c11\u4e00\u4e2a\u8981\u5177\u5907\u5199\u6743\u9650\u7684\u533a\u57df\u3002",
+        "roleAddedSuccessfully": "%{roleName}\u89d2\u8272\u5df2\u6dfb\u52a0\u3002",
+        "errors": {
+            "userAlreadyHasPendingRequest": "\u7528\u6237%{email}\u5df2\u6709\u4e00\u4e2a\u5f85\u5904\u7406\u7684%{dairyName}\u725b\u5976\u573a\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u3002"
+        },
+        "addNewUser": "\u6dfb\u52a0\u65b0\u7528\u6237"
+    },
+    "topNav": {
+        "popover": {
+            "syncStatus": "\u96c6\u6210\u72b6\u6001",
+            "notification": "\u901a\u77e5",
+            "help": "\u5e2e\u52a9"
+        }
+    },
+    "feedback": {
+        "button": {
+            "label": "\u5e2e\u52a9\u6211\u4eec\u6539\u8fdb"
+        },
+        "modal": {
+            "formTitle": "\u5e2e\u52a9\u6211\u4eec\u6539\u8fdb",
+            "formContent": "\u6211\u4eec\u5728\u4e0d\u65ad\u6539\u8fdbVAS\u5e73\u53f0\u7684\u4f7f\u7528\u4f53\u9a8c\uff0c\u56e0\u6b64\u6211\u4eec\u4e50\u4e8e\u4e86\u89e3\u60a8\u89c9\u5f97\u597d\u7684\u65b9\u9762\u548c\u6709\u5f85\u6539\u8fdb\u7684\u65b9\u9762\u3002",
+            "inputLabel": "\u5728\u6b64\u586b\u5199\u8bc4\u8bba",
+            "inputRequiredMessage": "\u8bf7\u586b\u5199\u8bc4\u8bba",
+            "submitLabel": "\u53d1\u9001\u8bc4\u8bba",
+            "defaultErrorMessage": "\u54ce\u5440\uff01\u51fa\u73b0\u4e86\u9519\u8bef\u3002\u8bf7\u91cd\u8bd5\u3002",
+            "successCaption": "\u611f\u8c22\u60a8\u7684\u65f6\u95f4\uff01",
+            "successContent": "VAS\u5e73\u53f0\u56e2\u961f\u5df2\u6536\u5230\u60a8\u7684\u5b9d\u8d35\u53cd\u9988\u3002\u611f\u8c22\u60a8\u5e2e\u52a9\u6211\u4eec\u4e3a\u4e86\u60a8\u548c\u4ed6\u4eba\u6539\u8fdb\u4ea7\u54c1\uff01"
+        }
+    },
+    "dataSync": {
+        "syncStatus": "\u96c6\u6210\u72b6\u6001",
+        "success": "Data is Synced",
+        "fail": "Data is not Synced",
+        "emptySyncStatus": [
+            "\u6b63\u5728\u7b49\u5f85\u63a5\u53d7\u6570\u636e\u3002",
+            "\u8bf7\u7a0d\u540e\u56de\u6765\u3002"
+        ],
+        "lastSync": "\u4e0a\u6b21\u540c\u6b65\uff1a",
+        "integrationRequired": "integration required",
+        "emergency": {
+            "title": "Your Data Is Not Current!",
+            "lastSyncLine1": "Your last data sync was over",
+            "lastSyncLine2": "24 hours ago",
+            "checkConnectionLine1": "Please check",
+            "checkConnectionLine2": "for a connection error or contact your manager."
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "statusTitle": "DairyComp\u72b6\u6001",
+            "disabledModuleText": "\u5148\u8fdb\u7684\u7267\u7fa4\u7ba1\u7406\u548c\u51c6\u786e\u7684\u5976\u725b\u8bb0\u5f55\u529f\u80fd\u3002",
+            "communicationStatus": {
+                "title": "\u901a\u4fe1\u72b6\u6001",
+                "healthy": "\u5065\u5eb7",
+                "notHealthy": "\u4e0d\u5065\u5eb7",
+                "lastBeat": "\u6700\u540e\u901a\u4fe1\uff1a"
+            },
+            "processingStatus": {
+                "title": "\u4e0a\u6b21\u6570\u636e\u540c\u6b65",
+                "dataValid": "\u6570\u636e\u6709\u6548\u671f\u622a\u81f3\uff1a",
+                "problemEncountered": "\u62b1\u6b49\uff0c\u663e\u793a\u6700\u65b0\u6570\u636e\u65f6\u9047\u5230\u4e86\u95ee\u9898\u3002\u6211\u4eec\u6b63\u5728\u52a0\u7d27\u89e3\u51b3\u3002"
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "availableSoon": "FeedComp\u96c6\u6210\u5373\u5c06\u63a8\u51fa\u3002",
+            "disabledModuleText": "\u8ffd\u8e2a\u5582\u98df\u6548\u7387\uff0c\u76d1\u63a7\u6536\u5165\u4e0e\u5582\u98df\u6210\u672c\u7684\u6bd4\u4f8b\u3002",
+            "processingStatus": {
+                "title": "\u4e0a\u6b21\u6570\u636e\u540c\u6b65",
+                "lastSync": "\u4e0a\u6b21\u540c\u6b65\uff1a",
+                "problemEncountered": "\u62b1\u6b49\uff0c\u663e\u793a\u6700\u65b0\u6570\u636e\u65f6\u9047\u5230\u4e86\u95ee\u9898\u3002\u6211\u4eec\u6b63\u5728\u52a0\u7d27\u89e3\u51b3\u3002"
+            },
+            "feedWatchServiceStatus": {
+                "title": "FeedWatch\u670d\u52a1",
+                "serviceStatus": "\u670d\u52a1\u72b6\u6001",
+                "isRunning": "\u8fd0\u884c\u4e2d",
+                "notRunning": "\u672a\u8fd0\u884c"
+            },
+            "scheduledTaskStatus": {
+                "title": "\u5b9a\u65f6\u4efb\u52a1",
+                "lastRan": "\u4e0a\u6b21\u8fd0\u884c\uff1a"
+            },
+            "dairyCompImportStatus": {
+                "title": "\u4e0a\u6b21DC305\u5bfc\u5165",
+                "penCount": "\u725b\u5708\u6570\u91cf",
+                "itemData": "\u9879\u76ee\u6570\u636e"
+            },
+            "sendEquipmentExport": {
+                "title": "Request Export to Equipment",
+                "sendExport": "Send Export"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "statusTitle": "ParlorComp\u72b6\u6001",
+            "availableSoon": "ParlorComp\u96c6\u6210\u5373\u5c06\u63a8\u51fa\u3002",
+            "disabledModuleText": "\u76d1\u63a7\u6324\u5976\u5385\u8868\u73b0\u5e76\u6709\u6548\u7ba1\u7406\u751f\u4ea7\u3002"
+        }
+    },
+    "notifications": {
+        "title": "\u901a\u77e5",
+        "link": "\u67e5\u770b\u66f4\u591a\u8be6\u60c5",
+        "createdPlural": "were created by the %{provider} integration",
+        "createdSingular": "was created by the %{provider} integration",
+        "updatedPlural": "were updated by the %{provider} integration",
+        "updatedSingular": "was updated by the %{provider} integration"
+    },
+    "report": {
+        "favorite": {
+            "title": "\u6536\u85cf\u7684\u62a5\u544a"
+        },
+        "dairyComp": {
+            "name": "DairyComp",
+            "title": "DairyComp\u62a5\u544a",
+            "menu": {
+                "reproduction": "\u7e41\u6b96",
+                "transition": "\u56f4\u4ea7\u671f",
+                "mastitis": "\u4e73\u817a\u708e",
+                "production": "\u751f\u4ea7",
+                "lameness": "\u8ddb\u8db3"
+            },
+            "types": {
+                "pregRisk": {
+                    "table": {
+                        "21Days": "21 Day Int.",
+                        "bredElig": "\u5e94\u914d",
+                        "bred": "\u5b9e\u914d",
+                        "bredRisk": "\u53c2\u914d\u7387",
+                        "pregElig": "\u5e94\u6000\u5b55",
+                        "preg": "\u6000\u5b55",
+                        "pregRisk": "\u6000\u5b55\u7387",
+                        "pregLoss": "\u598a\u5a20\u4e22\u5931\u6b21\u6570"
+                    }
+                },
+                "daysInMilk": {
+                    "table": {
+                        "dim": "\u7b2c1\u6b21\u914d\u79cd\u65f6\u7684DIM",
+                        "headCount": "\u5934\u6570"
+                    }
+                },
+                "conceptionRate": {
+                    "table": {
+                        "technician": "\u914d\u79cd\u5458",
+                        "95Percentage": "95%\u7f6e\u4fe1",
+                        "risk": "\u6000\u5b55\u7387",
+                        "preg": "\u53d7\u80ce\u7387",
+                        "open": "\u7a7a\u6000",
+                        "other": "\u5176\u4ed6",
+                        "pregLoss": "\u6d41\u4ea7",
+                        "breeding": "\u914d\u79cd\u6b21\u6570",
+                        "breedingPercentage": "\u914d\u79cd\u6bd4\u4f8b",
+                        "spc": "\u51bb\u7cbe\u6d88\u8017\u91cf",
+                        "bottomReference": "* \u8d85\u8fc710%\u7684\u7ed3\u679c\u672a\u77e5"
+                    }
+                }
+            }
+        },
+        "feedComp": {
+            "name": "FeedComp",
+            "title": "FeedComp\u62a5\u544a",
+            "menu": {
+                "feederPerformance": "\u9972\u517b\u5458\u8868\u73b0",
+                "feedingBasics": "\u9972\u517b\u57fa\u7840\u77e5\u8bc6",
+                "intake": "\u6444\u5165",
+                "inventory": "\u5e93\u5b58",
+                "usage": "\u7528\u91cf",
+                "economics": "\u7ecf\u6d4e"
+            },
+            "types": {
+                "dryMatter": {
+                    "table": {
+                        "date": "\u65e5\u671f",
+                        "avgPenCount": "\u5e73\u5747\u725b\u5708\u6570\u91cf",
+                        "dropped": "\u6295\u6599\u6b21\u6570",
+                        "avgDropped": "\u5e73\u5747\u6295\u6599\u6b21\u6570",
+                        "weighBacks": "Weighback\u6570\u91cf",
+                        "avgWeighBacks": "\u5e73\u5747Weighback",
+                        "dm": "\u5e72\u7269\u8d28",
+                        "avgDmAnimal": "\u5e73\u5747\u5e72\u7269\u8d28\/\u52a8\u7269",
+                        "pen": "\u725b\u5708",
+                        "noPen": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u725b\u5708\u3002"
+                    }
+                }
+            }
+        },
+        "parlorComp": {
+            "name": "ParlorComp",
+            "title": "ParlorComp\u62a5\u544a",
+            "menu": {
+                "tankWatch": "Tankwatch",
+                "milkingSummaries": "\u6324\u5976\u6458\u8981",
+                "parlorBoss": "Parlorboss",
+                "parlorWatch": "Parlorwatch",
+                "washDog": "WashDog",
+                "cvms": "Cvms"
+            },
+            "types": {
+                "milkPlant": {
+                    "table": {
+                        "tank": "\u6c34\u69fd",
+                        "route": "\u8def\u7ebf",
+                        "date": "\u65e5\u671f",
+                        "weight": "\u91cd\u91cf\uff08\u78c5\uff09",
+                        "volume": "\u5bb9\u79ef\uff08\u52a0\u4ed1\uff09",
+                        "fat": "\u8102\u80aa\uff08%\uff09",
+                        "protein": "\u86cb\u767d\u8d28\uff08%\uff09",
+                        "lactose": "\u4e73\u7cd6\uff08%\uff09",
+                        "solids": "\u56fa\u4f53\uff08%\uff09",
+                        "totals": "10\u5929\u5e73\u5747\u603b\u8ba1",
+                        "tankAverages": "10\u5929\u5e73\u5747\u503c"
+                    }
+                }
+            }
+        },
+        "backToReports": "\u56de\u5230\u62a5\u544a",
+        "addToFavorites": "\u52a0\u5165\u6536\u85cf\u5939",
+        "tableView": "\u8868\u683c\u89c6\u56fe",
+        "graphView": "\u56fe\u8868\u89c6\u56fe"
+    },
+    "landing": {
+        "configureDairy": "\u914d\u7f6e\u725b\u5976\u573a",
+        "dairyTeammates": "\u725b\u5976\u573a\u56e2\u961f\u6210\u5458",
+        "searchUser": "\u641c\u7d22\u7528\u6237",
+        "displayName": "\u663e\u793a\u540d\u79f0",
+        "userType": "\u7528\u6237\u7c7b\u578b",
+        "zones": "\u533a\u57df",
+        "downloadZOF": "\u4e0b\u8f7dZOF",
+        "activeRecords": "\u6d3b\u8dc3\u8bb0\u5f55",
+        "cows": "\u5976\u725b",
+        "heifers": "\u5c0f\u6bcd\u725b",
+        "bulls": "\u516c\u725b",
+        "inactiveRecords": "\u4e0d\u6d3b\u8dc3\u8bb0\u5f55",
+        "died": "\u5df2\u6b7b\u4ea1",
+        "sold": "\u5df2\u552e",
+        "supportedBy": "\u652f\u6301\u8005",
+        "cowSearch": "\u641c\u7d22\u5976\u725b",
+        "acceptInvite": "\u63a5\u53d7\u9080\u8bf7",
+        "declineInvite": "\u62d2\u7edd\u9080\u8bf7",
+        "accessRequested": "\u8bbf\u95ee\u6743\u9650\u5df2\u7533\u8bf7",
+        "cancelAccessRequested": "\u53d6\u6d88\u8bbf\u95ee\u6743\u9650\u7533\u8bf7",
+        "requestAccess": "\u7533\u8bf7\u8bbf\u95ee\u6743\u9650"
+    },
+    "errorPage": {
+        "isoLogoAlt": "VAS\u5e73\u53f0\u6807\u5fd7",
+        "returnHome": "\u56de\u5230\u4e3b\u9875"
+    },
+    "error400Page": {
+        "title": "\u627e\u4e0d\u5230\u9875\u9762",
+        "description": [
+            "\u60a8\u8981\u8bbf\u95ee\u7684\u8bb0\u5f55\u5df2\u5931\u6548\u3002",
+            "\u8bf7\u8fd4\u56de\u5e76\u91cd\u8bd5\u3002"
+        ]
+    },
+    "error403Page": {
+        "title": "\u8bbf\u95ee\u88ab\u62d2\u63a5",
+        "description": [
+            "\u60a8\u6ca1\u6709\u6743\u9650\u8bbf\u95ee\u6b64\u9875\u9762\u3002",
+            "\u5982\u679c\u60a8\u8ba4\u4e3a\u81ea\u5df1\u5e94\u8be5\u6709\u6743\u9650\uff0c\u8bf7\u8054\u7cfb\u60a8\u7684\u725b\u5976\u573a\u7ecf\u7406\u3002"
+        ]
+    },
+    "error404Page": {
+        "title": "\u627e\u4e0d\u5230\u9875\u9762",
+        "description": [
+            "\u62b1\u6b49\uff0c\u627e\u4e0d\u5230\u60a8\u8981\u627e\u7684\u9875\u9762\u3002",
+            "\u8981\u4e0d\u8981\u56de\u5230\u4e3b\u9875\uff1f"
+        ]
+    },
+    "error500Page": {
+        "title": "\u7cdf\u7cd5\uff01\u6211\u4eec\u9047\u5230\u4e86\u4e00\u4e2a\u95ee\u9898\u3002",
+        "description": [
+            "\u53d1\u751f\u4e86\u4e00\u4e2a\u670d\u52a1\u5668\u9519\u8bef\uff0c\u6211\u4eec\u6b63\u5728\u52a0\u7d27\u4fee\u590d\u95ee\u9898\uff01",
+            "\u6211\u4eec\u5f88\u5feb\u5c31\u4f1a\u6062\u590d\u6b63\u5e38\u3002"
+        ]
+    },
+    "unexpectedErrorPage": {
+        "title": "\u5f88\u62b1\u6b49\uff01",
+        "description": [
+            "\u5e94\u7528\u9047\u5230\u4e86\u4e00\u4e2a\u610f\u5916\u9519\u8bef\u3002",
+            "\u8bf7\u91cd\u8bd5\u6216\u8054\u7cfb\u6211\u4eec\u7684\u652f\u6301\u56e2\u961f\uff0c\u4ee5\u4fbf\u6211\u4eec\u6392\u67e5\u95ee\u9898\u3002"
+        ]
+    },
+    "recordNotFoundErrorPage": {
+        "title": "\u627e\u4e0d\u5230",
+        "description": [
+            "\u60a8\u8981\u8bbf\u95ee\u7684\u8bb0\u5f55\u5df2\u5931\u6548\u3002",
+            "\u8bf7\u8fd4\u56de\u5e76\u91cd\u8bd5\u3002"
+        ]
+    },
+    "pagination": {
+        "first": "\u9996\u9875",
+        "last": "\u672b\u9875",
+        "view": "\u89c6\u56fe",
+        "rowsPerPage": "\u884c\/\u9875",
+        "records": {
+            "singular": "Record",
+            "plural": "Records"
+        }
+    },
+    "accessRequestToDairy": {
+        "confirmCancelPart1": "\u60a8\u5373\u5c06\u53d6\u6d88\u5173\u4e8e",
+        "confirmCancelPart2": "\u7684\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u3002\u786e\u8ba4\u5417\uff1f",
+        "confirmedCancel": "\u8bbf\u95ee\u6743\u9650\u7533\u8bf7\u5df2\u53d6\u6d88\u3002"
+    },
+    "overview": {
+        "widgets": {
+            "common": {
+                "showInfo": "Show more info",
+                "hideInfo": "Show less info",
+                "references": "\u53c2\u8003",
+                "updated": "\u5df2\u66f4\u65b0",
+                "noData": {
+                    "title": "\u6682\u65e0\u6570\u636e",
+                    "description": "\u6b64\u62a5\u544a\u65e0\u6570\u636e\u3002"
+                },
+                "integrationPending": {
+                    "title": "Integration Required",
+                    "description": "Contact {vasSupport} to complete the integration",
+                    "linkText": "VAS Support"
+                }
+            },
+            "error": {
+                "ohNo": "\u54ce\u5440\uff01",
+                "errorLoadingWidget": "\u52a0\u8f7d\u6b64\u5c0f\u90e8\u4ef6\u65f6\u53d1\u751f\u4e86\u9519\u8bef\u3002",
+                "tryAgainLater": "\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002"
+            },
+            "cowStats": {
+                "title": "\u5976\u725b\u7edf\u8ba1\u6570\u636e",
+                "info": "\u8fc7\u53bb30\u5929",
+                "allMilkingCows": "\u5168\u90e8\u6ccc\u4e73\u725b",
+                "fresh": "\u65b0\u4ea7",
+                "dueDry": "\u9884\u8ba1\u5e72\u5976",
+                "toTank": "\u5927\u7f50",
+                "hospital": "\u533b\u9662",
+                "allDryCows": "\u5168\u90e8\u5e72\u5976\u725b",
+                "closeUp": "\u56f4\u4ea7\u671f",
+                "farOff": "\u5e72\u5976\u524d\u671f",
+                "allHeifers": "\u5168\u90e8\u5c0f\u6bcd\u725b",
+                "closeUpHeifers": "\u9752\u5e74\u56f4\u4ea7"
+            },
+            "companyCowStats": {
+                "title": "COWS STATS - Totals for All Company Dairies",
+                "milkingCows": "Milking Cows",
+                "dryCows": "Dry Cows",
+                "heifers": "Heifers",
+                "toTank": "To Tank",
+                "dueDry": "Due Dry",
+                "freshCows": "Fresh",
+                "hospital": "Hospital",
+                "closeupCows": "Close Up",
+                "farOffCows": "Far Off",
+                "closeupHeifers": "Close Up",
+                "notCloseupHeifers": "Not Close Up"
+            },
+            "cowStatsByDairy": {
+                "types": {
+                    "heifers": "Heifers",
+                    "dryCows": "Dry Cows",
+                    "milkingCows": "Milking Cows",
+                    "toTank": "To Tank",
+                    "hospital": "Hospital",
+                    "fresh": "Fresh",
+                    "dueDry": "Due Dry",
+                    "closeUp": "Close Up",
+                    "farOff": "Far Off",
+                    "closeUpHeifers": "Close Up"
+                },
+                "labels": {
+                    "xAxis": "Number of Animals"
+                }
+            },
+            "events": {
+                "events": "\u4e8b\u4ef6",
+                "total": "\u603b\u8ba1",
+                "days": {
+                    "monday": "\u4e00",
+                    "tuesday": "\u4e8c",
+                    "wednesday": "\u4e09",
+                    "thursday": "\u56db",
+                    "friday": "\u4e94",
+                    "saturday": "\u516d",
+                    "sunday": "\u65e5"
+                }
+            },
+            "econIR": {
+                "toFreshen": "\u65b0\u4ea7",
+                "cows": "\u5976\u725b",
+                "heifers": "\u5c0f\u6bcd\u725b",
+                "toDry": "\u5e72\u5976",
+                "toCull": "\u6dd8\u6c70",
+                "milkingVsDry": "\u6ccc\u4e73 vs \u5e72\u5976",
+                "milkingCows": "\u6ccc\u4e73\u725b",
+                "dryCows": "\u5e72\u5976\u725b",
+                "estimatedFemalesBorn": "\u9884\u8ba1\u51fa\u751f\u7684\u6bcd\u725b",
+                "lactGt1": "Lact > 1",
+                "lactEq1": "Lact = 1"
+            },
+            "heiferCountByAge": {
+                "total": "\u603b\u8ba1",
+                "subtotal": "\u5c0f\u8ba1",
+                "ageSuffix": "\uff08\u5e74-\u6708\uff09",
+                "age": "\u6309\u5e74\u9f84",
+                "pct": "\u5360\u6bd4",
+                "count": "\u6570\u91cf"
+            },
+            "calfReport": {
+                "alive": "\u5b58\u6d3b",
+                "birthsLabel": "\u6309\u80ce\u6b21\u7ec4\u7edf\u8ba1\u7684\u5c0f\u725b\u51fa\u751f\u6027\u522b\u603b\u8ba1",
+                "dead": "\u6b7b\u4ea1",
+                "stillBirthsLabel": "\u6309\u80ce\u6b21\u5206\u7ec4\u7edf\u8ba1\u7684\u6b7b\u4ea7\u6bd4\u4f8b",
+                "calves": "\u5c0f\u725b",
+                "allSexes": "\u5168\u90e8\u6027\u522b",
+                "females": "\u6bcd\u728a",
+                "males": "\u516c\u728a",
+                "lactationGroup": "\u80ce\u6b21\u7ec4"
+            },
+            "conceptionRate": {
+                "bredNumber": "\u914d\u79cd\u6b21\u6570",
+                "percent": "\u767e\u5206\u6bd4",
+                "labels": {
+                    "ci95": "95%\u7f6e\u4fe1\u533a\u95f4",
+                    "conceptionRisk": "\u6000\u5b55\u7387",
+                    "manyRebreeds": "\u8fc7\u591a\u590d\u914d",
+                    "manyOpens": "\u8b66\u544a\uff01\u8fc7\u591a\u7a7a\u6000",
+                    "manyUnknownBredOutcomes": "\u8bb8\u591a\u914d\u79cd\u7ed3\u679c\u672a\u77e5"
+                },
+                "table": {
+                    "conceptionPercent": "%C\u53d7\u80ce\u7387",
+                    "pregnant": "\u6000\u5b55",
+                    "open": "\u7a7a\u6000",
+                    "other": "\u5176\u4ed6",
+                    "abort": "\u6d41\u4ea7",
+                    "total": "\u603b\u8ba1",
+                    "totPercent": "\u5360\u6bd4",
+                    "spc": "\u51bb\u7cbe\u6d88\u8017\u91cf"
+                },
+                "showMoreInfo": "\u663e\u793a\u6570\u636e\u8868",
+                "hideMoreInfo": "\u9690\u85cf\u6570\u636e\u8868"
+            },
+            "pregnancyRisk": {
+                "date": "\u65e5\u671f",
+                "percent": "\u767e\u5206\u6bd4",
+                "viewDataTable": "\u663e\u793a\u6570\u636e\u8868",
+                "closeDataTable": "\u9690\u85cf\u6570\u636e\u8868",
+                "labels": {
+                    "info": "\u4e3b\u52a8\u505c\u914d\u671f\u4e3a%{value}\u5929",
+                    "percentage95ci": "\u6000\u5b55\u738795%\u7f6e\u4fe1\u533a\u95f4",
+                    "inseminationRisk": "\u53c2\u914d\u7387",
+                    "pregnancyRisk": "\u6000\u5b55\u7387",
+                    "pregnantEligible": "\u603b\u8ba1",
+                    "totalPregnant": "\u6000\u5b55",
+                    "percentage95ciFull": "\u6000\u5b55\u738795%\u7f6e\u4fe1\u533a\u95f4"
+                },
+                "table": {
+                    "ci95": "95%\u7f6e\u4fe1\u533a\u95f4",
+                    "brElegible": "\u5e94\u914d",
+                    "bred": "\u914d\u79cd",
+                    "pct": "\u53c2\u914d\u7387",
+                    "pgElegible": "\u5e94\u5b55",
+                    "pregnant": "\u6000\u5b55",
+                    "abort": "\u6d41\u4ea7"
+                }
+            },
+            "projectedHerdInventoryProductionWidget": {
+                "estimatedMilkProduction": "\u9884\u8ba1\u4ea7\u5976\u91cf",
+                "pounds": "\u78c5",
+                "poundsInHundreds": "\u767e\u78c5",
+                "references": "\u53c2\u8003",
+                "perDayPerCow": "\u6bcf\u5929\u6bcf\u5934\u5976\u725b",
+                "perDay": "\u6bcf\u5929",
+                "closeDataTable": "\u5173\u95ed\u6570\u636e\u8868"
+            },
+            "dmiByPenType": {
+                "DMI": "\u5e72\u7269\u8d28\u91c7\u98df\u91cf"
+            },
+            "weather": {
+                "today": "\u4eca\u5929",
+                "currently": "\u76ee\u524d",
+                "min": "\u6700\u5c0f",
+                "max": "\u6700\u5927",
+                "humidityAbbr": "H",
+                "currentConditions": "\u5f53\u524d\u6761\u4ef6",
+                "pressure": "\u538b\u529b",
+                "visibility": "\u53ef\u89c1\u5ea6",
+                "humidity": "\u6e7f\u5ea6",
+                "wind": "\u98ce"
+            },
+            "feedEquipmentStatus": {
+                "showDisabledEquipment": "\u663e\u793a\u7981\u7528\u7684\u8bbe\u5907",
+                "noDisabledEquipment": "\u6ca1\u6709\u5df2\u7981\u7528\u7684\u8bbe\u5907\u53ef\u663e\u793a",
+                "noEnableEquipmentToShow": "\u6ca1\u6709\u5df2\u542f\u7528\u7684\u8bbe\u5907\u53ef\u663e\u793a",
+                "noEquipmentToShow": "\u6ca1\u6709\u8bbe\u5907\u53ef\u663e\u793a",
+                "previousLoad": "\u4e0a\u6b21\u52a0\u8f7d",
+                "nextLoad": "\u4e0b\u6b21\u52a0\u8f7d",
+                "targetLoad": "\u76ee\u6807\u52a0\u8f7d",
+                "actualQty": "\u5b9e\u9645\u6570\u91cf",
+                "loadBar": {
+                    "target": "\u76ee\u6807",
+                    "actual": "\u5b9e\u9645"
+                }
+            },
+            "creameryMilk": {
+                "energyCorrectedMilk": "ECM",
+                "fatCorrectedMilk": "\u6821\u6b63\u4e73",
+                "averageMilk": {
+                    "labelForDay": "\u8fc7\u53bb\u4e00\u5929\u7684\u5e73\u5747\u503c",
+                    "labelForDays": "\u8fc7\u53bb%{days}\u5929\u7684\u5e73\u5747\u503c"
+                }
+            },
+            "parlorChemical": {
+                "openDataTable": "\u663e\u793a\u6570\u636e\u8868",
+                "closeDataTable": "\u9690\u85cf\u6570\u636e\u8868",
+                "table": {
+                    "chemical": "\u5316\u5b66\u54c1",
+                    "current": "\u5f53\u524d",
+                    "average": "\u5e73\u5747\u503c",
+                    "tankCapacity": "\u6c34\u69fd\u5bb9\u91cf"
+                },
+                "chart": {
+                    "chemicalData": "\u5316\u5b66\u54c1\u6570\u636e",
+                    "percent": "\u767e\u5206\u6bd4",
+                    "available": "\u53ef\u7528",
+                    "remaining": "\u5269\u4f59",
+                    "tank": "\u6c34\u69fd",
+                    "percentChemical": "\u5316\u5b66\u54c1\u6bd4\u4f8b"
+                }
+            },
+            "ingredientUsage": {
+                "actual": "\u5b9e\u9645",
+                "target": "\u76ee\u6807",
+                "tons": "\u4ee5\u5428\u4e3a\u5355\u4f4d\u7684\u503c",
+                "tonne": "\u4ee5\u516c\u5428\u4e3a\u5355\u4f4d\u7684\u503c",
+                "allIngredientsLoaded": "\u5168\u90e8\u914d\u65b9\u5747\u52a0\u8f7d\u6b63\u5e38"
+            }
+        },
+        "dairyComp": {
+            "moduleName": "DairyComp",
+            "pageTitle": "DairyComp\u6982\u89c8",
+            "zoneFilters": {
+                "all": "\u5168\u90e8\u533a\u57df"
+            },
+            "widgets": {
+                "notReady": "\u5c0f\u90e8\u4ef6\u5c1a\u672a\u5c31\u7eea\u3002"
+            }
+        },
+        "parlorComp": {
+            "moduleName": "ParlorComp",
+            "pageTitle": "ParlorComp\u6982\u89c8",
+            "zoneFilters": {
+                "all": "\u5168\u90e8\u533a\u57df"
+            },
+            "widgets": {
+                "notReady": "\u5c0f\u90e8\u4ef6\u5c1a\u672a\u5c31\u7eea\u3002"
+            }
+        },
+        "feedComp": {
+            "moduleName": "FeedComp",
+            "pageTitle": "FeedComp\u6982\u89c8",
+            "zoneFilters": {
+                "all": "\u5168\u90e8\u533a\u57df"
+            },
+            "widgets": {
+                "notReady": "\u5c0f\u90e8\u4ef6\u5c1a\u672a\u5c31\u7eea\u3002"
+            }
+        }
+    },
+    "subMenu": {
+        "dairy": "\u725b\u5976\u573a",
+        "dashboard": "\u4eea\u8868\u677f",
+        "pens": "\u725b\u5708",
+        "dairyComp": {
+            "dairyComp": "DairyComp",
+            "overview": "\u6982\u89c8",
+            "pens": "\u725b\u5708",
+            "worklists": "\u6253\u5f00\u5de5\u4f5c\u5217\u8868",
+            "embryoInventory": "Embryo Inventory"
+        },
+        "feedComp": {
+            "feedComp": "FeedComp",
+            "overview": "\u6982\u89c8",
+            "pens": "\u725b\u5708",
+            "ingredients": "\u6210\u5206",
+            "recipes": "\u914d\u65b9",
+            "inventoryProjections": "\u5e93\u5b58\u548c\u9884\u6d4b",
+            "dmAdjustments": "DM%\u8c03\u8282",
+            "bunkScoring": "\u94fa\u4f4d\u5206\u6570"
+        },
+        "parlorComp": {
+            "parlorComp": "ParlorComp",
+            "overview": "\u6982\u89c8",
+            "pens": "\u725b\u5708",
+            "reports": "\u6324\u5976\u5385\u62a5\u544a"
+        },
+        "configureCompany": {
+            "configureCompany": "Configure Company",
+            "userManagement": "User Management"
+        },
+        "configureDairy": {
+            "configureDairy": "\u914d\u7f6e\u725b\u5976\u573a",
+            "dairyConfiguration": "\u725b\u5976\u573a\u914d\u7f6e",
+            "userManagement": "\u7528\u6237\u7ba1\u7406"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "\u725b\u5976\u573a\u4eea\u8868\u677f",
+        "customization": "\u81ea\u5b9a\u4e49",
+        "dashboardCustomization": "\u81ea\u5b9a\u4e49\u6b64\u9875\u9762",
+        "dashboardCustomizeCurrent": "Customize Current Dashboard",
+        "dashboardCreate": "Create New Dashboard",
+        "dragAndDropHint": "\u62d6\u653e\u6b64\u5c0f\u90e8\u4ef6",
+        "dashboardSaved": "%{dashboard_name}\u5df2\u6210\u529f\u66f4\u65b0\u3002",
+        "dashboardErrorSaving": "\u53d1\u751f\u4e86\u9519\u8bef\u3002\u8bf7\u7b49\u51e0\u5206\u949f\u540e\u91cd\u8bd5\u3002",
+        "dashboardMobileCustomization": "Sign in from a desktop device to customize this page."
+    },
+    "dashboardCustomization": {
+        "newDashboard": "New Dashboard",
+        "panelTitle": "\u9875\u9762\u81ea\u5b9a\u4e49",
+        "emptyList": {
+            "company": {
+                "line1": "No widgets are available at this time",
+                "line2": "We are working to add new widgets in future releases. Please check back soon!"
+            },
+            "dairy": {
+                "line1": "There are no widgets to display",
+                "line2": "You can download widgets for this section in Widget Gallery."
+            }
+        },
+        "emptyLine1": "Click on a widget from the list to preview it here",
+        "emptyLine2": "To save this dashboard, you must add at least one widget.",
+        "selectWidgetsTitle": "\u63d2\u5165\u5c0f\u90e8\u4ef6",
+        "widgetLayoutDetail": "\u901a\u8fc7\u62d6\u653e\u6765\u91cd\u6392\u90e8\u4ef6",
+        "selectWidgetsDescription": "\u9009\u62e9\u8981\u63d2\u5165\u6b64\u9875\u9762\u7684\u5c0f\u90e8\u4ef6\u3002",
+        "widgetsLayoutDescription": " \u901a\u8fc7\u62d6\u653e\u6765\u91cd\u6392\u90e8\u4ef6",
+        "unsavedChanges": "\u60a8\u6709\u672a\u4fdd\u5b58\u7684\u66f4\u6539\u3002\u786e\u5b9a\u8981\u53d6\u6d88\u5417\uff1f",
+        "allWidgets": "All Widgets",
+        "dairyWidgets": "Dairy Widgets",
+        "widgetTitles": {
+            "general": "\u901a\u7528",
+            "herd": "\u7267\u7fa4",
+            "feed": "\u5582\u98df",
+            "parlor": "\u6324\u5976\u5385"
+        },
+        "widgetGallery": {
+            "openGalleryButton": "\u5c0f\u90e8\u4ef6\u8d44\u6599\u5e93",
+            "installedSuccess": "%{title}\u5c0f\u90e8\u4ef6\u73b0\u5df2\u5728\u60a8\u7684\u5217\u8868\u4e2d",
+            "installedFailure": "\u53d1\u751f\u4e86\u9519\u8bef\u3002\u8bf7\u7b49\u51e0\u5206\u949f\u540e\u91cd\u8bd5\u3002",
+            "title": "\u5c0f\u90e8\u4ef6\u8d44\u6599\u5e93",
+            "line1": "\u70b9\u51fb\u4e0b\u65b9\u5c0f\u90e8\u4ef6\u4e0a\u7684\u6dfb\u52a0\u6309\u94ae\uff0c\u5373\u53ef\u5c06\u5176\u6dfb\u52a0\u4e3aVAS\u5e73\u53f0\u7684\u53ef\u7528\u9009\u9879\u3002",
+            "line2": "\u5728\u90a3\u91cc\uff0c\u60a8\u53ef\u4ee5\u5c06\u5176\u63d2\u5165\u4eea\u8868\u677f\u548c\u6982\u89c8\u9875\u3002",
+            "installLabel": "\u6dfb\u52a0",
+            "installedLabel": "\u5df2\u6dfb\u52a0",
+            "recentlyInstalledBadge": "\u521a\u521a\u6dfb\u52a0",
+            "seeRequirements": "See Requirements",
+            "integrationRequired": "Integration required",
+            "requirements": "Requirements",
+            "contactSupport": "Contact Support",
+            "goBack": "Go Back"
+        },
+        "deleteModalConfirmation": "Delete this dashboard?"
+    },
+    "agreements": {
+        "pageTitle": "\u6700\u7ec8\u7528\u6237\u8ba2\u9605\u534f\u8bae\u548c\u9690\u79c1\u653f\u7b56",
+        "pleaseReview": "\u8bf7\u4ed4\u7ec6\u9605\u8bfb\u4ee5\u4e0b\u6700\u7ec8\u7528\u6237\u8ba2\u9605\u534f\u8bae\u548c\u9690\u79c1\u653f\u7b56\u3002",
+        "readAndAgree": "\u5728\u4f7f\u7528\u670d\u52a1\u4e4b\u524d\uff0c\u60a8\u5fc5\u987b\u9605\u8bfb\u5e76\u540c\u610f\u4ee5\u4e0b\u6761\u6b3e\uff1a",
+        "endUserSuscriptionAgreement": "\u6700\u7ec8\u7528\u6237\u8ba2\u9605\u534f\u8bae",
+        "privacyPolicy": "\u9690\u79c1\u653f\u7b56",
+        "readAndAgreedSubscription": "\u6211\u5df2\u9605\u8bfb\u5e76\u540c\u610f\u6700\u7ec8\u7528\u6237\u8ba2\u9605\u534f\u8bae\u6761\u6b3e\u3002",
+        "readAndAgreedPolicy": "\u6211\u5df2\u9605\u8bfb\u5e76\u540c\u610f\u9690\u79c1\u653f\u7b56\u6761\u6b3e\u3002",
+        "cancel": "\u53d6\u6d88",
+        "agreeAndContinue": "\u540c\u610f\u5e76\u7ee7\u7eed",
+        "notificationConfirmCancel": "\u786e\u5b9a\u8981\u62d2\u7edd\u5417\uff1f\u5728\u4f7f\u7528\u670d\u52a1\u4e4b\u524d\uff0c\u60a8\u5fc5\u987b\u9605\u8bfb\u5e76\u540c\u610f\u4ee5\u4e0b\u6761\u6b3e\u3002"
+    },
+    "feed": {
+        "equipment": {
+            "mobileMixer": "\u79fb\u52a8\u5f0f\u6405\u62cc\u673a",
+            "stationaryMixer": "\u56fa\u5b9a\u5f0f\u6405\u62cc\u673a",
+            "deliveryTruck": "\u8fd0\u8d27\u8f66",
+            "weighRite": "WeighRite",
+            "microbatcher": "Microbatcher"
+        },
+        "ingredients": {
+            "title": "\u6210\u5206",
+            "location": "\u4f4d\u7f6e",
+            "locations": "\u4f4d\u7f6e",
+            "dmPercent": "DM%",
+            "afCostTon": "AF\u6210\u672c\/\u5428",
+            "afCostMetricTon": "AF\u6210\u672c\/\u516c\u5428",
+            "currentOnHandAF": "\u5f53\u524d\u5728\u573aAF",
+            "daysLeft": "\u5269\u4f59\u5929\u6570",
+            "inRecipe": "\u5728\u914d\u65b9\u4e2d",
+            "trackingEnabled": "\u5df2\u542f\u7528\u8ffd\u8e2a",
+            "notTracked": "\u672a\u8ffd\u8e2a",
+            "dailyAf": "\u65e5\u5e38AF",
+            "weighback": "Weighback",
+            "allowed": "\u5df2\u5141\u8bb8",
+            "notAllowed": "\u4e0d\u5141\u8bb8",
+            "afProjections": "AF\u9884\u8ba1",
+            "days": "\u5929",
+            "currentAf": "\u5f53\u524dAF",
+            "afCost": "AF\u6210\u672c",
+            "dmCost": "DM\u6210\u672c",
+            "dmPercentage": "DM\u767e\u5206\u6bd4",
+            "lastDmHistory": "\u4e0a\u6b21DM%\u5386\u53f2",
+            "filter": "\u7b5b\u9009\u6761\u4ef6",
+            "filterApplied": "\u7b5b\u9009\u6761\u4ef6\u5df2\u5e94\u7528",
+            "filtersApplied": "\u7b5b\u9009\u6761\u4ef6\u5df2\u5e94\u7528",
+            "clear": "\u6e05\u9664",
+            "type": "\u7c7b\u578b",
+            "premix": "\u9884\u6df7\u5408",
+            "optionSelected": "\u4e2a\u9009\u9879\u88ab\u9009\u4e2d",
+            "optionsSelected": "\u4e2a\u9009\u9879\u88ab\u9009\u4e2d",
+            "lastInventoryMovements": {
+                "title": "\u4e0a\u6b21\u5e93\u5b58\u79fb\u52a8",
+                "date": "\u65e5\u671f",
+                "type": "\u7c7b\u578b",
+                "afTons": "AF\uff08\u5428\uff09",
+                "runningTotal": "\u5f53\u524d\u603b\u8ba1\uff08\u5428\uff09",
+                "inventoryTypes": {
+                    "delivery": "\u8fd0\u8d27",
+                    "sale": "\u9500\u552e",
+                    "adjustment": "\u8c03\u8282",
+                    "usage": "\u7528\u91cf",
+                    "initialInventory": "\u521d\u59cb\u5e93\u5b58",
+                    "transferIn": "\u8f6c\u5165",
+                    "transforOut": "\u8f6c\u51fa"
+                }
+            },
+            "filterOptions": {
+                "all": "\u5168\u90e8",
+                "inRecipes": "\u4ec5\u5728\u914d\u65b9\u4e2d",
+                "notInRecipes": "\u4e0d\u5728\u914d\u65b9\u4e2d",
+                "onlyPremixes": "\u4ec5\u9884\u6df7\u5408",
+                "notPremixes": "\u975e\u9884\u6df7\u5408"
+            },
+            "recipes": {
+                "title": "\u6309\u914d\u65b9\u7edf\u8ba1\u7684%{ingredientName}\u7528\u91cf",
+                "recipeName": "\u914d\u65b9\u540d\u79f0",
+                "DM": "DM\u6570\u91cf\/HD",
+                "AF": "AF\u6570\u91cf\/HD",
+                "pens": "\u4ee5\u6b64\u914d\u65b9\u5582\u517b\u7684\u725b\u5708",
+                "animalsFed": "\u52a8\u7269\u9972\u517b",
+                "dailyAFUsage": "\u6bcf\u65e5AF\u7528\u91cf",
+                "placeholderLine1": "\u5f53\u524d\u6210\u5206\u6ca1\u6709",
+                "placeholderLine2": "\u88ab\u4efb\u4f55\u914d\u65b9\u4f7f\u7528\u3002"
+            }
+        },
+        "dmAdjustments": {
+            "title": "DM%\u8c03\u8282",
+            "name": "\u540d\u79f0",
+            "type": "\u7c7b\u578b",
+            "location": "\u4f4d\u7f6e",
+            "lastChange": "\u4e0a\u6b21\u53d8\u5316",
+            "responsible": "\u8d1f\u8d23\u4eba",
+            "dmPercent": "DM%",
+            "lastDmHistory": "\u4e0a\u6b21DM%\u5386\u53f2",
+            "noDmHistory": "\u6ca1\u6709DM%\u7684\u5386\u53f2\u8bb0\u5f55",
+            "validation": {
+                "dmPercent": "Values have to be below 100%",
+                "percentChange": "More than 5% change"
+            },
+            "modal": {
+                "percentChange": {
+                    "title": "Change in DM%",
+                    "message": "Change is over (+\/-) 5%, are you sure you want to make it?",
+                    "confirmLabel": "Yes"
+                },
+                "cancelChanges": {
+                    "title": "Discard unsaved changes?",
+                    "confirmLabel": "Discard"
+                }
+            }
+        },
+        "title": "FeedComp",
+        "recipes": {
+            "title": "\u914d\u65b9",
+            "activeRecipes": "\u6d3b\u8dc3\u914d\u65b9",
+            "otherRecipes": "\u5176\u4ed6\u914d\u65b9",
+            "recipeDm": "\u914d\u65b9DM\u7387",
+            "densityFactor": "\u5bc6\u5ea6\u7cfb\u6570",
+            "afCostTon": "AF\u6210\u672c\/\u5428",
+            "currentlyReplacing": "\u76ee\u524d\u6b63\u5728\u53d6\u4ee3",
+            "premix": "\u9884\u6df7\u5408",
+            "alternativeRecipe": "\u5907\u9009\u914d\u65b9",
+            "animalsFed": "\u52a8\u7269\u9972\u517b",
+            "pensFed": "\u725b\u5708\u9972\u517b",
+            "list": "\u914d\u65b9\u5217\u8868",
+            "inRecipe": "\u5728\u914d\u65b9\u4e2d",
+            "dmhd": "DM \/ HD",
+            "afhd": "AF \/ HD",
+            "dm": "DM",
+            "dmPercent": "DM\u7387",
+            "afCostHd": "AF\u6210\u672c\/HD",
+            "active": "\u6d3b\u8dc3",
+            "replaced": "\u66ff\u6362\u4e86",
+            "activeAlternative": "\u6d3b\u8dc3\u66ff\u6362",
+            "seeMore": "\u67e5\u770b\u66f4\u591a",
+            "directions": "\u914d\u65b9\u65b9\u5411",
+            "sequence": "\u5e8f\u5217",
+            "ingredient": "\u6210\u5206",
+            "location": "\u4f4d\u7f6e",
+            "af": "AF",
+            "afPercent": "AF\u7387",
+            "pensUsing": "\u4f7f\u7528\u6b64\u914d\u65b9\u7684\u725b\u5708",
+            "total": "\u603b\u8ba1",
+            "recipeComposition": "\u914d\u65b9\u7ec4\u6210",
+            "alternate": "\u5907\u9009",
+            "instructions": {
+                "saveSequenceSuccess": "Sequence successfully edited!",
+                "reorderHint": "Use the arrows on the left or drag and drop an ingredient to reorder the sequence.",
+                "validation": {
+                    "quantity": "Quantity must be greater than zero",
+                    "required": "Value must exist"
+                }
+            },
+            "pens": {
+                "pen": "\u725b\u5708",
+                "type": "\u7c7b\u578b",
+                "use": "\u4f7f\u7528",
+                "description": "\u63cf\u8ff0"
+            }
+        },
+        "inventory": {
+            "title": "\u5e93\u5b58",
+            "projections": {
+                "title": "\u5e93\u5b58\u548c\u9884\u6d4b",
+                "name": "\u540d\u79f0",
+                "type": "\u7c7b\u578b",
+                "location": "\u4f4d\u7f6e",
+                "afQty": "AF\u6570\u91cf",
+                "afCost": "AF\u6210\u672c",
+                "dailyAf": "\u65e5\u5e38AF",
+                "nextDays": "\u63a5\u4e0b\u6765%{day}\u5929(%{unit})",
+                "daysLeft": "\u5269\u4f59\u5929\u6570",
+                "all": "\u5168\u90e8",
+                "notTracked": "\u672a\u8ffd\u8e2a",
+                "youreRunningOutOf": "\u60a8\u5373\u5c06\u7528\u5b8c\uff1a"
+            }
+        },
+        "bunkScoring": {
+            "title": "\u94fa\u4f4d\u5206\u6570",
+            "animalsToFeed": "\u5f85\u5582\u98df\u52a8\u7269",
+            "targetDmHd": "\u76ee\u6807DM\/HD\uff08\u78c5\uff09",
+            "feeding": "\u5582\u98df",
+            "active": "\u6d3b\u8dc3",
+            "inactive": "\u4e0d\u6d3b\u8dc3",
+            "lastDaysFeedings": "\u8fc7\u53bb%{days}\u5929\u7684\u5582\u98df",
+            "filter": "\u7b5b\u9009\u6761\u4ef6",
+            "all": "\u5168\u90e8",
+            "clear": "\u6e05\u9664",
+            "lastUpdated": "Last Updated",
+            "modal": {
+                "title": "Change In Feeding",
+                "bodyText": "Are you sure you want to %{state} Feeding in PEN %{penNumber}",
+                "confirmLabel": "Yes, %{state}"
+            }
+        }
+    },
+    "imageUpload": {
+        "line1": "\u5c06\u56fe\u7247\u62d6\u653e\u5230\u6b64\u5904",
+        "line2": "\u4f7f\u7528JPG\u6216PNG\u56fe\u7247",
+        "addImage": "\u6dfb\u52a0\u56fe\u7247",
+        "changeImage": "\u66f4\u6539\u56fe\u7247"
+    },
+    "washMilkParlor": {
+        "parlorStatus": "\u6324\u5976\u5385\u72b6\u6001",
+        "milk": {
+            "name": "\u6324\u5976",
+            "currentShift": "\u5f53\u524d\u73ed\u6b21",
+            "currentPen": "\u5f53\u524d\u725b\u5708",
+            "currentFlow": {
+                "title": "\u5f53\u524d\u6d41",
+                "value": "%{value} GPM"
+            },
+            "cowsInPen": "\u725b\u5708\u4e2d\u7684\u5976\u725b\u6570\u91cf",
+            "currentPenTotalMilk": {
+                "title": "\u5f53\u524d\u725b\u5708\u603b\u4ea7\u5976\u91cf",
+                "value": "%{value}\u52a0\u4ed1"
+            },
+            "currentShiftTotalMilk": {
+                "title": "\u5f53\u524d\u73ed\u6b21\u603b\u4ea7\u5976\u91cf",
+                "value": "%{value}\u52a0\u4ed1"
+            },
+            "totalTime": {
+                "title": "\u603b\u7528\u65f6",
+                "value": "%{value}\u6700\u5c0f"
+            },
+            "secStall": "\u79d2\/\u5c0f\u9694\u95f4",
+            "rotary": {
+                "title": "\u6700\u540e\u7684\u65cb\u8f6c\u6570\u636e",
+                "name": "\u65cb\u8f6c",
+                "minsTurn": "\u5206\u949f\/\u8f6c\u5f2f",
+                "secStall": "\u79d2\/\u5c0f\u9694\u95f4",
+                "cowsHour": "\u5976\u725b\/\u5c0f\u65f6",
+                "turnsHour": "\u8f6c\u5f2f\/\u5c0f\u65f6",
+                "statistic": {
+                    "fastest": "\u6700\u5feb",
+                    "average": "\u5e73\u5747\u503c",
+                    "effective": "\u6700\u8981\u7684"
+                }
+            },
+            "currentTask": {
+                "title": "\u5f53\u524d\u4efb\u52a1",
+                "task": "\u4efb\u52a1",
+                "cows": "\u5976\u725b"
+            }
+        },
+        "wash": {
+            "name": "\u6e05\u6d17",
+            "minTemp": "\u6700\u4f4e\u6e29\u5ea6",
+            "currentWashCycle": "\u5f53\u524d\u6e05\u6d17\u5468\u671f",
+            "currentFlow": {
+                "title": "\u5f53\u524d\u6d41",
+                "value": "%{value}\u52a0\u4ed1"
+            },
+            "currentWashTotal": {
+                "title": "\u5f53\u524d\u6e05\u6d17\u603b\u6210\u672c\uff1a",
+                "value": "%{value}\u52a0\u4ed1"
+            },
+            "washCycle": {
+                "rinse": "\u6c34\u6d17",
+                "wash": "\u6e05\u6d17",
+                "acid": "\u9178"
+            }
+        },
+        "currentTemp": {
+            "title": "\u5f53\u524d\u6e29\u5ea6"
+        },
+        "minTemp": {
+            "title": "\u6700\u4f4e\u6e29\u5ea6"
+        },
+        "maxTemp": {
+            "title": "\u6700\u9ad8\u6e29\u5ea6"
+        },
+        "tempAlarm": {
+            "title": "\u6e29\u5ea6\u5357\u4e2d",
+            "values": {
+                "none": "\u65e0",
+                "high": "\u9690\u85cf\u6e29\u5ea6"
+            }
+        },
+        "lastWashStatus": {
+            "title": "\u4e0a\u6b21\u6e05\u6d17\u72b6\u6001",
+            "values": {
+                "good": "\u597d",
+                "bad": "\u5dee"
+            }
+        },
+        "washAlarm": {
+            "title": "\u6e05\u6d17\u8b66\u62a5",
+            "values": {
+                "none": "\u65e0",
+                "lowTemp": "\u4f4e\u6e29\u5ea6"
+            }
+        }
+    },
+    "cardPlaceholder": {
+        "cards": "\u5361\u7247",
+        "title": {
+            "line1": "\u6ca1\u6709%{type}",
+            "line2": "\u53ef\u663e\u793a",
+            "line3": "\u90a3\u4e9b\u7b5b\u9009\u6761\u4ef6\u5df2\u5e94\u7528",
+            "line4": "in this"
+        },
+        "types": {
+            "lists": "lists",
+            "error": "An unexpected error ocurred"
+        }
+    },
+    "parlor": {
+        "title": "ParlorComp",
+        "reports": {
+            "title": "\u6324\u5976\u5385\u62a5\u544a",
+            "noParlorToShow": "\u6ca1\u6709\u53ef\u663e\u793a\u7684\u6324\u5976\u5385",
+            "typeOfParlor": "\u6324\u5976\u5385\u7c7b\u578b",
+            "manufacturer": "\u5236\u9020\u5546",
+            "stalls": "\u5976\u4f4d",
+            "currentShift": "\u5f53\u524d\u73ed\u6b21",
+            "currentPen": "\u5f53\u524d\u725b\u5708",
+            "parlorTitle": "\u6324\u5976\u5385",
+            "parlorTypes": {
+                "herringbone": "\u4eba\u5b57\u5f62\u56fe\u6848",
+                "parallel": "\u5e76\u5217",
+                "rotary": "\u8f6c\u76d8"
+            },
+            "lastMilkingsReports": {
+                "title": "\u6700\u8fd1\u6324\u5976\u62a5\u544a",
+                "milkings": {
+                    "pen": "\u725b\u5708",
+                    "totalMilk": "\u603b\u5976\u91cf",
+                    "milkHr": "\u5976\u91cf\/\u65f6",
+                    "milkCow": "\u5976\u91cf\/\u6bcd\u725b",
+                    "cows": "\u5976\u725b",
+                    "cowsHr": "\u5976\u725b\/\u5c0f\u65f6",
+                    "totalTime": "\u603b\u7528\u65f6",
+                    "startTime": "\u5f00\u59cb\u65f6\u95f4",
+                    "stopTime": "\u7ed3\u675f\u65f6\u95f4",
+                    "penGap": "\u725b\u5708\u95f4\u9694",
+                    "maxTemp": "\u6700\u9ad8\u6e29\u5ea6",
+                    "penDev": "\u725b\u5708\u5f00\u53d1",
+                    "totalAvg": "\u603b\u8ba1\/\u5e73\u5747\u503c",
+                    "total": "\u603b\u8ba1"
+                },
+                "washings": {
+                    "washupPhase": "\u6e05\u6d17\u9636\u6bb5",
+                    "totalFlow": "\u603b\u6d41\u91cf",
+                    "totalTime": "\u603b\u65f6\u95f4",
+                    "startTime": "\u5f00\u59cb\u65f6\u95f4",
+                    "stopTime": "\u505c\u6b62\u65f6\u95f4",
+                    "minTemp": "\u6700\u4f4e\u6e29\u5ea6",
+                    "maxTemp": "\u6700\u9ad8\u6e29\u5ea6",
+                    "flowMin": "\u6d41\/\u5206\u949f",
+                    "rinse": "\u6c34\u6d17",
+                    "wash": "\u6e05\u6d17",
+                    "acid": "\u9178",
+                    "init": "Initialize",
+                    "washAcid": "Wash & Acid",
+                    "idle": "Idle"
+                }
+            },
+            "lastMilkingStats": {
+                "title": "\u4e0a\u6b21\u4ea7\u5976\u8bb0\u5f55",
+                "barGraphView": "\u67f1\u5f62\u56fe\u8bd5\u56fe",
+                "tableView": "\u8868\u683c\u89c6\u56fe",
+                "totalMilk": "\u603b\u725b\u5976",
+                "averageMilkPerHour": "\u5e73\u5747\u725b\u5976\/\u662f",
+                "averageDuration": "\u5e73\u5747\u65f6\u957f",
+                "averageCowsPerHour": "\u5e73\u5747\u725b\u5976\u6570\/\u5c0f\u65f6",
+                "milking": "\u4ea7\u5976",
+                "milkPerHour": "\u725b\u5976\/\u5c0f\u65f6",
+                "duration": "\u65f6\u957f",
+                "cowsPerHour": "\u725b\u5976\u6570\/\u5c0f\u65f6",
+                "hours": "\u5c0f\u65f6",
+                "minutes": "\u5206\u949f",
+                "totalAverage": "\u603b\u8ba1\/\u5e73\u5747\u503c"
+            },
+            "lastRotaryData": {
+                "title": "\u4e0a\u6b21\u65cb\u8f6c\u65e5\u671f"
+            }
+        }
+    },
+    "messageModal": {
+        "announcement": "\u58f0\u660e"
+    },
+    "embryoInventory": {
+        "title": "Embryo Inventory"
+    },
+    "frozenEmbryos": {
+        "title": "frozen"
+    },
+    "freshEmbryos": {
+        "title": "fresh"
+    },
+    "transferredEmbryos": {
+        "title": "transferred"
+    },
+    "Embryo": {
+        "title": "Embryos",
+        "from": "From",
+        "to": "To",
+        "stage": "Stage",
+        "grade": "Grade",
+        "status": "Storage",
+        "type": "Type",
+        "clear": "Clear",
+        "recipient": "Recipient",
+        "date": "Date",
+        "sire": "Sire",
+        "donor": "Donor",
+        "tech": "Tech",
+        "brCode": "BRCode",
+        "breedingCode": "Breeding Code",
+        "storage": "Storage",
+        "ebrd": "EBRD",
+        "embryoBreed": "Embryo Breed",
+        "eage": "Eage",
+        "embryoAge": "Embryo Age",
+        "tank": "Tank",
+        "cane": "Cane",
+        "straw": "Straw",
+        "frozenAt": "Frozen @",
+        "method": "Method",
+        "incubator": "Incubator",
+        "strawVial": "Straw\/Vial",
+        "stageOpts": {
+            "1": "Unfertilized",
+            "2": "Simple Celled",
+            "3": "Early Morula",
+            "4": "Morula",
+            "5": "Early Blastocyst",
+            "6": "Blastocyst",
+            "7": "Expanded Blastocyst",
+            "8": "Hatched Blastocyst",
+            "9": "Expanded Hatched Blastocyst"
+        },
+        "methods": {
+            "unknown": "Unknown",
+            "slow": "Slow",
+            "dt": "DT"
+        },
+        "gradeOpts": {
+            "1": "Unspecified",
+            "2": "Good",
+            "3": "Fair",
+            "4": "Poor",
+            "5": "Dead"
+        },
+        "storageType": {
+            "fresh": "Fresh",
+            "frozen": "Frozen"
+        },
+        "recoveryType": {
+            "ivf": "IVF",
+            "flush": "Flush",
+            "other": "Other"
+        }
+    }
+}

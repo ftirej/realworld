@@ -1,0 +1,66 @@
+{
+  "extends": [
+    "standard",
+    "standard-react",
+    "react-app",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "react-hooks",
+    "jest",
+    "jest-formatting"
+  ],
+  "globals": {
+    "jest": true,
+    "describe": true,
+    "fdescribe": true,
+    "xdescribe": true,
+    "it": true,
+    "xit": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterAll": true,
+    "afterEach": true,
+    "expect": true,
+    "localStorage": true,
+    "Event": true,
+    "Headers": true,
+    "Request": true,
+    "jasmine": true
+  },
+  "rules": {
+    "no-console": 1,
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "prefer-promise-reject-errors": 0,
+    "jest/consistent-test-it": [
+      "error",
+      {
+        "fn": "it"
+      }
+    ],
+    "jest/no-empty-title": "error",
+    "jest/no-truthy-falsy": "error",
+    "jest/no-test-return-statement": "error",
+    "jest/no-test-callback": "error",
+    "jest/prefer-to-be-null": "error",
+    "jest/prefer-to-be-undefined": "error",
+    "jest/prefer-to-have-length": "error",
+    "jest/prefer-to-contain": "error",
+    "jest-formatting/padding-before-test-blocks": 2,
+    "jest-formatting/padding-before-describe-blocks": 2
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/**/*.tsx"
+      ],
+      "rules": {
+        "react/prop-types": 0
+      }
+    }
+  ]
+}
