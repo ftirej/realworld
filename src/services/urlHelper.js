@@ -1,4 +1,4 @@
-import * as endpoints from 'services/apiEndpoints'
+import * as endpoints from "./apiendPoints";
 
 /**
  * Gets a service urls by params
@@ -10,11 +10,17 @@ import * as endpoints from 'services/apiEndpoints'
  *
  * @returns {string} url
  */
-export default function getServiceUrl (entity, requestType, endPointName, params) {
-  let url = endpoints.urlPattern[entity][requestType.toLowerCase()][endPointName]
+export default function getServiceUrl(
+  entity,
+  requestType,
+  endPointName,
+  params
+) {
+  let url =
+    endpoints.urlPattern[entity][requestType.toLowerCase()][endPointName];
   url = url.replace(/{([^}]+)}/g, (_, group) => {
-    return params[group]
-  })
+    return params[group];
+  });
 
-  return url
+  return url;
 }

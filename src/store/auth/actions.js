@@ -4,6 +4,7 @@ import axios from "../../axios-base";
 import * as localStorageHelper from "../../helpers/localStorageHelper";
 import * as constants from "../../resources/constants";
 import { LOCAL_STORAGE_JWT } from "../../helpers/constants";
+import userService from "../../services/userService";
 
 export const saveUrlToRedirectAfterLogin = (url = constants.ROOT_PAGE) => {
   return {
@@ -106,18 +107,19 @@ export const login = (email, password) => {
   return dispatch => {
     cleanupLocalStorageDefault();
     dispatch(loginRequest());
-    axios
-      .post("/users/login", { user: { email, password } })
-      .then(response => {
-        // save token
-        localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.data.user.token);
-        dispatch(loginSuccess(response.data.user));
-        dispatch(clearSavedUrlToRedirect());
-      })
-      .catch(error => {
-        console.log(error);
-        dispatch(loginError(error.message, 0));
-      });
+    userService.userLogin(dispatch);
+    // axios
+    //   .post("/users/login", { user: { email, password } })
+    //   .then(response => {
+    //     // save token
+    //     localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.data.user.token);
+    //     dispatch(loginSuccess(response.data.user));
+    //     dispatch(clearSavedUrlToRedirect());
+    //   })
+    //   .catch(error => {
+    //     console.log(error);
+    //     dispatch(loginError(error.message, 0));
+    //   });
   };
 };
 

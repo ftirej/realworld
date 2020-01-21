@@ -1,7 +1,7 @@
-import { I18n } from "react-i18nify";
+import { t } from "react-i18nify";
 //import fetch from "isomorphic-fetch";
 import queryString from "query-string";
-import * as endpoints from "./apiEndpoints";
+import * as endpoints from "./apiendPoints";
 import ServiceActions from "../store/services/actions";
 import ServiceError from "./serviceError";
 import { LOCAL_STORAGE_JWT } from "../helpers/constants";
@@ -89,7 +89,7 @@ class ApiBase {
           case 500: {
             const serviceError = new ServiceError(
               500,
-              I18n.t("error.500"),
+              t("error.500"),
               method,
               url,
               fullUrl,
@@ -102,7 +102,7 @@ class ApiBase {
             // Unauthorized
             const serviceError = new ServiceError(
               401,
-              I18n.t("error.401"),
+              t("error.401"),
               method,
               url,
               fullUrl,
