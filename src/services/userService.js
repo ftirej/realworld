@@ -8,9 +8,23 @@ class UserService {
     const url = getServiceUrl("users", HTTP_POST, "userLogin");
 
     return ApiBase.doRequest(dispatch, HTTP_POST, url, false, false, {
-      email,
-      password
-    });
+      user: {
+        email,
+        password
+      }
+    }).then(response => response.json());
+  }
+
+  static userSignup(dispatch, username, email, password) {
+    const url = getServiceUrl("users", HTTP_POST, "userSignup");
+
+    return ApiBase.doRequest(dispatch, HTTP_POST, url, false, false, {
+      user: {
+        username,
+        password,
+        email
+      }
+    }).then(response => response.json());
   }
 }
 

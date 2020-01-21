@@ -1,6 +1,5 @@
 import jwtDecode from "jwt-decode";
 import * as types from "./actionTypes";
-import axios from "../../axios-base";
 import * as localStorageHelper from "../../helpers/localStorageHelper";
 import * as constants from "../../resources/constants";
 import { LOCAL_STORAGE_JWT } from "../../helpers/constants";
@@ -107,19 +106,19 @@ export const login = (email, password) => {
   return dispatch => {
     cleanupLocalStorageDefault();
     dispatch(loginRequest());
-    userService.userLogin(dispatch);
-    // axios
-    //   .post("/users/login", { user: { email, password } })
-    //   .then(response => {
-    //     // save token
-    //     localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.data.user.token);
-    //     dispatch(loginSuccess(response.data.user));
-    //     dispatch(clearSavedUrlToRedirect());
-    //   })
-    //   .catch(error => {
-    //     console.log(error);
-    //     dispatch(loginError(error.message, 0));
-    //   });
+    userService
+      .userLogin(dispatch, email, password)
+      .then(response => {
+        // save token
+        localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.user.token);
+        dispatch(loginSuccess(response.user));
+        dispatch(clearSavedUrlToRedirect());
+      })
+      .catch(error => {
+        const message =
+          error && error.message ? error.message : "Unknown Error";
+        dispatch(loginError(message, 0));
+      });
   };
 };
 
@@ -135,11 +134,10 @@ export const signupSuccess = () => {
   };
 };
 
-export const signupError = response => {
+export const signupError = message => {
   return {
     type: types.SIGN_UP_ERROR,
-    errorCode: response && response.status,
-    errorDescription: response.data && response.data.errors
+    errorDescription: message.errors
   };
 };
 
@@ -191,18 +189,19 @@ export const tokenLogin = token => {
 export const signup = (username, email, password) => {
   return dispatch => {
     dispatch(signupRequest());
-    axios
-      .post("/users", { user: { username, email, password } })
+    userService
+      .userSignup(dispatch, username, email, password)
       .then(response => {
-        dispatch(signupSuccess(response.data));
+        dispatch(signupSuccess());
         // save token
-        localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.data.user.token);
+        localStorageHelper.setItem(LOCAL_STORAGE_JWT, response.user.token);
         dispatch(clearSavedUrlToRedirect());
-        dispatch(signupSuccess(response.data));
+        dispatch(signupSuccess());
       })
       .catch(error => {
-        console.log(error.response);
-        dispatch(signupError(error.response));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(signupError(message));
       });
   };
 };

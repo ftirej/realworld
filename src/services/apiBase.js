@@ -18,9 +18,23 @@ class ApiBase {
    * @returns {Promise.<TResult>}
    */
   static parseBody(response) {
-    return Promise.resolve(response.json())
-      .then(json => json)
-      .catch(() => Promise.resolve());
+    return new Promise(resolve => {
+      response.json().then(json => {
+        resolve(json);
+      });
+    }).catch(resolve => {});
+  }
+
+  static parseJSON(response) {
+    return new Promise(resolve =>
+      response.json().then(json =>
+        resolve({
+          status: response.status,
+          ok: response.ok,
+          json
+        })
+      )
+    );
   }
 
   /**
@@ -45,15 +59,19 @@ class ApiBase {
   ) {
     const serviceActions = new ServiceActions();
     const isFormData = body && body.constructor.name === "FormData";
-    const commonHeaders = {
-      AUTHORIZATION: `${BEARER} ${localStorageHelper.getItem(
-        LOCAL_STORAGE_JWT
-      )}`,
-      ...(addClientTypeAndVersion && { ClientType: PLATFORM_CLIENT_TYPE }),
-      ...(addClientTypeAndVersion && {
-        ClientVersion: process.env.REACT_APP_VERSION
-      })
-    };
+    let commonHeaders = {};
+
+    if (requireAuth) {
+      commonHeaders = {
+        AUTHORIZATION: `${BEARER} ${localStorageHelper.getItem(
+          LOCAL_STORAGE_JWT
+        )}`,
+        ...(addClientTypeAndVersion && { ClientType: PLATFORM_CLIENT_TYPE }),
+        ...(addClientTypeAndVersion && {
+          ClientVersion: process.env.REACT_APP_VERSION
+        })
+      };
+    }
 
     const headers = isFormData
       ? { ...commonHeaders }
@@ -68,9 +86,10 @@ class ApiBase {
     };
 
     if (body) {
-      options = Object.assign({}, options, {
+      options = {
+        ...options,
         body: isFormData ? body : JSON.stringify(body)
-      });
+      };
     }
 
     let fullUrl = useFullUrl ? url : `${endpoints.BASE_URL}${url}`;
