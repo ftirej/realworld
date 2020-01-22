@@ -14,9 +14,10 @@ export const urlPattern = {
   },
   articles: {
     get: {
-      globalFeed: `${ARTICLES}/{limit}`,
-      yourFeed: `${ARTICLES}/feed/{limit}`,
-      comments: `${ARTICLES}/{slugId}/comments`
+      globalFeed: `${ARTICLES}`,
+      yourFeed: `${ARTICLES}/feed`,
+      comments: `${ARTICLES}/{slugId}/comments`,
+      findArticle: `${ARTICLES}/{slugId}`
     },
     put: {},
     post: {

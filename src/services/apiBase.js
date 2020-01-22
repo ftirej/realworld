@@ -127,11 +127,12 @@ class ApiBase {
               fullUrl,
               requireAuth
             );
-            return this.parseBody(response).then(json => {
-              serviceError.setPayload(json);
-              dispatch(serviceActions.handleServiceError(serviceError));
-              return Promise.reject(serviceError);
-            });
+            //this.parseBody(response).then(json => {
+            // If 401 then body of fetch response is empty and is not readable
+            // serviceError.setPayload(json);
+            dispatch(serviceActions.handleServiceError(serviceError));
+            return Promise.reject(serviceError);
+            //});
           }
           default: {
             break;

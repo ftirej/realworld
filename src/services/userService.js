@@ -1,5 +1,4 @@
-import { USERS } from "./apiendPoints";
-import { HTTP_GET, HTTP_POST, HTTP_PUT, HTTP_DELETE } from "./apiMethods";
+import { HTTP_POST } from "./apiMethods";
 import ApiBase from "./apiBase";
 import getServiceUrl from "./urlHelper";
 

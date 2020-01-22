@@ -1,6 +1,6 @@
 import * as types from "./actionTypes";
-import axios from "../../axios-base";
 import { redirectTo } from "../common/actions";
+import feedService from "../../services/feedService";
 
 export const getGlobalArticleRequest = () => {
   return {
@@ -23,19 +23,24 @@ export const getGlobalArticleError = message => {
   };
 };
 
-const limit = (count, p) => `limit=${count}&offset=${p ? p * count : 0}`;
+const limitPage = (limit, p) => {
+  let offset = p ? p * limit : 0;
+  return { limit, offset };
+};
 
 export const getGlobalFeed = page => {
   return dispatch => {
     dispatch(getGlobalArticleRequest());
-    axios
-      .get(`/articles?${limit(10, page)}`)
+    const { limit, offset } = limitPage(10, page);
+    feedService
+      .getGlobalFeed(dispatch, limit, offset)
       .then(response => {
-        dispatch(getGlobalArticleSuccess(response.data));
+        dispatch(getGlobalArticleSuccess(response));
       })
       .catch(error => {
-        console.log(error);
-        dispatch(getGlobalArticleError(error.message, 0));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(getGlobalArticleError(message));
       });
   };
 };
@@ -43,14 +48,16 @@ export const getGlobalFeed = page => {
 export const getYourFeed = page => {
   return dispatch => {
     dispatch(getGlobalArticleRequest());
-    axios
-      .get(`/articles/feed?${limit(10, page)}`)
+    const { limit, offset } = limitPage(10, page);
+    feedService
+      .getYourFeed(dispatch, limit, offset)
       .then(response => {
-        dispatch(getGlobalArticleSuccess(response.data));
+        dispatch(getGlobalArticleSuccess(response));
       })
       .catch(error => {
-        console.log(error);
-        dispatch(getGlobalArticleError(error.message, 0));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(getGlobalArticleError(message));
       });
   };
 };
@@ -78,14 +85,15 @@ export const getCommentsListError = message => {
 export const getCommentList = slugId => {
   return dispatch => {
     dispatch(getCommentsListRequest());
-    axios
-      .get(`/articles/${slugId}/comments`)
+    feedService
+      .getCommentList(dispatch, slugId)
       .then(response => {
-        dispatch(getCommentsListSuccess(response.data.comments));
+        dispatch(getCommentsListSuccess(response.comments));
       })
       .catch(error => {
-        console.log(error);
-        dispatch(getCommentsListError(error.message));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(getCommentsListError(message));
       });
   };
 };
@@ -113,15 +121,16 @@ export const postCommentError = message => {
 export const postCommentList = (slugId, comment) => {
   return dispatch => {
     dispatch(postCommentRequest());
-    axios
-      .post(`/articles/${slugId}/comments`, comment)
+    feedService
+      .postCommentList(dispatch, slugId, comment)
       .then(response => {
-        dispatch(postCommentSuccess(response.data.comment));
+        dispatch(postCommentSuccess(response.comment));
         dispatch(getCommentList(slugId));
       })
       .catch(error => {
-        console.log(error);
-        dispatch(postCommentError(error.message));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(postCommentError(message));
       });
   };
 };
@@ -176,13 +185,15 @@ export const findArticleError = message => {
 export const findArticle = slugId => {
   return dispatch => {
     dispatch(findArticleRequest());
-    axios
-      .get(`articles/${slugId}`)
+    feedService
+      .findArticle(dispatch, slugId)
       .then(response => {
-        dispatch(findArticleSuccess(response.data));
+        dispatch(findArticleSuccess(response));
       })
       .catch(error => {
-        dispatch(findArticleError(error.message));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(findArticleError(message));
       });
   };
 };
@@ -210,15 +221,16 @@ export const postArticleError = message => {
 export const postArticle = article => {
   return dispatch => {
     dispatch(postArticleRequest());
-    axios
-      .post(`/articles`, { article })
+    feedService
+      .postArticle(dispatch, article)
       .then(response => {
-        dispatch(postArticleSuccess(response.data.article));
+        dispatch(postArticleSuccess(response.article));
         dispatch(redirectTo("/"));
       })
       .catch(error => {
-        console.log(error);
-        dispatch(postArticleError(error.message));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(postArticleError(message));
       });
   };
 };
