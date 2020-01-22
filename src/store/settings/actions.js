@@ -1,6 +1,7 @@
 import * as types from "./actionTypes";
-import axios from "../../axios-base";
 import * as auth from "../auth/actions";
+import settingsService from "../../services/settingsService";
+import { redirectTo } from "../common/actions";
 
 export const updateSettingsRequest = () => {
   return {
@@ -41,16 +42,27 @@ export const updateSettingsError = message => {
 export const updateSettings = (email, username, password, bio, image) => {
   return (dispatch, getState) => {
     //const { auth } = getState();
-
     dispatch(updateSettingsRequest());
-    axios
-      .put("/user", { user: { image, username, password, email, bio } })
+    settingsService
+      .updateSettings(dispatch, { image, username, password, email, bio })
       .then(response => {
-        dispatch(auth.updateUserSession(response.data.user));
+        dispatch(auth.updateUserSession(response.user));
         dispatch(updateSettingsSuccess());
+        dispatch(redirectTo("/"));
       })
       .catch(error => {
-        dispatch(updateSettingsError(error.message));
+        const message =
+          error && error.payload ? error.payload : "Unknown Error";
+        dispatch(updateSettingsError(message));
       });
+    // axios
+    //   .put("/user", { user: { image, username, password, email, bio } })
+    //   .then(response => {
+    //     dispatch(auth.updateUserSession(response.data.user));
+    //     dispatch(updateSettingsSuccess());
+    //   })
+    //   .catch(error => {
+    //     dispatch(updateSettingsError(error.message));
+    //   });
   };
 };
