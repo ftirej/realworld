@@ -22,15 +22,15 @@ const useStyles = makeStyles({
 const Comment = props => {
   const classes = useStyles();
   return (
-    <Card className={classes.card} variant="outlined">
+    <Card className={classes.card} variant='outlined'>
       <CardContent style={{ padding: "1.25rem" }}>
-        <Typography variant="body1" component="h2">
+        <Typography id='typoBody' variant='body1' component='h2'>
           {props.comment.body}
         </Typography>
       </CardContent>
       <CardActions style={{ backgroundColor: "#f5f5f5" }}>
         <Avatar
-          aria-label="recipe"
+          aria-label='recipe'
           className={classes.avatar}
           src={props.comment.author.image}
         ></Avatar>
