@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { mount } from "enzyme";
 import Comment from "./Comment";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
@@ -8,7 +8,7 @@ import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 
 function setup(props) {
-  return shallow(<Comment {...props} />);
+  return mount(<Comment {...props} />);
 }
 
 describe("Comment", () => {

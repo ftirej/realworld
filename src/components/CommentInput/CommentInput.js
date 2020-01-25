@@ -42,7 +42,7 @@ const CommentInput = props => {
 
   return (
     <form onSubmit={handleSubmitPost}>
-      <Card className={classes.card} variant="outlined">
+      <Card className={classes.card} variant='outlined'>
         <CardContent style={{ padding: "0" }}>
           <TextareaAutosize
             style={{
@@ -52,9 +52,9 @@ const CommentInput = props => {
               outline: "none"
             }}
             className={classes.MuiTypography}
-            aria-label="minimum height"
+            aria-label='minimum height'
             rowsMin={4}
-            placeholder="Write a comment..."
+            placeholder='Write a comment...'
             value={formData.body}
             onChange={handleBodyChange}
           />
@@ -68,15 +68,15 @@ const CommentInput = props => {
         >
           <div>
             <Avatar
-              aria-label="recipe"
+              aria-label='recipe'
               className={classes.avatar}
               src={props.article.author.image}
             ></Avatar>
           </div>
           <Button
-            size="small"
-            type="submit"
-            color="primary"
+            size='small'
+            type='submit'
+            color='primary'
             style={{
               color: "#fff",
               backgroundColor: "#5cb85c",

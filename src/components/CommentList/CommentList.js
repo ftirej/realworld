@@ -12,10 +12,9 @@ const article = {
 };
 
 const CommentList = props => {
-  console.log(props);
   return (
     <div>
-      <Grid container justify="center">
+      <Grid container justify='center'>
         <Grid item xs={8}>
           {props.logged ? (
             <CommentInput slugId={props.slugId} article={article} />
