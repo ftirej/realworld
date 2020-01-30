@@ -169,7 +169,13 @@ const matDispatchToProps = dispatch => {
 NewPost.propTypes = {
   loggedOut: PropTypes.bool,
   isPostingArticle: PropTypes.bool,
-  user: PropTypes.object
+  user: PropTypes.shape({
+    email: PropTypes.string,
+    token: PropTypes.string,
+    username: PropTypes.string,
+    bio: PropTypes.string,
+    image: PropTypes.string
+  })
 };
 
 export default connect(matStateToProps, matDispatchToProps)(NewPost);

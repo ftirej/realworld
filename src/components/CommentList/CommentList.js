@@ -32,7 +32,20 @@ const CommentList = props => {
 CommentList.propTypes = {
   logged: PropTypes.bool,
   slugId: PropTypes.string,
-  comments: PropTypes.array
+  comments: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      createdAt: PropTypes.string,
+      updatedAt: PropTypes.string,
+      body: PropTypes.string,
+      author: PropTypes.shape({
+        username: PropTypes.string,
+        bio: PropTypes.string,
+        image: PropTypes.string,
+        following: PropTypes.bool
+      })
+    })
+  )
 };
 
 export default CommentList;

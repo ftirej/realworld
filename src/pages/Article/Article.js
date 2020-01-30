@@ -117,7 +117,20 @@ Article.propTypes = {
       following: PropTypes.bool
     })
   }),
-  comments: PropTypes.array,
+  comments: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      createdAt: PropTypes.string,
+      updatedAt: PropTypes.string,
+      body: PropTypes.string,
+      author: PropTypes.shape({
+        username: PropTypes.string,
+        bio: PropTypes.string,
+        image: PropTypes.string,
+        following: PropTypes.bool
+      })
+    })
+  ),
   isFinding: PropTypes.bool,
   isFindingComments: PropTypes.bool
 };

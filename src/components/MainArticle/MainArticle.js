@@ -72,7 +72,23 @@ const MainArticle = props => {
 };
 
 MainArticle.propTypes = {
-  props: PropTypes.object
+  article: PropTypes.shape({
+    slug: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    body: PropTypes.string,
+    tagList: PropTypes.arrayOf(PropTypes.string),
+    createdAt: PropTypes.string,
+    updatedAt: PropTypes.string,
+    favorited: PropTypes.bool,
+    favoritesCount: PropTypes.number,
+    author: PropTypes.shape({
+      username: PropTypes.string,
+      bio: PropTypes.string,
+      image: PropTypes.string,
+      following: PropTypes.bool
+    })
+  })
 };
 
 export default MainArticle;

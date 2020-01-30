@@ -127,7 +127,13 @@ const mapStateToProps = state => {
 Header.propTypes = {
   redirectTo: PropTypes.string,
   logged: PropTypes.bool,
-  user: PropTypes.object
+  user: PropTypes.shape({
+    email: PropTypes.string,
+    token: PropTypes.string,
+    username: PropTypes.string,
+    bio: PropTypes.string,
+    image: PropTypes.string
+  })
 };
 
 export default connect(mapStateToProps)(Header);
