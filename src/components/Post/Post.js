@@ -11,6 +11,7 @@ import Container from "@material-ui/core/Container";
 import IconButton from "@material-ui/core/IconButton";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -87,6 +88,10 @@ const PostCard = props => {
       </Card>
     </Container>
   );
+};
+
+PostCard.propTypes = {
+  article: PropTypes.object
 };
 
 export default PostCard;

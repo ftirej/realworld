@@ -10,7 +10,7 @@ import TextField from "@material-ui/core/TextField";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-
+import PropTypes from "prop-types";
 import TextareaAutosize from "@material-ui/core/TextareaAutosize";
 
 const useStyles = makeStyles(theme => ({
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 
 const initialState = { title: "", description: "", body: "", tagList: [] };
 
-const Settings = props => {
+const NewPost = props => {
   const classes = useStyles();
   const [change, setChange] = useState(initialState);
 
@@ -166,4 +166,10 @@ const matDispatchToProps = dispatch => {
   };
 };
 
-export default connect(matStateToProps, matDispatchToProps)(Settings);
+NewPost.propTypes = {
+  loggedOut: PropTypes.bool,
+  isPostingArticle: PropTypes.bool,
+  user: PropTypes.object
+};
+
+export default connect(matStateToProps, matDispatchToProps)(NewPost);

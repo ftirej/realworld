@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as feed from "../../store/feed/actions";
 import classes from "./ListPagination.module.css";
+import PropTypes from "prop-types";
 
 const ListPagination = props => {
   if (props.articlesCount <= 10) {
@@ -50,6 +51,11 @@ const mapDispatchToProps = dispatch => {
   return {
     feed: bindActionCreators({ ...feed }, dispatch)
   };
+};
+
+ListPagination.propTypes = {
+  feed: PropTypes.object,
+  currentPage: PropTypes.number
 };
 
 export default connect(() => ({}), mapDispatchToProps)(ListPagination);

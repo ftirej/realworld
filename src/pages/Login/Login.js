@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as auth from "../../store/auth/actions";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -137,6 +138,14 @@ const mapStatesToProps = state => {
     errorLogin: state.auth.errorMessage,
     urlAfterLogin: state.auth.urlAfterLogin
   };
+};
+
+SignIn.propTypes = {
+  loggedIn: PropTypes.bool,
+  urlAfterLogin: PropTypes.string,
+  error: PropTypes.bool,
+  errorLogin: PropTypes.string,
+  loggingIn: PropTypes.bool
 };
 
 export default connect(mapStatesToProps, mapDispatchToProps)(SignIn);

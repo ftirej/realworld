@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
 import Container from "@material-ui/core/Container";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles(theme => ({
   mainTitle: {
@@ -68,6 +69,10 @@ const MainArticle = props => {
       </Container>
     </React.Fragment>
   );
+};
+
+MainArticle.propTypes = {
+  props: PropTypes.object
 };
 
 export default MainArticle;

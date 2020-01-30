@@ -8,6 +8,7 @@ import Container from "@material-ui/core/Container";
 import Avatar from "@material-ui/core/Avatar";
 import { useHistory } from "react-router-dom";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -121,6 +122,12 @@ const mapStateToProps = state => {
   return {
     redirectTo: state.common.redirectTo
   };
+};
+
+Header.propTypes = {
+  redirectTo: PropTypes.string,
+  logged: PropTypes.bool,
+  user: PropTypes.object
 };
 
 export default connect(mapStateToProps)(Header);

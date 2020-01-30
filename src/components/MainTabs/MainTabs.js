@@ -10,6 +10,7 @@ import { connect } from "react-redux";
 import * as feed from "../../store/feed/actions";
 import ListPagination from "./ListPagination";
 import Spinner from "../../components/UI/Spinner/Spinner";
+import PropTypes from "prop-types";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -119,6 +120,21 @@ const mapDispatchToProps = dispatch => {
   return {
     feed: bindActionCreators({ ...feed }, dispatch)
   };
+};
+
+MainTabs.propTypes = {
+  loggedIn: PropTypes.bool,
+  articles: PropTypes.array,
+  articlesCount: PropTypes.number,
+  currentPage: PropTypes.number,
+  isFetching: PropTypes.bool
+};
+
+TabPanel.propTypes = {
+  children: PropTypes.array,
+  value: PropTypes.number,
+  index: PropTypes.number,
+  other: PropTypes.object
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainTabs);

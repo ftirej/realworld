@@ -9,6 +9,7 @@ import * as feed from "../../store/feed/actions";
 import marked from "marked";
 import CommentList from "../../components/CommentList/CommentList";
 import Spinner from "../../components/UI/Spinner/Spinner";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles(theme => ({
   mainTitle: {
@@ -95,6 +96,13 @@ const mapDispatchToProps = dispatch => {
   return {
     feed: bindActionCreators({ ...feed }, dispatch)
   };
+};
+
+Article.propTypes = {
+  article: PropTypes.object,
+  comments: PropTypes.object,
+  isFinding: PropTypes.bool,
+  isFindingComments: PropTypes.bool
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Article);

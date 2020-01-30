@@ -79,9 +79,7 @@ describe("CommentInput", () => {
     });
 
     it("should dispatch an action on button click", () => {
-      expect(wrapper)
-        .find(Button)
-        .simulate("click");
+      wrapper.find(Button).simulate("click");
       expect(store.dispatch).toHaveBeenCalledTimes(1);
       expect(store.dispatch).toHaveBeenCalledWith(
         myAction({ payload: "sample text" })
