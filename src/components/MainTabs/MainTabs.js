@@ -131,7 +131,7 @@ MainTabs.propTypes = {
 };
 
 TabPanel.propTypes = {
-  children: PropTypes.array,
+  children: PropTypes.node,
   value: PropTypes.number,
   index: PropTypes.number,
   other: PropTypes.object

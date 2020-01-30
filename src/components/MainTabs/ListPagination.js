@@ -38,7 +38,9 @@ const ListPagination = props => {
               onClick={onClick}
               key={v.toString()}
             >
-              <a className={classes.pageLink}>{v + 1}</a>
+              <a href="/#" className={classes.pageLink}>
+                {v + 1}
+              </a>
             </li>
           );
         })}
@@ -54,7 +56,7 @@ const mapDispatchToProps = dispatch => {
 };
 
 ListPagination.propTypes = {
-  feed: PropTypes.object,
+  feed: PropTypes.shape({ setPage: PropTypes.func }),
   currentPage: PropTypes.number
 };
 

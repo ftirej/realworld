@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as feed from "../../store/feed/actions";
 import marked from "marked";
+import DOMPurify from "dompurify";
 import CommentList from "../../components/CommentList/CommentList";
 import Spinner from "../../components/UI/Spinner/Spinner";
 import PropTypes from "prop-types";
@@ -47,7 +48,7 @@ const Article = props => {
   }
 
   const markup = {
-    __html: marked(props.article.body, { sanitize: true })
+    __html: DOMPurify.sanitize(marked(props.article.body))
   };
 
   if (props.isFinding) {
@@ -99,8 +100,24 @@ const mapDispatchToProps = dispatch => {
 };
 
 Article.propTypes = {
-  article: PropTypes.object,
-  comments: PropTypes.object,
+  article: PropTypes.shape({
+    slug: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    body: PropTypes.string,
+    tagList: PropTypes.arrayOf(PropTypes.string),
+    createdAt: PropTypes.string,
+    updatedAt: PropTypes.string,
+    favorited: PropTypes.bool,
+    favoritesCount: PropTypes.number,
+    author: PropTypes.shape({
+      username: PropTypes.string,
+      bio: PropTypes.string,
+      image: PropTypes.string,
+      following: PropTypes.bool
+    })
+  }),
+  comments: PropTypes.array,
   isFinding: PropTypes.bool,
   isFindingComments: PropTypes.bool
 };

@@ -11,7 +11,7 @@ import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 // import Impersonate from "./routes/component/Impersonate";
-
+import PropTypes from "prop-types";
 import "./App.css";
 
 const THEME = createMuiTheme({
@@ -51,6 +51,11 @@ const mapStateToProps = state => {
     logged: state.auth.loggedIn,
     user: state.auth.session.user
   };
+};
+
+App.propTypes = {
+  logged: PropTypes.bool,
+  user: PropTypes.object
 };
 
 export default connect(mapStateToProps)(App);

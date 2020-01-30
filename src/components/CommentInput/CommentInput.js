@@ -100,7 +100,14 @@ const mapDispatchToProps = dispatch => {
 
 CommentInput.propTypes = {
   slugId: PropTypes.string,
-  feed: PropTypes.object
+  feed: PropTypes.shape({
+    postCommentList: PropTypes.func
+  }),
+  article: PropTypes.shape({
+    author: PropTypes.shape({
+      image: PropTypes.string
+    })
+  })
 };
 
 export default connect(null, mapDispatchToProps)(CommentInput);
