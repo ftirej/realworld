@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 const Comment = props => {
   const classes = useStyles();
   return (
-    <Card className={classes.card} variant="outlined">
+    <Card className={classes.card} variant="outlined" data-test="cardComponent">
       <CardContent style={{ padding: "1.25rem" }}>
         <Typography id="typoBody" variant="body1" component="h2">
           {props.comment.body}

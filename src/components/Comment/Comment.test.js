@@ -6,12 +6,41 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
+import { checkProps, findByTestAttr } from "../../helpers/propsHelper";
 
 function setup(props) {
   return mount(<Comment {...props} />);
 }
 
 describe("Comment", () => {
+  describe("Checking PropTypes", () => {
+    it("Should not throw a warning", () => {
+      const expectedProps = {
+        comment: {
+          id: 1,
+          createdAt: "2016-02-18T03:22:56.637Z",
+          updatedAt: "2016-02-18T03:22:56.637Z",
+          body: "It takes a Jacobian",
+          author: {
+            username: "jake",
+            bio: "I work at statefarm",
+            image: "https://i.stack.imgur.com/xHWG8.jpg",
+            following: false
+          }
+        }
+      };
+
+      const propsErr = checkProps(
+        Comment,
+        expectedProps,
+        "props",
+        Comment.name
+      );
+
+      expect(propsErr).toBeUndefined();
+    });
+  });
+
   describe("WHEN rendering", () => {
     let wrapper;
 
@@ -36,6 +65,7 @@ describe("Comment", () => {
 
     it("should render a Card", () => {
       expect(wrapper.find(Card)).toHaveLength(1);
+      expect(findByTestAttr(wrapper, "cardComponent")).toHaveLength(5); // Is 5 because MaterialUI transform a Card div in 5 tags with data-test tag
       expect(wrapper.find(CardActions)).toHaveLength(1);
       expect(wrapper.find(CardContent)).toHaveLength(1);
       expect(wrapper.find(Avatar)).toHaveLength(1);
