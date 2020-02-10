@@ -1,8 +1,8 @@
 import React from "react";
-import { Provider } from "react-redux";
-import configureStore from "redux-mock-store";
-import thunk from "redux-thunk";
+// import configureStore from "redux-mock-store";
+import { testStore } from "../../helpers/propsHelper";
 import { mount } from "enzyme";
+import { Provider } from "react-redux";
 import CommentInput from "./CommentInput";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
@@ -11,8 +11,7 @@ import Avatar from "@material-ui/core/Avatar";
 import TextareaAutosize from "@material-ui/core/TextareaAutosize";
 import Button from "@material-ui/core/Button";
 
-const middlewares = [thunk];
-const mockStore = configureStore(middlewares);
+const store = testStore();
 
 function setup(props, store) {
   return mount(
@@ -24,7 +23,6 @@ function setup(props, store) {
 
 describe("CommentInput", () => {
   describe("WHEN rendering", () => {
-    let store;
     let wrapper;
 
     const baseProps = {
@@ -36,7 +34,6 @@ describe("CommentInput", () => {
     };
 
     beforeEach(() => {
-      store = mockStore({});
       wrapper = setup(baseProps, store);
     });
 
@@ -56,7 +53,6 @@ describe("CommentInput", () => {
   });
 
   describe("when submit button is clicked", () => {
-    let store;
     let wrapper;
     const handleSubmitPost = jest.fn();
 
@@ -70,7 +66,6 @@ describe("CommentInput", () => {
     };
 
     beforeEach(() => {
-      store = mockStore({});
       wrapper = setup(baseProps, store);
     });
 
@@ -78,12 +73,12 @@ describe("CommentInput", () => {
       expect(wrapper).toMatchSnapshot();
     });
 
-    // it("should dispatch an action on button click", () => {
-    //   wrapper.find(Button).simulate("click");
-    //   expect(store.dispatch).toHaveBeenCalledTimes(1);
-    //   expect(store.dispatch).toHaveBeenCalledWith(
-    //     myAction({ payload: "sample text" })
-    //   );
-    // });
+    it("should dispatch an action on button click", () => {
+      wrapper.find(Button).simulate("click");
+      expect(store.dispatch).toHaveBeenCalledTimes(1);
+      expect(store.dispatch).toHaveBeenCalledWith(
+        myAction({ payload: "sample text" })
+      );
+    });
   });
 });

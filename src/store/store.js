@@ -4,9 +4,9 @@ import logger from "redux-logger";
 import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
 
-const middleware = [thunk, process.env.DEBUG && logger].filter(Boolean);
+export const middlewares = [thunk, logger];
 
 export const store = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(...middleware))
+  composeWithDevTools(applyMiddleware(...middlewares))
 );

@@ -106,7 +106,7 @@ export const login = (email, password) => {
   return dispatch => {
     cleanupLocalStorageDefault();
     dispatch(loginRequest());
-    userService
+    return userService
       .userLogin(dispatch, email, password)
       .then(response => {
         // save token
