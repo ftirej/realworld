@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CommentInput when submit button is clicked should render with given state from Redux store 1`] = `ReactWrapper {}`;
+exports[`CommentInput when submit button is clicked should render with given state from Redux store 1`] = `ShallowWrapper {}`;

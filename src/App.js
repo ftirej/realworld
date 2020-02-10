@@ -23,19 +23,19 @@ const THEME = createMuiTheme({
 const App = props => {
   return (
     <MuiThemeProvider theme={THEME}>
-      <div className="App">
+      <div className='App' data-test='appComponent'>
         <BrowserRouter>
           <CssBaseline />
           <Header logged={props.logged} user={props.user} />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path='/' component={Home} />
             {/* <Impersonate path="/" component={Home} /> */}
-            <Route path="/register" component={SignUp} />
-            <Route path="/login" component={Login} />
-            <Route path="/settings" component={Settings} />
-            <Route path="/newpost" component={NewPost} />
+            <Route path='/register' component={SignUp} />
+            <Route path='/login' component={Login} />
+            <Route path='/settings' component={Settings} />
+            <Route path='/newpost' component={NewPost} />
             <Route
-              path="/article/:id"
+              path='/article/:id'
               render={routeProps => <Article {...routeProps} {...props} />}
             />
             {/* <Route path="/" component={Home} /> */}

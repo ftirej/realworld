@@ -1,9 +1,8 @@
 import React from "react";
-// import configureStore from "redux-mock-store";
-import { testStore } from "../../helpers/propsHelper";
-import { mount } from "enzyme";
-import { Provider } from "react-redux";
-import CommentInput from "./CommentInput";
+import configureStore from "redux-mock-store";
+import thunk from "redux-thunk";
+import { shallow } from "enzyme";
+import { CommentInput } from "./CommentInput";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
@@ -11,15 +10,15 @@ import Avatar from "@material-ui/core/Avatar";
 import TextareaAutosize from "@material-ui/core/TextareaAutosize";
 import Button from "@material-ui/core/Button";
 
-const store = testStore();
+const middlewares = [thunk];
+const mockStore = configureStore(middlewares);
 
-function setup(props, store) {
-  return mount(
-    <Provider store={store}>
-      <CommentInput {...props} />
-    </Provider>
-  );
-}
+const setup = (initalState = {}, props = {}) => {
+  const store = mockStore(initalState);
+  const wrapper = shallow(<CommentInput store={store} {...props} />);
+  // console.log(wrapper.debug());
+  return wrapper;
+};
 
 describe("CommentInput", () => {
   describe("WHEN rendering", () => {
@@ -34,7 +33,7 @@ describe("CommentInput", () => {
     };
 
     beforeEach(() => {
-      wrapper = setup(baseProps, store);
+      wrapper = setup({}, baseProps);
     });
 
     it("should render an Input Card", () => {
@@ -54,19 +53,21 @@ describe("CommentInput", () => {
 
   describe("when submit button is clicked", () => {
     let wrapper;
-    const handleSubmitPost = jest.fn();
+    const mockFunc = jest.fn();
 
     const baseProps = {
-      handleSubmitPost,
       article: {
         author: {
           image: "https://i.stack.imgur.com/xHWG8.jpg"
         }
+      },
+      feed: {
+        postCommentList: mockFunc
       }
     };
 
     beforeEach(() => {
-      wrapper = setup(baseProps, store);
+      wrapper = setup({}, baseProps);
     });
 
     it("should render with given state from Redux store", () => {
@@ -74,11 +75,9 @@ describe("CommentInput", () => {
     });
 
     it("should dispatch an action on button click", () => {
-      wrapper.find(Button).simulate("click");
-      expect(store.dispatch).toHaveBeenCalledTimes(1);
-      expect(store.dispatch).toHaveBeenCalledWith(
-        myAction({ payload: "sample text" })
-      );
+      wrapper.find("form").simulate("submit", { preventDefault: jest.fn() });
+      const callback = mockFunc.mock.calls.length;
+      expect(callback).toBe(1);
     });
   });
 });
