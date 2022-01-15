@@ -18,7 +18,7 @@
     "axios": "^0.19.1",
     "dompurify": "^2.0.7",
     "jwt-decode": "^2.2.0",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.5",
