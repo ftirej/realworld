@@ -8,20 +8,15 @@ COPY package.json package-lock.json ./
 
 RUN npm ci
 
-# Assets Build Stage
 FROM node:14.19.1-alpine3.14 AS assets_builder
-
-ARG GITHUB_SHA
 
 WORKDIR /opt/app
 
 RUN apk add --update --no-cache jq
 
 COPY --from=builder /opt/app/node_modules ./node_modules
-COPY package.json package-lock.json
+COPY package.json package-lock.json ./
+COPY public/ ./public
 COPY src/ ./src
 
-RUN echo $(cat package.json | jq .version | sed 's/"//g') > .version && \
-    echo "${GITHUB_SHA::8}-$(date +'%Y%m%d-%H%M%S')" >> .version
-
-RUN npm run build --prod
+RUN npm run build
