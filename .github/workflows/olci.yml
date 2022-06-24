@@ -7,7 +7,6 @@ on:
 
 jobs:
   build-docker-image:
-    name: Docker Build for Webconsole
     runs-on: ubuntu-latest
     steps:
       -
