@@ -6,7 +6,6 @@ RUN apk add --update --no-cache curl jq
 WORKDIR /opt/app
 COPY package.json package-lock.json ./
 
-RUN npm install --global npm@$(cat package.json | jq .engines.npm | sed 's/"//g')
 RUN npm ci
 
 # Assets Build Stage
