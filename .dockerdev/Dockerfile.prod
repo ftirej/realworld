@@ -24,4 +24,4 @@ COPY src/ ./src
 RUN echo $(cat package.json | jq .version | sed 's/"//g') > .version && \
     echo "${GITHUB_SHA::8}-$(date +'%Y%m%d-%H%M%S')" >> .version
 
-RUN npm run build
+RUN npm run build --prod
